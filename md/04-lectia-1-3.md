@@ -6,7 +6,7 @@ Deceniul care urmează lui decembrie 1989 este, în România, perioada în care 
 
 #### Punctul 8 de la Timișoara
 
-La 11 martie 1990, un grup de participanți la revolta din Timișoara a publicat un document în treisprezece puncte. Punctul 8 cerea interzicerea, pentru primele trei legislaturi, a candidaturii foștilor activiști de partid și a foștilor ofițeri de Securitate. Cererea a fost respinsă de conducerea Frontului Salvării Naționale. Ea rămâne utilă ca reper: participanții la evenimentele din decembrie identificaseră, în primele luni, problema pe care restul deceniului avea să o confirme.
+Pe 11 martie 1990, un grup de participanți la revolta din Timișoara a publicat un document cu treisprezece puncte. Punctul 8 cerea interzicerea, pentru primele trei legislaturi, a candidaturii foștilor activiști de partid și a foștilor ofițeri de Securitate. Cererea a fost respinsă de conducerea Frontului Salvării Naționale. Ea rămâne utilă ca reper: participanții la evenimentele din decembrie identificaseră, în primele luni, problema pe care restul deceniului avea să o confirme.
 
 #### Televiziunea
 
