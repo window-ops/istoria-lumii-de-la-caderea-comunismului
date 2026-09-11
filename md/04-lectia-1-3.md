@@ -14,11 +14,9 @@ Televiziunea Română a fost, până în 1993, singurul post cu acoperire națio
 
 În 1990, televiziunea publică a difuzat relatări care prezentau manifestanții din Piața Universității drept elemente turbulente și a transmis apelurile conducerii către muncitori. Reconstituirea acestor emisiuni se face astăzi din arhiva TVR și din presa scrisă a epocii.
 
-#### Presa scrisă și pârghiile economice
+#### Presa scrisă
 
 Ziare de opoziție au existat de la începutul lui 1990: România liberă, Dreptatea, revista 22, Zig-Zag. Cenzura formală a dispărut odată cu regimul. Controlul a funcționat prin alte mijloace: hârtia de ziar era distribuită de o structură de stat, tipografiile mari erau proprietate publică, iar rețeaua de difuzare depindea de aceleași structuri. Un tiraj se putea reduce prin întârzieri la aprovizionare și prin decizii ale tipografiei, fără nicio interdicție scrisă.
-
-Urmele acestui tip de control se găsesc în documente contabile și în corespondența comercială.
 
 #### Mineriadele
 
