@@ -10,8 +10,9 @@ Campania militară israeliană care a urmat a durat, cu întreruperi, doi ani. E
 
 | Indicator | Valoare |
 |---|---|
-| Persoane ucise în Gaza de pe 7 octombrie 2023 | peste 70.000, potrivit ministerului sănătății din Gaza |
-| Persoane ucise după intrarea în vigoare a încetării focului, în octombrie 2025 | peste 450 |
+| Persoane ucise în Gaza de pe 7 octombrie 2023 | 73.651 la 5 septembrie 2026, potrivit ministerului sănătății din Gaza |
+| Estimare independentă a morților violente | 75.200 pentru intervalul 7 octombrie 2023 - 5 ianuarie 2025, potrivit anchetei pe gospodării publicate în Lancet Global Health în 2026, cu 34,7% peste cifra ministerului pentru aceeași perioadă |
+| Persoane ucise după intrarea în vigoare a încetării focului, în octombrie 2025 | 1.344 la 5 septembrie 2026, potrivit aceleiași surse |
 | Locuințe distruse sau avariate | majoritatea fondului locativ al fâșiei |
 | Foamete | confirmată de sistemul internațional de clasificare a securității alimentare în 2025 |
 
@@ -22,6 +23,7 @@ Campania militară israeliană care a urmat a durat, cu întreruperi, doi ani. E
 | Curtea Internațională de Justiție | Africa de Sud împotriva Israelului, în temeiul convenției privind genocidul | Măsuri provizorii dispuse în ianuarie, martie și mai 2024, prin care statul pârât este obligat să prevină actele interzise de convenție și să permită intrarea ajutoarelor. Fondul cauzei nu a fost judecat |
 | Curtea Internațională de Justiție | Aviz consultativ cerut de Adunarea Generală | În iulie 2024, Curtea a constatat că prezența israeliană în teritoriile palestiniene ocupate este contrară dreptului internațional și trebuie să înceteze |
 | Curtea Penală Internațională | Mandate de arestare | Emise pe 21 noiembrie 2024 împotriva prim-ministrului Benjamin Netanyahu și a fostului ministru al apărării Yoav Gallant, pentru crime de război și crime împotriva umanității, între care înfometarea populației civile ca metodă de război, și împotriva unui comandant Hamas |
+| Comisia internațională independentă de anchetă a Organizației Națiunilor Unite | Raport asupra situației din Gaza | În septembrie 2025, comisia a concluzionat că în Gaza au fost săvârșite acte de genocid. Constatarea unei comisii de anchetă stabilește fapte și nu are efectele unei hotărâri judecătorești |
 
 Israelul contestă competența Curții Penale Internaționale și respinge acuzațiile.
 
@@ -101,7 +103,7 @@ Armata israeliană a respins descrierea, susținând că sistemele produc doar r
 - Etapa a doua a fost anunțată în ianuarie 2026. Ea prevede un comitet palestinian de administrare, dezarmarea Hamas, retragerea etapizată a forțelor israeliene și reconstrucția.
 - Pe tot parcursul anului 2026, aplicarea a rămas blocată: Hamas a rămas înarmat, forțele israeliene controlează mai mult de jumătate din fâșie, iar reconstrucția nu a început.
 - Comitetul de administrare, condus de Ali Shaath, are sediul în Egipt și nu a intrat în Gaza.
-- Pe 30 iulie 2026, organismul internațional care supraveghează planul a anunțat un acord asupra unei foi de parcurs pentru aplicarea integrală, pregătită de înaltul comisar pentru Gaza, Nickolay Mladenov.
+- Pe 30 iulie 2026, Înaltul Reprezentant pentru Gaza, Nickolay Mladenov, a prezentat o foaie de parcurs în cincisprezece puncte pentru aplicarea integrală a planului, cu dezarmare și retragere în etape verificate una după alta. Hamas a acceptat textul, iar Israelul l-a respins pe 5 august 2026, cerând dezarmarea completă înaintea retragerii. După o întrevedere între Mladenov și prim-ministrul israelian, ordinea a fost modificată în sensul cerut de Israel, retragerea urmând dezarmării verificate. La data redactării, foaia de parcurs rămâne neaplicată.
 - În Cisiordania, unde acordul nu se aplică, extinderea coloniilor a continuat, iar Autoritatea Palestiniană descrie noile măsuri de înregistrare funciară drept anexare de fapt.
 
 ## 7. Ce arată acest caz despre ordinea internațională

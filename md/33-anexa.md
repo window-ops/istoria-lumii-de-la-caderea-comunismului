@@ -252,7 +252,7 @@ Anexa cuprinde termenii definiți pe parcursul manualului, adunați într-un sin
 
 **Transferul forțat de populație dintr-un teritoriu ocupat** este interzis de articolul 49 al celei de-a patra convenții de la Geneva, din 1949. Interdicția se aplică indiferent de motivul invocat, cu excepția evacuărilor temporare cerute de securitatea populației însăși. *(lecția 4.4)*
 
-**Tribunalul Penal Internațional pentru fosta I**ugoslavie a funcționat la Haga între 1993 și 2017. A judecat 161 de persoane din toate taberele conflictului și a stabilit, prin hotărâri definitive, calificarea juridică a mai multor fapte, între care genocidul de la Srebrenica. *(lecția 1.4)*
+**Tribunalul Penal Internațional pentru fosta Iugoslavie** a funcționat la Haga între 1993 și 2017. A judecat 161 de persoane din toate taberele conflictului și a stabilit, prin hotărâri definitive, calificarea juridică a mai multor fapte, între care genocidul de la Srebrenica. *(lecția 1.4)*
 
 **Turbofolk** desemnează un gen muzical apărut în Iugoslavia anilor '80 și devenit dominant în anii '90, care combină melodia de tip folcloric cu producția electronică. Termenul acoperă atât producția comercială fără conținut politic, cât și piesele naționaliste difuzate în timpul războiului. *(lecția 1.4)*
 

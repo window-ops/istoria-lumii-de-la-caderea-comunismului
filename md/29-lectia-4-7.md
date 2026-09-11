@@ -38,7 +38,7 @@ Guvernul format în iunie 2025, condus de Ilie Bolojan, a adoptat o serie de pac
 | Indicator | Evoluție |
 |---|---|
 | Deficitul bugetar | În scădere față de 9,3% din produsul intern brut în 2024, cu venituri bugetare mai mari cu 12,3% în primul trimestru din 2026 față de aceeași perioadă a anului anterior |
-| Inflația | 9,8% la sfârșitul lui 2025, 10,42% în iunie 2026 |
+| Inflația | 9,8% la sfârșitul lui 2025, vârf de 10,85% în mai 2026, apoi 10,42% în iunie și 8,16% în iulie 2026 |
 | Creșterea economică | Prognoza Comisiei Europene: 0,7% în 2025 și 1,1% în 2026. Produsul intern brut a scăzut cu 1,7% în primul trimestru din 2026 |
 | Consumul | În scădere accentuată, cu înmatriculări de autoturisme cu aproape 30% mai puține |
 

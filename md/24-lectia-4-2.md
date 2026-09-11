@@ -38,7 +38,7 @@ România a avut, în ultimii treizeci și cinci de ani, cea mai lungă istorie i
 | 2005-2020 | Inflație redusă, cu ani de scădere a prețurilor în jurul lui 2015 |
 | 2022 | Vârf de 16,8% |
 | 2025 | Creșterea taxei pe valoarea adăugată de la 19% la 21%, din august, și expirarea plafonării la energie electrică, din iulie. La sfârșitul anului, inflația era de aproximativ 9,8%, cea mai ridicată din Uniune |
-| 2026 | 10,42% în iunie, 8,16% în iulie. Banca Națională a revizuit prognoza pentru sfârșitul anului la 5,5%, față de o țintă de 2,5%, cu o marjă de un punct procentual |
+| 2026 | 10,42% în iunie, 8,16% în iulie. Banca Națională a revizuit prognoza pentru sfârșitul anului la 6,1%, în august, după o revizuire anterioară la 5,5%, față de o țintă de 2,5%, cu o marjă de un punct procentual |
 
 #### Cursul de schimb
 

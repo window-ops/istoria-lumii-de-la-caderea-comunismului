@@ -1,6 +1,6 @@
 # Încheiere
 
-Acest manual a fost redactat în septembrie 2026 și se oprește la evenimentele cunoscute la acea dată. Spre deosebire de un manual care tratează secolul al XIX-lea, el descrie procese neîncheiate. O parte dintre lecțiile lui vor fi depășite înainte ca elevul să ajungă la ultimul capitol.
+Acest manual a fost redactat până la 10 septembrie 2026 și se oprește la evenimentele cunoscute la acea dată. Spre deosebire de un manual care tratează secolul al XIX-lea, el descrie procese neîncheiate. O parte dintre lecțiile lui vor fi depășite înainte ca elevul să ajungă la ultimul capitol.
 
 Această situație nu este un defect de redactare. Ea este condiția în care se scrie istoria recentă, iar lecția 0 a fost așezată la început tocmai pentru a o face vizibilă. Cine studiază perioada în care trăiește lucrează cu arhive închise, cu documente scurse, cu procese în curs și cu cifre care se revizuiesc.
 
@@ -35,7 +35,7 @@ Cifrele se schimbă. Metoda rămâne:
 
 Cele patru unități descriu treizeci și șapte de ani. Perioada a început cu prăbușirea unui sistem și cu afirmația că nu mai există alternativă la cel rămas. Ea se încheie, la data redactării, într-un moment în care ordinea instalată atunci este contestată din mai multe direcții simultan, iar instituțiile construite după 1945 pentru limitarea folosirii forței funcționează inegal, în funcție de cine este vizat.
 
-Această lucrare nu conține predicți. Manualele care au anunțat sfârșitul istoriei în 1992 erau scrise de oameni la fel de informați ca autorii de astăzi.
+Această lucrare nu conține predicții. Manualele care au anunțat sfârșitul istoriei în 1992 erau scrise de oameni la fel de informați ca autorii de astăzi.
 
 ## Notă a autorului
 

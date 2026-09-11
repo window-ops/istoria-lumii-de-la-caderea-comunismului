@@ -1,6 +1,6 @@
 # Prefață
 
-Manualele de istorie din școala românească se opresc, în practică, cu un deceniu sau două înainte de prezent. Programa ajunge la 1989, uneori la aderarea la Uniunea Europeană, după care se închide. Elevul iese din liceu știind ce s-a întâmplat în perioada comunistă și rămâne fără instrumente pentru anii pe care i-a trăit. Cartea de față începe exact acolo unde se opresc celelalte: decembrie 1989. Ultimul eveniment documentat este din septembrie 2026.
+Manualele de istorie din școala românească se opresc, în practică, cu un deceniu sau două înainte de prezent. Programa ajunge la 1989, uneori la aderarea la Uniunea Europeană, după care se închide. Elevul iese din liceu știind ce s-a întâmplat în perioada comunistă și rămâne fără instrumente pentru anii pe care i-a trăit. Cartea de față începe exact acolo unde se opresc celelalte: decembrie 1989. Redactarea s-a încheiat la 10 septembrie 2026, iar datele cuprinse aici sunt cele publicate până la acea dată.
 
 ## O problemă de documentare
 
@@ -44,8 +44,10 @@ O parte din manual este dedicată episoadelor care rămân în afara sintezelor,
 
 ## Ce își propune și ce nu acoperă manualul
 
-Persoanele publice, partidele și companiile sunt numite, iar fiecare afirmație despre ele este legată de un document verificabil: hotărâre judecătorească, raport oficial, situație financiară, relatare de presă cu autor identificat. Acolo unde există doar o acuzație în curs de judecată, acest lucru este scris ca atare.
+Persoanele publice, partidele și companiile sunt numite, iar afirmațiile despre ele sunt atribuite instituției sau publicației care le-a produs: hotărârea unei instanțe, raportul unei comisii, situația financiară depusă, comunicatul unui institut de statistică, ancheta unei redacții cu autor identificat. Acolo unde există doar o acuzație în curs de judecată, acest lucru este scris ca atare.
 
-Autorul acestei cărți este pasionat de sociologie și de istorie contemporană, fără să fie istoric de profesie. Ultimele lecții descriu procese neîncheiate, ale căror urmări se vor vedea după publicare. Unele cifre se vor schimba. Manualul indică, pentru fiecare capitol, unde se găsesc sursele, astfel încât cititorul să poată verifica singur ce s-a modificat între timp.
+Manualul nu cuprinde note bibliografice și nici adrese web. Un manual școlar are altă formă decât o lucrare enciclopedică, iar aparatul de note îngreunează lectura fără să o ajute. În plus, adresele web se degradează: o parte însemnată dintre legăturile citate în lucrări de acum zece ani nu mai duc nicăieri, iar numele unui document rămâne căutabil și după ce adresa dispare. Trimiterea se face, prin urmare, prin numele emitentului și prin identificarea documentului: rezoluția și numărul ei, hotărârea și părțile, indicatorul și institutul care îl publică. Verificarea rămâne în sarcina cititorului, iar lecția 0 arată cum se face.
+
+Autorul acestei cărți este pasionat de sociologie și de istorie contemporană, fără să fie istoric de profesie. Ultimele lecții descriu procese neîncheiate, ale căror urmări se vor vedea după publicare. Unele cifre se vor schimba, iar cititorul care deschide manualul mai târziu are de verificat, pentru fiecare afirmație recentă, ce s-a modificat între timp.
 
 Lectura acestui manual cere creion și acces la internet. Exercițiile sunt construite pornind de la ideea că elevul verifică ce citește, inclusiv aici.
