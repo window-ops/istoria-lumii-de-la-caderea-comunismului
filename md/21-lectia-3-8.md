@@ -82,7 +82,7 @@ Dezvoltarea care a produs modelele de limbaj discutate în unitatea a IV-a înce
 | 2014-2015 | Traducerea automată trece la rețele neuronale, iar mecanismul de atenție permite legarea unui cuvânt de context |
 | 2017 | Este publicată arhitectura transformator, care stă la baza tuturor modelelor de limbaj ulterioare |
 | 2018-2019 | Apar primele modele mari antrenate pe text general, dintre care unele sunt publicate împreună cu parametrii lor |
-| 2020 | Este publicat un model cu 175 de miliarde de parametri, accesibil prin interfață programabilă |
+| 2020 | Este publicat un model cu 175 de miliarde de parametri, ChatGPT, accesibil prin interfață programabilă |
 
 #### Ce se putea folosi acasă înainte de 2022
 
