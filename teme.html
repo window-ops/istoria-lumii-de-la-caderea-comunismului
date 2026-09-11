@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temele mele &middot; Istoria lumii de la căderea comunismului</title>
+    <link rel="stylesheet" href="assets/stil.css">
+    <link rel="stylesheet" href="assets/responsiv.css">
+  </head>
+  <body class="pagina-teme">
+    <a class="sari" href="#lista">Sari la listă</a>
+    <header class="bara">
+      <a class="acasa icon" href="index.html" aria-label="Cuprinsul manualului" title="Cuprinsul manualului"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4 3.5h8.5a2.5 2.5 0 012.5 2.5v10.5H6.5A2.5 2.5 0 014 14z"/><path d="M4 14a2.5 2.5 0 012.5-2.5H15"/></svg></a>
+      <div class="bara-titlu">
+        <span class="bara-lectie">Temele mele</span>
+      </div>
+      <div class="bara-unelte"></div>
+    </header>
+    <main class="index">
+      <section class="coperta">
+        <p class="coperta-informal">Evidența lucrului</p>
+        <h1>Temele mele</h1>
+        <p class="coperta-text">Pagina arată ce lecții ai marcat ca parcurse și la ce teme ai
+        scris. Ștergerea textului dintr-un spațiu de temă, fie manual, fie cu butonul de mai jos,
+        anulează tema și o readuce în lista celor nescrise.</p>
+        <div class="coperta-butoane">
+          <button type="button" class="buton" id="teme-salveaza">Salvează răspunsurile în fișier</button>
+          <button type="button" class="buton" id="teme-incarca">Încarcă răspunsurile din fișier</button>
+        </div>
+        <p class="mic" id="teme-avertisment"></p>
+        <div class="filtre" role="group" aria-label="Filtrează lista">
+          <button type="button" data-filtru="toate" aria-pressed="true">Toate</button>
+          <button type="button" data-filtru="scrise">Cu temă scrisă</button>
+          <button type="button" data-filtru="nescrise">Fără temă</button>
+          <button type="button" data-filtru="citite">Parcurse</button>
+          <button type="button" data-filtru="necitite">Neparcurse</button>
+        </div>
+      </section>
+      <section id="lista" class="evidenta">
+        <table class="evidenta-tabel">
+          <thead>
+            <tr>
+              <th scope="col">Lecția</th>
+              <th scope="col">Parcursă</th>
+              <th scope="col">Temă</th>
+              <th scope="col">Acțiune</th>
+            </tr>
+          </thead>
+          <tbody id="evidenta-corp"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="assets/stocare.js"></script>
+    <script src="assets/index-cautare.js"></script>
+    <script src="assets/vizualizator.js"></script>
+    <script src="assets/evidenta.js"></script>
+  </body>
+</html>

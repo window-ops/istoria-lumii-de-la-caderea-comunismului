@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Datele mele &middot; Istoria lumii de la căderea comunismului</title>
+    <link rel="stylesheet" href="assets/stil.css">
+    <link rel="stylesheet" href="assets/responsiv.css">
+  </head>
+  <body class="pagina-gestionare">
+    <a class="sari" href="#continut">Sari la conținut</a>
+    <header class="bara">
+      <a class="acasa icon" href="index.html" aria-label="Cuprinsul manualului" title="Cuprinsul manualului"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4 3.5h8.5a2.5 2.5 0 012.5 2.5v10.5H6.5A2.5 2.5 0 014 14z"/><path d="M4 14a2.5 2.5 0 012.5-2.5H15"/></svg></a>
+      <div class="bara-titlu">
+        <span class="bara-lectie">Datele mele</span>
+      </div>
+      <div class="bara-unelte"></div>
+    </header>
+    <main class="index" id="continut">
+      <section class="coperta">
+        <p class="coperta-informal">Stocare</p>
+        <h1>Datele mele</h1>
+        <p class="coperta-text">Pagina arată unde sunt păstrate setările de citire și răspunsurile
+        la teme, permite mutarea lor într-un fișier și ștergerea lor.</p>
+      </section>
+      <section class="evidenta">
+        <h2>Unde se păstrează</h2>
+        <p class="mic" id="g-stare"></p>
+        <div class="filtre" role="group" aria-label="Modul de păstrare">
+          <button type="button" data-stocare="sesiune">Doar sesiunea</button>
+          <button type="button" data-stocare="local">Permanent, în acest navigator</button>
+        </div>
+        <h2>Mutare într-un fișier</h2>
+        <p class="mic">Fișierul cuprinde setările și răspunsurile la teme. Poate fi dus pe alt
+        calculator sau păstrat ca o copie de siguranță.</p>
+        <div class="filtre">
+          <button type="button" id="g-export">Salvează tot într-un fișier</button>
+          <button type="button" id="g-import">Încarcă dintr-un fișier</button>
+        </div>
+        <h2>Ștergere</h2>
+        <p class="mic">Ștergerea nu poate fi anulată. Salvați mai întâi un fișier, dacă vreți să
+        păstrați răspunsurile.</p>
+        <div class="filtre">
+          <button type="button" id="g-sterge-setari">Șterge setările de citire</button>
+          <button type="button" id="g-sterge-teme">Șterge răspunsurile la teme</button>
+          <button type="button" id="g-sterge-tot">Șterge tot</button>
+        </div>
+        <h2>Ce este păstrat acum</h2>
+        <table class="evidenta-tabel">
+          <thead>
+            <tr>
+              <th scope="col">Cheia</th>
+              <th scope="col">Valoarea</th>
+            </tr>
+          </thead>
+          <tbody id="g-corp"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="assets/stocare.js"></script>
+    <script src="assets/gestionare.js"></script>
+  </body>
+</html>

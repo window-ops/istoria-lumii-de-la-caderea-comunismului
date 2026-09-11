@@ -1,0 +1,2389 @@
+[{
+  "uid": "front",
+  "unitate": "Deschidere",
+  "slug": "00-prefata",
+  "titlu": "Prefață",
+  "toc": [{
+    "nivel": 2,
+    "text": "O problemă de documentare",
+    "id": "o-problema-de-documentare"
+  }, {
+    "nivel": 2,
+    "text": "De ce și evenimentele mai vechi cer o corectură",
+    "id": "de-ce-si-evenimentele-mai-vechi-cer-o-corectura"
+  }, {
+    "nivel": 2,
+    "text": "Cadrul analitic este declarat",
+    "id": "cadrul-analitic-este-declarat"
+  }, {
+    "nivel": 2,
+    "text": "Autori care apar în manual",
+    "id": "autori-care-apar-in-manual"
+  }, {
+    "nivel": 2,
+    "text": "Evenimente care lipsesc din cronologiile obișnuite",
+    "id": "evenimente-care-lipsesc-din-cronologiile-obisnuite"
+  }, {
+    "nivel": 2,
+    "text": "Ce își propune și ce nu acoperă manualul",
+    "id": "ce-isi-propune-si-ce-nu-acopera-manualul"
+  }]
+}, {
+  "uid": "front",
+  "unitate": "Deschidere",
+  "slug": "01-lectia-0",
+  "titlu": "Lecția 0: Cum se scrie istoria recentă",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Distanța și arhivele închise",
+    "id": "1-distanta-si-arhivele-inchise"
+  }, {
+    "nivel": 2,
+    "text": "2. Suportul fizic dispare",
+    "id": "2-suportul-fizic-dispare"
+  }, {
+    "nivel": 4,
+    "text": "Concluzia de metodă",
+    "id": "concluzia-de-metoda"
+  }, {
+    "nivel": 2,
+    "text": "3. Tipuri de surse",
+    "id": "3-tipuri-de-surse"
+  }, {
+    "nivel": 2,
+    "text": "4. Verificarea unei afirmații în cinci pași",
+    "id": "4-verificarea-unei-afirmatii-in-cinci-pasi"
+  }, {
+    "nivel": 2,
+    "text": "5. Wikipedia și punctul de vedere neutru",
+    "id": "5-wikipedia-si-punctul-de-vedere-neutru"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: consecință a sistemului",
+    "id": "citirea-a-consecinta-a-sistemului"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: genocid",
+    "id": "citirea-b-genocid"
+  }, {
+    "nivel": 4,
+    "text": "Ce cere definiția juridică",
+    "id": "ce-cere-definitia-juridica"
+  }, {
+    "nivel": 4,
+    "text": "Ce trebuie reținut în lecția de metodă",
+    "id": "ce-trebuie-retinut-in-lectia-de-metoda"
+  }, {
+    "nivel": 2,
+    "text": "6. Cercetătorii au poziții, iar asta se poate citi",
+    "id": "6-cercetatorii-au-pozitii-iar-asta-se-poate-citi"
+  }, {
+    "nivel": 2,
+    "text": "7. Propagandă, publicitate politică, conturi false",
+    "id": "7-propaganda-publicitate-politica-conturi-false"
+  }, {
+    "nivel": 2,
+    "text": "8. Corelație și cauzalitate",
+    "id": "8-corelatie-si-cauzalitate"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u1",
+  "unitate": "Unitatea I. Destrămarea și „sfârșitul istoriei”, 1989-2001",
+  "slug": "02-lectia-1-1",
+  "titlu": "Lecția 1.1: Anul 1989 în Europa de Est",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Cum se apăra un regim comunist înainte de 1989",
+    "id": "1-cum-se-apara-un-regim-comunist-inainte-de-1989"
+  }, {
+    "nivel": 4,
+    "text": "Republica Democrată Germană",
+    "id": "republica-democrata-germana"
+  }, {
+    "nivel": 4,
+    "text": "România",
+    "id": "romania"
+  }, {
+    "nivel": 4,
+    "text": "Cehoslovacia",
+    "id": "cehoslovacia"
+  }, {
+    "nivel": 2,
+    "text": "2. Tranzițiile negociate: Polonia și Ungaria",
+    "id": "2-tranzitiile-negociate-polonia-si-ungaria"
+  }, {
+    "nivel": 2,
+    "text": "3. Germania de Est",
+    "id": "3-germania-de-est"
+  }, {
+    "nivel": 2,
+    "text": "4. Cehoslovacia și moștenirea Primăverii de la Praga",
+    "id": "4-cehoslovacia-si-mostenirea-primaverii-de-la-praga"
+  }, {
+    "nivel": 2,
+    "text": "5. România: singura tranziție violentă",
+    "id": "5-romania-singura-tranzitie-violenta"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: revoluție sau preluare de putere",
+    "id": "interpretare-revolutie-sau-preluare-de-putere"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: revoluție populară deturnată",
+    "id": "citirea-a-revolutie-populara-deturnata"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: preluare pregătită, folosind revolta",
+    "id": "citirea-b-preluare-pregatita-folosind-revolta"
+  }, {
+    "nivel": 4,
+    "text": "Ce rămâne deschis",
+    "id": "ce-ramane-deschis"
+  }, {
+    "nivel": 2,
+    "text": "6. Uniunea Sovietică în 1989 și problema legitimității din 1991",
+    "id": "6-uniunea-sovietica-in-1989-si-problema-legitimitatii-din-19"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: a fost desființarea URSS validată de populație",
+    "id": "interpretare-a-fost-desfiintarea-urss-validata-de-populatie"
+  }, {
+    "nivel": 4,
+    "text": "Prima citire",
+    "id": "prima-citire"
+  }, {
+    "nivel": 4,
+    "text": "A doua citire",
+    "id": "a-doua-citire"
+  }, {
+    "nivel": 2,
+    "text": "7. Tabel comparativ: șase tranziții",
+    "id": "7-tabel-comparativ-sase-tranzitii"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u1",
+  "unitate": "Unitatea I. Destrămarea și „sfârșitul istoriei”, 1989-2001",
+  "slug": "03-lectia-1-2",
+  "titlu": "Lecția 1.2: Destrămarea URSS și terapia de șoc",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Anul 1991",
+    "id": "1-anul-1991"
+  }, {
+    "nivel": 4,
+    "text": "Puciul din august",
+    "id": "puciul-din-august"
+  }, {
+    "nivel": 4,
+    "text": "Belovej",
+    "id": "belovej"
+  }, {
+    "nivel": 2,
+    "text": "2. Ce înseamnă terapie de șoc",
+    "id": "2-ce-inseamna-terapie-de-soc"
+  }, {
+    "nivel": 2,
+    "text": "3. Rusia, 1992-1998",
+    "id": "3-rusia-1992-1998"
+  }, {
+    "nivel": 4,
+    "text": "Liberalizarea prețurilor",
+    "id": "liberalizarea-preturilor"
+  }, {
+    "nivel": 4,
+    "text": "Privatizarea prin vouchere",
+    "id": "privatizarea-prin-vouchere"
+  }, {
+    "nivel": 4,
+    "text": "Împrumuturi contra acțiuni, 1995",
+    "id": "imprumuturi-contra-actiuni-1995"
+  }, {
+    "nivel": 4,
+    "text": "Criza din 1998",
+    "id": "criza-din-1998"
+  }, {
+    "nivel": 2,
+    "text": "4. Costul social",
+    "id": "4-costul-social"
+  }, {
+    "nivel": 2,
+    "text": "5. Polonia: aceleași măsuri, alt rezultat",
+    "id": "5-polonia-aceleasi-masuri-alt-rezultat"
+  }, {
+    "nivel": 2,
+    "text": "6. Tabel comparativ",
+    "id": "6-tabel-comparativ"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: a fost prăbușirea din anii '90 o consecință a metodei",
+    "id": "interpretare-a-fost-prabusirea-din-anii-90-o-consecinta-a-me"
+  }, {
+    "nivel": 4,
+    "text": "Ce nu se dispută",
+    "id": "ce-nu-se-disputa"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: aplicare incompletă și inconsecventă",
+    "id": "citirea-a-aplicare-incompleta-si-inconsecventa"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: ordinea măsurilor a fost greșită",
+    "id": "citirea-b-ordinea-masurilor-a-fost-gresita"
+  }, {
+    "nivel": 4,
+    "text": "O nuanță din literatura recentă",
+    "id": "o-nuanta-din-literatura-recenta"
+  }, {
+    "nivel": 4,
+    "text": "Ce are de făcut elevul",
+    "id": "ce-are-de-facut-elevul"
+  }, {
+    "nivel": 2,
+    "text": "7. Cum este judecată perioada astăzi în Rusia",
+    "id": "7-cum-este-judecata-perioada-astazi-in-rusia"
+  }, {
+    "nivel": 4,
+    "text": "Cum se citesc aceste cifre",
+    "id": "cum-se-citesc-aceste-cifre"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u1",
+  "unitate": "Unitatea I. Destrămarea și „sfârșitul istoriei”, 1989-2001",
+  "slug": "04-lectia-1-3",
+  "titlu": "Lecția 1.3: România în tranziție (1990-2000)",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Puterea nouă și instrumentele ei",
+    "id": "1-puterea-noua-si-instrumentele-ei"
+  }, {
+    "nivel": 4,
+    "text": "Punctul 8 de la Timișoara",
+    "id": "punctul-8-de-la-timisoara"
+  }, {
+    "nivel": 4,
+    "text": "Televiziunea",
+    "id": "televiziunea"
+  }, {
+    "nivel": 4,
+    "text": "Presa scrisă și pârghiile economice",
+    "id": "presa-scrisa-si-parghiile-economice"
+  }, {
+    "nivel": 4,
+    "text": "Mineriadele",
+    "id": "mineriadele"
+  }, {
+    "nivel": 4,
+    "text": "Ce a decis justiția",
+    "id": "ce-a-decis-justitia"
+  }, {
+    "nivel": 4,
+    "text": "Continuitatea partidului la guvernare",
+    "id": "continuitatea-partidului-la-guvernare"
+  }, {
+    "nivel": 2,
+    "text": "2. Economia: privatizare, cupoane, scheme piramidale",
+    "id": "2-economia-privatizare-cupoane-scheme-piramidale"
+  }, {
+    "nivel": 4,
+    "text": "Cadrul legal",
+    "id": "cadrul-legal"
+  }, {
+    "nivel": 4,
+    "text": "Cuponiada",
+    "id": "cuponiada"
+  }, {
+    "nivel": 4,
+    "text": "Caritas, SAFI, FNI",
+    "id": "caritas-safi-fni"
+  }, {
+    "nivel": 4,
+    "text": "Dezindustrializarea",
+    "id": "dezindustrializarea"
+  }, {
+    "nivel": 4,
+    "text": "Migrația",
+    "id": "migratia"
+  }, {
+    "nivel": 2,
+    "text": "3. Opoziția ajunge la putere",
+    "id": "3-opozitia-ajunge-la-putere"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: a schimbat alternanța din 1996 regulile jocului",
+    "id": "interpretare-a-schimbat-alternanta-din-1996-regulile-jocului"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: alternanța a funcționat",
+    "id": "citirea-a-alternanta-a-functionat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: s-a schimbat personalul, iar mecanismul a rămas",
+    "id": "citirea-b-s-a-schimbat-personalul-iar-mecanismul-a-ramas"
+  }, {
+    "nivel": 4,
+    "text": "Ce are de stabilit elevul",
+    "id": "ce-are-de-stabilit-elevul"
+  }, {
+    "nivel": 2,
+    "text": "4. Tabel cronologic",
+    "id": "4-tabel-cronologic"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u1",
+  "unitate": "Unitatea I. Destrămarea și „sfârșitul istoriei”, 1989-2001",
+  "slug": "05-lectia-1-4",
+  "titlu": "Lecția 1.4: Războaiele deceniului. Iugoslavia, Golful Persic, Rwanda",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Destrămarea Iugoslaviei",
+    "id": "1-destramarea-iugoslaviei"
+  }, {
+    "nivel": 4,
+    "text": "Situația de plecare",
+    "id": "situatia-de-plecare"
+  }, {
+    "nivel": 4,
+    "text": "Slovenia și Croația",
+    "id": "slovenia-si-croatia"
+  }, {
+    "nivel": 4,
+    "text": "Bosnia și Herțegovina",
+    "id": "bosnia-si-hertegovina"
+  }, {
+    "nivel": 4,
+    "text": "Alija Izetbegović",
+    "id": "alija-izetbegovi"
+  }, {
+    "nivel": 4,
+    "text": "Embargoul asupra armelor și zonele de siguranță",
+    "id": "embargoul-asupra-armelor-si-zonele-de-siguranta"
+  }, {
+    "nivel": 4,
+    "text": "Srebrenica",
+    "id": "srebrenica"
+  }, {
+    "nivel": 4,
+    "text": "Asediul Sarajevului",
+    "id": "asediul-sarajevului"
+  }, {
+    "nivel": 2,
+    "text": "2. Muzica de război ca instrument de mobilizare",
+    "id": "2-muzica-de-razboi-ca-instrument-de-mobilizare"
+  }, {
+    "nivel": 4,
+    "text": "Ce s-a întâmplat",
+    "id": "ce-s-a-intamplat"
+  }, {
+    "nivel": 4,
+    "text": "Cum funcționează mecanismul",
+    "id": "cum-functioneaza-mecanismul"
+  }, {
+    "nivel": 4,
+    "text": "Verifică sursa",
+    "id": "verifica-sursa"
+  }, {
+    "nivel": 2,
+    "text": "3. Războiul din Golful Persic, 1990-1991",
+    "id": "3-razboiul-din-golful-persic-1990-1991"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: cifra de 500.000 de copii",
+    "id": "interpretare-cifra-de-500-000-de-copii"
+  }, {
+    "nivel": 4,
+    "text": "Cum a apărut",
+    "id": "cum-a-aparut"
+  }, {
+    "nivel": 4,
+    "text": "Ce a arătat reanaliza",
+    "id": "ce-a-aratat-reanaliza"
+  }, {
+    "nivel": 4,
+    "text": "Ce rămâne în picioare",
+    "id": "ce-ramane-in-picioare"
+  }, {
+    "nivel": 4,
+    "text": "Lecția de metodă",
+    "id": "lectia-de-metoda"
+  }, {
+    "nivel": 2,
+    "text": "4. Rwanda, 1994",
+    "id": "4-rwanda-1994"
+  }, {
+    "nivel": 2,
+    "text": "5. Kosovo, 1999",
+    "id": "5-kosovo-1999"
+  }, {
+    "nivel": 2,
+    "text": "6. Comparație",
+    "id": "6-comparatie"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: ce decide o intervenție",
+    "id": "interpretare-ce-decide-o-interventie"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: criteriul umanitar și limitele lui practice",
+    "id": "citirea-a-criteriul-umanitar-si-limitele-lui-practice"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: criteriul interesului",
+    "id": "citirea-b-criteriul-interesului"
+  }, {
+    "nivel": 4,
+    "text": "Cum se testează",
+    "id": "cum-se-testeaza"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u1",
+  "unitate": "Unitatea I. Destrămarea și „sfârșitul istoriei”, 1989-2001",
+  "slug": "06-lectia-1-5",
+  "titlu": "Lecția 1.5: Sudul global în anii '90",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Datoria și ajustarea structurală",
+    "id": "1-datoria-si-ajustarea-structurala"
+  }, {
+    "nivel": 4,
+    "text": "Cum a apărut criza datoriei",
+    "id": "cum-a-aparut-criza-datoriei"
+  }, {
+    "nivel": 4,
+    "text": "Ce cereau programele",
+    "id": "ce-cereau-programele"
+  }, {
+    "nivel": 4,
+    "text": "Reacția",
+    "id": "reactia"
+  }, {
+    "nivel": 2,
+    "text": "2. Acordul nord-american de liber schimb",
+    "id": "2-acordul-nord-american-de-liber-schimb"
+  }, {
+    "nivel": 4,
+    "text": "Ce s-a întâmplat în agricultura mexicană",
+    "id": "ce-s-a-intamplat-in-agricultura-mexicana"
+  }, {
+    "nivel": 4,
+    "text": "Ce s-a întâmplat în sens invers",
+    "id": "ce-s-a-intamplat-in-sens-invers"
+  }, {
+    "nivel": 4,
+    "text": "Migrația",
+    "id": "migratia"
+  }, {
+    "nivel": 4,
+    "text": "Criza peso, decembrie 1994",
+    "id": "criza-peso-decembrie-1994"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: cine a câștigat din acordul din 1994",
+    "id": "interpretare-cine-a-castigat-din-acordul-din-1994"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: un aranjament în favoarea nordului",
+    "id": "citirea-a-un-aranjament-in-favoarea-nordului"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: efectele sunt mixte și cauzele sunt multiple",
+    "id": "citirea-b-efectele-sunt-mixte-si-cauzele-sunt-multiple"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "3. Zapatiștii",
+    "id": "3-zapatistii"
+  }, {
+    "nivel": 4,
+    "text": "Ce a urmat",
+    "id": "ce-a-urmat"
+  }, {
+    "nivel": 4,
+    "text": "Situația actuală",
+    "id": "situatia-actuala"
+  }, {
+    "nivel": 2,
+    "text": "4. Criza asiatică, 1997-1998",
+    "id": "4-criza-asiatica-1997-1998"
+  }, {
+    "nivel": 2,
+    "text": "5. Sfârșitul apartheidului în Africa de Sud",
+    "id": "5-sfarsitul-apartheidului-in-africa-de-sud"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u1",
+  "unitate": "Unitatea I. Destrămarea și „sfârșitul istoriei”, 1989-2001",
+  "slug": "07-lectia-1-6",
+  "titlu": "Lecția 1.6: Tehnologia deceniului",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Calculatorul personal devine popular",
+    "id": "1-calculatorul-personal-devine-popular"
+  }, {
+    "nivel": 4,
+    "text": "Windows 95",
+    "id": "windows-95"
+  }, {
+    "nivel": 4,
+    "text": "Windows NT Workstation 4.0",
+    "id": "windows-nt-workstation-4-0"
+  }, {
+    "nivel": 4,
+    "text": "Linux",
+    "id": "linux"
+  }, {
+    "nivel": 2,
+    "text": "2. Rețeaua devine publică",
+    "id": "2-reteaua-devine-publica"
+  }, {
+    "nivel": 2,
+    "text": "3. IRC și cultura utilizatorilor avansați",
+    "id": "3-irc-si-cultura-utilizatorilor-avansati"
+  }, {
+    "nivel": 4,
+    "text": "De ce se formau comunități",
+    "id": "de-ce-se-formau-comunitati"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: s-a pierdut funcția socială a rețelei",
+    "id": "interpretare-s-a-pierdut-functia-sociala-a-retelei"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: degradarea platformelor",
+    "id": "citirea-a-degradarea-platformelor"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: s-a schimbat populația",
+    "id": "citirea-b-s-a-schimbat-populatia"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate măsura",
+    "id": "ce-se-poate-masura"
+  }, {
+    "nivel": 2,
+    "text": "4. Telefonia mobilă",
+    "id": "4-telefonia-mobila"
+  }, {
+    "nivel": 2,
+    "text": "5. Bula bursieră din anul 2000",
+    "id": "5-bula-bursiera-din-anul-2000"
+  }, {
+    "nivel": 2,
+    "text": "6. Cine avea acces la sfârșitul deceniului",
+    "id": "6-cine-avea-acces-la-sfarsitul-deceniului"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u2",
+  "unitate": "Unitatea a II-a. Hegemonie și contestare, 2001-2008",
+  "slug": "08-lectia-2-1",
+  "titlu": "Lecția 2.1: 11 septembrie și războiul global împotriva terorii",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Atacurile",
+    "id": "1-atacurile"
+  }, {
+    "nivel": 2,
+    "text": "2. Al-Qaida și revendicările declarate",
+    "id": "2-al-qaida-si-revendicarile-declarate"
+  }, {
+    "nivel": 2,
+    "text": "3. Doctrina exista înainte de 2001",
+    "id": "3-doctrina-exista-inainte-de-2001"
+  }, {
+    "nivel": 4,
+    "text": "Echipa B, 1976",
+    "id": "echipa-b-1976"
+  }, {
+    "nivel": 4,
+    "text": "Directiva de planificare a apărării, 1992",
+    "id": "directiva-de-planificare-a-apararii-1992"
+  }, {
+    "nivel": 4,
+    "text": "Proiectul pentru un nou secol american, 1997-2000",
+    "id": "proiectul-pentru-un-nou-secol-american-1997-2000"
+  }, {
+    "nivel": 4,
+    "text": "Ce presupunea transformarea",
+    "id": "ce-presupunea-transformarea"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: plan pregătit sau complot",
+    "id": "interpretare-plan-pregatit-sau-complot"
+  }, {
+    "nivel": 4,
+    "text": "Ce arată documentele",
+    "id": "ce-arata-documentele"
+  }, {
+    "nivel": 4,
+    "text": "Ce nu arată",
+    "id": "ce-nu-arata"
+  }, {
+    "nivel": 4,
+    "text": "Ce rămâne de analizat",
+    "id": "ce-ramane-de-analizat"
+  }, {
+    "nivel": 2,
+    "text": "4. Afganistan, 2001",
+    "id": "4-afganistan-2001"
+  }, {
+    "nivel": 2,
+    "text": "5. Legislația de excepție",
+    "id": "5-legislatia-de-exceptie"
+  }, {
+    "nivel": 2,
+    "text": "6. România în acest program",
+    "id": "6-romania-in-acest-program"
+  }, {
+    "nivel": 2,
+    "text": "7. Consecințe pentru dreptul internațional",
+    "id": "7-consecinte-pentru-dreptul-international"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u2",
+  "unitate": "Unitatea a II-a. Hegemonie și contestare, 2001-2008",
+  "slug": "09-lectia-2-2",
+  "titlu": "Lecția 2.2: Irak, 2003",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Ce prevede dreptul internațional",
+    "id": "1-ce-prevede-dreptul-international"
+  }, {
+    "nivel": 4,
+    "text": "Precedentul din 1986",
+    "id": "precedentul-din-1986"
+  }, {
+    "nivel": 2,
+    "text": "2. Regimul armelor nucleare și asimetria lui",
+    "id": "2-regimul-armelor-nucleare-si-asimetria-lui"
+  }, {
+    "nivel": 4,
+    "text": "Armele chimice irakiene din anii '80",
+    "id": "armele-chimice-irakiene-din-anii-80"
+  }, {
+    "nivel": 2,
+    "text": "3. Dosarul din 2002-2003",
+    "id": "3-dosarul-din-2002-2003"
+  }, {
+    "nivel": 2,
+    "text": "4. Drumul spre 20 martie 2003",
+    "id": "4-drumul-spre-20-martie-2003"
+  }, {
+    "nivel": 2,
+    "text": "5. Ocupația",
+    "id": "5-ocupatia"
+  }, {
+    "nivel": 2,
+    "text": "6. Bilanțul uman",
+    "id": "6-bilantul-uman"
+  }, {
+    "nivel": 2,
+    "text": "7. Ancheta britanică din 2016",
+    "id": "7-ancheta-britanica-din-2016"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: de ce Irak",
+    "id": "interpretare-de-ce-irak"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: doctrina formulată dinainte",
+    "id": "citirea-a-doctrina-formulata-dinainte"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: petrolul și poziția regională",
+    "id": "citirea-b-petrolul-si-pozitia-regionala"
+  }, {
+    "nivel": 4,
+    "text": "Ce arată rezultatul",
+    "id": "ce-arata-rezultatul"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "8. România și „coaliția de voință”",
+    "id": "8-romania-si-coalitia-de-vointa"
+  }, {
+    "nivel": 2,
+    "text": "9. Opoziția publică",
+    "id": "9-opozitia-publica"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u2",
+  "unitate": "Unitatea a II-a. Hegemonie și contestare, 2001-2008",
+  "slug": "10-lectia-2-3",
+  "titlu": "Lecția 2.3: Extinderea NATO și a Uniunii Europene",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Extinderea NATO",
+    "id": "1-extinderea-nato"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: s-a promis conducerii sovietice că NATO nu se va extinde",
+    "id": "interpretare-s-a-promis-conducerii-sovietice-ca-nato-nu-se-v"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: a existat o asigurare politică",
+    "id": "citirea-a-a-existat-o-asigurare-politica"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: nu a existat un angajament juridic",
+    "id": "citirea-b-nu-a-existat-un-angajament-juridic"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "2. Extinderea Uniunii Europene",
+    "id": "2-extinderea-uniunii-europene"
+  }, {
+    "nivel": 2,
+    "text": "3. Ce a cerut aderarea",
+    "id": "3-ce-a-cerut-aderarea"
+  }, {
+    "nivel": 2,
+    "text": "4. Ce s-a obținut",
+    "id": "4-ce-s-a-obtinut"
+  }, {
+    "nivel": 2,
+    "text": "5. Cine câștigă și cât",
+    "id": "5-cine-castiga-si-cat"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: aderarea a fost un câștig sau un schimb inegal",
+    "id": "interpretare-aderarea-a-fost-un-castig-sau-un-schimb-inegal"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: un câștig măsurabil",
+    "id": "citirea-a-un-castig-masurabil"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: un schimb inegal",
+    "id": "citirea-b-un-schimb-inegal"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate măsura",
+    "id": "ce-se-poate-masura"
+  }, {
+    "nivel": 2,
+    "text": "6. Migrația și demografia",
+    "id": "6-migratia-si-demografia"
+  }, {
+    "nivel": 2,
+    "text": "7. Percepția: 2004 și astăzi",
+    "id": "7-perceptia-2004-si-astazi"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u2",
+  "unitate": "Unitatea a II-a. Hegemonie și contestare, 2001-2008",
+  "slug": "11-lectia-2-4",
+  "titlu": "Lecția 2.4: Ascensiunea Chinei și noua diviziune a muncii",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Reforma și zonele economice speciale",
+    "id": "1-reforma-si-zonele-economice-speciale"
+  }, {
+    "nivel": 2,
+    "text": "2. Intrarea în Organizația Mondială a Comerțului, 2001",
+    "id": "2-intrarea-in-organizatia-mondiala-a-comertului-2001"
+  }, {
+    "nivel": 2,
+    "text": "3. Efectul asupra locurilor de muncă industriale",
+    "id": "3-efectul-asupra-locurilor-de-munca-industriale"
+  }, {
+    "nivel": 4,
+    "text": "Europa de Est și România",
+    "id": "europa-de-est-si-romania"
+  }, {
+    "nivel": 2,
+    "text": "4. Efectul asupra Sudului global: supraciclul materiilor prime",
+    "id": "4-efectul-asupra-sudului-global-supraciclul-materiilor-prime"
+  }, {
+    "nivel": 2,
+    "text": "5. Africa: împrumuturi, infrastructură, contracte",
+    "id": "5-africa-imprumuturi-infrastructura-contracte"
+  }, {
+    "nivel": 2,
+    "text": "6. Ce a primit China în schimb: finanțarea deficitului american",
+    "id": "6-ce-a-primit-china-in-schimb-finantarea-deficitului-america"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: este relația Chinei cu Sudul global o nouă formă de imperialism",
+    "id": "interpretare-este-relatia-chinei-cu-sudul-global-o-noua-form"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: o formă nouă a aceleiași relații",
+    "id": "citirea-a-o-forma-noua-a-aceleiasi-relatii"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: o relație diferită de imperialismul clasic",
+    "id": "citirea-b-o-relatie-diferita-de-imperialismul-clasic"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "7. Bilanțul deceniului",
+    "id": "7-bilantul-deceniului"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u2",
+  "unitate": "Unitatea a II-a. Hegemonie și contestare, 2001-2008",
+  "slug": "12-lectia-2-5",
+  "titlu": "Lecția 2.5: Contestări. America Latină, Rusia, revoluțiile colorate",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Punctul de plecare",
+    "id": "1-punctul-de-plecare"
+  }, {
+    "nivel": 4,
+    "text": "Caracazo, 1989",
+    "id": "caracazo-1989"
+  }, {
+    "nivel": 4,
+    "text": "Argentina, 2001",
+    "id": "argentina-2001"
+  }, {
+    "nivel": 2,
+    "text": "2. Valul roz",
+    "id": "2-valul-roz"
+  }, {
+    "nivel": 2,
+    "text": "3. Politici și rezultate",
+    "id": "3-politici-si-rezultate"
+  }, {
+    "nivel": 4,
+    "text": "CONCEPT: populism, stânga, extrema dreaptă",
+    "id": "concept-populism-stanga-extrema-dreapta"
+  }, {
+    "nivel": 4,
+    "text": "Definiția folosită în cercetare",
+    "id": "definitia-folosita-in-cercetare"
+  }, {
+    "nivel": 4,
+    "text": "Combinația de stânga",
+    "id": "combinatia-de-stanga"
+  }, {
+    "nivel": 4,
+    "text": "Combinația de extremă dreaptă",
+    "id": "combinatia-de-extrema-dreapta"
+  }, {
+    "nivel": 4,
+    "text": "Ce nu era populism",
+    "id": "ce-nu-era-populism"
+  }, {
+    "nivel": 2,
+    "text": "4. Limitele modelului",
+    "id": "4-limitele-modelului"
+  }, {
+    "nivel": 2,
+    "text": "5. Reacția Statelor Unite",
+    "id": "5-reactia-statelor-unite"
+  }, {
+    "nivel": 2,
+    "text": "6. Rusia după 2000",
+    "id": "6-rusia-dupa-2000"
+  }, {
+    "nivel": 2,
+    "text": "7. Revoluțiile colorate",
+    "id": "7-revolutiile-colorate"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: proteste interne sau operațiuni externe",
+    "id": "interpretare-proteste-interne-sau-operatiuni-externe"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: mișcări interne",
+    "id": "citirea-a-miscari-interne"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: instrumente ale politicii externe",
+    "id": "citirea-b-instrumente-ale-politicii-externe"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u2",
+  "unitate": "Unitatea a II-a. Hegemonie și contestare, 2001-2008",
+  "slug": "13-lectia-2-6",
+  "titlu": "Lecția 2.6: Tehnologia deceniului 2001-2008",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Calculatorul portabil",
+    "id": "1-calculatorul-portabil"
+  }, {
+    "nivel": 2,
+    "text": "2. Conexiunea permanentă",
+    "id": "2-conexiunea-permanenta"
+  }, {
+    "nivel": 4,
+    "text": "Cazul românesc",
+    "id": "cazul-romanesc"
+  }, {
+    "nivel": 2,
+    "text": "3. Serverele deceniului",
+    "id": "3-serverele-deceniului"
+  }, {
+    "nivel": 4,
+    "text": "Windows Server 2003",
+    "id": "windows-server-2003"
+  }, {
+    "nivel": 4,
+    "text": "Linux pe servere",
+    "id": "linux-pe-servere"
+  }, {
+    "nivel": 4,
+    "text": "Linux pe stațiile de lucru",
+    "id": "linux-pe-statiile-de-lucru"
+  }, {
+    "nivel": 2,
+    "text": "4. Ce s-a construit pe această infrastructură",
+    "id": "4-ce-s-a-construit-pe-aceasta-infrastructura"
+  }, {
+    "nivel": 2,
+    "text": "5. Modelul economic: publicitatea",
+    "id": "5-modelul-economic-publicitatea"
+  }, {
+    "nivel": 2,
+    "text": "6. Rețeaua ca piață internațională",
+    "id": "6-reteaua-ca-piata-internationala"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: ce a produs finanțarea prin publicitate",
+    "id": "interpretare-ce-a-produs-finantarea-prin-publicitate"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: separarea socială",
+    "id": "citirea-a-separarea-sociala"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: schimbarea populației și a suportului",
+    "id": "citirea-b-schimbarea-populatiei-si-a-suportului"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate măsura",
+    "id": "ce-se-poate-masura"
+  }, {
+    "nivel": 2,
+    "text": "7. România în lanțul serviciilor informatice",
+    "id": "7-romania-in-lantul-serviciilor-informatice"
+  }, {
+    "nivel": 2,
+    "text": "8. Deceniul în cifre",
+    "id": "8-deceniul-in-cifre"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "14-lectia-3-1",
+  "titlu": "Lecția 3.1: Criza financiară din 2008",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Ce a fost dereglementat",
+    "id": "1-ce-a-fost-dereglementat"
+  }, {
+    "nivel": 4,
+    "text": "Momentul din 1998",
+    "id": "momentul-din-1998"
+  }, {
+    "nivel": 2,
+    "text": "2. Mecanismul",
+    "id": "2-mecanismul"
+  }, {
+    "nivel": 2,
+    "text": "3. Cronologia",
+    "id": "3-cronologia"
+  }, {
+    "nivel": 2,
+    "text": "4. Salvarea",
+    "id": "4-salvarea"
+  }, {
+    "nivel": 4,
+    "text": "CONCEPT: privatizarea câștigurilor, socializarea pierderilor",
+    "id": "concept-privatizarea-castigurilor-socializarea-pierderilor"
+  }, {
+    "nivel": 4,
+    "text": "Ce descrie formula",
+    "id": "ce-descrie-formula"
+  }, {
+    "nivel": 4,
+    "text": "Ce s-a întâmplat efectiv",
+    "id": "ce-s-a-intamplat-efectiv"
+  }, {
+    "nivel": 4,
+    "text": "De ce contează pentru lecțiile următoare",
+    "id": "de-ce-conteaza-pentru-lectiile-urmatoare"
+  }, {
+    "nivel": 2,
+    "text": "5. Cine a suportat pierderile",
+    "id": "5-cine-a-suportat-pierderile"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: era salvarea băncilor inevitabilă",
+    "id": "interpretare-era-salvarea-bancilor-inevitabila"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: prevenirea unei prăbușiri generale",
+    "id": "citirea-a-prevenirea-unei-prabusiri-generale"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: existau alte forme de intervenție",
+    "id": "citirea-b-existau-alte-forme-de-interventie"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate compara",
+    "id": "ce-se-poate-compara"
+  }, {
+    "nivel": 2,
+    "text": "6. Ce s-a schimbat după",
+    "id": "6-ce-s-a-schimbat-dupa"
+  }, {
+    "nivel": 2,
+    "text": "7. România",
+    "id": "7-romania"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "15-lectia-3-2",
+  "titlu": "Lecția 3.2: Austeritatea și criza zonei euro",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Grecia înainte de criză",
+    "id": "1-grecia-inainte-de-criza"
+  }, {
+    "nivel": 2,
+    "text": "2. Cum funcționează moneda unică",
+    "id": "2-cum-functioneaza-moneda-unica"
+  }, {
+    "nivel": 2,
+    "text": "3. Cine guvernează moneda unică",
+    "id": "3-cine-guverneaza-moneda-unica"
+  }, {
+    "nivel": 4,
+    "text": "Presiunea asupra guvernelor alese",
+    "id": "presiunea-asupra-guvernelor-alese"
+  }, {
+    "nivel": 2,
+    "text": "4. Memorandumurile",
+    "id": "4-memorandumurile"
+  }, {
+    "nivel": 2,
+    "text": "5. Unde s-au dus banii",
+    "id": "5-unde-s-au-dus-banii"
+  }, {
+    "nivel": 2,
+    "text": "6. Anul 2015",
+    "id": "6-anul-2015"
+  }, {
+    "nivel": 2,
+    "text": "7. Ce arată produsul intern brut și ce arată condițiile de viață",
+    "id": "7-ce-arata-produsul-intern-brut-si-ce-arata-conditiile-de-vi"
+  }, {
+    "nivel": 2,
+    "text": "8. România, 2010",
+    "id": "8-romania-2010"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: era austeritatea necesară",
+    "id": "interpretare-era-austeritatea-necesara"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: nu exista altă cale în interiorul uniunii monetare",
+    "id": "citirea-a-nu-exista-alta-cale-in-interiorul-uniunii-monetare"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: efectul măsurilor a fost subestimat",
+    "id": "citirea-b-efectul-masurilor-a-fost-subestimat"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate compara",
+    "id": "ce-se-poate-compara"
+  }, {
+    "nivel": 2,
+    "text": "9. Cine îndeplinește astăzi criteriile de aderare",
+    "id": "9-cine-indeplineste-astazi-criteriile-de-aderare"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "16-lectia-3-3",
+  "titlu": "Lecția 3.3: Primăvara arabă și consecințele ei",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Ce era comun",
+    "id": "1-ce-era-comun"
+  }, {
+    "nivel": 2,
+    "text": "2. Tunisia",
+    "id": "2-tunisia"
+  }, {
+    "nivel": 2,
+    "text": "3. Egipt",
+    "id": "3-egipt"
+  }, {
+    "nivel": 2,
+    "text": "4. Libia",
+    "id": "4-libia"
+  }, {
+    "nivel": 2,
+    "text": "5. Bahrain",
+    "id": "5-bahrain"
+  }, {
+    "nivel": 2,
+    "text": "6. Siria",
+    "id": "6-siria"
+  }, {
+    "nivel": 4,
+    "text": "Tranziția, 2025-2026",
+    "id": "tranzitia-2025-2026"
+  }, {
+    "nivel": 2,
+    "text": "7. Yemen",
+    "id": "7-yemen"
+  }, {
+    "nivel": 4,
+    "text": "CONCEPT: războiul fără sfârșit",
+    "id": "concept-razboiul-fara-sfarsit"
+  }, {
+    "nivel": 4,
+    "text": "Ce descrie termenul",
+    "id": "ce-descrie-termenul"
+  }, {
+    "nivel": 4,
+    "text": "Mecanismele identificate",
+    "id": "mecanismele-identificate"
+  }, {
+    "nivel": 4,
+    "text": "Ordinul de mărime",
+    "id": "ordinul-de-marime"
+  }, {
+    "nivel": 2,
+    "text": "8. Revoltele continuă",
+    "id": "8-revoltele-continua"
+  }, {
+    "nivel": 4,
+    "text": "Sudanul, cazul cel mai grav în prezent",
+    "id": "sudanul-cazul-cel-mai-grav-in-prezent"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "17-lectia-3-4",
+  "titlu": "Lecția 3.4: Ucraina din 2014 și noua confruntare",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Situația de plecare",
+    "id": "1-situatia-de-plecare"
+  }, {
+    "nivel": 2,
+    "text": "2. Maidan, 2013-2014",
+    "id": "2-maidan-2013-2014"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: revoluție sau lovitură de stat",
+    "id": "interpretare-revolutie-sau-lovitura-de-stat"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: revoluție",
+    "id": "citirea-a-revolutie"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: schimbare neconstituțională de putere",
+    "id": "citirea-b-schimbare-neconstitutionala-de-putere"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "3. Crimeea",
+    "id": "3-crimeea"
+  }, {
+    "nivel": 2,
+    "text": "4. Donbas",
+    "id": "4-donbas"
+  }, {
+    "nivel": 4,
+    "text": "Zborul MH17",
+    "id": "zborul-mh17"
+  }, {
+    "nivel": 2,
+    "text": "5. Acordurile de la Minsk",
+    "id": "5-acordurile-de-la-minsk"
+  }, {
+    "nivel": 2,
+    "text": "6. Perioada 2015-2021",
+    "id": "6-perioada-2015-2021"
+  }, {
+    "nivel": 2,
+    "text": "7. România",
+    "id": "7-romania"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "18-lectia-3-5",
+  "titlu": "Lecția 3.5: Turcia. Ascensiunea AKP, declinul CHP și acordul privind migrația",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Republica kemalistă și Partidul Popular Republican",
+    "id": "1-republica-kemalista-si-partidul-popular-republican"
+  }, {
+    "nivel": 2,
+    "text": "2. Criza din 2001 și alegerile din 2002",
+    "id": "2-criza-din-2001-si-alegerile-din-2002"
+  }, {
+    "nivel": 2,
+    "text": "3. Baza materială a sprijinului",
+    "id": "3-baza-materiala-a-sprijinului"
+  }, {
+    "nivel": 2,
+    "text": "4. Desființarea conducerii militare",
+    "id": "4-desfiintarea-conducerii-militare"
+  }, {
+    "nivel": 2,
+    "text": "5. Anul 2013 și ruptura",
+    "id": "5-anul-2013-si-ruptura"
+  }, {
+    "nivel": 4,
+    "text": "Presa",
+    "id": "presa"
+  }, {
+    "nivel": 2,
+    "text": "6. Alegerile duble din 2015",
+    "id": "6-alegerile-duble-din-2015"
+  }, {
+    "nivel": 2,
+    "text": "7. Migrația și acordul din 2016",
+    "id": "7-migratia-si-acordul-din-2016"
+  }, {
+    "nivel": 2,
+    "text": "8. Tentativa de lovitură de stat din 2016 și sistemul prezidențial",
+    "id": "8-tentativa-de-lovitura-de-stat-din-2016-si-sistemul-prezide"
+  }, {
+    "nivel": 4,
+    "text": "CONCEPT: autoritarismul competitiv",
+    "id": "concept-autoritarismul-competitiv"
+  }, {
+    "nivel": 4,
+    "text": "Definiția folosită în cercetare",
+    "id": "definitia-folosita-in-cercetare"
+  }, {
+    "nivel": 4,
+    "text": "Instrumentele, cu exemple turcești",
+    "id": "instrumentele-cu-exemple-turcesti"
+  }, {
+    "nivel": 2,
+    "text": "9. Mobilizarea: mitinguri, televiziune, muzică",
+    "id": "9-mobilizarea-mitinguri-televiziune-muzica"
+  }, {
+    "nivel": 2,
+    "text": "10. Limitele metodei",
+    "id": "10-limitele-metodei"
+  }, {
+    "nivel": 2,
+    "text": "11. Campania judiciară din 2025 și 2026",
+    "id": "11-campania-judiciara-din-2025-si-2026"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "19-lectia-3-6",
+  "titlu": "Lecția 3.6: Brexit, Trump și dreapta radicală europeană",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Terenul pregătit în deceniul precedent",
+    "id": "1-terenul-pregatit-in-deceniul-precedent"
+  }, {
+    "nivel": 2,
+    "text": "2. Referendumul britanic din 2016",
+    "id": "2-referendumul-britanic-din-2016"
+  }, {
+    "nivel": 2,
+    "text": "3. Alegerile americane din 2016",
+    "id": "3-alegerile-americane-din-2016"
+  }, {
+    "nivel": 2,
+    "text": "4. Cât de rapidă a fost ascensiunea",
+    "id": "4-cat-de-rapida-a-fost-ascensiunea"
+  }, {
+    "nivel": 2,
+    "text": "5. Ungaria: cazul în care mecanismul a mers cel mai departe",
+    "id": "5-ungaria-cazul-in-care-mecanismul-a-mers-cel-mai-departe"
+  }, {
+    "nivel": 4,
+    "text": "CONCEPT: gradele autoritarismului electoral",
+    "id": "concept-gradele-autoritarismului-electoral"
+  }, {
+    "nivel": 4,
+    "text": "Autoritarismul competitiv",
+    "id": "autoritarismul-competitiv"
+  }, {
+    "nivel": 4,
+    "text": "Autoritarismul monopolist",
+    "id": "autoritarismul-monopolist"
+  }, {
+    "nivel": 4,
+    "text": "Distincția de luat în considerare",
+    "id": "distinctia-de-luat-in-considerare"
+  }, {
+    "nivel": 4,
+    "text": "Cazul opus",
+    "id": "cazul-opus"
+  }, {
+    "nivel": 2,
+    "text": "6. Frontex",
+    "id": "6-frontex"
+  }, {
+    "nivel": 4,
+    "text": "Controlul ulterior",
+    "id": "controlul-ulterior"
+  }, {
+    "nivel": 2,
+    "text": "7. Externalizarea frontierei",
+    "id": "7-externalizarea-frontierei"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "20-lectia-3-7",
+  "titlu": "Lecția 3.7: România în deceniul protestelor",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Aparatul anticorupție",
+    "id": "1-aparatul-anticoruptie"
+  }, {
+    "nivel": 4,
+    "text": "Cazul Dan Voiculescu",
+    "id": "cazul-dan-voiculescu"
+  }, {
+    "nivel": 2,
+    "text": "2. Protestele",
+    "id": "2-protestele"
+  }, {
+    "nivel": 2,
+    "text": "3. Mecanismele de deturnare a banului public",
+    "id": "3-mecanismele-de-deturnare-a-banului-public"
+  }, {
+    "nivel": 2,
+    "text": "4. Contraofensiva instituțională",
+    "id": "4-contraofensiva-institutionala"
+  }, {
+    "nivel": 2,
+    "text": "5. Disputa deschisă în decembrie 2025",
+    "id": "5-disputa-deschisa-in-decembrie-2025"
+  }, {
+    "nivel": 4,
+    "text": "Ce susține materialul",
+    "id": "ce-sustine-materialul"
+  }, {
+    "nivel": 4,
+    "text": "Reacțiile instituționale",
+    "id": "reactiile-institutionale"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: justiție capturată sau justiție lentă",
+    "id": "interpretare-justitie-capturata-sau-justitie-lenta"
+  }, {
+    "nivel": 4,
+    "text": "Ce este stabilit",
+    "id": "ce-este-stabilit"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: capturarea instituției",
+    "id": "citirea-a-capturarea-institutiei"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: disfuncție structurală",
+    "id": "citirea-b-disfunctie-structurala"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "6. Ce a rămas din deceniu",
+    "id": "6-ce-a-ramas-din-deceniu"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "21-lectia-3-8",
+  "titlu": "Lecția 3.8: Tehnologia deceniului 2008-2020",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Sfârșitul optimismului tehnologic",
+    "id": "1-sfarsitul-optimismului-tehnologic"
+  }, {
+    "nivel": 2,
+    "text": "2. Ce a înlocuit pagina personală",
+    "id": "2-ce-a-inlocuit-pagina-personala"
+  }, {
+    "nivel": 2,
+    "text": "3. Cum se face astăzi un site personal",
+    "id": "3-cum-se-face-astazi-un-site-personal"
+  }, {
+    "nivel": 4,
+    "text": "Un exemplu",
+    "id": "un-exemplu"
+  }, {
+    "nivel": 2,
+    "text": "4. Calculatorul fix și telefonul",
+    "id": "4-calculatorul-fix-si-telefonul"
+  }, {
+    "nivel": 2,
+    "text": "5. Traficul produs de programe automate",
+    "id": "5-traficul-produs-de-programe-automate"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: teoria internetului mort",
+    "id": "interpretare-teoria-internetului-mort"
+  }, {
+    "nivel": 4,
+    "text": "Ce susține",
+    "id": "ce-sustine"
+  }, {
+    "nivel": 4,
+    "text": "Ce este documentat",
+    "id": "ce-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Ce nu este documentat",
+    "id": "ce-nu-este-documentat"
+  }, {
+    "nivel": 4,
+    "text": "Cum se poate verifica",
+    "id": "cum-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "6. Zece ani de rețele neuronale",
+    "id": "6-zece-ani-de-retele-neuronale"
+  }, {
+    "nivel": 4,
+    "text": "Ce se putea folosi acasă înainte de 2022",
+    "id": "ce-se-putea-folosi-acasa-inainte-de-2022"
+  }, {
+    "nivel": 2,
+    "text": "7. Ce a rămas din internetul necomercial",
+    "id": "7-ce-a-ramas-din-internetul-necomercial"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u3",
+  "unitate": "Unitatea a III-a. Criza și fragmentarea, 2008-2020",
+  "slug": "22-lectia-3-9",
+  "titlu": "Lecția 3.9: Clima ca problemă istorică",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Ce se știa și de când",
+    "id": "1-ce-se-stia-si-de-cand"
+  }, {
+    "nivel": 2,
+    "text": "2. Cine a emis",
+    "id": "2-cine-a-emis"
+  }, {
+    "nivel": 2,
+    "text": "3. De la Kyoto la Paris",
+    "id": "3-de-la-kyoto-la-paris"
+  }, {
+    "nivel": 2,
+    "text": "4. Piețele de emisii",
+    "id": "4-pietele-de-emisii"
+  }, {
+    "nivel": 4,
+    "text": "Reportarea creditelor din perioada Kyoto",
+    "id": "reportarea-creditelor-din-perioada-kyoto"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: sunt piețele de emisii o soluție",
+    "id": "interpretare-sunt-pietele-de-emisii-o-solutie"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: instrumentul funcționează",
+    "id": "citirea-a-instrumentul-functioneaza"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: instrumentul este insuficient",
+    "id": "citirea-b-instrumentul-este-insuficient"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "5. Două curente politice",
+    "id": "5-doua-curente-politice"
+  }, {
+    "nivel": 2,
+    "text": "6. România",
+    "id": "6-romania"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "23-lectia-4-1",
+  "titlu": "Lecția 4.1: Pandemia de COVID-19",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Cronologia",
+    "id": "1-cronologia"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: originea virusului",
+    "id": "interpretare-originea-virusului"
+  }, {
+    "nivel": 4,
+    "text": "Ce este exclus",
+    "id": "ce-este-exclus"
+  }, {
+    "nivel": 4,
+    "text": "Ipoteza transmiterii de la animal",
+    "id": "ipoteza-transmiterii-de-la-animal"
+  }, {
+    "nivel": 4,
+    "text": "Ipoteza incidentului de laborator",
+    "id": "ipoteza-incidentului-de-laborator"
+  }, {
+    "nivel": 4,
+    "text": "Starea disputei",
+    "id": "starea-disputei"
+  }, {
+    "nivel": 2,
+    "text": "2. Economiile nu erau pregătite",
+    "id": "2-economiile-nu-erau-pregatite"
+  }, {
+    "nivel": 2,
+    "text": "3. Măsurile și eficacitatea lor",
+    "id": "3-masurile-si-eficacitatea-lor"
+  }, {
+    "nivel": 4,
+    "text": "De ce carantina în hoteluri a funcționat prost",
+    "id": "de-ce-carantina-in-hoteluri-a-functionat-prost"
+  }, {
+    "nivel": 2,
+    "text": "4. Vaccinurile",
+    "id": "4-vaccinurile"
+  }, {
+    "nivel": 2,
+    "text": "5. Școala",
+    "id": "5-scoala"
+  }, {
+    "nivel": 2,
+    "text": "6. Singurătatea",
+    "id": "6-singuratatea"
+  }, {
+    "nivel": 4,
+    "text": "Trei observații de metodă",
+    "id": "trei-observatii-de-metoda"
+  }, {
+    "nivel": 2,
+    "text": "7. Ce a rămas după",
+    "id": "7-ce-a-ramas-dupa"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "24-lectia-4-2",
+  "titlu": "Lecția 4.2: Inflația, lanțurile de aprovizionare și energia",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. De ce au crescut prețurile",
+    "id": "1-de-ce-au-crescut-preturile"
+  }, {
+    "nivel": 2,
+    "text": "2. Cât de mult au crescut",
+    "id": "2-cat-de-mult-au-crescut"
+  }, {
+    "nivel": 2,
+    "text": "3. Reacția băncilor centrale",
+    "id": "3-reactia-bancilor-centrale"
+  }, {
+    "nivel": 2,
+    "text": "4. România: inflația care nu se oprește",
+    "id": "4-romania-inflatia-care-nu-se-opreste"
+  }, {
+    "nivel": 4,
+    "text": "Cursul de schimb",
+    "id": "cursul-de-schimb"
+  }, {
+    "nivel": 2,
+    "text": "5. Energia",
+    "id": "5-energia"
+  }, {
+    "nivel": 2,
+    "text": "6. Furtul de energie electrică",
+    "id": "6-furtul-de-energie-electrica"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: cauză sau simptom",
+    "id": "interpretare-cauza-sau-simptom"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: problemă de aplicare a legii",
+    "id": "citirea-a-problema-de-aplicare-a-legii"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: problemă de acces",
+    "id": "citirea-b-problema-de-acces"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "7. Cine plătește inflația",
+    "id": "7-cine-plateste-inflatia"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "25-lectia-4-3",
+  "titlu": "Lecția 4.3: Invazia din 2022 și războiul de la frontiera României",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Etapele conflictului",
+    "id": "1-etapele-conflictului"
+  }, {
+    "nivel": 2,
+    "text": "2. Situația în septembrie 2026",
+    "id": "2-situatia-in-septembrie-2026"
+  }, {
+    "nivel": 2,
+    "text": "3. Incursiunile pe teritoriul rus",
+    "id": "3-incursiunile-pe-teritoriul-rus"
+  }, {
+    "nivel": 2,
+    "text": "4. România: dronele și Marea Neagră",
+    "id": "4-romania-dronele-si-marea-neagra"
+  }, {
+    "nivel": 4,
+    "text": "Iulie 2026",
+    "id": "iulie-2026"
+  }, {
+    "nivel": 2,
+    "text": "5. Războiul informațional",
+    "id": "5-razboiul-informational"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: a pierdut România războiul informațional",
+    "id": "interpretare-a-pierdut-romania-razboiul-informational"
+  }, {
+    "nivel": 4,
+    "text": "Ce susține afirmația",
+    "id": "ce-sustine-afirmatia"
+  }, {
+    "nivel": 4,
+    "text": "Ce susține poziția contrară",
+    "id": "ce-sustine-pozitia-contrara"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate măsura",
+    "id": "ce-se-poate-masura"
+  }, {
+    "nivel": 4,
+    "text": "De ce este dificil de contracarat",
+    "id": "de-ce-este-dificil-de-contracarat"
+  }, {
+    "nivel": 2,
+    "text": "6. Consecințe economice pentru România",
+    "id": "6-consecinte-economice-pentru-romania"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "26-lectia-4-4",
+  "titlu": "Lecția 4.4: Gaza și ordinea internațională",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Ce s-a întâmplat",
+    "id": "1-ce-s-a-intamplat"
+  }, {
+    "nivel": 2,
+    "text": "2. Procedurile juridice",
+    "id": "2-procedurile-juridice"
+  }, {
+    "nivel": 4,
+    "text": "Ce s-a întâmplat cu mandatul",
+    "id": "ce-s-a-intamplat-cu-mandatul"
+  }, {
+    "nivel": 2,
+    "text": "3. Chestiunea apartheidului",
+    "id": "3-chestiunea-apartheidului"
+  }, {
+    "nivel": 4,
+    "text": "CONCEPT: ce înseamnă apartheid în drept",
+    "id": "concept-ce-inseamna-apartheid-in-drept"
+  }, {
+    "nivel": 4,
+    "text": "Definiția",
+    "id": "definitia"
+  }, {
+    "nivel": 4,
+    "text": "Ce susțin organizațiile care folosesc termenul",
+    "id": "ce-sustin-organizatiile-care-folosesc-termenul"
+  }, {
+    "nivel": 4,
+    "text": "Poziția contrară",
+    "id": "pozitia-contrara"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "4. Planurile pentru perioada de după",
+    "id": "4-planurile-pentru-perioada-de-dupa"
+  }, {
+    "nivel": 2,
+    "text": "5. Sistemele automate de alegere a țintelor",
+    "id": "5-sistemele-automate-de-alegere-a-tintelor"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: teren de testare pentru sisteme automate de armament",
+    "id": "interpretare-teren-de-testare-pentru-sisteme-automate-de-arm"
+  }, {
+    "nivel": 4,
+    "text": "Ce susține afirmația",
+    "id": "ce-sustine-afirmatia"
+  }, {
+    "nivel": 4,
+    "text": "Ce susține poziția contrară",
+    "id": "ce-sustine-pozitia-contrara"
+  }, {
+    "nivel": 4,
+    "text": "Ce ar rezolva disputa",
+    "id": "ce-ar-rezolva-disputa"
+  }, {
+    "nivel": 2,
+    "text": "6. Situația în septembrie 2026",
+    "id": "6-situatia-in-septembrie-2026"
+  }, {
+    "nivel": 2,
+    "text": "7. Ce arată acest caz despre ordinea internațională",
+    "id": "7-ce-arata-acest-caz-despre-ordinea-internationala"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "27-lectia-4-5",
+  "titlu": "Lecția 4.5: Reconfigurări. BRICS, moneda internațională și Sahelul",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Sudul global și BRICS nu sunt același lucru",
+    "id": "1-sudul-global-si-brics-nu-sunt-acelasi-lucru"
+  }, {
+    "nivel": 4,
+    "text": "Cronologia",
+    "id": "cronologia"
+  }, {
+    "nivel": 2,
+    "text": "2. Instituțiile proprii",
+    "id": "2-institutiile-proprii"
+  }, {
+    "nivel": 2,
+    "text": "3. Cum a devenit dolarul monedă internațională",
+    "id": "3-cum-a-devenit-dolarul-moneda-internationala"
+  }, {
+    "nivel": 4,
+    "text": "CONCEPT: privilegiul exorbitant",
+    "id": "concept-privilegiul-exorbitant"
+  }, {
+    "nivel": 4,
+    "text": "Ce înseamnă",
+    "id": "ce-inseamna"
+  }, {
+    "nivel": 4,
+    "text": "Costul",
+    "id": "costul"
+  }, {
+    "nivel": 4,
+    "text": "De ce contează pentru un elev din România",
+    "id": "de-ce-conteaza-pentru-un-elev-din-romania"
+  }, {
+    "nivel": 2,
+    "text": "4. De ce s-a accelerat discuția după 2022",
+    "id": "4-de-ce-s-a-accelerat-discutia-dupa-2022"
+  }, {
+    "nivel": 2,
+    "text": "5. Cât s-a schimbat efectiv",
+    "id": "5-cat-s-a-schimbat-efectiv"
+  }, {
+    "nivel": 2,
+    "text": "6. Sahelul",
+    "id": "6-sahelul"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: ordine nouă sau renegociere în interiorul celei existente",
+    "id": "interpretare-ordine-noua-sau-renegociere-in-interiorul-celei"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: se formează o ordine alternativă",
+    "id": "citirea-a-se-formeaza-o-ordine-alternativa"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: aceleași raporturi, cu alți parteneri",
+    "id": "citirea-b-aceleasi-raporturi-cu-alti-parteneri"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "28-lectia-4-6",
+  "titlu": "Lecția 4.6: Autoritarismul de astăzi. Mijloace, estetică, limite",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Cântecele de campanie ca sursă istorică",
+    "id": "1-cantecele-de-campanie-ca-sursa-istorica"
+  }, {
+    "nivel": 4,
+    "text": "Cum se citește un cântec de campanie",
+    "id": "cum-se-citeste-un-cantec-de-campanie"
+  }, {
+    "nivel": 2,
+    "text": "2. Statele Unite: instituții și divertisment de stat",
+    "id": "2-statele-unite-institutii-si-divertisment-de-stat"
+  }, {
+    "nivel": 4,
+    "text": "Instrumentele instituționale",
+    "id": "instrumentele-institutionale"
+  }, {
+    "nivel": 4,
+    "text": "Instrumentele de comunicare",
+    "id": "instrumentele-de-comunicare"
+  }, {
+    "nivel": 2,
+    "text": "3. Imaginile generate automat",
+    "id": "3-imaginile-generate-automat"
+  }, {
+    "nivel": 4,
+    "text": "Cine folosește această formă",
+    "id": "cine-foloseste-aceasta-forma"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: are forma comunicării consecințe proprii",
+    "id": "interpretare-are-forma-comunicarii-consecinte-proprii"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: forma este secundară",
+    "id": "citirea-a-forma-este-secundara"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: forma este mecanismul",
+    "id": "citirea-b-forma-este-mecanismul"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate observa",
+    "id": "ce-se-poate-observa"
+  }, {
+    "nivel": 2,
+    "text": "4. Limitele",
+    "id": "4-limitele"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "29-lectia-4-7",
+  "titlu": "Lecția 4.7: România, 2024-2026",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Anularea alegerilor din decembrie 2024",
+    "id": "1-anularea-alegerilor-din-decembrie-2024"
+  }, {
+    "nivel": 2,
+    "text": "2. Alegerile din mai 2025",
+    "id": "2-alegerile-din-mai-2025"
+  }, {
+    "nivel": 2,
+    "text": "3. Guvernarea Bolojan: măsurile",
+    "id": "3-guvernarea-bolojan-masurile"
+  }, {
+    "nivel": 4,
+    "text": "Rezultatele",
+    "id": "rezultatele"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: consolidare fiscală sau austeritate",
+    "id": "interpretare-consolidare-fiscala-sau-austeritate"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: corecție necesară",
+    "id": "citirea-a-corectie-necesara"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: costul așezat pe aceleași categorii",
+    "id": "citirea-b-costul-asezat-pe-aceleasi-categorii"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "4. Criza politică din 2026",
+    "id": "4-criza-politica-din-2026"
+  }, {
+    "nivel": 2,
+    "text": "5. Justiția",
+    "id": "5-justitia"
+  }, {
+    "nivel": 2,
+    "text": "6. Cazul Pahonțu",
+    "id": "6-cazul-pahontu"
+  }, {
+    "nivel": 2,
+    "text": "7. Manipularea online în timpul crizei",
+    "id": "7-manipularea-online-in-timpul-crizei"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "30-lectia-4-8",
+  "titlu": "Lecția 4.8: Inteligența artificială ca industrie",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. De la program la infrastructură",
+    "id": "1-de-la-program-la-infrastructura"
+  }, {
+    "nivel": 2,
+    "text": "2. Ideologiile care însoțesc industria",
+    "id": "2-ideologiile-care-insotesc-industria"
+  }, {
+    "nivel": 2,
+    "text": "3. Alinierea și pluralitatea valorilor",
+    "id": "3-alinierea-si-pluralitatea-valorilor"
+  }, {
+    "nivel": 4,
+    "text": "Un exemplu de divergență",
+    "id": "un-exemplu-de-divergenta"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: poate un singur model să servească valori diferite",
+    "id": "interpretare-poate-un-singur-model-sa-serveasca-valori-difer"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: nu, iar concentrarea agravează problema",
+    "id": "citirea-a-nu-iar-concentrarea-agraveaza-problema"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: da, prin separarea nivelurilor",
+    "id": "citirea-b-da-prin-separarea-nivelurilor"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica"
+  }, {
+    "nivel": 2,
+    "text": "4. Cine antrenează modelele",
+    "id": "4-cine-antreneaza-modelele"
+  }, {
+    "nivel": 2,
+    "text": "5. Consumul de resurse",
+    "id": "5-consumul-de-resurse"
+  }, {
+    "nivel": 2,
+    "text": "6. Cazul românesc: Luna, județul Cluj",
+    "id": "6-cazul-romanesc-luna-judetul-cluj"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: aduce un centru de date dezvoltare locală",
+    "id": "interpretare-aduce-un-centru-de-date-dezvoltare-locala"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: da, în anumite condiții",
+    "id": "citirea-a-da-in-anumite-conditii"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: nu, în forma actuală",
+    "id": "citirea-b-nu-in-forma-actuala"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate verifica",
+    "id": "ce-se-poate-verifica-2"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "u4",
+  "unitate": "Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026",
+  "slug": "31-lectia-4-9",
+  "titlu": "Lecția 4.9: Modelele, instituțiile și regulile",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Piața modelelor în 2026",
+    "id": "1-piata-modelelor-in-2026"
+  }, {
+    "nivel": 4,
+    "text": "Ce înseamnă practic „parametri publicați”",
+    "id": "ce-inseamna-practic-parametri-publicati"
+  }, {
+    "nivel": 2,
+    "text": "2. Ce se reproșează modelelor proprietare",
+    "id": "2-ce-se-reproseaza-modelelor-proprietare"
+  }, {
+    "nivel": 4,
+    "text": "Un episod de reglementare prin control al exporturilor",
+    "id": "un-episod-de-reglementare-prin-control-al-exporturilor"
+  }, {
+    "nivel": 2,
+    "text": "3. Cazul nucleului Linux",
+    "id": "3-cazul-nucleului-linux"
+  }, {
+    "nivel": 4,
+    "text": "INTERPRETARE: ce arată cazul nucleului",
+    "id": "interpretare-ce-arata-cazul-nucleului"
+  }, {
+    "nivel": 4,
+    "text": "Citirea A: câștig de securitate",
+    "id": "citirea-a-castig-de-securitate"
+  }, {
+    "nivel": 4,
+    "text": "Citirea B: transfer de efort",
+    "id": "citirea-b-transfer-de-efort"
+  }, {
+    "nivel": 4,
+    "text": "Ce se poate măsura",
+    "id": "ce-se-poate-masura"
+  }, {
+    "nivel": 2,
+    "text": "4. Reglementarea",
+    "id": "4-reglementarea"
+  }, {
+    "nivel": 2,
+    "text": "5. Critica din afara domeniului",
+    "id": "5-critica-din-afara-domeniului"
+  }, {
+    "nivel": 2,
+    "text": "Activități și exerciții",
+    "id": "activitati-si-exercitii"
+  }, {
+    "nivel": 2,
+    "text": "Note",
+    "id": "note"
+  }]
+}, {
+  "uid": "final",
+  "unitate": "Încheiere și anexă",
+  "slug": "32-incheiere",
+  "titlu": "Încheiere",
+  "toc": [{
+    "nivel": 2,
+    "text": "Ce a rămas nelămurit la data redactării",
+    "id": "ce-a-ramas-nelamurit-la-data-redactarii"
+  }, {
+    "nivel": 2,
+    "text": "Ce ar trebui să rămână după ce datele se învechesc",
+    "id": "ce-ar-trebui-sa-ramana-dupa-ce-datele-se-invechesc"
+  }, {
+    "nivel": 2,
+    "text": "O observație asupra perioadei",
+    "id": "o-observatie-asupra-perioadei"
+  }, {
+    "nivel": 2,
+    "text": "Notă a autorului",
+    "id": "nota-a-autorului"
+  }]
+}, {
+  "uid": "final",
+  "unitate": "Încheiere și anexă",
+  "slug": "33-anexa",
+  "titlu": "Anexă: termeni și surse",
+  "toc": [{
+    "nivel": 2,
+    "text": "1. Glosar",
+    "id": "1-glosar"
+  }, {
+    "nivel": 2,
+    "text": "2. Cele două cântece de campanie analizate în lecția 4.6",
+    "id": "2-cele-doua-cantece-de-campanie-analizate-in-lectia-4-6"
+  }, {
+    "nivel": 4,
+    "text": "De ce nu sunt reproduse versurile aici",
+    "id": "de-ce-nu-sunt-reproduse-versurile-aici"
+  }, {
+    "nivel": 4,
+    "text": "Unde pot fi găsite versurile",
+    "id": "unde-pot-fi-gasite-versurile"
+  }, {
+    "nivel": 2,
+    "text": "3. Cum se folosește anexa",
+    "id": "3-cum-se-foloseste-anexa"
+  }]
+}]

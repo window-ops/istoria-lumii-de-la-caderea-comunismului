@@ -1,0 +1,1321 @@
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/NotoSerif.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/NotoSerif-Italic.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Italic.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ------------------------------------------------------------------ */
+/* variabile                                                          */
+/* ------------------------------------------------------------------ */
+
+:root {
+  --hartie: #fbfaf7;
+  --hartie-2: #f2f0ea;
+  --cerneala: #16202b;
+  --cerneala-slab: #5b6672;
+  --linie: #d9d5cb;
+  --rosu: #b3122c;
+  --verde: #0f6b63;
+  --albastru: #20456e;
+  --galben: #8a6d12;
+  --marcaj: #ffe89a;
+
+  --serif: "Noto Serif", Georgia, serif;
+  --sans: "Noto Sans", system-ui, sans-serif;
+  --text-font: var(--serif);
+  --text-corp: 19px;
+  --scara-ui: 1;
+  --text-rand: 1.62;
+  --lat: 50rem;
+  --cuprins-lat: 16rem;
+
+  --pag-txt: 170mm;
+  --pag-marg: 20mm;
+  --pag-sep: 10mm;
+  --pag-gap: calc(var(--pag-marg) * 2 + var(--pag-sep));
+  --pag-foaie: calc(var(--pag-txt) + var(--pag-marg) * 2);
+  --pag-inalt: 297mm;
+  --zoom: 1;
+}
+
+html[data-tema="sepia"] {
+  --hartie: #f3e8d5;
+  --hartie-2: #ece0c9;
+  --cerneala: #3b2e22;
+  --cerneala-slab: #6d5c48;
+  --linie: #d8c7a8;
+  --rosu: #9c2618;
+  --verde: #4a6320;
+  --albastru: #3a4f7a;
+  --galben: #7a5c12;
+  --marcaj: #e8cf84;
+}
+
+html[data-tema="intunecat"] {
+  --hartie: #12161b;
+  --hartie-2: #1b212a;
+  --cerneala: #dbe2ea;
+  --cerneala-slab: #9aa6b4;
+  --linie: #2d3641;
+  --rosu: #ef7a8c;
+  --verde: #5cc2b4;
+  --albastru: #8ab4e8;
+  --galben: #d7b148;
+  --marcaj: #4a4326;
+}
+
+html[data-font="sans"] {
+  --text-font: var(--sans);
+}
+
+/* ------------------------------------------------------------------ */
+/* bază                                                               */
+/* ------------------------------------------------------------------ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(16px * var(--scara-ui));
+  background: var(--hartie-2);
+}
+
+body {
+  margin: 0;
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  font-family: var(--sans);
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--rosu);
+  outline-offset: 2px;
+}
+
+.sari {
+  position: absolute;
+  left: -9999px;
+}
+
+.sari:focus {
+  top: 0.5rem;
+  left: 1rem;
+  z-index: 60;
+  padding: 0.5rem;
+  background: var(--hartie);
+  border: 2px solid var(--rosu);
+}
+
+.doar-citit {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.mic {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--cerneala-slab);
+}
+
+#teme-avertisment {
+  margin-bottom: 1.5rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* bara de sus                                                        */
+/* ------------------------------------------------------------------ */
+
+.bara {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.5rem 0.9rem;
+  background: var(--hartie);
+  border-bottom: 1px solid var(--linie);
+}
+
+.bara a,
+.bara button {
+  padding: 0.35rem 0.55rem;
+  font: 500 0.88rem/1.2 var(--sans);
+  color: var(--cerneala);
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bara a:hover,
+.bara button:hover {
+  background: var(--hartie-2);
+  border-color: var(--linie);
+}
+
+.bara-titlu {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.bara-unitate {
+  overflow: hidden;
+  font-size: 0.68rem;
+  color: var(--cerneala-slab);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.bara-lectie {
+  overflow: hidden;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+}
+
+.bara .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+}
+
+.bara .icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+body:not(.pagina-index) .bara-titlu {
+  align-items: center;
+  text-align: center;
+}
+
+.bara-unelte {
+  display: flex;
+  gap: 0.2rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* structura                                                          */
+/* ------------------------------------------------------------------ */
+
+.corp {
+  display: grid;
+  grid-template-columns: var(--cuprins-lat) minmax(0, 1fr);
+  align-items: start;
+}
+
+.corp[data-cuprins="inchis"],
+.corp:not(:has(.cuprins-lateral)) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.corp[data-cuprins="inchis"] .cuprins-lateral {
+  display: none;
+}
+
+.cuprins-lateral {
+  position: sticky;
+  top: 3.05rem;
+  isolation: isolate;
+  height: calc(100vh - 3.05rem);
+  max-height: calc(100vh - 3.05rem);
+  padding: 1.3rem 0.9rem 2rem 1.2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 0.88rem;
+  background: var(--hartie-2);
+  border-right: 1px solid var(--linie);
+}
+
+.cuprins-lateral h2 {
+  margin: 0 0 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--cerneala-slab);
+}
+
+.cuprins-lateral ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cuprins-lateral a {
+  display: block;
+  padding: 0.18rem 0.3rem;
+  line-height: 1.35;
+  color: var(--cerneala-slab);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  overflow-wrap: break-word;
+}
+
+.cuprins-lateral a:hover {
+  color: var(--cerneala);
+  background: var(--hartie);
+}
+
+.cuprins-lateral .niv-2 a {
+  font-weight: 600;
+  color: var(--cerneala);
+}
+
+.cuprins-lateral .niv-3 a {
+  padding-left: 0.9rem;
+}
+
+.cuprins-lateral .niv-4 a {
+  padding-left: 1.6rem;
+  font-size: 0.95em;
+}
+
+.cuprins-lateral a.activ {
+  color: var(--cerneala);
+  background: var(--hartie);
+  border-left-color: var(--rosu);
+}
+
+.inchide-sertar {
+  display: none;
+}
+
+.lectie-lateral > summary {
+  padding: 0.2rem 0.3rem;
+  font-weight: 600;
+  color: var(--cerneala);
+  cursor: pointer;
+}
+
+.lectie-lateral > summary a {
+  display: inline;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.unitate-lateral {
+  margin: 0.3rem 0 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--cerneala-slab);
+}
+
+.lectie-in-unitate {
+  padding-left: 0.8rem;
+}
+
+.lectie-lateral > summary:hover {
+  color: var(--cerneala);
+  background: var(--hartie);
+}
+
+.lectie-lateral > summary a.activ {
+  background: none;
+  border-left: 0;
+}
+
+.lectie-lateral > summary:has(a.activ) {
+  background: var(--hartie);
+  border-left: 2px solid var(--rosu);
+}
+
+.lectie-lateral > ul .niv-3 a,
+.lectie-lateral > ul .niv-4 a {
+  display: block;
+}
+
+.lectie-lateral > ul {
+  margin: 0 0 0.4rem;
+  padding-left: 0.6rem;
+  border-left: 1px solid var(--linie);
+}
+
+.maner-cuprins {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 6px;
+  cursor: col-resize;
+  touch-action: none;
+  z-index: 2;
+}
+
+.maner-cuprins:hover,
+.maner-cuprins:focus-visible {
+  background: var(--linie);
+}
+
+html[data-rand-frumos="text"] .text h1,
+html[data-rand-frumos="text"] .text h2,
+html[data-rand-frumos="ambele"] .text h1,
+html[data-rand-frumos="ambele"] .text h2 {
+  text-wrap: pretty;
+}
+
+.descarcari {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--linie);
+}
+
+.descarcari a,
+.descarcari button {
+  max-width: 100%;
+  padding: 0.15rem 0;
+  font: 500 0.86rem var(--sans);
+  color: var(--albastru);
+  background: none;
+  border: 0;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  overflow-wrap: break-word;
+}
+
+.zona {
+  min-width: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* textul: lățimea se stabilește o singură dată, pe .strat            */
+/* ------------------------------------------------------------------ */
+
+.text {
+  min-height: calc(100vh - 3.05rem);
+  padding: 1.5rem 1.5rem;
+  font-family: var(--text-font);
+  font-size: var(--text-corp);
+  line-height: var(--text-rand);
+  color: var(--cerneala);
+  background: var(--hartie);
+}
+
+.strat {
+  max-width: var(--lat);
+  margin: 0 auto;
+}
+
+.strat > *:first-child,
+.caseta > *:first-child {
+  margin-top: 0;
+}
+
+.strat > *:last-child,
+.caseta > *:last-child,
+.tabel:last-child {
+  margin-bottom: 0;
+}
+
+.text[data-latime="plin"] .strat {
+  max-width: none;
+}
+
+.text h1 {
+  margin: 0 0 2rem;
+  padding-bottom: 1rem;
+  font-family: var(--sans);
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.2;
+  border-bottom: 3px solid var(--cerneala);
+}
+
+.text h2 {
+  margin: 0.8rem 0 0.8rem;
+  font-family: var(--sans);
+  font-size: 1.12rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.text h3 {
+  margin: 1.9rem 0 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.97rem;
+  font-weight: 600;
+}
+
+.text h4 {
+  margin: 0.8rem 0 0.8rem;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cerneala-slab);
+}
+
+.text p {
+  margin: 0 0 1em;
+}
+
+.text p:has(+ h2),
+.text p:has(+ h3),
+.text p:has(+ h4) {
+  margin-bottom: 0;
+}
+
+.text ul,
+.text ol {
+  margin: 0 0 1.2em;
+  padding-left: 2.4rem;
+}
+
+.text li {
+  margin: 0.3em 0;
+}
+
+.text strong {
+  font-weight: 650;
+}
+
+.text hr {
+  margin: 2.5rem 0;
+  border: 0;
+  border-top: 1px solid var(--linie);
+}
+
+.text h1,
+.text h2,
+.text h3,
+.text h4 {
+  scroll-margin-top: 4rem;
+}
+
+.permalink {
+  margin-left: 0.4rem;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: var(--linie);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.12s;
+}
+
+h2:hover .permalink,
+h3:hover .permalink,
+h4:hover .permalink,
+.permalink:focus {
+  color: var(--rosu);
+  opacity: 1;
+}
+
+/* ------------------------------------------------------------------ */
+/* tabele                                                             */
+/* ------------------------------------------------------------------ */
+
+.tabel {
+  margin: 0 0 1.4em;
+  overflow-x: auto;
+}
+
+.text table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.text th,
+.text td {
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--linie);
+}
+
+.text thead th {
+  font-weight: 650;
+  border-bottom: 2px solid var(--cerneala);
+}
+
+.text tbody tr:last-child td {
+  border-bottom: 1px solid var(--cerneala);
+}
+
+/* ------------------------------------------------------------------ */
+/* casete                                                             */
+/* ------------------------------------------------------------------ */
+
+.caseta {
+  margin: 1.4em 0;
+  padding: 0.2rem 0 0.2rem 1.3rem;
+  font-family: var(--sans);
+  font-size: 0.96rem;
+  line-height: 1.6;
+  border-left: 4px solid var(--cerneala-slab);
+}
+
+.caseta h4 {
+  color: var(--cerneala-slab);
+}
+
+.caseta h4:first-child {
+  margin-top: 0.6rem;
+  font-size: 0.92rem;
+  color: var(--cerneala);
+}
+
+.caseta p {
+  margin: 0 0 0.8em;
+}
+
+.caseta-interpretare {
+  border-left-color: var(--rosu);
+}
+
+.caseta-interpretare > h4:first-child {
+  color: var(--rosu);
+}
+
+.caseta-concept {
+  border-left-color: var(--verde);
+}
+
+.caseta-concept > h4:first-child {
+  color: var(--verde);
+}
+
+.caseta-sursa {
+  border-left-style: dashed;
+  border-left-color: var(--galben);
+}
+
+.caseta-sursa > h4:first-child {
+  color: var(--galben);
+}
+
+/* ------------------------------------------------------------------ */
+/* note de subsol                                                     */
+/* ------------------------------------------------------------------ */
+
+sup.ref a {
+  padding: 0 0.12em;
+  font-weight: 600;
+  color: var(--rosu);
+  text-decoration: none;
+}
+
+.note-tipar {
+  display: none;
+}
+
+.balon {
+  position: absolute;
+  z-index: 50;
+  max-width: 26rem;
+  padding: 0.75rem 0.9rem;
+  font: 400 0.92rem/1.55 var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--cerneala);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.13);
+}
+
+.balon b {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--rosu);
+}
+
+/* ------------------------------------------------------------------ */
+/* spații pentru teme                                                 */
+/* ------------------------------------------------------------------ */
+
+.tema {
+  margin: 1.4em 0;
+}
+
+.tema-text {
+  display: block;
+  width: 100%;
+  padding: 0.45rem 0.6rem;
+  font: 400 0.96rem/1.9 var(--sans);
+  color: var(--cerneala);
+  background: transparent;
+  background-image: repeating-linear-gradient(
+    var(--hartie) 0 calc(1.9em - 1px),
+    var(--linie) calc(1.9em - 1px) 1.9em
+  );
+  background-position: 0 0.45rem;
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  resize: vertical;
+}
+
+.tema-linii {
+  display: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* navigarea între lecții                                             */
+/* ------------------------------------------------------------------ */
+
+.navigare {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0 0;
+  padding-top: 1.2rem;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  border-top: 1px solid var(--linie);
+}
+
+.navigare a {
+  color: var(--albastru);
+  text-decoration: none;
+}
+
+.navigare a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------ */
+/* vizualizare paginată                                               */
+/* ------------------------------------------------------------------ */
+
+.text[data-mod="pagina"],
+.text[data-mod="doua"] {
+  min-height: 0;
+  padding: 1.4rem;
+  overflow: auto;
+  background: var(--hartie-2);
+}
+
+.carte {
+  display: flex;
+  gap: var(--pag-sep);
+  align-items: flex-start;
+  justify-content: center;
+  zoom: var(--zoom);
+}
+
+.foaie {
+  display: none;
+  flex: 0 0 auto;
+  width: var(--pag-foaie);
+  height: var(--pag-inalt);
+  padding: var(--pag-marg);
+  overflow: hidden;
+  background: var(--hartie);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
+}
+
+.foaie.activa {
+  display: block;
+}
+
+.foaie > *:first-child {
+  margin-top: 0;
+}
+
+.foaie > *:last-child {
+  margin-bottom: 0;
+}
+
+.text[data-mod="pagina"] .strat,
+.text[data-mod="doua"] .strat {
+  max-width: none;
+}
+
+.text[data-mod="pagina"] h1,
+.text[data-mod="doua"] h1 {
+  margin-top: 0;
+}
+
+.paginare {
+  display: none;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font: 500 0.88rem var(--sans);
+  background: var(--hartie);
+  border-top: 1px solid var(--linie);
+}
+
+.paginare.activa {
+  display: flex;
+}
+
+.paginare button {
+  padding: 0.3rem 0.9rem;
+  font: 500 0.88rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.paginare button[disabled] {
+  cursor: default;
+  opacity: 0.4;
+}
+
+/* ------------------------------------------------------------------ */
+/* pagina de index                                                    */
+/* ------------------------------------------------------------------ */
+
+.index {
+  max-width: 58rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 2.5rem;
+}
+
+.coperta {
+  border-bottom: 3px solid var(--cerneala);
+}
+
+.coperta-informal {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--rosu);
+}
+
+.coperta h1 {
+  margin: 0.4rem 0 0.6rem;
+  font-size: clamp(1.9rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+.coperta-sub {
+  margin: 0 0 1.2rem;
+  font-size: 0.95rem;
+  color: var(--cerneala-slab);
+}
+
+.coperta-text {
+  margin: 0 0 1.5rem;
+  font-family: var(--text-font);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.coperta-butoane {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.buton {
+  padding: 0.5rem 0.9rem;
+  font: 500 0.85rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--cerneala);
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buton:hover {
+  color: var(--hartie);
+  background: var(--cerneala);
+}
+
+.cuprins {
+  margin-top: 2rem;
+}
+
+.cuprins > h2 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.unitate {
+  border-top: 1px solid var(--linie);
+}
+
+.ultima-unitate {
+  border-bottom: 1px solid var(--linie);
+}
+
+.unitate > summary {
+  padding: 0.7rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.lectii {
+  margin: 0 0 1rem;
+  padding-left: 1.6rem;
+}
+
+.lectii > li {
+  margin: 0.15rem 0;
+}
+
+.lectie > summary {
+  padding: 0.3rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--albastru);
+  cursor: pointer;
+}
+
+.sectiuni {
+  margin: 0.2rem 0 0.8rem;
+  padding-left: 1.2rem;
+  font-size: 0.92rem;
+  list-style: none;
+  border-left: 1px solid var(--linie);
+}
+
+.sectiuni a {
+  display: block;
+  padding: 0.16rem 0;
+  color: var(--cerneala-slab);
+  text-decoration: none;
+}
+
+.sectiuni a:hover {
+  color: var(--cerneala);
+  text-decoration: underline;
+}
+
+.sectiuni .deschide a {
+  font-weight: 600;
+  color: var(--albastru);
+}
+
+.sectiuni .niv-3 {
+  padding-left: 0.9rem;
+}
+
+.sectiuni .niv-4 {
+  padding-left: 1.8rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* semne de lucru și evidența temelor                                 */
+/* ------------------------------------------------------------------ */
+
+.semn-tema {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.3rem;
+  color: var(--galben);
+}
+
+.semn-tema[hidden] {
+  display: none;
+}
+
+.semn-tema svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bara .icon[aria-pressed="true"] {
+  color: var(--verde);
+  border-color: var(--linie);
+}
+
+.filtre {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1.2rem;
+}
+
+.filtre button,
+.semn {
+  padding: 0.3rem 0.7rem;
+  font: 500 0.86rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.filtre button[aria-pressed="true"],
+.semn[aria-pressed="true"] {
+  color: var(--hartie);
+  background: var(--cerneala);
+  border-color: var(--cerneala);
+}
+
+.evidenta-tabel {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+}
+
+.evidenta-tabel th,
+.evidenta-tabel td {
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--linie);
+}
+
+.evidenta-tabel thead th {
+  font-size: 0.8rem;
+  color: var(--cerneala-slab);
+  border-bottom: 2px solid var(--cerneala);
+}
+
+.evidenta-tabel a {
+  font-weight: 600;
+  color: var(--albastru);
+  text-decoration: none;
+}
+
+.stare-scrisa {
+  font-weight: 600;
+  color: var(--galben);
+}
+
+.stare-goala {
+  color: var(--cerneala-slab);
+}
+
+/* legături către alte lecții */
+.trimitere {
+  color: var(--albastru);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+/* „Deschide lecția”, alături de titlul din cuprins */
+.lectie > summary {
+  display: flex;
+  gap: 0.8rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.lectie > summary .titlu-lectie {
+  flex: 1;
+}
+
+.lectie > summary .deschide {
+  flex: 0 0 auto;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--albastru);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ------------------------------------------------------------------ */
+/* panouri                                                            */
+/* ------------------------------------------------------------------ */
+
+.panou {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  width: min(24rem, 100vw);
+  padding: 1.2rem;
+  overflow: auto;
+  font-family: var(--sans);
+  background: var(--hartie);
+  border-left: 1px solid var(--cerneala);
+  transform: translateX(100%);
+  transition: transform 0.18s ease;
+}
+
+.panou.deschis {
+  transform: none;
+}
+
+.panou h2 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+
+.panou label {
+  display: block;
+  margin: 0.6rem 0 0.6rem;
+  font-size: 0.86rem;
+  color: var(--cerneala-slab);
+}
+
+.panou .optiuni {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.panou .optiuni button {
+  padding: 0.35rem 0.7rem;
+  font: 500 0.88rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.panou .optiuni button[aria-pressed="true"] {
+  color: var(--hartie);
+  background: var(--cerneala);
+  border-color: var(--cerneala);
+}
+
+.panou input[type="range"] {
+  width: 100%;
+}
+
+.panou .inchide {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.8rem;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--cerneala-slab);
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.cautare-camp {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  font: 400 0.95rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+}
+
+.rezultate {
+  margin: 1rem 0 0;
+  padding: 0;
+  font-size: 0.9rem;
+  list-style: none;
+}
+
+.rezultate li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--linie);
+}
+
+.rezultate a {
+  font-weight: 600;
+  color: var(--albastru);
+  text-decoration: none;
+}
+
+.rezultate p {
+  margin: 0.25rem 0 0;
+  line-height: 1.45;
+  color: var(--cerneala-slab);
+}
+
+.rezultate mark,
+.text mark {
+  padding: 0 0.1em;
+  color: var(--cerneala);
+  background: var(--marcaj);
+}
+
+/* ------------------------------------------------------------------ */
+/* ecrane mici                                                        */
+/* ------------------------------------------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* tipar                                                              */
+/* ------------------------------------------------------------------ */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 18mm 16mm;
+  }
+
+  .bara,
+  .cuprins-lateral,
+  .panou,
+  .paginare,
+  .navigare,
+  .permalink,
+  .sari {
+    display: none !important;
+  }
+
+  html,
+  body {
+    color: #000;
+    background: #fff;
+  }
+
+  .corp {
+    display: block;
+  }
+
+  .text,
+  .text[data-mod="pagina"],
+  .text[data-mod="doua"] {
+    min-height: 0;
+    padding: 0;
+    overflow: visible;
+    font-size: 10.5pt;
+    line-height: 1.5;
+    background: #fff;
+  }
+
+  .carte {
+    display: block;
+    zoom: 1;
+  }
+
+  .foaie {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0;
+    overflow: visible;
+    box-shadow: none;
+    page-break-after: auto;
+  }
+
+  .text .strat {
+    zoom: 1;
+    width: auto !important;
+    max-width: none;
+    height: auto !important;
+    column-width: auto !important;
+    column-rule: none;
+  }
+
+  .text h1 {
+    border-bottom: 2px solid #000;
+  }
+
+  .text h1,
+  .text h2,
+  .text h3,
+  .text h4 {
+    page-break-after: avoid;
+  }
+
+  .text table,
+  .caseta,
+  .tema {
+    page-break-inside: avoid;
+  }
+
+  .caseta {
+    border-left: 3px solid #000;
+  }
+
+  .note-tipar {
+    display: block;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 9pt;
+    border-top: 1px solid #000;
+    page-break-before: auto;
+  }
+
+  .note-tipar hr {
+    display: none;
+  }
+
+  .tema-text {
+    display: none;
+  }
+
+  .tema-linii {
+    display: block;
+  }
+
+  .tema-linii .rand {
+    display: block;
+    height: 9mm;
+    border-bottom: 1px solid #999;
+  }
+
+  .lectie-completa {
+    page-break-before: always;
+  }
+
+  .lectie-completa:first-child {
+    page-break-before: auto;
+  }
+}
