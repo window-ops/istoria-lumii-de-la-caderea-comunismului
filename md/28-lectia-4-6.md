@@ -15,7 +15,7 @@ Partidul aflat la guvernare în Turcia din 2002 produce, pentru fiecare campanie
 | Cum se justifică puterea | Prin proveniență: vine dintre oameni | Prin absența unei alternative |
 | Încheierea | Numele repetat | Numele repetat, urmat de lozinca oficială a campaniei din 2023, care numește secolul în curs drept secol al Turciei |
 
-Trecerea de la primul tip de text la al doilea corespunde etapelor descrise în lecția 3.5. Cât timp puterea se justifică prin proveniența ei populară, alternanța rămâne posibilă în principiu: alt conducător poate proveni la fel. Din momentul în care justificarea devine inexistența unei alternative, orice succesor apare drept pierdere, iar înlocuirea conducătorului se confundă cu pierderea țării.
+Trecerea de la primul tip de text la al doilea corespunde etapelor descrise în lecția 3.5. Cât timp puterea se justifică prin proveniența ei populară, alternanța rămâne posibilă în principiu. Din momentul în care justificarea devine inexistența unei alternative, orice succesor apare drept pierdere, iar înlocuirea conducătorului se confundă cu pierderea țării.
 
 > #### Cum se citește un cântec de campanie
 >
