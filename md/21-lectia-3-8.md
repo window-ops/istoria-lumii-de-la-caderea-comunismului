@@ -35,7 +35,7 @@ Ușurința instalării explică cea mai mare parte a diferenței. Un cont se fac
 
 #### Un exemplu
 
-Situl i-land.online, găzduit pe Neocities de o autoare care se semnează ca catarinha, este format din desene publicate și legate între ele prin linkuri interne pe imagini. Potrivit numărătorii afișate chiar de sit, în iulie 2026 cuprindea aproximativ 300 de desene, iar în septembrie 2026 aproximativ 500. Este forma de publicare descrisă în tabelul de mai sus, cu deosebirea că infrastructura tehnică este pusă la dispoziție gratuit.
+Situl i-land.online, găzduit pe Neocities de o autoare care se semnează ca catarinha, este format din desene publicate și legate între ele prin linkuri interne pe imagini. Potrivit numărătorii afișate de sit, în iulie 2026 cuprindea aproximativ 300 de desene, iar în septembrie 2026 aproximativ 500. Este forma de publicare descrisă în tabelul de mai sus, cu deosebirea că infrastructura tehnică este pusă la dispoziție gratuit.
 
 ## 4. Calculatorul fix și telefonul
 
