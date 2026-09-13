@@ -56,6 +56,9 @@ window.Stocare = (function () {
   }
 
   function dinAdresa() {
+    /* Prin adresă setările călătoresc numai între fișiere deschise de pe disc,
+       unde memoria este separată pentru fiecare pagină. */
+    if (!peDisc) return null;
     try {
       var p = new URLSearchParams(location.search).get("s");
       if (!p) return null;
@@ -119,7 +122,7 @@ window.Stocare = (function () {
     return e.returnValue;
   });
 
-  /* legăturile interne duc setările mai departe */
+  /* legăturile interne duc setările mai departe, la fișierele de pe disc */
   function legaturi() {
     document.addEventListener("click", function (e) {
       var a = e.target.closest("a[href]");
@@ -134,6 +137,7 @@ window.Stocare = (function () {
       var href = a.getAttribute("href");
       if (!href || href.charAt(0) === "#" || /^[a-z]+:/i.test(href)) return;
       if (href.indexOf(".html") === -1) return;
+      if (!peDisc) return;
       var bucati = href.split("#");
       var baza = bucati[0];
       var ancora = bucati[1] ? "#" + bucati[1] : "";

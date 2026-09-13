@@ -52,8 +52,10 @@
   --text-corp: 19px;
   --scara-ui: 1;
   --text-rand: 1.62;
-  --lat: 50rem;
-  --cuprins-lat: 16rem;
+  --lat: 52rem;
+  --cuprins-lat: 18rem;
+  /* înălțimea barei de sus; setari.js o măsoară și o corectează la pornire */
+  --bara-inalt: 3.05rem;
 
   --pag-txt: 170mm;
   --pag-marg: 20mm;
@@ -269,21 +271,21 @@ body:not(.pagina-index) .bara-titlu {
   align-items: start;
 }
 
-.corp[data-cuprins="inchis"],
+html[data-cuprins="inchis"] .corp,
 .corp:not(:has(.cuprins-lateral)) {
   grid-template-columns: minmax(0, 1fr);
 }
 
-.corp[data-cuprins="inchis"] .cuprins-lateral {
+html[data-cuprins="inchis"] .cuprins-lateral {
   display: none;
 }
 
 .cuprins-lateral {
   position: sticky;
-  top: 3.05rem;
+  top: var(--bara-inalt);
   isolation: isolate;
-  height: calc(100vh - 3.05rem);
-  max-height: calc(100vh - 3.05rem);
+  height: calc(100vh - var(--bara-inalt));
+  max-height: calc(100vh - var(--bara-inalt));
   padding: 1.3rem 0.9rem 2rem 1.2rem;
   overflow-y: auto;
   overflow-x: hidden;
@@ -404,7 +406,16 @@ body:not(.pagina-index) .bara-titlu {
   width: 6px;
   cursor: col-resize;
   touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
   z-index: 2;
+}
+
+/* cât ține tragerea, atingerea nu selectează textul de sub deget */
+html[data-trage-cuprins] body {
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .maner-cuprins:hover,
@@ -458,7 +469,7 @@ html[data-rand-frumos="ambele"] :is(.cuprins-lateral a, .sectiuni a, .lectie > s
 /* ------------------------------------------------------------------ */
 
 .text {
-  min-height: calc(100vh - 3.05rem);
+  min-height: calc(100vh - var(--bara-inalt));
   padding: 1.5rem 1.5rem;
   font-family: var(--text-font);
   font-size: var(--text-corp);
@@ -483,7 +494,7 @@ html[data-rand-frumos="ambele"] :is(.cuprins-lateral a, .sectiuni a, .lectie > s
   margin-bottom: 0;
 }
 
-.text[data-latime="plin"] .strat {
+html[data-latime="plin"] .strat {
   max-width: none;
 }
 
@@ -876,6 +887,25 @@ sup.ref a {
   background: var(--hartie-2);
 }
 
+/* La pagini, interfața se oprește la marginea ferestrei: derularea rămâne a
+   textului, iar bara de pagini stă sub el, fără a împinge corpul în afară. */
+.zona:has(> .text[data-mod="pagina"]),
+.zona:has(> .text[data-mod="doua"]) {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - var(--bara-inalt));
+}
+
+.zona:has(> .text[data-mod="pagina"]) > .text,
+.zona:has(> .text[data-mod="doua"]) > .text {
+  flex: 1 1 auto;
+}
+
+.zona:has(> .text[data-mod="pagina"]) > .paginare,
+.zona:has(> .text[data-mod="doua"]) > .paginare {
+  flex: none;
+}
+
 .carte {
   display: flex;
   gap: var(--pag-sep);
@@ -948,6 +978,41 @@ sup.ref a {
 
 .text[data-mod="pagina"] h1,
 .text[data-mod="doua"] h1 {
+  margin-top: 0;
+}
+
+#foi-tipar .grup-foi {
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--linie);
+}
+
+#foi-tipar .grup-foi > label:first-child {
+  margin-top: 0;
+}
+
+/* la pagini, nota care trimite la setări se desparte la fel de restul panoului */
+#nota-foi:not([hidden]) {
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--linie);
+}
+
+/* linia de despărțire ține locul spațiului de deasupra primei etichete */
+#foi-tipar:has(.grup-foi) + label,
+#nota-foi:not([hidden]) + #foi-tipar:not(:has(.grup-foi)) + label {
+  margin-top: 0;
+}
+
+/* în setări, prima etichetă a grupei urmează direct titlul secțiunii */
+details[data-sectiune="pagini"] > .grup-foi > label:first-child {
+  margin-top: 0;
+}
+
+/* sub o secțiune „Mărimi” desfăcută, nota de la final urmează direct cursorul;
+   cât timp secțiunea foilor este la vedere, spațiul obișnuit rămâne */
+details[data-sectiune="marimi"][open] + details[data-sectiune="pagini"][hidden] + p.mic,
+details[data-sectiune="marimi"][open] + p.mic {
   margin-top: 0;
 }
 
@@ -1381,7 +1446,7 @@ sup.ref a {
 
 .panou .inchide {
   position: absolute;
-  top: 0.7rem;
+  top: 1.01rem;
   right: 0.8rem;
   font-size: 1.3rem;
   line-height: 1;

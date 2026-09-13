@@ -131,21 +131,21 @@ window.Manual = (function () {
     doc.setAttribute("data-font", S.ia("font", "serif"));
     doc.style.setProperty("--text-corp", S.ia("corp", "19") + "px");
     doc.style.setProperty("--scara-ui", S.ia("ui", "1"));
-    latimeCuprins(S.ia("cuprinsLat", "20"));
+    latimeCuprins(S.ia("cuprinsLat", "18"));
     doc.style.setProperty("--text-rand", S.ia("rand", "1.62"));
 
     if (text) {
-      aplicaLatime(S.ia("lat", text.getAttribute("data-lat-implicit") || "50"));
+      aplicaLatime(S.ia("lat", "52"));
       M.aplicaMod(faraPagini ? "continuu" : S.ia("mod", "continuu"), faraPagini);
     }
-    if (corp) {
-      corp.setAttribute(
-        "data-cuprins",
-        document.querySelector(".cuprins-lateral")
-          ? S.ia("cuprins", M.ingust() ? "inchis" : "deschis")
-          : "inchis"
-      );
-    }
+    /* Starea cuprinsului stă pe elementul html, ca pornire.js să o poată așeza
+       înainte de primul desen, când .corp încă nu există. */
+    doc.setAttribute(
+      "data-cuprins",
+      document.querySelector(".cuprins-lateral")
+        ? S.ia("cuprins", M.ingust() ? "inchis" : "deschis")
+        : "inchis"
+    );
     M.dupaSetari.forEach(function (fn) { fn(); });
   }
 
@@ -153,24 +153,43 @@ window.Manual = (function () {
     var n = parseFloat(val);
     if (!text) return;
     if (n >= 100) {
-      text.setAttribute("data-latime", "plin");
+      doc.setAttribute("data-latime", "plin");
     } else {
-      text.setAttribute("data-latime", "normal");
+      doc.setAttribute("data-latime", "normal");
       doc.style.setProperty("--lat", n + "rem");
     }
   }
 
   function latimeCuprins(val) {
     var n = parseFloat(String(val).replace(",", "."));
-    if (isNaN(n)) n = 20;
+    if (isNaN(n)) n = 18;
     n = Math.min(25, Math.max(15, n));
     doc.style.setProperty("--cuprins-lat", n + "rem");
     return n;
   }
 
+  /* Tragerea cere evenimente de indicator și touch-action; fără ele motorul preia
+     gestul, iar mânerul ar sta în pagină fără să facă nimic. */
+  function trageSePoate() {
+    return !!window.PointerEvent && !!(window.CSS && CSS.supports &&
+      CSS.supports("touch-action", "none"));
+  }
+
+  function litera() {
+    return parseFloat(getComputedStyle(doc).fontSize) || 16;
+  }
+
+  /* Maximul ține cont și de plafonul din foaia de stil, 92vw pe telefon: fără el ar
+     rămâne o porțiune în care degetul merge și bara stă. */
+  function maximRem() {
+    var lat = doc.clientWidth || 0;
+    return lat ? Math.min(25, (lat * 0.92) / litera()) : 25;
+  }
+
   function manerCuprins() {
     var lateral = document.querySelector(".cuprins-lateral");
     if (!lateral || lateral.querySelector(".maner-cuprins")) return;
+    if (!trageSePoate()) { latimeCuprins(20); return; }
     var maner = document.createElement("div");
     maner.className = "maner-cuprins";
     maner.setAttribute("role", "separator");
@@ -179,28 +198,70 @@ window.Manual = (function () {
     maner.tabIndex = 0;
     lateral.appendChild(maner);
 
-    var trage = false;
+    /* Tragerea merge numai pe diferențe de coordonate, nu pe poziția absolută a
+       marginii. clientX și getBoundingClientRect nu se raportează la același
+       cadru: în Chromium amândouă sunt față de fereastra de așezare, în celelalte
+       motoare față de fereastra vizibilă, iar scăderea uneia din cealaltă mută
+       marginea la prima atingere. Diferența a două valori clientX este aceeași
+       peste tot, iar lățimea unui element nu depinde de cadru. */
+    var deget = null;   /* pointerId-ul care trage */
+    var latRem = 20;    /* lățimea de acum, în rem, singura unitate folosită */
+    var xVechi = null;  /* ultima coordonată, luată de la prima mișcare */
+    var aMutat = false;
 
-    function seteaza(px) {
-      var rem = px / parseFloat(getComputedStyle(doc).fontSize);
-      S.pune("cuprinsLat", latimeCuprins(rem));
+    /* Motoarele care rup gestul înainte ca bara să se miște nu pot fi făcute să
+       tragă din pagină; mânerul se retrage și rămâne lățimea implicită. */
+    function renunta() {
+      if (maner.parentNode) maner.parentNode.removeChild(maner);
+      latimeCuprins(20);
+    }
+
+    function incheie(e) {
+      if (deget === null) return;
+      var rupt = !!e && e.type === "pointercancel";
+      deget = null;
+      doc.removeAttribute("data-trage-cuprins");
+      if (rupt && !aMutat) { renunta(); return; }
+      M.reconstruieste();
     }
 
     maner.addEventListener("pointerdown", function (e) {
-      trage = true;
-      maner.setPointerCapture(e.pointerId);
+      if (deget !== null) return;
+      deget = e.pointerId;
+      xVechi = null;
+      aMutat = false;
+      latRem = parseFloat(S.ia("cuprinsLat", "18")) || 18;
+      doc.setAttribute("data-trage-cuprins", "");
+      /* La atingere, punctul este oricum legat de ținta apăsării, iar cererea de
+         captură pe același element face unele motoare să anunțe pe loc pierderea ei.
+         Captura se cere numai pentru maus și creion, unde chiar este nevoie de ea. */
+      if (e.pointerType !== "touch") {
+        try { maner.setPointerCapture(e.pointerId); } catch (err) {}
+      }
       e.preventDefault();
     });
-    maner.addEventListener("pointermove", function (e) {
-      if (!trage) return;
-      seteaza(e.clientX - lateral.getBoundingClientRect().left);
-    });
-    maner.addEventListener("pointerup", function () {
-      trage = false;
-      M.reconstruieste();
-    });
+    /* Mișcarea și ridicarea se ascultă pe fereastră, nu pe mâner: așa tragerea merge
+       și dacă degetul iese de pe mâner, și dacă motorul nu ține captura pe element. */
+    window.addEventListener("pointermove", function (e) {
+      if (deget === null || e.pointerId !== deget) return;
+      /* Chromium potrivește coordonatele lui pointerdown pe ținta atinsă, iar pe cele
+         ale lui pointermove nu; luată ca reper, coordonata apăsării intră în prima
+         diferență și strânge bara chiar la atingere. Reperul se ia de la prima mișcare. */
+      if (xVechi === null) { xVechi = e.clientX; return; }
+      latRem += (e.clientX - xVechi) / litera();
+      xVechi = e.clientX;
+      /* se ține minte lățimea chiar aplicată, ca marginea să pornească odată cu
+         degetul la întoarcere din capăt */
+      latRem = latimeCuprins(Math.min(latRem, maximRem()));
+      S.pune("cuprinsLat", latRem);
+      aMutat = true;
+      if (e.cancelable) e.preventDefault();
+    }, { passive: false });
+    window.addEventListener("pointerup", incheie);
+    window.addEventListener("pointercancel", incheie);
+
     maner.addEventListener("keydown", function (e) {
-      var acum = parseFloat(S.ia("cuprinsLat", "20"));
+      var acum = parseFloat(S.ia("cuprinsLat", "18"));
       if (e.key === "ArrowLeft") S.pune("cuprinsLat", latimeCuprins(acum - 1));
       if (e.key === "ArrowRight") S.pune("cuprinsLat", latimeCuprins(acum + 1));
       if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
@@ -271,9 +332,9 @@ window.Manual = (function () {
   function cuprinsLateral() {
     if (!corp) return;
     function comuta(forteaza) {
-      var acum = corp.getAttribute("data-cuprins");
+      var acum = doc.getAttribute("data-cuprins");
       var nou = forteaza || (acum === "deschis" ? "inchis" : "deschis");
-      corp.setAttribute("data-cuprins", nou);
+      doc.setAttribute("data-cuprins", nou);
       S.pune("cuprins", nou);
       M.reconstruieste();
     }
@@ -342,7 +403,46 @@ window.Manual = (function () {
     return p;
   }
 
+  /* Grupa foilor stă într-un singur loc: în setări cât timp textul este așezat
+     pe pagini, în panoul de tipărire cât timp lectura este continuă. Se mută
+     nodul însuși, deci butoanele rămân legate o singură dată. */
+  function asazaFoile() {
+    var grup = document.querySelector(".grup-foi");
+    if (!grup && text && !faraPagini) {
+      panouSetari();
+      grup = document.querySelector(".grup-foi");
+    }
+    if (!grup) return;
+
+    var sectiunea = document.querySelector('details[data-sectiune="pagini"]');
+    var laPagini = !!text && (text.getAttribute("data-mod") || "continuu") !== "continuu";
+    var gazda = null;
+
+    if (laPagini) {
+      if (sectiunea && grup.parentNode !== sectiunea) sectiunea.appendChild(grup);
+    } else {
+      /* la trecerea la lectură continuă, panoul de tipărire poate să nu fi fost
+         deschis încă; se construiește acum, ca grupa să aibă unde se muta */
+      gazda = document.getElementById("foi-tipar");
+      if (!gazda && M.panouTipar) {
+        M.panouTipar();
+        gazda = document.getElementById("foi-tipar");
+      }
+      if (gazda) {
+        if (grup.parentNode !== gazda) gazda.appendChild(grup);
+      } else if (sectiunea && grup.parentNode !== sectiunea) {
+        sectiunea.appendChild(grup);
+      }
+    }
+
+    var laTipar = !!gazda && gazda.contains(grup);
+    if (sectiunea) sectiunea.hidden = laTipar;
+    var nota = document.getElementById("nota-foi");
+    if (nota) nota.hidden = laTipar;
+  }
+
   function deschide(p) {
+    asazaFoile();
     document.querySelectorAll(".panou").forEach(function (x) {
       if (x !== p) x.classList.remove("deschis");
     });
@@ -421,7 +521,8 @@ window.Manual = (function () {
       '<input id="s-rand" type="range" min="1.3" max="2.1" step="0.02">', true);
     if (cuPagini) {
       html += sectiune("pagini", "Foile, la pagini și la tipar",
-        grupe.foaie + grupe.margini + grupe["taie-tabele"] + grupe["taie-casete"] + grupe["tema-intinsa"], false);
+        '<div class="grup-foi">' + grupe.foaie + grupe.margini + grupe["taie-tabele"] +
+        grupe["taie-casete"] + grupe["tema-intinsa"] + "</div>", false);
     }
     html +=
       '<p class="mic"><a href="' + cale("gestionare.html") + '">Aici</a>' +
@@ -434,10 +535,15 @@ window.Manual = (function () {
     tineMinteSectiunile(p);
 
     legaGrupele(p, function (cheie, val) {
-      if (cheie === "mod") M.aplicaMod(val);
-      else {
+      if (cheie === "mod") {
+        M.aplicaMod(val);
+        asazaFoile();
+      } else {
         aplica();
         aplicaImpartirea();
+        /* setările foilor se văd pe loc și la lectură continuă, unde grupa lor
+           stă în panoul de tipărire */
+        if (M.aplicaTipar) M.aplicaTipar();
         M.reconstruieste();
       }
     });
@@ -453,7 +559,7 @@ window.Manual = (function () {
         M.reconstruieste();
       });
     }
-    cursor("#s-lat", "lat", text ? (text.getAttribute("data-lat-implicit") || "50") : "50", "--lat", "rem");
+    cursor("#s-lat", "lat", "52", "--lat", "rem");
     cursor("#s-ui", "ui", "1", "--scara-ui", "");
     cursor("#s-corp", "corp", "19", "--text-corp", "px");
     cursor("#s-rand", "rand", "1.62", "--text-rand", "");
@@ -478,6 +584,7 @@ window.Manual = (function () {
   M.grupaButoane = grupaButoane;
   M.legaGrupele = legaGrupele;
   M.panouSetari = panouSetari;
+  M.asazaFoile = asazaFoile;
 
   /* textul adăugat pe parcurs (răspunsuri, planșe, glume) primește aceeași împărțire a rândurilor */
   function urmaresteTextulNou() {
@@ -493,8 +600,23 @@ window.Manual = (function () {
     }).observe(text, { childList: true, subtree: true });
   }
 
+  /* Bara de sus își schimbă înălțimea odată cu mărimea literei din interfață și
+     cu lățimea ferestrei. Înălțimea ei măsurată ține locul unei valori fixe în
+     calculele de înălțime ale cuprinsului și ale zonei de text. */
+  function urmaresteBara() {
+    var bara = document.querySelector(".bara");
+    if (!bara) return;
+    function masoara() {
+      doc.style.setProperty("--bara-inalt", bara.getBoundingClientRect().height + "px");
+    }
+    masoara();
+    if ("ResizeObserver" in window) new ResizeObserver(masoara).observe(bara);
+    else window.addEventListener("resize", masoara);
+  }
+
   M.porneste = function () {
     M.inainte.forEach(function (fn) { fn(); });
+    urmaresteBara();
     aplica();
     cuprinsLateral();
     manerCuprins();

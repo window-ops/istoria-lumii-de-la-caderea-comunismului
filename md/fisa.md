@@ -6,9 +6,9 @@ Pagina de față ține locul paginilor de la începutul manualelor școlare: avi
 
 ## 1. Avizare
 
-Manualul este avizat de miculpionier. Cum miculpionier este chiar autorul, manualul este autoavizat, procedură mai rapidă decât cea obișnuită și cu aceleași garanții. (La apăsarea pe „autoavizat” apare o foaie pe care o mână cu stilou scrie cererea, o semnează, pune ștampila „Aprobat” și scrie „Verificat de: aceeași mână”.)
+Manualul este avizat de miculpionier. Cum miculpionier este chiar autorul, manualul este autoavizat[^1], procedură mai rapidă decât cea obișnuită și cu aceleași garanții.
 
-Avizul are semnătură digitală adevărată, ed25519: cheia publică, textul semnat și semnătura sunt în depozit, în folderul „cheie”, cu instrucțiunile de verificare. Semnătura dovedește că avizul a fost semnat de cine are cheia, adică de autor, și nimic mai mult. Blocul lung din aviz, în base64, nu este o cheie; cine îl decodează află ce apără cheia. (La apăsarea pe „semnătură” apare o schemă în trei rânduri, ca la o instruire de securitate: avizul de pe copertă ca lanț de oameni, semnătura digitală ca lanț de calcule, și ce dovedește fiecare; calitatea nu o dovedește niciuna.) Ștampila este pur digitală: nu lasă urme pe hârtie și nu se poate pierde în sertar.
+Avizul are semnătură[^2] digitală adevărată, ed25519: cheia publică, textul semnat și semnătura sunt în depozit, în folderul „cheie”, cu instrucțiunile de verificare. Semnătura dovedește că avizul a fost semnat de cine are cheia, adică de autor, și nimic mai mult. Blocul lung din aviz, în base64, nu este o cheie; cine îl decodează află ce apără cheia. Ștampila este pur digitală: nu lasă urme pe hârtie și nu se poate pierde în sertar.
 
 Pe copertă nu scrie „avizat MEC 2006”, sau orice alt an, cum scrie pe manualele obișnuite. Nici nu ar fi adevărat: ministerul nu avizează, de regulă, cărți scrise de elevi, iar în 2006 autorul nu se născuse. Cărțile care poartă rândul acela pe copertă au avut, cel puțin, avantajul de a fi fost citite o dată de o comisie.
 
@@ -18,11 +18,9 @@ Numărul avizului este 5. Este al cincilea manual de la miculpionier și al cinc
 
 Manualul nu are „Deșteaptă-te, române” pe prima pagină. Nu pentru că imnul ar lipsi din memoria cititorului, ci pentru că un manual de istorie recentă nu deschide cu un text din 1848 pe care nu-l discută.
 
-Rândul cu Traian ar fi cerut, în plus, o notă de subsol lungă. Pentru daci, Traian nu a fost un erou, ci un împărat care le-a cucerit țara, le-a luat aurul și le-a mutat capitala. (La apăsarea pe „daci” apare planul Tunelului Dacic București-Nădlac, în linie dreaptă, cu planșe: traseul pe harta țării, rețeaua de autostrăzi de astăzi, secțiunea cu benzile, profilul, execuția, marca și fișa. La apăsarea pe virgula de după „daci” apar observațiile constructorului, planșă cu planșă: virgula din calcul, linia dreaptă care coboară 6,2 km sub Pământ, aerul, căldura, roca scoasă, termenul, benzile, comparația cu Lærdal și Gotthard și opinia despre marcă.)
+Rândul cu Traian ar fi cerut, în plus, o notă de subsol lungă. Pentru daci[^3],[^4] Traian nu a fost un erou, ci un împărat care le-a cucerit țara, le-a luat aurul și le-a mutat capitala.
 
-Manualele nu spun asta pe prima pagină, pentru că prima pagină nu are note de subsol. Manualul de față are note de subsol și nu are imn, ceea ce rezolvă problema din ambele părți.
-
-Imnul ascuns, care apare în pagină la apăsarea pe „nu are imn”:
+Manualele nu spun asta pe prima pagină, pentru că prima pagină nu are note de subsol. Manualul de față are note de subsol și nu are imn[^5], ceea ce rezolvă problema din ambele părți.
 
 #### Steaua sus răsare, iarăși vin comuniștii la putere
 
@@ -68,46 +66,46 @@ Elevii nu răspund de starea manualului. Autorul răspunde de starea cifrelor, p
   - Semne, cu tot cu exerciții: aproximativ 450.000.
   - Adjective de reverență: 0, cu marjă de eroare; erorile se semnalează.
 - Exemplarul:
-  - Tiraj: nelimitat. (La apăsarea pe „nelimitat”, la întâmplare: o reclamă la net nelimitat, o tiparniță care tipărește bani până când leul nu mai valorează nimic, sau o criză în zona euro cu program de ajustare aplicat paginii.)
-  - Hârtie: a cititorului. (La apăsarea pe „Hârtie” apare starea imprimantei: eroare 0x6100004a, hârtia nu este recunoscută, instalați HP Smart (590 MB), cartușul nu este original, limita de 30.000 de pagini a fost atinsă, cumpărați altă imprimantă.)
-  - Greutate: 0 grame, aproximativ 4 megaocteți. (La apăsarea pe „0 grame” apare o problemă de fizică de clasa a IX-a: un manual de masă zero cade de pe un raft de 1,8 m, un elev pleacă de la 6 m cu 1,5 m/s să îl prindă; se cer greutatea, timpul de cădere, legea de mișcare a elevului, comparația cu un manual tipărit de 620 g, urcarea lui cu accelerația 0,5 m/s² și explicația de ce manualul digital nu cade, ci se descarcă. Barem: 10 puncte, 1 din oficiu.)
+  - Tiraj: nelimitat[^6].
+  - Hârtie[^7]: a cititorului.
+  - Greutate: 0 grame[^8], aproximativ 4 megaocteți.
   - Format: A4, A5 sau Letter, la alegere, din setări.
   - Literă: Noto Serif și Noto Sans, sub licență liberă.
 - Ce cere de la cititor:
-  - Internet: nu este necesar. (La apăsarea pe „nu este necesar” apare Kiwix, cu Wikipedia în română fără internet și o căutare care merge; unele articole sunt ascunse, ca în Turcia, sub articolul 299, cu ocoliri recunoscute aproximativ și cu o procedură de afișare din altă jurisdicție.)
-  - Cont: nu există. (La apăsarea pe „nu există” apare o adresă de e-mail de zece minute, cu ceasul ei și cu mesajul de confirmare.)
-  - Cookie: nu există. Ce scrie elevul în spațiile de temă rămâne în navigatorul lui. (La apăsarea pe „nu există” se arată, citite pe loc, cheile ținute de navigator în localStorage și în sessionStorage.)
+  - Internet: nu este necesar[^9].
+  - Cont: nu există[^10].
+  - Cookie: nu există[^11]. Ce scrie elevul în spațiile de temă rămâne în navigatorul lui.
 - Prețul:
-  - Preț: 0 lei.
-  - Preț cu TVA: 0 lei.
-  - Preț pentru instituții: 0 lei, la care se adaugă timpul de citire.
+  - Preț: 0 lei[^12].
+  - Preț cu TVA: 0 lei[^12].
+  - Preț pentru instituții: 0 lei[^12], la care se adaugă timpul de citire.
 
 ## 5. Colectivul de redacție
 
 - Autor: miculpionier.
 - Redactor: miculpionier.
 - Tehnoredactor: miculpionier.
-- Corector: rândul „Ce ar trebui”, completat de cititori. (La apăsarea pe „Ce ar trebui” apare rândul completat pentru țară: autostrada spre Moldova, spitalele regionale, școlile fără toaleta în curte, canalizarea, bazele de date, pensiile speciale, 300 de parlamentari, irigațiile, administrația cu concurs, un răspuns.)
-- Referenți științifici: cititorii, în ordinea sosirii mesajelor. (La apăsarea pe „sosirii mesajelor” apare o conversație în care cititorul scrie de patru ori și autorul nu mai răspunde; văzut ultima dată: 3 martie.)
+- Corector: rândul „Ce ar trebui”[^13], completat de cititori.
+- Referenți științifici: cititorii, în ordinea sosirii mesajelor[^14].
 - Modele de limbaj: au fost folosite; unde anume, spune ghidul pentru profesori, capitolul 3.
 - Coperta: nu există.
 - Ilustrații: nu există.
-- Hărți: nu există; cititorul are una în telefon, mai bună decât orice s-ar fi putut tipări. (La apăsarea pe „nu există” se încearcă hărțile pe rând, fără internet: Google Maps, Waze, Apple Maps și openstreetmap.org nu merg, Organic Maps din F-Droid merge, cu aceleași date OpenStreetMap. La apăsarea pe „telefon” se face o conexiune dial-up, cu toată procedura, care reușește sau nu.)
+- Hărți: nu există[^15]; cititorul are una în telefon[^16], mai bună decât orice s-ar fi putut tipări.
 
 ## 6. Conformitatea
 
-- Conform cu programa proprie: 100%. (La apăsarea pe „proprie” un terminal își face un certificat semnat de sine, iar navigatorul avertizează: emitentul și subiectul sunt aceeași persoană, ca la avizul de pe această pagină.)
+- Conform cu programa proprie[^17]: 100%.
 - Conform cu programa națională: 0%, cu mențiunea că nici nu și-a propus.
 - Conform cu Constituția: da, în special cu articolul 30, care se poate citi.
 - Nu conține:
-  - imn, rugăciune, reclamă, cod QR; (la apăsarea pe „rugăciune” apare scena săriturii din Matrix: Morpheus ajunge dincolo, Neo cade; toată lumea cade prima dată)
-  - test grilă, chenar cu „Rețineți!”, chenar cu „Știați că?” (cele două chenare de mai jos apar la apăsarea pe „Rețineți!” și pe „Știați că?”);
+  - imn, rugăciune[^18], reclamă, cod QR;
+  - test grilă, chenar cu „Rețineți!”[^19], chenar cu „Știați că?”[^20];
 
 > #### Rețineți!
 >
-> Enumerați, în ordine, cele patru unități ale manualului cu anii lor, cele cinci etape ale verificării unei afirmații din lecția 0, cele trei metode de estimare a deceselor din lecția 2.2 și cele două citiri ale fiecăreia dintre cele 31 de casete INTERPRETARE, în total 62 de citiri. Calculați apoi, cu derivata unei funcții de gradul al doilea, din programa clasei a XI-a, în ce an ritmul de creștere a costului zborurilor din chenarul de mai jos a fost maxim. Identificați figura de stil din versul „Vorba, doar, schimbată”. Precizați configurația electronică a elementului cu numărul atomic egal cu numărul lecțiilor. Explicați, în 30 de rânduri, de ce nu vă mai amintiți niciuna dintre acestea la un an după bacalaureat.
+> Enumerați, în ordine, cele patru unități ale manualului cu anii lor, cele cinci etape ale verificării unei afirmații din lecția 0, cele trei metode de estimare a deceselor din lecția 2.2 și cele două citiri ale fiecăreia dintre cele 31 de casete INTERPRETARE, în total 62 de citiri. Calculați apoi, cu derivata unei funcții de gradul al doilea, din programa clasei a XI-a, în ce an ritmul de creștere a costului zborurilor din chenarul de mai jos a fost maxim. Identificați figura de stil din versul „Vorba, doar, schimbată”. Precizați configurația electronică a elementului cu numărul atomic egal cu numărul lecțiilor. Explicați, în 30 de rânduri, de ce nu vă mai amintiți niciuna dintre acestea la un an după bacalaureat.[^21][^22]
 >
-> Chenarul are un selector de trunchi (comun, clasele IX-X, pentru toate profilurile; diferențiat, clasele XI-XII, cu alegerea profilului real sau uman), care alege părțile întrebării, și un barem ascuns: 10 puncte, 1 din oficiu; unitățile, cei cinci pași și cele trei metode (3 p); derivata, cu observația că metoda e greșită și că din diferențe anul este 2023 (2 p); elipsă cu inversiune (1 p); seleniu, [Ar] 3d¹⁰ 4s² 4p⁴ (1 p); cele 30 de rânduri (2 p). Sub barem apare și un tabel SINELG, singurul din manual, cu coloanele „Cum a fost la clasă” și „Am uitat după bac”, aceasta din urmă bifată pe fiecare rând.
+> Chenarul are un selector de trunchi (comun, clasele IX-X, pentru toate profilurile; diferențiat, clasele XI-XII, cu alegerea profilului real sau uman), care alege părțile întrebării.
 
 > #### Știați că?
 >
@@ -134,11 +132,11 @@ Elevii nu răspund de starea manualului. Autorul răspunde de starea cifrelor, p
 >
 > Răspunsul Administrației Prezidențiale la o solicitare de informații de interes public, citat de HotNews în 2025, în articolul „Cât au costat toate zborurile lui Iohannis”. Chenarul de mai sus este singurul „Știați că?” din manual; cifrele sunt ale instituției, iar contractele rămân clasificate.
 
-  - portret de domnitor, hartă cu granițele altei epoci prezentată ca a noastră;
-  - adjectiv de reverență, adresă web. (La apăsarea pe „reverență” apare tabelul cu formulele oficiale de la Pinochet, Ceaușescu, Stalin, Mao, Kim, Franco, Mussolini, Trujillo, Mobutu, Idi Amin, Bokassa, Niyazov, Gaddafi, Assad și Hoxha.)
+  - portret de domnitor[^23], hartă cu granițele altei epoci prezentată ca a noastră;
+  - adjectiv de reverență[^23], adresă web.
 - Conține: date, întrebări, două citiri pentru fiecare dispută, cine a decis și cine a plătit.
 
-De ce nu poate primi aviz de la minister, și de ce în Finlanda ar putea (la apăsarea pe „aviz de la minister” se deschide un test cu procedura adevărată, șase pași, cu răspunsurile amestecate; cine trece testul primește avizul, iar ștampila se schimbă în cea a ministerului):
+De ce nu poate primi aviz de la minister[^24], și de ce în Finlanda ar putea:
 
 | Condiția | În România | În Finlanda |
 |---|---|---|
@@ -155,3 +153,29 @@ De ce nu poate primi aviz de la minister, și de ce în Finlanda ar putea (la ap
 Prezenta fișă a fost întocmită de autor, verificată de autor și aprobată de autor, în aceeași zi, fără să părăsească încăperea.
 
 Erorile din prezenta fișă se semnalează în forma obișnuită, la rândul „Ce ar trebui”, cu mențiunea „fișă”, ca să nu fie confundate cu erorile din manual, care sunt mai grave.
+
+[^1]: La apăsarea pe „autoavizat” apare o foaie pe care o mână cu stilou scrie cererea, o semnează, pune ștampila „Aprobat” și scrie „Verificat de: aceeași mână”.
+[^2]: La apăsarea pe „semnătură” apare o schemă în trei rânduri, ca la o instruire de securitate: avizul de pe copertă ca lanț de oameni, semnătura digitală ca lanț de calcule, și ce dovedește fiecare; calitatea nu o dovedește niciuna.
+[^3]: La apăsarea pe „daci” apare planul Tunelului Dacic București-Nădlac, în linie dreaptă, cu planșe: traseul pe harta țării, rețeaua de autostrăzi de astăzi, secțiunea cu benzile, profilul, execuția, marca și fișa.
+[^4]: La apăsarea pe virgula de după „daci” apar observațiile constructorului, planșă cu planșă: virgula din calcul, linia dreaptă care coboară 6,2 km sub Pământ, aerul, căldura, roca scoasă, termenul, benzile, comparația cu Lærdal și Gotthard și opinia despre marcă.
+[^5]: La apăsarea pe „nu are imn” apare în pagină imnul ascuns.
+[^6]: La apăsarea pe „nelimitat”, la întâmplare: o reclamă la net nelimitat, o tiparniță care tipărește bani până când leul nu mai valorează nimic, sau o criză în zona euro cu program de ajustare aplicat paginii.
+[^7]: La apăsarea pe „Hârtie” apare starea imprimantei: eroare 0x6100004a, hârtia nu este recunoscută, instalați HP Smart (590 MB), cartușul nu este original, limita de 30.000 de pagini a fost atinsă, cumpărați altă imprimantă.
+[^8]: La apăsarea pe „0 grame” apare o problemă de fizică de clasa a IX-a: un manual de masă zero cade de pe un raft de 1,8 m, un elev pleacă de la 6 m cu 1,5 m/s să îl prindă; se cer greutatea, timpul de cădere, legea de mișcare a elevului, comparația cu un manual tipărit de 620 g, urcarea lui cu accelerația 0,5 m/s² și explicația de ce manualul digital nu cade, ci se descarcă. Barem: 10 puncte, 1 din oficiu.
+[^9]: La apăsarea pe „nu este necesar” apare Kiwix, cu Wikipedia în română fără internet și o căutare care merge; unele articole sunt ascunse, ca în Turcia, sub articolul 299, cu ocoliri recunoscute aproximativ și cu o procedură de afișare din altă jurisdicție.
+[^10]: La apăsarea pe „nu există”, la Cont, apare o adresă de e-mail de zece minute, cu ceasul ei și cu mesajul de confirmare.
+[^11]: La apăsarea pe „nu există”, la Cookie, se arată, citite pe loc, cheile ținute de navigator în localStorage și în sessionStorage.
+[^12]: La apăsarea pe oricare dintre cele trei „0 lei” pagina se umple cu cuvântul PIRATA, repetat, ca în La Abadía del Crimen, când copia nu era cea cumpărată.
+[^13]: La apăsarea pe „Ce ar trebui” apare rândul completat pentru țară: autostrada spre Moldova, spitalele regionale, școlile fără toaleta în curte, canalizarea, bazele de date, pensiile speciale, 300 de parlamentari, irigațiile, administrația cu concurs, un răspuns.
+[^14]: La apăsarea pe „sosirii mesajelor” apare o conversație în care cititorul scrie de patru ori și autorul nu mai răspunde; văzut ultima dată: 3 martie.
+[^15]: La apăsarea pe „nu există”, la Hărți, se încearcă hărțile pe rând, fără internet: Google Maps, Waze, Apple Maps și openstreetmap.org nu merg, Organic Maps din F-Droid merge, cu aceleași date OpenStreetMap.
+[^16]: La apăsarea pe „telefon” se face o conexiune dial-up, cu toată procedura, care se termină cu o conexiune la o viteză trasă la sorți sau cu numărul furnizorului ocupat.
+[^17]: La apăsarea pe „proprie” un terminal își face un certificat semnat de sine, iar navigatorul avertizează: emitentul și subiectul sunt aceeași persoană, ca la avizul de pe această pagină.
+[^18]: La apăsarea pe „rugăciune” apare scena săriturii din Matrix: Morpheus ajunge dincolo, Neo cade; toată lumea cade prima dată.
+[^19]: La apăsarea pe „Rețineți!” apare chenarul cu același nume, de mai jos.
+[^20]: La apăsarea pe „Știați că?” apare chenarul cu același nume, de mai jos.
+[^21]: La apăsarea pe „Arată baremul”, în chenar, apare baremul: 10 puncte, 1 din oficiu; unitățile, cei cinci pași, cele trei metode și cele 62 de citiri, care nu se enumeră (3 p); derivata, cu observația că metoda nu se potrivește datelor și că din diferențele simple anul este 2023 (2 p); elipsă cu inversiune (1 p); seleniu, [Ar] 3d¹⁰ 4s² 4p⁴ (1 p); cele 30 de rânduri (2 p).
+[^22]: La apăsarea pe „Barem:” apare, sub barem, tabelul SINELG, singurul din manual, cu coloanele „Cum a fost la clasă” și „Am uitat după bac”, aceasta din urmă bifată pe fiecare rând; la trecerea cursorului peste „Barem:” o etichetă numără anii scurși, până când ultima gaură neagră se evaporă și baremul nu mai contează.
+[^23]: La apăsarea pe „domnitor” apare o imitație a cutiei de scris către un model de limbaj, cu alegerea modelului și a efortului, care nu generează nimic: la modelele Anthropic trimiterea lovește limita de utilizare, iar la celelalte răspunsul este că portretul nu se face, dar se poate căuta cine l-a comandat și cine l-a plătit.
+[^24]: La apăsarea pe „reverență” apare tabelul cu formulele oficiale de la Pinochet, Ceaușescu, Stalin, Mao, Kim, Franco, Mussolini, Trujillo, Mobutu, Idi Amin, Bokassa, Niyazov, Gaddafi, Assad și Hoxha.
+[^25]: La apăsarea pe „aviz de la minister” se deschide un test cu procedura adevărată, șase pași, cu întrebările și răspunsurile amestecate la fiecare parcurgere; cine trece testul primește avizul, iar ștampila se schimbă în cea a ministerului.

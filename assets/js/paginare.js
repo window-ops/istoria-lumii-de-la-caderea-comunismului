@@ -403,8 +403,9 @@
     var fm = foaieMm();
     var stil = getComputedStyle(text);
     var latDisp = text.clientWidth - parseFloat(stil.paddingLeft) - parseFloat(stil.paddingRight);
-    var inaltDisp = window.innerHeight - text.getBoundingClientRect().top -
-      parseFloat(stil.paddingTop) - parseFloat(stil.paddingBottom) - 52;
+    /* la pagini, .text este mărginit la fereastră, deci înălțimea lui liberă
+       este chiar spațiul în care încap foile */
+    var inaltDisp = text.clientHeight - parseFloat(stil.paddingTop) - parseFloat(stil.paddingBottom);
     var n = cate();
     var latCeruta = (fm.lat * n + PAG_SEP * (n - 1)) * MM;
     var z = Math.min(latDisp / latCeruta, inaltDisp / (fm.inalt * MM));

@@ -71,11 +71,15 @@
   }
 
   function panouTipar() {
-    var html = GRUPE_TIPAR.map(M.grupaButoane).join("");
-    html += '<div class="optiuni actiune"><button type="button" id="t-porneste" class="principal">Tipărește</button></div>' +
-      '<p class="mic">Formatul foii, marginile și tăierea tabelelor și a casetelor sunt cele din ' +
-      "secțiunea „Foile” a setărilor de citire. Urmează dialogul de tipărire al navigatorului, " +
-      "unde se alege imprimanta sau salvarea ca PDF.</p>";
+    /* La lectură continuă, setările foilor se mută în #foi-tipar din panoul de
+       setări; la pagini, locul rămâne gol și nota de la început trimite acolo. */
+    var html = '<p class="mic" id="nota-foi">Formatul foii, marginile și tăierea tabelelor ' +
+      "și a casetelor sunt cele din secțiunea „Foile” a setărilor de citire.</p>" +
+      '<div id="foi-tipar"></div>';
+    html += GRUPE_TIPAR.map(M.grupaButoane).join("");
+    html += '<p class="mic">Urmează dialogul de tipărire al navigatorului, unde se alege ' +
+      "imprimanta sau salvarea ca PDF.</p>" +
+      '<div class="optiuni actiune"><button type="button" id="t-porneste" class="principal">Tipărește</button></div>';
     var p = M.panou("panou-tipar", "Tipărire", html);
     /* panoul se face o singură dată; la a doua deschidere nu se mai leagă nimic,
        altfel fiecare deschidere ar adăuga încă o tipărire la apăsarea butonului */
@@ -89,6 +93,9 @@
     });
     return p;
   }
+
+  M.aplicaTipar = aplicaTipar;
+  M.panouTipar = panouTipar;
 
   M.deschideTipar = function () {
     M.deschide(panouTipar());
