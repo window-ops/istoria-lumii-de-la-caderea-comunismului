@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ghid pentru autori &middot; Istoria lumii de la căderea comunismului</title>
+    <link rel="icon" href="../assets/icoane/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/stil.css">
+    <link rel="stylesheet" href="../assets/css/responsiv.css">
+    <link rel="stylesheet" href="../assets/css/tipar.css" media="print">
+    <script>(function(){try{var d=JSON.parse(localStorage.getItem("manual:setari")||sessionStorage.getItem("manual:setari")||"{}");var h=document.documentElement;if(d.tema)h.setAttribute("data-tema",d.tema);if(d.font)h.setAttribute("data-font",d.font);if(d.ui)h.style.setProperty("--scara-ui",d.ui);}catch(e){}})();</script>
+  </head>
+  <body class="pagina-lectie">
+    <a class="sari" href="#continut">Sari la conținut</a>
+    <header class="bara">
+      <button type="button" id="buton-cuprins" class="icon" aria-label="Cuprinsul ghidului" title="Cuprinsul ghidului"><img class="ico" src="../assets/icoane/cuprins.svg" alt=""></button>
+      <a class="acasa icon" href="../index.html" aria-label="Cuprinsul manualului" title="Cuprinsul manualului"><img class="ico" src="../assets/icoane/acasa.svg" alt=""></a>
+      <div class="bara-titlu">
+        <span class="bara-unitate">Pentru autori</span>
+        <span class="bara-lectie">Ghid pentru autori</span>
+      </div>
+      <div class="bara-unelte">
+        <button type="button" id="buton-cauta" class="icon" aria-label="Caută în manual" title="Caută în manual"><img class="ico" src="../assets/icoane/cauta.svg" alt=""></button>
+        <button type="button" id="buton-setari" class="icon" aria-label="Setări de citire" title="Setări de citire"><img class="ico" src="../assets/icoane/setari.svg" alt=""></button>
+      </div>
+    </header>
+    <div class="corp">
+      <nav class="cuprins-lateral" aria-label="Cuprinsul ghidului">
+        <h2 class="doar-citit">Cuprinsul ghidului</h2>
+        <ul>
+          <li class="niv-2"><a href="#1-cum-se-semnaleaza-o-eroare">1. Cum se semnalează o eroare</a></li>
+          <li class="niv-2"><a href="#2-markdown-atat-cat-trebuie">2. Markdown, atât cât trebuie</a></li>
+          <li class="niv-2"><a href="#3-cum-se-scrie-o-lectie">3. Cum se scrie o lecție</a></li>
+          <li class="niv-2"><a href="#4-cum-arata-o-lectie-in-fisier">4. Cum arată o lecție în fișier</a></li>
+        </ul>
+        <div class="descarcari">
+          <a href="../md/ghid-autori.md" download>Descarcă ghidul (.md)</a>
+          <a href="../manual-markdown.zip" download>Descarcă tot manualul (.zip)</a>
+          <button type="button" class="buton-tipar">Tipărește ghidul</button>
+          <a href="../index.html">Înapoi la cuprins</a>
+        </div>
+      </nav>
+      <div class="zona">
+        <main id="continut" class="text">
+          <div class="strat">
+            <h1>Ghid pentru autori</h1>
+            <h2 id="1-cum-se-semnaleaza-o-eroare">1. Cum se semnalează o eroare<a class="permalink" href="#1-cum-se-semnaleaza-o-eroare" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>Erorile și propunerile se trimit la admin@miculpionier.ro, într-o formă fixă, cu patru rânduri: unde, ce scrie, ce ar trebui, sursa. Forma, cu un exemplu complet și cu una goală de copiat, și regulile de adresare sunt în pagina „Cum i se scrie autorului”, alături de acest ghid.</p>
+            <h2 id="2-markdown-atat-cat-trebuie">2. Markdown, atât cât trebuie<a class="permalink" href="#2-markdown-atat-cat-trebuie" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>Lecțiile sunt fișiere text cu extensia .md, scrise în Markdown: un mod de a marca titlurile, listele și sublinierile cu semne obișnuite de la tastatură, fără un program anume. Se pot edita în orice editor de text, iar orice program care înțelege Markdown le arată formatate. Ce urmează este tot ce folosește manualul; restul limbajului nu este necesar.</p>
+            <p><strong>Titluri:</strong> rândul care începe cu „# ” este titlul lecției și apare o singură dată. „## ” deschide o secțiune, „#### ” un subtitlu în interiorul ei. Manualul nu folosește „### ”, ca subtitlurile să fie vizibil mai mici decât secțiunile. Secțiunile se numerotează în titlu, iar numerotarea nu se face de către program:</p>
+            <pre class="copiabil"># Lecția 1.3: România în tranziție (1990-2000)
+
+## 2. Economia: privatizare, cupoane, scheme piramidale
+
+#### Cuponiada</pre>
+            <p><strong>Paragrafe:</strong> un paragraf este un bloc de text; două paragrafe se despart printr-un rând gol. Un singur rând nou în interiorul paragrafului nu se vede:</p>
+            <pre class="copiabil">Legea 15/1990 a transformat întreprinderile de stat în societăți comerciale
+și regii autonome. Acest rând nou nu se vede.
+
+Acesta este al doilea paragraf.</pre>
+            <p><strong>Subliniere:</strong> două asteriscuri de fiecare parte îngroașă, un asterisc înclină. Îngroșarea se folosește pentru numele autorilor la prima apariție și pentru etichetele din liste; înclinarea pentru titluri de publicații. Nu se folosesc pentru accent:</p>
+            <pre class="copiabil">- **Yanis Varoufakis**, ministru de finanțe al Greciei între ianuarie și iulie 2015.
+- Ziare de opoziție au existat de la începutul lui 1990: *România liberă*, *22*.</pre>
+            <p><strong>Liste:</strong> un rând care începe cu „- ” este un element de listă fără număr; „1. ”, „2. ” dau o listă numerotată. Exercițiile sunt o listă numerotată. Elementele se scriu unul sub altul, fără rând gol între ele:</p>
+            <pre class="copiabil">1. Explicați de ce controlul asupra hârtiei de ziar a fost un instrument politic.
+2. Comparați cele două bilanțuri ale zilelor de 13-15 iunie 1990.</pre>
+            <p><strong>Tabele:</strong> prima linie dă capul de tabel, a doua linie desparte capul de corp, fiecare linie următoare este un rând; coloanele se despart cu bare verticale:</p>
+            <pre class="copiabil">| Schema | Perioada | Promisiune |
+|---|---|---|
+| Caritas, Cluj | 1992-1994 | de opt ori suma depusă în trei luni |</pre>
+            <p><strong>Note de subsol:</strong> în text se scrie „[^1]” după cuvântul explicat; la sfârșitul lecției, sub „## Note”, se scrie „[^1]: ” urmat de explicație. Notele explică termeni și instituții, nu trimit la surse:</p>
+            <pre class="copiabil">Legea audiovizualului a înființat Consiliul Național al Audiovizualului[^1].
+
+---
+
+## Note
+
+[^1]: Consiliul Național al Audiovizualului este autoritatea care acordă licențele de emisie.</pre>
+            <p><strong>Casete:</strong> o casetă este un bloc de citat, cu „&gt; ” la începutul fiecărui rând, al cărui prim rând este un subtitlu „#### INTERPRETARE: …”, „#### CONCEPT: …” sau „#### SURSĂ: …”. Programul le recunoaște după acest prim cuvânt și le colorează. În interiorul casetei, alte rânduri „&gt; #### ” dau subtitlurile ei: „Ce este documentat”, „Citirea A”, „Citirea B”, „Ce poate stabili elevul”:</p>
+            <pre class="copiabil">&gt; #### INTERPRETARE: a schimbat alternanța din 1996 regulile jocului
+&gt;
+&gt; #### Ce este documentat
+&gt;
+&gt; Puterea a trecut, în 1996, la coaliția de opoziție, prin alegeri recunoscute ca libere.
+&gt;
+&gt; #### Citirea A: alternanța a funcționat
+&gt;
+&gt; Schimbarea pașnică a puterii prin vot este chiar definiția funcționării unui sistem electoral.
+&gt;
+&gt; #### Citirea B: s-a schimbat personalul, iar mecanismul a rămas
+&gt;
+&gt; Ambele tabere au tratat companiile de stat ca resursă de distribuit între aliați.
+&gt;
+&gt; #### Ce poate stabili elevul
+&gt;
+&gt; Cele două citiri se pot verifica pe date diferite.</pre>
+            <p><strong>Spațiul de temă:</strong> după exercițiul 5 se lasă un rând gol și apoi un bloc de rânduri formate din liniuțe de subliniere, câte unul pe rând. Numărul rândurilor dă mărimea spațiului de scris pe hârtie:</p>
+            <pre class="copiabil">5. Temă: scrieți în spațiul de mai jos ce ați răspunde la întrebarea folosită de institutul Levada.
+
+_______________________________________________________________
+_______________________________________________________________
+_______________________________________________________________</pre>
+            <p><strong>Ce nu se folosește:</strong> imagini, adrese web, cod, formule, text colorat. Nici linia dublă pentru titluri. Linia „---” apare o singură dată, înaintea notelor.</p>
+            <h2 id="3-cum-se-scrie-o-lectie">3. Cum se scrie o lecție<a class="permalink" href="#3-cum-se-scrie-o-lectie" aria-label="Legătură către această secțiune">#</a></h2>
+            <p><strong>Tonul:</strong> lecția descrie, nu laudă și nu condamnă. Persoanele, partidele, statele și companiile apar cu ce au făcut, cu data și cu documentul care o atestă. Nu se folosesc adjective de reverență („marele”, „ilustrul”, „eroicul”, „istoricul”) și nici cele de dispreț; dacă un fapt merită judecat, cititorul îl judecă singur după ce l-a citit. Un test simplu: adjectivul care poate fi tăiat fără ca propoziția să piardă o informație se taie.</p>
+            <p><strong>Cititorul:</strong> este o persoană care învață pe cont propriu. I se vorbește cu „scrieți”, „comparați”, „căutați”, nu i se dau îndemnuri, rezumate sau idei principale. Nu i se explică ce ar trebui să simtă. Manualele Editurii Didactice și Pedagogice, cu care au crescut generații de elevi, au obișnuit școala cu un ton care vorbește de sus și cu greșeli de fapt rămase necorectate ediție după ediție; lecția de aici nu preia nici tonul, nici practica.</p>
+            <p><strong>Sursele:</strong> fiecare afirmație de fapt are în spate un document care poate fi găsit: o hotărâre, un raport, o statistică, o anchetă cu autor identificat, o declarație publică. Autorul l-a citit înainte de a scrie. Textul parafrazează, nu citează, și nu are note bibliografice, dar numește emitentul și documentul acolo unde afirmația nu este de notorietate: „raportul comisiei parlamentare din 1990”, „rezoluția 713 a Consiliului de Securitate”, „datele Institutului Național de Statistică pentru 2010”. Cititorul trebuie să poată ajunge la sursă pornind de la acest nume. Adresele web nu se scriu, pentru că se strică.</p>
+            <p><strong>Regulile de la Wikipedia, aplicate aici:</strong> afirmațiile se pot verifica; pozițiile concurente sunt prezentate cu argumentele lor, proporțional cu greutatea pe care o au în literatură; nu se publică cercetare proprie, adică o concluzie pe care nu a formulat-o nimeni în afara autorului. Cadrul analitic al manualului este o poziție și este anunțat ca atare; el alege întrebările, nu răspunsurile. O lecție care nu poate fi contestată cu datele din ea însăși este scrisă greșit.</p>
+            <p><strong>Ce nu se știe:</strong> se scrie că nu se știe. „Nu există o cifră acceptată”, „ancheta nu s-a încheiat”, „cele două bilanțuri diferă”. O acuzație în curs de judecată este scrisă ca acuzație. O cifră contestată vine cu ambele valori și cu cine le susține.</p>
+            <p><strong>Interpretarea:</strong> acolo unde datele admit două citiri serioase, se scrie o casetă INTERPRETARE cu patru părți: ce este documentat, citirea A, citirea B, ce poate stabili elevul. Fiecare citire primește argumentele ei cele mai bune, nu o versiune ușor de respins. Caseta nu spune care citire este corectă.</p>
+            <p><strong>Lungimea:</strong> o lecție are între 12.000 și 18.000 de semne, cu tot cu exerciții, cât se citește atent într-o oră sau două. Mai scurt este mai bine, atâta vreme cât nu se pierde informație. Secțiunile numerotate au fiecare o întrebare, iar tabelul cronologic vine acolo unde datele sunt multe. Frazele sunt lungi doar cât le cere conținutul.</p>
+            <p><strong>Exercițiile:</strong> cinci, în ordinea aceasta: o explicație, o comparație sau o analiză de tabel, un calcul sau o căutare, o dezbatere, o temă scrisă. Primele patru se rezolvă oral. Tema cere ceva ce nu se află în lecție: un preț, un document, o persoană întrebată, o săptămână de observație. Autorul care scrie o temă o face o dată el însuși, ca să știe cât cere. Autorul acestui manual nu a făcut-o, cum spune și ghidul pentru profesori; regula rămâne pentru cine vine după el.</p>
+            <h2 id="4-cum-arata-o-lectie-in-fisier">4. Cum arată o lecție în fișier<a class="permalink" href="#4-cum-arata-o-lectie-in-fisier" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>Fiecare lecție este un fișier în folderul „md”, numit după poziția în carte și după numărul lecției: „04-lectia-1-3.md” este a patra piesă a cărții și lecția 1.3. Numărul din față ține ordinea la listare; numărul lecției ține ordinea în unitate. O lecție nouă primește numărul următor din unitatea ei, iar fișierele de după ea se renumerotează.</p>
+            <p>Fișierul are, în ordinea aceasta:</p>
+            <ol><li>titlul, un singur rând cu „# ”: „# Lecția 1.3: România în tranziție (1990-2000)”;</li><li>un paragraf de deschidere, fără titlu, care spune ce urmărește lecția;</li><li>secțiunile numerotate, cu „## 1. ”, „## 2. ” și așa mai departe, fiecare cu subtitlurile ei „#### ” și cu casetele ei;</li><li>tabelul cronologic, ca secțiune numerotată, acolo unde datele o cer;</li><li>„## Activități și exerciții”, cu cele cinci exerciții ca listă numerotată, urmate de spațiul de temă din liniuțe;</li><li>o linie „---”;</li><li>„## Note”, cu notele de subsol, una pe paragraf.</li></ol>
+            <p>Paginile web ale lecțiilor, din folderul „lectii”, au fost generate o dată din aceste fișiere și de atunci se editează de mână, în paralel cu fișierul .md: o corectură se face în amândouă, iar căutarea în toate fișierele după textul vechi găsește toate locurile în care apare, inclusiv în „tot-manualul.html” și în indexul de căutare. Cine nu vrea să atingă HTML trimite doar fișierul .md corectat la adresa din pagina „Cum i se scrie autorului”, cu rândul „Unde” de acolo, iar transpunerea în pagină o face cine primește mesajul. O lecție nouă se trimite la fel, împreună cu rândul ei din cuprins: unitatea, numărul, titlul.</p>
+            <p>Înainte de trimitere, autorul verifică: că fiecare afirmație de fapt are un document în spate, pe care l-a văzut; că nu a rămas niciun adjectiv de reverență; că notele explică termeni, nu trimit la surse; că exercițiile sunt cinci și că tema a fost făcută o dată, regulă încălcată de autorul manualului și cerută de la ceilalți; că lecția se citește în mai puțin de două ore. Apoi o dă cuiva să o citească, de preferat cuiva care nu este de acord cu cadrul manualului.</p>
+            <nav class="navigare">
+              <a href="profesori.html">&#8592; Ghid pentru profesori</a>
+              <a href="scrisori.html">Cum i se scrie autorului &#8594;</a>
+            </nav>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script>
+      window.NOTE = {};
+    </script>
+    <script src="../assets/js/stocare.js"></script>
+    <script src="../assets/js/setari.js"></script>
+    <script src="../assets/js/index-cautare.js"></script>
+    <script src="../assets/js/cautare.js"></script>
+    <script src="../assets/js/lectie.js"></script>
+    <script src="../assets/js/copiere.js"></script>
+    <script src="../assets/js/paginare.js"></script>
+    <script src="../assets/js/tipar.js"></script>
+  </body>
+</html>

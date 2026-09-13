@@ -58,7 +58,7 @@
     display: none;
   }
 
-  .bara-titlu {
+  body:not(.pagina-index) .bara-titlu {
     align-items: center;
     text-align: center;
   }
@@ -74,7 +74,7 @@
 }
 
 @media (max-width: 32rem) {
-  .bara-titlu {
+  body:not(.pagina-index) .bara-titlu {
     display: none;
   }
 }

@@ -90,10 +90,7 @@
     });
     var av = document.getElementById("teme-avertisment");
     if (av) {
-      av.textContent = nCitite + " lecții marcate ca parcurse, " + nScrise +
-        " cu temă scrisă. Dacă manualul este deschis direct de pe disc, textul temelor rămâne " +
-        "în pagina lecției, iar aici se vede numai starea lor. Folosiți salvarea în fișier " +
-        "pentru a aduna răspunsurile într-un singur loc.";
+      av.textContent = nCitite + " lecții marcate ca parcurse, " + nScrise + " cu temă scrisă.";
     }
   }
 

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cum se semnează avizul &middot; Istoria lumii de la căderea comunismului</title>
+    <link rel="icon" href="../assets/icoane/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/stil.css">
+    <link rel="stylesheet" href="../assets/css/responsiv.css">
+    <link rel="stylesheet" href="../assets/css/tipar.css" media="print">
+    <script>(function(){try{var d=JSON.parse(localStorage.getItem("manual:setari")||sessionStorage.getItem("manual:setari")||"{}");var h=document.documentElement;if(d.tema)h.setAttribute("data-tema",d.tema);if(d.font)h.setAttribute("data-font",d.font);if(d.ui)h.style.setProperty("--scara-ui",d.ui);}catch(e){}})();</script>
+  </head>
+  <body class="pagina-lectie">
+    <a class="sari" href="#continut">Sari la conținut</a>
+    <header class="bara">
+      <button type="button" id="buton-cuprins" class="icon" aria-label="Cuprinsul ghidului" title="Cuprinsul ghidului"><img class="ico" src="../assets/icoane/cuprins.svg" alt=""></button>
+      <a class="acasa icon" href="../index.html" aria-label="Cuprinsul manualului" title="Cuprinsul manualului"><img class="ico" src="../assets/icoane/acasa.svg" alt=""></a>
+      <div class="bara-titlu">
+        <span class="bara-unitate">Pentru cine semnează</span>
+        <span class="bara-lectie">Cum se semnează avizul</span>
+      </div>
+      <div class="bara-unelte">
+        <button type="button" id="buton-cauta" class="icon" aria-label="Caută în manual" title="Caută în manual"><img class="ico" src="../assets/icoane/cauta.svg" alt=""></button>
+        <button type="button" id="buton-setari" class="icon" aria-label="Setări de citire" title="Setări de citire"><img class="ico" src="../assets/icoane/setari.svg" alt=""></button>
+      </div>
+    </header>
+    <div class="corp">
+      <nav class="cuprins-lateral" aria-label="Cuprinsul ghidului">
+        <h2 class="doar-citit">Cuprinsul ghidului</h2>
+        <ul>
+          <li class="niv-2"><a href="#1-ce-este-semnat">1. Ce este semnat</a></li>
+          <li class="niv-2"><a href="#2-ce-trebuie-instalat">2. Ce trebuie instalat</a></li>
+          <li class="niv-2"><a href="#3-cheia">3. Cheia</a></li>
+          <li class="niv-2"><a href="#4-semnatura">4. Semnătura</a></li>
+          <li class="niv-2"><a href="#5-ce-se-pune-in-pagina">5. Ce se pune în pagină</a></li>
+          <li class="niv-2"><a href="#6-arhiva">6. Arhiva</a></li>
+          <li class="niv-2"><a href="#7-daca-se-pierde-cheia">7. Dacă se pierde cheia</a></li>
+        </ul>
+        <div class="descarcari">
+          <a href="../md/ghid-semnare.md" download>Descarcă pagina (.md)</a>
+          <a href="../manual-markdown.zip" download>Descarcă tot manualul (.zip)</a>
+          <button type="button" class="buton-tipar">Tipărește ghidul</button>
+          <a href="../index.html">Înapoi la cuprins</a>
+        </div>
+      </nav>
+      <div class="zona">
+        <main id="continut" class="text">
+          <div class="strat">
+            <h1>Cum se semnează avizul</h1>
+            <p>Avizul din „Fișa manualului” este semnat cu o cheie ed25519. Pagina de față spune cum se face o cheie, cum se semnează textul, cum se verifică semnătura și ce se schimbă în pagină după aceea. Pașii au fost făcuți o dată, la 13 septembrie 2026; se refac ori de câte ori se schimbă textul avizului sau se pierde cheia.</p>
+            <h2 id="1-ce-este-semnat">1. Ce este semnat<a class="permalink" href="#1-ce-este-semnat" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>Se semnează un singur fișier, <code>cheie/aviz.txt</code>. El cuprinde numai ce nu se schimbă: titlul, numele celui care avizează, numărul avizului, data redactării, licența și cele două propoziții despre manual. Orice modificare a lui, fie și un spațiu, strică semnătura; de aceea nu se pun în el lucruri care se corectează.</p>
+            <p>Restul paginii nu este semnat. Lecțiile, fișa, glumele se pot schimba oricând fără să se atingă semnătura.</p>
+            <h2 id="2-ce-trebuie-instalat">2. Ce trebuie instalat<a class="permalink" href="#2-ce-trebuie-instalat" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>OpenSSL 3, care există deja în Git pentru Windows, în orice Linux și în macOS. Comenzile de mai jos se dau într-un terminal deschis în folderul <code>cheie</code> al proiectului. Pe Windows, terminalul este Git Bash.</p>
+            <h2 id="3-cheia">3. Cheia<a class="permalink" href="#3-cheia" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>O cheie nouă se face o singură dată:</p>
+            <pre class="copiabil">openssl genpkey -algorithm ed25519 -out privata.pem
+openssl pkey -in privata.pem -pubout -out publica.pem</pre>
+            <p><code>privata.pem</code> este cheia privată. Cine o are poate semna în numele autorului. <code>publica.pem</code> este cheia publică; ea merge în depozit și în pagină.</p>
+            <p>Cheia privată se poate ține în KeePassXC, ca atașament, după ce a fost protejată cu o parolă:</p>
+            <pre class="copiabil">openssl pkey -in privata.pem -aes-256-cbc -out privata.enc.pem</pre>
+            <p>Sau se poate șterge după semnare. Semnătura publicată rămâne valabilă și fără ea; când va fi nevoie de o semnătură nouă, se face o cheie nouă și se reiau pașii. Cheia privată nu se pune niciodată în depozit și nici în folderul proiectului.</p>
+            <h2 id="4-semnatura">4. Semnătura<a class="permalink" href="#4-semnatura" aria-label="Legătură către această secțiune">#</a></h2>
+            <pre class="copiabil">openssl pkeyutl -sign -inkey privata.pem -rawin -in aviz.txt -out aviz.sig</pre>
+            <p>Dacă cheia este protejată cu parolă, se folosește <code>privata.enc.pem</code> și se introduce parola.</p>
+            <p>Verificarea, imediat după:</p>
+            <pre class="copiabil">openssl pkeyutl -verify -pubin -inkey publica.pem -rawin -in aviz.txt -sigfile aviz.sig</pre>
+            <p>Răspunsul așteptat este <code>Signature Verified Successfully</code>.</p>
+            <h2 id="5-ce-se-pune-in-pagina">5. Ce se pune în pagină<a class="permalink" href="#5-ce-se-pune-in-pagina" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>Fișa arată trei lucruri care vin din aceste fișiere. Se scot cu comenzile de mai jos și se copiază în <code>ghid/fisa.html</code>, în blocul dintre <code>-----ÎNCEPUTUL AVIZULUI SEMNAT-----</code> și <code>-----SFÂRȘITUL AVIZULUI SEMNAT-----</code>:</p>
+            <ul><li>cheia publică, un singur rând, cel dintre <code>-----BEGIN PUBLIC KEY-----</code> și <code>-----END PUBLIC KEY-----</code> din <code>publica.pem</code>;</li><li>amprenta cheii:</li></ul>
+            <pre class="copiabil">openssl pkey -pubin -in publica.pem -outform DER | openssl dgst -sha256</pre>
+            <ul><li>semnătura, în base64, un singur rând:</li></ul>
+            <pre class="copiabil">base64 -w0 aviz.sig</pre>
+            <p>Amprenta se scrie și în <code>cheie/VERIFICARE.md</code>. Blocul lung de la sfârșitul avizului, „Ce apără cheia”, nu are legătură cu cheia și nu se schimbă.</p>
+            <h2 id="6-arhiva">6. Arhiva<a class="permalink" href="#6-arhiva" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>Arhiva <code>cheie/cheie-aviz.zip</code>, pe care o descarcă cititorii, se reface cu fișierele noi. Fișierele stau direct în arhivă, fără un folder în interior; la <code>zip</code>, asta o face parametrul <code>-j</code>, care lasă deoparte calea fiecărui fișier:</p>
+            <pre class="copiabil">zip -j cheie-aviz.zip aviz.txt publica.pem aviz.sig VERIFICARE.md</pre>
+            <p>Unde <code>zip</code> nu există, cum este în Git Bash pe Windows, aceeași arhivă se face cu Python, care pune fișierele tot direct în ea:</p>
+            <pre class="copiabil">python -m zipfile -c cheie-aviz.zip aviz.txt publica.pem aviz.sig VERIFICARE.md</pre>
+            <h2 id="7-daca-se-pierde-cheia">7. Dacă se pierde cheia<a class="permalink" href="#7-daca-se-pierde-cheia" aria-label="Legătură către această secțiune">#</a></h2>
+            <p>Nu se întâmplă nimic cu ce este publicat: semnătura veche se verifică în continuare cu cheia publică veche. Pentru un aviz nou se face o cheie nouă, de la pasul 3, se semnează din nou și se schimbă în pagină cheia, amprenta și semnătura. În <code>VERIFICARE.md</code> se notează că cheia s-a schimbat și de când.</p>
+            <nav class="navigare">
+              <a href="fisa.html">&#8592; Fișa manualului</a>
+              <a href="../index.html">Cuprinsul manualului &#8594;</a>
+            </nav>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script>
+      window.NOTE = {};
+    </script>
+    <script src="../assets/js/stocare.js"></script>
+    <script src="../assets/js/setari.js"></script>
+    <script src="../assets/js/index-cautare.js"></script>
+    <script src="../assets/js/cautare.js"></script>
+    <script src="../assets/js/lectie.js"></script>
+    <script src="../assets/js/copiere.js"></script>
+    <script src="../assets/js/paginare.js"></script>
+    <script src="../assets/js/tipar.js"></script>
+  </body>
+</html>

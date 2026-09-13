@@ -1,0 +1,165 @@
+# Ghid pentru profesori
+
+## 1. Ce urmărește manualul
+
+Manualul acoperă perioada de la decembrie 1989 până în septembrie 2026 și este scris în primul rând pentru studiu individual. Ghidul de față se adresează profesorului care îl folosește la clasă, în întregime sau pe bucăți, și profesorului care vrea doar să știe ce primesc elevii care îl citesc singuri.
+
+Scopul nu este ca elevul să rețină o cronologie. La sfârșitul cărții, elevul ar trebui să poată privi istoria recentă ca pe un teren disputat: aceleași date sunt citite diferit de instituții, de cercetători și de participanți, iar alegerea între citiri se face cu argumente care pot fi verificate.
+
+A doua deprindere urmărită este cea de a nu considera ordinea în care se povestesc evenimentele singura direcție posibilă. Istoria pare liniară pentru că este scrisă după ce s-a întâmplat, într-o singură ordine, de la o cauză la un efect. Procesele descrise aici, tranziția, extinderea, criza, războiul, au avut la fiecare pas mai multe ieșiri posibile, iar cea care s-a produs a fost aleasă de oameni cu interese și cu mijloace care de multe ori nu sunt în beneficiul majorității populației. Elevul care iese din manual cu întrebarea „cine a decis și cine a plătit” a înțeles ce voia cartea de la el.
+
+A treia deprindere este verificarea. Lecția 0 dă metoda, iar exercițiile din fiecare lecție necesită folosirea metodei. Manualul nu are note bibliografice și nici adrese web, din motivele explicate în prefață, așa că trimiterea se face prin numele emitentului și al documentului. Elevul trebuie să ajungă singur la sursă, iar profesorul poate verifica dacă a ajuns.
+
+## 2. Cum este construit
+
+Manualul are 34 de lecții, grupate în patru unități cronologice: 1989-2001, 2001-2008, 2008-2020 și 2020-2026. Fiecare unitate se încheie cu o lecție despre tehnologia deceniului, iar unitatea a treia cuprinde și o lecție despre climă. Înaintea unităților stau prefața, care declară cadrul analitic, și lecția 0, care dă metoda de verificare. După ele vin încheierea, cu ce a rămas nelămurit la data redactării, și anexa, cu glosarul termenilor.
+
+O lecție este un text continuu, împărțit în secțiuni numerotate, cu un tabel cronologic acolo unde datele sunt multe, cu un bloc de activități și exerciții la sfârșit și cu un spațiu de temă în care elevul scrie direct în pagină. Temele nu sunt obligatorii: autorul nu le-a parcurs pe toate până la capăt și nu a verificat, pentru fiecare, cât timp cere și ce surse sunt disponibile. Profesorul alege ce cere.
+
+Casetele sunt puține și stau în firul textului, nu pe margine. Cele marcate INTERPRETARE pun față în față două citiri ale acelorași date și se încheie cu ce poate stabili elevul. Cele marcate CONCEPT definesc un termen în locul în care apare prima dată. Notele de subsol explică termeni și instituții și se deschid la apăsare.
+
+Textul nu este împărțit în secțiuni dense, cu idei principale scoase în evidență, și nu este pregătit pentru metode de marcare a lecturii de tipul SINELG. Acele metode presupun un text de fapte stabilite, pe care elevul le bifează drept cunoscute, noi sau contrazise. Lecțiile de aici sunt argumente: fiecare secțiune duce de la date la o întrebare, iar întrebarea nu se închide în aceeași secțiune. Lectura potrivită este cea integrală, urmată de exerciții.
+
+Manualul se citește în navigator, în mod continuu sau pe pagini, și poate fi tipărit lecție cu lecție sau întreg. Spațiile de temă rămân în memoria navigatorului sau se salvează într-un fișier, iar pagina „Temele mele” arată ce lecții au fost parcurse și la ce teme s-a scris. Fiecare lecție există și ca fișier text, pentru cine vrea să o modifice.
+
+## 3. Limitele manualului
+
+Manualul este scris de un singur autor, elev la data redactării, pasionat de sociologie și de istorie contemporană, fără pregătire de istoric. O parte din text a fost redactată cu ajutorul unor modele de limbaj, pentru că timpul nu ajungea pentru a scrie totul de mână. Alegerea temelor, cadrul, structura lecțiilor și verificarea afirmațiilor aparțin autorului; formularea unor pasaje aparține modelului. Cititorul care găsește o eroare de fapt găsește, cel mai probabil, o urmă a acestei metode de lucru.
+
+Manualul se adresează cititorului cu „scrieți”, „comparați”, „căutați”, nu cu „scrie”, „compară”, „caută”, cum fac manualele școlare, deoarece cartea pornește de la ideea că cititorul este o persoană care învață pe cont propriu și răspunde de ce citește, nu un elev pus să execute. Din același motiv, tonul lecțiilor este cel al unei lucrări de istorie, nu al unui material didactic: fără rezumate la început, fără idei principale la sfârșit, fără îndemnuri.
+
+Cadrul analitic este declarat în prefață și este unul dintre cele posibile. Un profesor care nu îl împărtășește poate folosi manualul tocmai pentru asta: casetele INTERPRETARE și exercițiile de verificare funcționează la fel de bine împotriva cadrului cât și în favoarea lui.
+
+Textul este greu în multe locuri. Vocabularul economic și instituțional, frazele lungi și numărul de nume și de instituții cer un elev care citește bine și care are acces la internet pentru verificare. Elevii din mediul rural, cu acces mai slab la internet și cu mai puțin vocabular de acest fel în jurul lor, vor avea mai mult de muncă. Glosarul din anexă și notele de subsol ajută, dar nu înlocuiesc explicația la clasă. Profesorul este rugat să primească întrebările elevilor, inclusiv pe cele care cer o căutare pe internet în timpul orei, ca parte a lecției, nu ca întrerupere a ei.
+
+Ultimele lecții descriu procese neîncheiate. Cifrele de acolo se vor schimba, iar unele dintre judecăți vor fi contrazise de ce urmează. Data redactării este scrisă în prefață, și orice afirmație recentă trebuie citită cu ea în minte.
+
+Manualul este publicat sub licența Creative Commons Atribuire-Distribuire în condiții identice (CC BY-SA). Poate fi copiat, modificat și redistribuit, inclusiv pentru uz comercial, cu condiția ca autorul să fie numit și ca versiunile derivate să poarte aceeași licență. Erorile și propunerile se trimit la admin@miculpionier.ro, în forma descrisă în pagina „Cum i se scrie autorului”. De asemenea, proiectul poate fi preluat și modificat direct. Cine editează text și cunoaște Markdown pornește de la arhiva descărcabilă de pe prima pagină, care cuprinde lecțiile ca fișiere text; cine programează pornește de la depozitul de pe GitLab, o copie identică: gitlab.com/window-ops-web/istoria-lumii-de-la-caderea-comunismului.
+
+## 4. Cum se folosește
+
+**În studiu individual:** ordinea firească este cea a cărții: prefața, lecția 0, apoi unitățile. Lecția 0 nu se sare, pentru că exercițiile din restul cărții presupun metoda de acolo. O lecție cere, orientativ, între o oră și două ore de lectură atentă, fără exerciții. Cititorul care are timp puțin poate lua o singură unitate, de preferat cea care acoperă anii pe care i-a trăit conștient, și lecția 0.
+
+**La clasă:** manualul nu urmează programa națională și nu înlocuiește manualul aprobat; are propriul curriculum, care este chiar structura cărții, descris mai jos. Locul lui este în curriculumul la decizia elevului din oferta școlii, în orele de opțional sau într-un cerc de lectură, iar intenția este să depășească logica acestui curriculum spre ce fac școlile din Finlanda și din alte țări care nu au adoptat reforma bazată pe testare standardizată și pe competiție între școli.
+
+O lecție acoperă, orientativ, două ore: una pentru discuția textului citit acasă, una pentru exerciții și pentru verificarea surselor. Orele sunt o sugestie, nu o normă; profesorul care acoperă mai mult în mai puțin timp, fără să plictisească clasa, face bine. Casetele INTERPRETARE sunt cel mai bun punct de pornire pentru o dezbatere, pentru că dau ambelor tabere date, nu numai poziții.
+
+**Rolul profesorului:** textul nu explică tot ce folosește. Profesorul care îl predă are de răspuns la întrebări despre termeni, instituții și evenimente pe care manualul le presupune cunoscute, iar o parte din aceste întrebări se rezolvă printr-o căutare pe internet în timpul orei. Această căutare face parte din lecție: elevul vede cum se ajunge la o sursă și cum se citește. Profesorul care nu cunoaște răspunsul spune asta și caută împreună cu clasa.
+
+**Ce se cere elevului:** lectura integrală a lecției înaintea orei. Exercițiile se aleg de către profesor; nu toate se potrivesc oricărei clase, iar unele cer acces la internet acasă. Spațiul de temă din pagină poate fi folosit sau nu. Un elev care preferă să scrie pe hârtie poate tipări lecția cu linii de scris, din setările de tipărire.
+
+**Instrumentele paginii:** setările de citire permit schimbarea fundalului, a literei și a mărimii textului, iar vizualizarea pe pagini arată lecția ca pe o carte tipărită. Căutarea găsește cuvintele în toate lecțiile, cu sau fără diacritice. Pagina „Datele mele” arată unde sunt păstrate răspunsurile și permite salvarea lor într-un fișier, util atunci când același calculator este folosit de mai mulți elevi.
+
+## 5. Evaluarea
+
+Manualul nu are teste și nu dă bareme. Temele nu sunt obligatorii, iar autorul nu le-a parcurs pe toate, așa că profesorul care le cere le și calibrează: alege exercițiile, stabilește cât se scrie și în cât timp, și verifică înainte dacă sursele cerute sunt accesibile.
+
+Ce se poate evalua este metoda, nu opinia. Un răspuns bun la o casetă INTERPRETARE nu este cel care alege citirea „corectă”, ci cel care spune ce date susțin fiecare citire, ce date lipsesc și ce ar trebui găsit pentru a decide. Un răspuns bun la un exercițiu de verificare numește emitentul documentului, spune unde l-a găsit și ce a înțeles din el, și semnalează dacă nu l-a găsit. Elevul care scrie „nu am găsit sursa, dar am găsit relatarea X, care o citează” a făcut ce cerea lecția 0.
+
+Pagina „Temele mele” arată profesorului ce lecții a marcat elevul ca parcurse și la ce teme a scris, iar răspunsurile pot fi salvate într-un fișier și trimise. Fișierul este text simplu și se deschide oriunde.
+
+## 6. Curriculumul manualului
+
+Manualul nu are o programă separată de text. Curriculumul este ordinea și conținutul lecțiilor, iar profesorul care îl predă urmează cartea, nu o listă de competențe scrisă în altă parte. Ce urmează este o descriere a acestei ordini, ca profesorul să știe ce presupune fiecare unitate de la cele dinainte.
+
+**Deschidere:** prefața declară cadrul (centru, semiperiferie, periferie; imperialismul ca formă descriptivă) și lecția 0 dă metoda: tipuri de surse, verificarea în cinci pași, citirea unei pagini de Wikipedia, propaganda, corelația și cauzalitatea. Tot ce urmează presupune aceste două texte.
+
+**Unitatea I, 1989-2001:** căderea regimurilor din Est, destrămarea URSS și terapia de șoc, tranziția românească, războaiele deceniului, Sudul global și tehnologia. Întrebarea unității este cine a decis forma tranziției și cine a plătit-o.
+
+**Unitatea a II-a, 2001-2008:** 11 septembrie și războiul împotriva terorii, Irak, extinderea NATO și a Uniunii, ascensiunea Chinei, contestările din America Latină și din spațiul postsovietic, tehnologia. Întrebarea unității este cum arată o hegemonie și de unde vine contestarea ei.
+
+**Unitatea a III-a, 2008-2020:** criza financiară, austeritatea, Primăvara arabă, Ucraina din 2014, Turcia, Brexit și dreapta radicală, România protestelor, tehnologia, clima. Întrebarea unității este ce se rupe după 2008 și ce se pune în loc.
+
+**Unitatea a IV-a, 2020-2026:** pandemia, inflația și energia, invazia din 2022, Gaza, BRICS și Sahelul, autoritarismul de astăzi, România din 2024-2026, inteligența artificială ca industrie și ca obiect de reglementare. Întrebarea unității este ce dintre procesele descrise sunt încheiate și ce nu.
+
+**Încheiere și anexă:** ce a rămas nelămurit la data redactării, ce ar trebui să rămână după ce datele se învechesc, glosarul.
+
+Unitățile se pot preda și separat, dar fiecare presupune deschiderea și, în mai mică măsură, unitățile dinainte: lecțiile despre 2008 trimit la anii '90, cele despre 2022 la 2014.
+
+## 7. Exercițiile, pe unități
+
+Exercițiile 1-4 ale fiecărei lecții sunt gândite pentru a fi rezolvate oral, la clasă, fără caiet: se citește, se discută, se caută pe loc. Numai tema, exercițiul 5, se scrie, în spațiul din pagină sau pe hârtie. Notele de mai jos spun ce cere fiecare exercițiu în plus față de text: internet, pregătire acasă, un adult întrebat, timp.
+
+### Deschidere
+
+**Lecția 0:** exercițiile de aici se fac înaintea oricărei alte lecții, la clasă, cu internet. Se urmărește dacă elevul a parcurs pașii, nu ce a găsit.
+
+### Unitatea I, 1989-2001
+
+**Lecția 1.1, Anul 1989 în Europa de Est:** exercițiile 1 și 2 (comparația RDG-România, ipoteza din tabelul de la punctul 7) se discută oral. Exercițiul 3, dezbaterea pe caseta despre decembrie 1989, cere pregătire acasă: fiecare grupă vine cu surse numite. Exercițiul 4, scrisoarea celor șase, cere internet. La temă se urmărește dacă cele două exemple sunt din lecție și dacă răspund la întrebare, nu ce răspuns dă elevul.
+
+**Lecția 1.2, Destrămarea URSS și terapia de șoc:** exercițiile 1 și 2 se discută oral. Exercițiul 3 este un calcul; se face pe tablă, pentru că mulți elevi nu au mai calculat o pierdere reală. Exercițiul 4, legalitatea împrumuturilor contra acțiuni, merge ca discuție scurtă, fără grupe. Tema cere date din lecție; răspunsul personal nu se notează.
+
+**Lecția 1.3, România în tranziție:** exercițiul 1 se discută oral. Exercițiul 2, cele două bilanțuri ale mineriadei din iunie 1990, cere ca elevul să găsească ambele documente; se verifică dacă le-a găsit. Exercițiul 3 cere rata inflației, deci internet. Exercițiul 4 este dezbaterea pe caseta despre 1996. Tema este un interviu cu un adult; se dă cu o săptămână înainte și nu se cere de la elevii care nu au pe cine întreba; alternativa este compararea a două relatări de presă din epocă despre aceeași schemă financiară.
+
+**Lecția 1.4, Războaiele deceniului:** exercițiul 1 se discută oral. Exercițiul 2 cere arhive de presă online din 1994, care nu sunt toate accesibile; se acceptă și arhive de după 2000. Exercițiul 3 se face cu profesorul, care alege piesa. Exercițiul 4, dezbaterea despre Kosovo, cere pregătire. Tema cere două dintre cele patru cazuri, la alegere.
+
+**Lecția 1.5, Sudul global în anii '90:** exercițiile 1 și 3 se discută oral. Exercițiul 2, previziuni verificabile pentru fiecare citire din casetă, este cel mai greu din unitate și merge în grupe. Exercițiul 4 este discuție. Tema cere un preț actual, deci internet sau un magazin.
+
+**Lecția 1.6, Tehnologia deceniului:** exercițiile 1 și 2 se discută oral, cu tabelul licențelor în față. Exercițiul 3 cere internet. Exercițiul 4 este dezbaterea pe casetă, cu două date verificabile pe grupă. Tema cere un interviu cu cineva care folosea internetul înainte de 2000, iar mulți elevi nu au pe cine întreba: părinții și bunicii multora nu aveau acces atunci, iar cei care aveau îl foloseau pentru informare, nu pentru comunicare. Profesorul este realist și oferă o alternativă: elevul întreabă ce înseamnă pentru un adult din familie „a ține legătura” și cu ce mijloace o făcea în anii '90, cu sau fără internet, sau caută el însuși ce s-a întâmplat cu conținutul unui serviciu dispărut, ca la exercițiul 3.
+
+**Pe unitate:** după cele șase lecții, o oră de recapitulare poate pune întrebarea pe care fiecare lecție o pune separat: cine a condus tranziția, cine a primit proprietatea, ce s-a întâmplat cu salariile, într-un tabel cu Europa Centrală, Rusia și România pe coloane, din lecțiile 1.1-1.3. A doua întrebare posibilă: în ce lecții ale unității apar Fondul Monetar Internațional, Consiliul de Securitate și NATO, și ce a decis fiecare de fiecare dată.
+
+### Unitatea a II-a, 2001-2008
+
+**Lecția 2.1, 11 septembrie și războiul global împotriva terorii:** exercițiul 1 se discută oral; distincția dintre explicație și justificare merită scrisă pe tablă, pentru că revine în toată cartea. Exercițiul 2 trimite la lecția 2.2, deci se face după ea. Exercițiul 3 cere verificarea pe internet a măsurilor rămase în vigoare. Exercițiul 4 este dezbaterea pe hotărârea din 2018; cere pregătire. Tema cere secțiunea 3 recitită.
+
+**Lecția 2.2, Irak, 2003:** exercițiile 1 și 2 se discută oral, cu Carta ONU și tabelul din secțiunea 3 în față. Exercițiul 3, cele trei metode de estimare a deceselor, este cel mai util din unitate pentru metodă și merge în grupe. Exercițiul 4 este dezbatere. Tema cere lecția 1.4 recitită.
+
+**Lecția 2.3, Extinderea NATO și a Uniunii Europene:** exercițiul 1 se discută oral. Exercițiul 2 este un calcul din secțiunea 5; se face pe tablă. Exercițiul 3 cere o întreprindere din județ, deci internet și, adesea, un adult întrebat; se dă cu o săptămână înainte. Exercițiul 4 este dezbatere. Tema cere observații despre localitate, cu o sursă pentru fiecare; elevii de la oraș și cei de la sat vor scrie lucruri diferite, și asta se discută.
+
+**Lecția 2.4, Ascensiunea Chinei și noua diviziune a muncii:** exercițiile 1 și 2 se discută oral. Exercițiul 3 cere internet. Exercițiul 4 este discuție. Tema se face acasă, fără internet, și este una dintre cele mai ușoare din carte; se poate cere tuturor.
+
+**Lecția 2.5, Contestări:** exercițiul 1 cere aplicarea definiției unui partid actual; se discută oral, cu grijă la partidele elevilor înșiși. Exercițiile 2 și 3 se discută oral; exercițiul 3 cere internet. Exercițiul 4 este dezbatere. Tema cere vocabularul politic de astăzi; se compară cu definiția din lecție.
+
+**Lecția 2.6, Tehnologia deceniului 2001-2008:** exercițiile 1 și 2 se discută oral. Exercițiul 3 trimite la lecția 1.6. Exercițiul 4 este discuție. Tema cere internet și se poate cere tuturor.
+
+**Pe unitate:** la recapitulare, o întrebare care leagă lecțiile: în 2.1, 2.2 și 2.3 o putere spune că acționează în numele unei ordini; care este ordinea invocată de fiecare dată și cine a rămas în afara ei? A doua: cuvântul „terorism” apare în 2.1, 2.2 și 2.5, folosit de guverne diferite; cine îl folosește, despre cine, și cu ce consecință juridică.
+
+### Unitatea a III-a, 2008-2020
+
+**Lecția 3.1, Criza financiară din 2008:** exercițiul 1 se discută oral, cu cele patru etape pe tablă. Exercițiul 2, hazardul moral aplicat altui domeniu, dă exemple bune dacă elevii sunt lăsați să caute în viața școlii. Exercițiul 3 cere date despre condamnări, deci internet. Exercițiul 4 este dezbaterea pe casetă, cu Islanda și Suedia pregătite acasă. Tema cere creditele în valută din România; un adult din familie poate ști, dar răspunsul se dă cu o sursă.
+
+**Lecția 3.2, Austeritatea și criza zonei euro:** exercițiul 1 se discută oral. Exercițiile 2 și 3 se discută cu tabelele în față și sunt cele mai importante din lecție pentru metodă: același deceniu descris prin două seturi de indicatori. Exercițiul 4 este dezbatere. Tema cere salariul minim și un coș de alimente din 2010 și de astăzi; Institutul Național de Statistică le publică.
+
+**Lecția 3.3, Primăvara arabă și consecințele ei:** exercițiile 1 și 2 se discută oral. Exercițiul 3 cere aplicarea celor patru mecanisme cazului sudanez, în grupe. Exercițiul 4 este dezbatere. Tema cere o săptămână de urmărire a unui site de știri; se dă cu o săptămână înainte și se poate cere tuturor, pentru că nu cere decât un telefon.
+
+**Lecția 3.4, Ucraina din 2014 și noua confruntare:** exercițiile 1, 2 și 3 se discută oral; exercițiul 3, ordinea prevederilor de la Minsk, cere secțiunea recitită. Exercițiul 4 este dezbatere și trimite la temă, care cere memorandumul de la Budapesta; textul este scurt și ușor de găsit.
+
+**Lecția 3.5, Turcia:** exercițiul 1 se discută oral; pragul de 10% se explică cu cifre pe tablă. Exercițiul 2 pornește de la caseta despre autoritarismul competitiv. Exercițiul 3 cere acordul din 2016 recitit. Exercițiul 4 este dezbatere. Tema cere tabelul de la punctul 11 și evenimente din 2025-2026; profesorul verifică dacă s-a schimbat ceva între timp.
+
+**Lecția 3.6, Brexit, Trump și dreapta radicală europeană:** exercițiul 1 cere internet și două state la alegere. Exercițiul 2 aplică o întrebare de verificare Ungariei și Poloniei; se discută oral. Exercițiul 3 se discută oral. Exercițiul 4 este dezbatere. Tema cere rezultatele partidelor la ultimele alegeri; cifrele din manual se vor fi schimbat, iar asta este scopul temei.
+
+**Lecția 3.7, România în deceniul protestelor:** exercițiile 1 și 3 se discută oral. Exercițiul 2 cere un caz din județ, deci internet și timp. Exercițiul 4 este dezbatere. Tema cere valoarea unui contract public din localitate și numărul de ofertanți; datele sunt în sistemul public de achiziții, iar găsirea lor este partea grea a temei. Se dă cu o săptămână înainte.
+
+**Lecția 3.8, Tehnologia deceniului 2008-2020:** exercițiile 1 și 3 se discută oral. Exercițiul 2 cere prețuri de domeniu și de găzduire, deci internet. Exercițiul 4 este discuție. Tema cere crearea unei pagini web simple într-un editor de text; profesorul o face o dată în fața clasei, cu proiector, și abia apoi o cere. Elevii fără calculator acasă o fac la școală.
+
+**Lecția 3.9, Clima ca problemă istorică:** exercițiile 1 și 2 se discută oral, cu tabelul de la punctul 2. Exercițiul 3 cere surse pentru fiecare curent, deci internet. Exercițiul 4 este dezbatere. Tema cere sursele energiei electrice din localitate; datele sunt publicate de operatorul de transport și se caută împreună, dacă e nevoie.
+
+**Pe unitate:** la recapitulare, o întrebare care leagă lecțiile: lecțiile 3.1, 3.2 și 3.7 descriu cine a plătit criza din 2008, în Statele Unite, în Grecia și în România; ce au în comun cele trei răspunsuri? A doua: lecțiile 3.4, 3.5 și 3.6 descriu, fiecare, o instituție folosită împotriva scopului ei declarat; care sunt instituțiile și cine le-a folosit.
+
+### Unitatea a IV-a, 2020-2026
+
+**Lecția 4.1, Pandemia de COVID-19:** exercițiile 1 și 2 se discută oral; distincția dintre decesele raportate și mortalitatea în exces merită cifre pe tablă. Exercițiul 3 cere formularea unei întrebări de sondaj, în grupe. Exercițiul 4 este dezbatere. Tema cere trei persoane de vârste diferite; se dă cu o săptămână înainte, iar elevii care nu au pe cine întreba compară în schimb două relatări de presă din 2020 despre același efect al pandemiei.
+
+**Lecția 4.2, Inflația, lanțurile de aprovizionare și energia:** exercițiul 1 se discută oral. Exercițiul 2 este un calcul; se face pe tablă. Exercițiul 3 pornește de la casetă. Exercițiul 4 este dezbatere. Tema cere prețuri din 2021 de la un membru al familiei; alternativa este seria de prețuri publicată de Institutul Național de Statistică.
+
+**Lecția 4.3, Invazia din 2022 și războiul de la frontiera României:** exercițiile 1, 2 și 3 se discută oral, cu Carta ONU și tabelul Ministerului Apărării în față. Exercițiul 4 este dezbatere. Tema cere o săptămână de urmărire a două surse, una românească și una străină; se dă cu o săptămână înainte, iar sursa străină poate fi în engleză sau în orice limbă citită de elev.
+
+**Lecția 4.4, Gaza și ordinea internațională:** exercițiile 1, 2 și 3 se discută oral; exercițiul 2 pornește de la caseta de concept. Exercițiul 4 este dezbatere. Tema cere textul rezoluției 2803; se găsește pe site-ul Organizației Națiunilor Unite.
+
+**Lecția 4.5, Reconfigurări:** exercițiile 1, 2 și 3 se discută oral, cu tabelul de la punctul 1 și caseta despre privilegiul exorbitant. Exercițiul 4 este dezbatere. Tema cere moneda piețelor internaționale; răspunsul este scurt și se poate cere tuturor.
+
+**Lecția 4.6, Autoritarismul de astăzi:** exercițiul 1 aplică cele cinci întrebări unui material electoral românesc; profesorul îl alege și îl arată clasei, ca discuția să pornească de la același material. Exercițiile 2 și 3 se discută oral. Exercițiul 4 este dezbaterea pe casetă. Tema cere un material al unei instituții publice; se găsește ușor.
+
+**Lecția 4.7, România, 2024-2026:** exercițiile 1, 2 și 3 se discută oral; exercițiul 1 cere grijă, pentru că elevii și familiile lor au poziții în această dispută, iar întrebarea este despre probe, nu despre poziții. Exercițiul 4 este dezbatere. Tema cere o săptămână de urmărire a unui cont politic; se dă cu o săptămână înainte.
+
+**Lecția 4.8, Inteligența artificială ca industrie:** exercițiile 1 și 2 se discută oral. Exercițiul 3 este un calcul; se face pe tablă. Exercițiul 4 este dezbatere. Tema cere documente publice despre un centru de date din județ; în multe județe nu există niciunul, iar răspunsul „nu există și iată unde am căutat” este un răspuns bun.
+
+**Lecția 4.9, Modelele, instituțiile și regulile:** exercițiile 1, 2 și 3 se discută oral. Exercițiul 4 este dezbatere. Tema cere o sarcină școlară rezolvată cu un asemenea program; se poate cere tuturor și este cea mai potrivită temă pentru a încheia cartea, pentru că întoarce metoda lecției 0 asupra elevului însuși.
+
+**Pe unitate:** la recapitulare, o întrebare care leagă lecțiile: lecțiile 4.1, 4.2 și 4.7 descriu trei momente în care statul român a decis cine plătește o criză; cine a plătit de fiecare dată? A doua: lecțiile 4.3, 4.4 și 4.5 pun, fiecare, întrebarea ce mai valorează o regulă internațională atunci când nu este aplicată; ce răspuns dă fiecare lecție.
+
+## 8. Încheiere
+
+Ghidul este o sugestie. Profesorul care cunoaște clasa decide ce se citește, ce se discută și ce se scrie, iar orice parte a manualului poate fi lăsată deoparte fără ca restul să se strice. Observațiile despre ce a funcționat la clasă și ce nu sunt la fel de utile ca semnalarea erorilor și se trimit la aceeași adresă.

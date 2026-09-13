@@ -1,0 +1,216 @@
+/* Fișa manualului: coperta interioară, cu ștampilă, cheie și tabel de
+   predare-primire. Se încarcă numai pe ghid/fisa.html, după stil.css. */
+
+.fisa {
+  --tus: #a3162a;
+  --tus-slab: rgba(163, 22, 42, 0.75);
+  font-family: var(--sans);
+}
+
+html[data-tema="intunecat"] .fisa {
+  --tus: #ef7a8c;
+  --tus-slab: rgba(239, 122, 140, 0.8);
+}
+
+/* antetul copertei interioare */
+.fisa-antet {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 1em;
+  padding: 1.2rem 1.4rem;
+  border: 1px solid var(--cerneala);
+  outline: 1px solid var(--cerneala);
+  outline-offset: 3px;
+}
+
+.fisa-antet h1 {
+  margin: 0 0 0.6rem;
+  padding: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.fisa-rand {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr);
+  gap: 0.4rem 1rem;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.fisa-rand dt {
+  color: var(--cerneala-slab);
+}
+
+.fisa-rand dd {
+  margin: 0;
+}
+
+/* ștampila */
+.stampila {
+  width: 9.5rem;
+  height: 9.5rem;
+  color: var(--tus);
+  transform: rotate(-11deg);
+  opacity: 0.92;
+  mix-blend-mode: multiply;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+/* la apăsare, culoarea oficială */
+.stampila.albastra {
+  color: #1d4e9c;
+}
+
+html[data-tema="intunecat"] .stampila.albastra {
+  color: #8ab4e8;
+}
+
+html[data-tema="intunecat"] .stampila {
+  mix-blend-mode: normal;
+}
+
+.stampila circle {
+  fill: none;
+  stroke: currentColor;
+}
+
+.stampila text {
+  font-family: var(--sans);
+  font-weight: 700;
+  fill: currentColor;
+  letter-spacing: 0.08em;
+}
+
+/* declarația de stare */
+.fisa-declaratie {
+  margin: 0 0 1em;
+  padding: 1rem 1.4rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  border-top: 3px solid var(--cerneala);
+  border-bottom: 1px solid var(--cerneala);
+}
+
+.fisa-declaratie p {
+  margin: 0 0 0.4em;
+}
+
+.fisa-declaratie p:last-child {
+  margin-bottom: 0;
+}
+
+/* cheia; selectorul bate „.text pre”, care ar opri împărțirea rândurilor */
+.fisa .fisa-cheie {
+  margin: 0 0 1em;
+  padding: 0.9rem 1.1rem;
+  font: 400 0.82rem/1.7 ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  border: 1px dashed var(--cerneala-slab);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+
+.fisa-cheie b {
+  font-weight: 700;
+  color: var(--tus);
+}
+
+.fisa .fisa-cheie {
+  line-height: 1.6;
+}
+
+.fisa .fisa-cheie a {
+  color: var(--albastru);
+}
+
+/* blocul lung din aviz, mai mic și mai rar, ca să se vadă că e un bloc, nu un rând */
+.fisa .fisa-cheie .cheie-lunga {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.6;
+  color: var(--cerneala-slab);
+  letter-spacing: 0.02em;
+}
+
+.fisa-cheie-cutie {
+  position: relative;
+  margin: 0 0 1em;
+}
+
+.fisa-cheie-cutie .fisa-cheie {
+  margin: 0;
+}
+
+/* tabelul de predare-primire, cu rânduri goale de completat */
+.fisa .predare td {
+  height: 2.2rem;
+  border: 1px solid var(--cerneala-slab);
+}
+
+.fisa .predare th {
+  border: 1px solid var(--cerneala-slab);
+  background: var(--hartie-2);
+}
+
+/* datele tehnice, ca listă scurtă */
+.fisa .fisa-date {
+  padding-left: 1.4rem;
+  font-size: 0.95em;
+}
+
+.fisa .fisa-date li {
+  margin: 0.15em 0;
+}
+
+.fisa .fisa-date ul {
+  margin: 0.15em 0 0.4em;
+  padding-left: 1.4rem;
+}
+
+@media (max-width: 40rem) {
+  .fisa-antet {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .stampila {
+    justify-self: end;
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .fisa-rand {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0 0;
+  }
+
+  .fisa-rand dd {
+    margin-bottom: 0.4rem;
+  }
+}
+
+@media print {
+  .stampila {
+    color: #a3162a;
+  }
+
+  .stampila.albastra {
+    color: #1d4e9c;
+    opacity: 1;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .fisa-cheie {
+    background: none;
+  }
+}

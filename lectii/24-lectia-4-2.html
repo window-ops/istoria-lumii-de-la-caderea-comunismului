@@ -4,27 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lecția 4.2: Inflația, lanțurile de aprovizionare și energia &middot; Istoria lumii de la căderea comunismului</title>
-    <link rel="stylesheet" href="../assets/stil.css">
-    <link rel="stylesheet" href="../assets/responsiv.css">
+    <link rel="icon" href="../assets/icoane/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/stil.css">
+    <link rel="stylesheet" href="../assets/css/responsiv.css">
+    <link rel="stylesheet" href="../assets/css/tipar.css" media="print">
+    <script>(function(){try{var d=JSON.parse(localStorage.getItem("manual:setari")||sessionStorage.getItem("manual:setari")||"{}");var h=document.documentElement;if(d.tema)h.setAttribute("data-tema",d.tema);if(d.font)h.setAttribute("data-font",d.font);if(d.ui)h.style.setProperty("--scara-ui",d.ui);}catch(e){}})();</script>
   </head>
   <body class="pagina-lectie">
     <a class="sari" href="#continut">Sari la conținut</a>
     <header class="bara">
-      <button type="button" id="buton-cuprins" class="icon" aria-label="Cuprinsul lecției" title="Cuprinsul lecției"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 5h14M3 10h14M3 15h9"/></svg></button>
-      <a class="acasa icon" href="../index.html" aria-label="Cuprinsul manualului" title="Cuprinsul manualului"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4 3.5h8.5a2.5 2.5 0 012.5 2.5v10.5H6.5A2.5 2.5 0 014 14z"/><path d="M4 14a2.5 2.5 0 012.5-2.5H15"/></svg></a>
+      <button type="button" id="buton-cuprins" class="icon" aria-label="Cuprinsul lecției" title="Cuprinsul lecției"><img class="ico" src="../assets/icoane/cuprins.svg" alt=""></button>
+      <a class="acasa icon" href="../index.html" aria-label="Cuprinsul manualului" title="Cuprinsul manualului"><img class="ico" src="../assets/icoane/acasa.svg" alt=""></a>
       <div class="bara-titlu">
         <span class="bara-unitate">Unitatea a IV-a. Pandemie, război și automatizare, 2020-2026</span>
         <span class="bara-lectie">Lecția 4.2: Inflația, lanțurile de aprovizionare și energia</span>
       </div>
       <div class="bara-unelte">
-        <span class="semn-tema" id="semn-tema" hidden title="Ai scris la temele acestei lecții"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M14.5 3.5l2 2-8.5 8.5-2.8.8.8-2.8z"/><path d="M4 17h12"/></svg></span>
-        <button type="button" id="buton-citit" class="icon" aria-pressed="false" aria-label="Marchează lecția ca parcursă" title="Marchează lecția ca parcursă"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4 10.5l4 4 8-9"/></svg></button>
-        <a class="icon" href="../teme.html" aria-label="Temele mele" title="Temele mele"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M6 3.5h8v13H6z"/><path d="M8 7h4M8 10h4M8 13h2"/></svg></a>
-        <button type="button" id="buton-cauta" class="icon" aria-label="Caută în manual" title="Caută în manual"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="9" cy="9" r="5.2"/><path d="M12.8 12.8L17 17"/></svg></button>
-        <button type="button" id="buton-setari" class="icon" aria-label="Setări de citire" title="Setări de citire"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 6h14M3 14h14"/><circle cx="8" cy="6" r="2.2" fill="currentColor"/><circle cx="13" cy="14" r="2.2" fill="currentColor"/></svg></button>
+        <span class="semn-tema" id="semn-tema" hidden title="Ai scris la temele acestei lecții"><img class="ico" src="../assets/icoane/tema.svg" alt=""></span>
+        <button type="button" id="buton-citit" class="icon" aria-pressed="false" aria-label="Marchează lecția ca parcursă" title="Marchează lecția ca parcursă"><img class="ico" src="../assets/icoane/citit.svg" alt=""></button>
+        <a class="icon" href="../teme.html" aria-label="Temele mele" title="Temele mele"><img class="ico" src="../assets/icoane/teme.svg" alt=""></a>
+        <button type="button" id="buton-cauta" class="icon" aria-label="Caută în manual" title="Caută în manual"><img class="ico" src="../assets/icoane/cauta.svg" alt=""></button>
+        <button type="button" id="buton-setari" class="icon" aria-label="Setări de citire" title="Setări de citire"><img class="ico" src="../assets/icoane/setari.svg" alt=""></button>
       </div>
     </header>
-    <div class="corp" data-cuprins="deschis">
+    <div class="corp">
       <nav class="cuprins-lateral" aria-label="Cuprinsul lecției">
         <h2 class="doar-citit">Cuprinsul lecției</h2>
         <ul>
@@ -50,7 +53,7 @@
         </div>
       </nav>
       <div class="zona">
-        <main id="continut" class="text" data-mod="continuu" data-latime="normal">
+        <main id="continut" class="text">
           <div class="strat">
             <h1>Lecția 4.2: Inflația, lanțurile de aprovizionare și energia</h1>
             <p>După oprirea din 2020 au urmat trei ani de creșteri de prețuri, cele mai mari din ultimele patru decenii în Europa și în Statele Unite. Lecția urmărește cauzele, reacția băncilor centrale, situația din România, unde prețurile cresc mai repede și mai mult timp decât în restul Uniunii, și consecințele asupra accesului la energie.</p>
@@ -301,8 +304,12 @@
     <script>
       window.NOTE = {"1": "Deprecierea este scăderea valorii unei monede care se formează liber pe piață. Devalorizarea este scăderea decisă administrativ de autoritate, în cazul unui curs fix. Leul are curs flotant, cu intervenții ale băncii centrale, deci termenul corect pentru situația descrisă este deprecierea.&#160;", "2": "Deficitele gemene desemnează situația în care un stat are simultan deficit bugetar și deficit de cont curent. Prima măsură arată diferența dintre cheltuielile și veniturile statului, a doua diferența dintre ce vinde și ce cumpără o economie în raport cu restul lumii.&#160;", "3": "Sărăcia energetică desemnează situația gospodăriei care nu își poate permite serviciile energetice necesare pentru un trai decent: încălzire, apă caldă, iluminat, funcționarea aparatelor. Se măsoară prin ponderea cheltuielilor cu energia în venit și prin declarațiile privind imposibilitatea încălzirii locuinței.&#160;", "4": "Pierderile comerciale sunt diferența dintre energia intrată în rețea și energia facturată, cauzată de consum nemăsurat sau neplătit. Ele se deosebesc de pierderile tehnice, produse de rezistența cablurilor și de transformatoare.&#160;"};
     </script>
-    <script src="../assets/stocare.js"></script>
-    <script src="../assets/index-cautare.js"></script>
-    <script src="../assets/vizualizator.js"></script>
+    <script src="../assets/js/stocare.js"></script>
+    <script src="../assets/js/setari.js"></script>
+    <script src="../assets/js/index-cautare.js"></script>
+    <script src="../assets/js/cautare.js"></script>
+    <script src="../assets/js/lectie.js"></script>
+    <script src="../assets/js/paginare.js"></script>
+    <script src="../assets/js/tipar.js"></script>
   </body>
 </html>

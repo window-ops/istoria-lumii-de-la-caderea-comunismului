@@ -1,0 +1,1841 @@
+/* Glumele din fișa manualului: stările ascunse de la „nu are imn”, „Hârtie”,
+   „0 grame”, „nelimitat”, „0 lei”, „Rețineți!”, „Știați că?”, „domnitor” și
+   butonul din colțul avizului. Se încarcă numai pe ghid/fisa.html, după fisa.css. */
+
+/* butonul ascuns din colțul din dreapta-jos: apare când cursorul ajunge acolo */
+.dezvaluie {
+  position: absolute;
+  right: 0.4rem;
+  bottom: 0.4rem;
+  padding: 0.2rem 0.6rem;
+  font: 500 0.78rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.dezvaluie:hover,
+.dezvaluie:focus-visible,
+.dezvaluie.deschis {
+  opacity: 1;
+}
+
+.fisa-raspuns-inchide {
+  padding: 0.2rem 0.6rem;
+  font: 500 0.8rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.fisa-raspuns {
+  margin: 1em 0;
+  padding: 0.8rem 1.1rem;
+  font-size: 0.95em;
+  border-left: 4px solid var(--tus);
+}
+
+.fisa-raspuns p:last-child {
+  margin-bottom: 0;
+}
+
+.fisa-raspuns-titlu {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--tus);
+}
+
+/* „nu are imn”: un buton care nu se vede ca buton */
+.ascuns-in-text {
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: text;
+}
+
+.ascuns-in-text:hover,
+.ascuns-in-text:focus-visible {
+  cursor: pointer;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+
+.imn-ascuns {
+  margin: 0 0 1em;
+  padding: 0.8rem 1.2rem;
+  border-left: 4px solid var(--tus);
+}
+
+.imn-ascuns h4 {
+  margin: 0 0 0.3rem;
+  color: var(--tus);
+}
+
+.imn-ascuns .strofe {
+  margin: 0.6rem 0 0;
+  padding-left: 1.6rem;
+  font-family: var(--text-font);
+  line-height: 1.5;
+}
+
+.imn-ascuns .strofe li {
+  margin: 0 0 0.8em;
+}
+
+/* starea imprimantei, la „Hârtie” */
+.fisa .eroare-imprimanta {
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.7rem 0.9rem;
+  font: 400 0.8rem/1.6 ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  color: #f3f3f3;
+  background: #1a1a1a;
+  border: 1px solid #000;
+  border-left: 6px solid var(--tus);
+  white-space: pre-wrap;
+}
+
+/* conexiunea dial-up, la „telefon” */
+.fisa .dialup {
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.7rem 0.9rem;
+  font: 400 0.8rem/1.6 ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  color: #c8c8c8;
+  background: #000;
+  border: 1px solid #333;
+  white-space: pre-wrap;
+}
+
+/* programul de sărituri, la „rugăciune” */
+.fisa .saritura {
+  max-width: 34rem;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.fisa .scena {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #333;
+}
+
+.fisa .scena .cer {
+  fill: #06110a;
+}
+
+.fisa .scena .cladire {
+  fill: #1c2a22;
+}
+
+.fisa .scena .ferestre rect {
+  fill: #3fbf6f;
+  opacity: 0.55;
+}
+
+.fisa .scena .legenda {
+  font: 600 9px ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  fill: #6ff59a;
+}
+
+.fisa .scena .om {
+  fill: none;
+  stroke: #6ff59a;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.fisa .scena .om circle {
+  fill: #6ff59a;
+}
+
+/* Morpheus: parabolă întreagă, de pe o clădire pe cealaltă; timpul curge liniar,
+   forma arcului vine din cadre, ca să nu plutească la coborâre */
+.fisa .scena .morpheus.sare {
+  animation: saritura-reusita 1.5s linear forwards;
+}
+
+@keyframes saritura-reusita {
+  0% { transform: translate(90px, 0); }
+  20% { transform: translate(118px, -19px); }
+  40% { transform: translate(146px, -29px); }
+  50% { transform: translate(160px, -31px); }
+  60% { transform: translate(174px, -29px); }
+  80% { transform: translate(202px, -19px); }
+  100% { transform: translate(230px, 0); }
+}
+
+/* Neo: arc scurt și cădere, într-o singură mișcare; accelerează până jos și rămâne întins */
+.fisa .scena .neo.incearca {
+  animation: saritura-ratata 2.95s linear forwards;
+}
+
+/* Neo pornește din spatele lui Morpheus, cu 7.6 m/s pe orizontală și 8 m/s pe verticală,
+   și cade în mijlocul străzii; căderea: g = 9,8 m/s², scara 4 px pe metru */
+@keyframes saritura-ratata {
+  0% { transform: translate(70px, 0px) rotate(0deg); }
+  10% { transform: translate(79px, -8px) rotate(0deg); }
+  20% { transform: translate(88px, -12px) rotate(0deg); }
+  30% { transform: translate(97px, -13px) rotate(3deg); }
+  40% { transform: translate(106px, -10px) rotate(15deg); }
+  50% { transform: translate(115px, -5px) rotate(28deg); }
+  60% { transform: translate(124px, 5px) rotate(40deg); }
+  70% { transform: translate(133px, 17px) rotate(53deg); }
+  80% { transform: translate(142px, 34px) rotate(65deg); }
+  90% { transform: translate(151px, 53px) rotate(78deg); }
+  100% { transform: translate(160px, 76px) rotate(90deg); }
+}
+  10% { transform: translate(108px, -8px) rotate(0deg); }
+  20% { transform: translate(115px, -12px) rotate(0deg); }
+  30% { transform: translate(123px, -13px) rotate(3deg); }
+  40% { transform: translate(131px, -10px) rotate(15deg); }
+  50% { transform: translate(138px, -5px) rotate(28deg); }
+  60% { transform: translate(146px, 5px) rotate(40deg); }
+  70% { transform: translate(154px, 17px) rotate(53deg); }
+  80% { transform: translate(161px, 34px) rotate(65deg); }
+  90% { transform: translate(169px, 53px) rotate(78deg); }
+  100% { transform: translate(177px, 76px) rotate(90deg); }
+}
+  10% { transform: translate(105px, -2px) rotate(0deg); }
+  20% { transform: translate(109px, -1px) rotate(0deg); }
+  30% { transform: translate(114px, 1px) rotate(9deg); }
+  40% { transform: translate(118px, 6px) rotate(21deg); }
+  50% { transform: translate(123px, 12px) rotate(32deg); }
+  60% { transform: translate(127px, 21px) rotate(44deg); }
+  70% { transform: translate(132px, 32px) rotate(55deg); }
+  80% { transform: translate(137px, 44px) rotate(67deg); }
+  90% { transform: translate(141px, 59px) rotate(78deg); }
+  100% { transform: translate(146px, 76px) rotate(90deg); }
+}
+  10% { transform: translate(80px, -6px) rotate(0deg); }
+  20% { transform: translate(100px, -9px) rotate(0deg); }
+  30% { transform: translate(118px, -9px) rotate(0deg); }
+  40% { transform: translate(134px, -6px) rotate(0deg); }
+  50% { transform: translate(148px, 0) rotate(5deg); }
+  60% { transform: translate(158px, 9px) rotate(15deg); }
+  70% { transform: translate(162px, 21px) rotate(30deg); }
+  80% { transform: translate(162px, 37px) rotate(50deg); }
+  90% { transform: translate(162px, 55px) rotate(72deg); }
+  100% { transform: translate(162px, 76px) rotate(90deg); }
+}
+}
+}
+
+.fisa .scena.impact {
+  animation: tresarire 0.3s linear;
+}
+
+@keyframes tresarire {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(0, 3px); }
+  50% { transform: translate(0, -2px); }
+  75% { transform: translate(0, 1px); }
+}
+
+/* scena nu ascultă de „mișcare redusă”: fără săritură nu există glumă */
+@media (prefers-reduced-motion: reduce) {
+  .fisa .scena .om,
+  .fisa .scena.impact {
+    animation-duration: inherit;
+  }
+}
+
+/* adjectivele de reverență, la alții */
+.fisa .reverente {
+  margin: 0.5rem 0 0.5rem;
+}
+
+.fisa .reverente table {
+  font-size: 0.82rem;
+}
+
+/* testul pentru aviz */
+.fisa .test-aviz {
+  max-width: 34rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.8rem 1.1rem;
+  font-family: var(--sans);
+  font-size: 0.92em;
+  border: 1px solid var(--linie);
+}
+
+.fisa .aviz-intrebare {
+  margin: 0 0 0.6rem;
+  font-weight: 600;
+}
+
+.fisa .aviz-raspunsuri {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.fisa .aviz-raspunsuri button {
+  padding: 0.4rem 0.7rem;
+  font: 400 0.9rem var(--sans);
+  color: var(--cerneala);
+  text-align: left;
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.fisa .aviz-raspunsuri button:hover:not([disabled]) {
+  background: var(--hartie-2);
+}
+
+.fisa .aviz-raspunsuri button.corect {
+  border-color: var(--verde);
+  box-shadow: inset 4px 0 0 var(--verde);
+}
+
+.fisa .aviz-raspunsuri button.gresit {
+  border-color: var(--rosu);
+  box-shadow: inset 4px 0 0 var(--rosu);
+}
+
+.fisa .aviz-explicatie {
+  margin: 0.6rem 0 0;
+}
+
+/* textul curge pe toată lățimea; butonul vine după punct, în dreapta ultimului rând */
+.fisa .aviz-rezultat {
+  margin: 0;
+  overflow: hidden;
+}
+
+.fisa .aviz-inapoi {
+  float: right;
+  margin: 0 0 0 0.8rem;
+  padding: 0.25rem 0.6rem;
+  font: 500 0.82rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* ștampila ministerului: albastră, cu alt text */
+.stampila.minister {
+  color: #1d4e9c;
+}
+
+/* rândul „Ce ar trebui”, pentru țară */
+.fisa .ce-ar-trebui {
+  max-width: 34rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.6rem 1rem;
+  border-left: 4px solid var(--linie);
+}
+
+.fisa .ce-ar-trebui ol {
+  padding-left: 1.4rem;
+}
+
+/* conversația cu autorul */
+.fisa .mesaje {
+  max-width: 24rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.6rem;
+  background: var(--hartie-2);
+  border-radius: 10px;
+}
+
+.fisa .mesaje .mesaj {
+  max-width: 85%;
+  margin: 0 0 0.4rem;
+  padding: 0.35rem 0.6rem;
+  font: 400 0.85rem/1.35 var(--sans);
+  background: var(--hartie);
+  border-radius: 8px;
+}
+
+.fisa .mesaje .al-meu {
+  margin-left: auto;
+  background: var(--marcaj);
+}
+
+.fisa .mesaje .ora {
+  display: block;
+  margin-top: 0.1rem;
+  font-size: 0.68rem;
+  color: var(--cerneala-slab);
+  text-align: right;
+}
+
+.fisa .mesaje-stare {
+  margin: 0.3rem 0 0;
+}
+
+/* Kiwix, la „nu este necesar” */
+.fisa .kiwix {
+  max-width: 34rem;
+  margin: 0.5rem 0 0.5rem;
+  font-family: var(--sans);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.fisa .kiwix-bara {
+  display: flex;
+  gap: 0.8rem;
+  align-items: baseline;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  color: var(--cerneala-slab);
+  background: var(--hartie-2);
+  border-bottom: 1px solid var(--linie);
+}
+
+.fisa .kiwix-titlu {
+  font-weight: 700;
+  color: var(--cerneala);
+}
+
+.fisa .kiwix-cautare {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  margin: 0.6rem 0.8rem 0.3rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.9rem;
+  border: 1px solid var(--linie);
+  border-radius: 999px;
+}
+
+.fisa .kiwix-camp {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  font: 400 0.9rem var(--sans);
+  color: var(--cerneala);
+  background: none;
+  border: 0;
+  outline: none;
+}
+
+.fisa .kiwix-stare {
+  margin: 0.3rem 0.8rem 0.6rem;
+  padding: 0.5rem 0.7rem;
+  border-left: 4px solid var(--rosu);
+}
+
+.fisa .kiwix-stare p {
+  margin: 0 0 0.4em;
+}
+
+.fisa .kiwix-stare p:last-child {
+  margin-bottom: 0;
+}
+
+.fisa .kiwix-cerere {
+  padding: 0.25rem 0.6rem;
+  font: 500 0.8rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.fisa .kiwix-bara-verif {
+  height: 0.4rem;
+  margin: 0.4rem 0;
+  background: var(--hartie-2);
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.fisa .kiwix-bara-verif span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--albastru);
+  animation: kiwix-verif 3.2s linear forwards;
+}
+
+@keyframes kiwix-verif {
+  to { width: 100%; }
+}
+
+.fisa .kiwix-turc {
+  font-weight: 600;
+  color: var(--rosu);
+}
+
+.fisa .kiwix-rezultate {
+  margin: 0;
+  padding: 0 0.8rem 0.4rem;
+  list-style: none;
+}
+
+.fisa .kiwix-rezultate li {
+  padding: 0.35rem 0;
+  font-size: 0.85rem;
+  border-bottom: 1px solid var(--linie);
+}
+
+.fisa .kiwix-rezultate li.kiwix-ascuns b {
+  color: var(--rosu);
+}
+
+.fisa .kiwix-rezultate b {
+  display: block;
+  color: var(--albastru);
+}
+
+.fisa .kiwix-rezultate span {
+  color: var(--cerneala-slab);
+}
+
+.fisa .kiwix .mic {
+  margin: 0.4rem 0.8rem 0.6rem;
+}
+
+.fisa .kiwix-lupa {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.fisa .kiwix-lupa .ico {
+  vertical-align: 0;
+}
+
+/* adresa temporară, la „Cont” */
+.fisa .tempmail {
+  max-width: 34rem;
+  margin: 0.5rem 0 0.5rem;
+  font-family: var(--sans);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.fisa .tempmail-bara {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  font: 500 0.85rem ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  background: var(--hartie-2);
+  border-bottom: 1px solid var(--linie);
+}
+
+.fisa .tempmail-timp {
+  color: var(--rosu);
+}
+
+.fisa .tempmail-inbox {
+  margin: 0;
+  padding: 0.3rem 0.8rem;
+  list-style: none;
+}
+
+.fisa .tempmail-inbox li {
+  padding: 0.35rem 0;
+  font-size: 0.85rem;
+  border-bottom: 1px solid var(--linie);
+}
+
+.fisa .tempmail-inbox li.mic {
+  padding: 0.15rem 0;
+  border-bottom: 0;
+}
+
+.fisa .tempmail-inbox b {
+  display: block;
+}
+
+.fisa .tempmail-inbox span {
+  color: var(--cerneala-slab);
+}
+
+.fisa .tempmail .mic {
+  margin: 0.4rem 0.8rem 0.7rem;
+}
+
+/* depozitul navigatorului, la „Cookie” */
+.fisa .depozit {
+  max-width: 34rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.6rem 1rem;
+  font-family: var(--sans);
+  border-left: 4px solid var(--linie);
+}
+
+.fisa .depozit dl {
+  margin-bottom: 0.5rem;
+}
+
+.fisa .depozit dd {
+  font-family: ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+}
+
+/* certificatul semnat de sine, la „proprie” */
+.fisa .autosemnat {
+  max-width: 34rem;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.fisa .autosemnat .terminal {
+  margin: 0;
+  padding: 0.7rem 0.9rem;
+  font: 400 0.8rem/1.55 ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  color: #d0d0d0;
+  background: #101010;
+  border: 1px solid #333;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.fisa .avertisment-cert {
+  margin-top: 0.6rem;
+  padding: 0.9rem 1.1rem;
+  font-family: var(--sans);
+  font-size: 0.9em;
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 8px;
+}
+
+.fisa .avertisment-cert p {
+  margin: 0 0 0.6em;
+}
+
+.fisa .avertisment-cert p:last-child {
+  margin-bottom: 0;
+}
+
+.fisa .avertisment-titlu {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.fisa .avertisment-cert code {
+  font-size: 0.85em;
+  color: var(--cerneala-slab);
+}
+
+.fisa .avertisment-cert button {
+  padding: 0.3rem 0.7rem;
+  font: 500 0.82rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  border: 1px solid var(--linie);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.fisa .avertisment-cert .cert-inapoi {
+  color: var(--hartie);
+  background: var(--albastru);
+  border-color: var(--albastru);
+}
+
+/* ultimul element din orice cutie de glumă nu are margine jos */
+.fisa .ce-ar-trebui > :last-child,
+.fisa .reverente > :last-child,
+.fisa .tempmail > :last-child,
+.fisa .depozit > :last-child,
+.fisa .kiwix > .kiwix-cautare,
+.fisa .problema-fizica > :last-child,
+.fisa .imn-ascuns > :last-child,
+.fisa .test-aviz > :last-child,
+.fisa .saritura > :last-child,
+.fisa .autosemnat > :last-child,
+.fisa .chat-imitatie > :last-child,
+.fisa .mesaje > :last-child,
+.fisa .harti > :last-child,
+.fisa .tiraj > :last-child,
+.fisa .tunel > :last-child,
+.fisa .semnatura > :last-child,
+.fisa .mana > :last-child,
+.fisa .virgula > :last-child,
+.fisa .stiati > :last-child {
+  margin-bottom: 0;
+}
+
+/* hărțile, pe rând, la „Hărți: nu există” */
+.fisa .harti {
+  max-width: 34rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.6rem 1rem;
+  font-family: var(--sans);
+  border-left: 4px solid var(--linie);
+}
+
+.fisa .harti-lista {
+  margin: 0.4rem 0 0.6rem;
+  padding: 0;
+  list-style: none;
+}
+
+.fisa .harti-lista li {
+  padding: 0.3rem 0;
+  font-size: 0.88rem;
+  border-bottom: 1px solid var(--linie);
+}
+
+.fisa .harti-lista b {
+  display: block;
+}
+
+.fisa .harti-lista span {
+  color: var(--cerneala-slab);
+}
+
+.fisa .harti-lista li.nu-merge b {
+  color: var(--rosu);
+}
+
+.fisa .harti-lista li.merge b {
+  color: var(--verde);
+}
+
+/* constructorul, la virgula de după „daci”: aceleași planșe, cealaltă parte */
+.fisa .virgula {
+  border-left: 4px solid var(--galben);
+}
+
+.fisa .virgula-cine {
+  margin: 0 0 0.6rem;
+  font-size: 0.82rem;
+  color: var(--cerneala-slab);
+}
+
+.fisa .virgula-replica {
+  margin: 0.6rem 0 0.4rem;
+  font-family: var(--text-font);
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+.fisa .tunel-sectiune .marcaj {
+  stroke: var(--cerneala);
+  stroke-width: 1.2;
+}
+
+.fisa .tunel-sectiune .strat-cald {
+  fill: var(--rosu);
+}
+
+.fisa .tunel-sectiune .deal {
+  fill: var(--cerneala-slab);
+  fill-opacity: 0.5;
+  stroke: var(--cerneala);
+}
+
+.fisa .tunel-sectiune .casa {
+  fill: var(--hartie);
+  stroke: var(--cerneala);
+}
+
+.fisa .tunel-sectiune .bara-timp.promis {
+  fill: var(--albastru);
+}
+
+.fisa .tunel-sectiune .bara-timp.real {
+  fill: var(--rosu);
+  fill-opacity: 0.7;
+}
+
+.fisa .tunel-sectiune .taiat {
+  stroke: var(--rosu);
+  stroke-width: 5;
+  stroke-linecap: round;
+  opacity: 0.85;
+}
+
+.fisa .tunel-sectiune .panou-verde {
+  fill: #0a7a3c;
+  stroke: #fff;
+  stroke-width: 3;
+}
+
+.fisa .tunel-sectiune .marca-nume-mic {
+  font: 800 14px var(--sans);
+  fill: #fff;
+  letter-spacing: 0.04em;
+}
+
+.fisa .tunel-sectiune .marca-sub-mic {
+  font: 500 9px var(--sans);
+  fill: #fff;
+}
+
+.fisa .tunel-sectiune .semn-tunel {
+  fill: #1d4e9c;
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.fisa .tunel-sectiune .semn-tunel-gura {
+  fill: #fff;
+}
+
+.fisa .tunel-sectiune .verde-text {
+  font: 700 16px var(--sans);
+  fill: #fff;
+}
+
+.fisa .tunel-sectiune .masina {
+  fill: var(--albastru);
+}
+
+.fisa .tunel-sectiune .camion {
+  fill: var(--cerneala);
+}
+
+/* semnătura, desenată ca la instruirea de securitate */
+.fisa .semnatura {
+  margin: 0;
+}
+
+.fisa .semn-schema {
+  display: block;
+  width: 100%;
+  max-width: 48rem;
+  height: auto;
+  margin: 0 0 0.6rem;
+  font-family: var(--sans);
+}
+
+.fisa .semn-schema .pas rect {
+  fill: var(--hartie);
+  stroke: var(--cerneala-slab);
+  stroke-width: 1;
+}
+
+.fisa .semn-schema .pas.privat rect {
+  stroke: var(--rosu);
+  stroke-width: 1.5;
+}
+
+.fisa .semn-schema .pas.bun rect {
+  stroke: var(--verde);
+  stroke-width: 1.5;
+}
+
+.fisa .semn-schema .pas.crede rect {
+  stroke: var(--galben);
+  stroke-width: 1.5;
+}
+
+.fisa .semn-schema .pas-titlu {
+  font-size: 10.5px;
+  font-weight: 700;
+  fill: var(--cerneala);
+}
+
+.fisa .semn-schema .pas-text {
+  font-size: 9.5px;
+  fill: var(--cerneala-slab);
+}
+
+.fisa .semn-schema .rand-titlu {
+  font-size: 11.5px;
+  font-weight: 700;
+  fill: var(--cerneala);
+}
+
+.fisa .semn-schema .rand-nota {
+  font-size: 9px;
+  fill: var(--cerneala-slab);
+}
+
+.fisa .semn-schema .sageata-d {
+  fill: none;
+  stroke: var(--cerneala-slab);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.fisa .semn-schema .lacat .fond {
+  fill: var(--rosu);
+}
+
+.fisa .semn-schema .lacat rect {
+  fill: var(--hartie);
+}
+
+.fisa .semn-schema .lacat path {
+  stroke: var(--hartie);
+  stroke-width: 1.6;
+}
+
+.fisa .semn-schema .bifa circle {
+  fill: var(--verde);
+}
+
+.fisa .semn-schema .bifa path {
+  stroke: var(--hartie);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.fisa .semn-schema .nu circle {
+  fill: var(--rosu);
+}
+
+.fisa .semn-schema .nu path {
+  stroke: var(--hartie);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+
+.fisa .semn-schema .ochi .fond {
+  fill: var(--galben);
+}
+
+.fisa .semn-schema .ochi path {
+  stroke: var(--hartie);
+  stroke-width: 1.4;
+}
+
+.fisa .semn-schema .ochi circle:not(.fond) {
+  fill: var(--hartie);
+}
+
+/* paragraful de dinaintea unei glume deschise nu mai are margine jos */
+.fisa p:has(+ .semnatura:not([hidden])),
+.fisa p:has(+ .mana:not([hidden])) {
+  margin-bottom: 0;
+}
+
+/* mâna care se autoavizează */
+.fisa .mana {
+  margin: 0;
+}
+
+.fisa .mana-scena {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--sans);
+}
+
+.fisa .mana-scena .coala {
+  fill: var(--hartie);
+  stroke: var(--cerneala-slab);
+  stroke-width: 1;
+}
+
+.fisa .mana-scena .foaie-text {
+  font-size: 11px;
+  fill: var(--cerneala);
+}
+
+.fisa .mana-scena .foaie-text.scris {
+  font-style: italic;
+  fill: var(--albastru);
+}
+
+.fisa .mana-scena .semnatura-scrisa {
+  fill: none;
+  stroke: var(--albastru);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+}
+
+.fisa .mana-scena.semneaza .semnatura-scrisa {
+  animation: scrie-semnatura 1.4s linear forwards;
+}
+
+.fisa .mana-scena .semnatura-scrisa {
+  animation-name: none;
+}
+
+.fisa .mana-scena.semneaza .semnatura-scrisa {
+  animation-name: scrie-semnatura;
+}
+
+@keyframes scrie-semnatura {
+  to { stroke-dashoffset: 0; }
+}
+
+.fisa .mana-scena .stampila-mica {
+  opacity: 0;
+  transform: rotate(-6deg);
+  transform-origin: 92px 109px;
+}
+
+.fisa .mana-scena .stampila-mica rect {
+  fill: none;
+  stroke: var(--tus);
+  stroke-width: 1.5;
+}
+
+.fisa .mana-scena .stampila-mica text {
+  font-size: 11px;
+  font-weight: 700;
+  fill: var(--tus);
+  letter-spacing: 0.1em;
+}
+
+.fisa .mana-scena.aprobat .stampila-mica {
+  opacity: 1;
+}
+
+.fisa .mana-scena .mana-desen .stilou {
+  fill: var(--cerneala);
+}
+
+.fisa .mana-scena .mana-desen .palma {
+  fill: var(--hartie);
+  stroke: var(--cerneala);
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+}
+
+.fisa .mana-scena .mana-desen .deget {
+  fill: var(--hartie);
+  stroke: var(--cerneala);
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
+.fisa .mana-scena .legenda-mana {
+  font-size: 11.5px;
+  font-weight: 600;
+  fill: var(--cerneala-slab);
+}
+
+/* scena nu ascultă de „mișcare redusă” */
+@media (prefers-reduced-motion: reduce) {
+  .fisa .mana-scena .semnatura-scrisa {
+    animation-duration: inherit;
+  }
+}
+
+/* butonul de reluare a unei animații: discret, în colțul din dreapta-sus al scenei */
+.fisa .mana,
+.fisa .saritura {
+  position: relative;
+}
+
+.fisa .reia {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  display: inline-flex;
+  padding: 0.2rem;
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 999px;
+  opacity: 0.45;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.fisa .reia:hover,
+.fisa .reia:focus-visible {
+  opacity: 1;
+}
+
+.fisa .reia .ico {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Tunelul Dacic, la „daci” */
+.fisa .tunel {
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.8rem 1rem;
+  font-family: var(--sans);
+  border: 1px solid var(--linie);
+}
+
+.fisa .tunel-titlu {
+  margin: 0 0 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.fisa .tunel-harta,
+.fisa .tunel-sectiune {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 0.6rem;
+  color: var(--cerneala);
+}
+
+.fisa .tunel-harta .tara {
+  fill: var(--hartie-2);
+  stroke: var(--cerneala);
+  stroke-width: 1.2;
+}
+
+.fisa .tunel-harta .munti {
+  fill: var(--cerneala-slab);
+  fill-opacity: 0.28;
+  stroke: var(--cerneala-slab);
+  stroke-width: 0.8;
+  stroke-linejoin: round;
+}
+
+.fisa .tunel-harta .tunel-linie {
+  stroke: var(--cerneala);
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.fisa .tunel-harta .tunel-linie-int {
+  stroke: var(--rosu);
+  stroke-width: 2;
+  stroke-dasharray: 6 4;
+  stroke-linecap: round;
+}
+
+.fisa .tunel-harta .oras,
+.fisa .tunel-sectiune .oras {
+  fill: var(--rosu);
+}
+
+.fisa .tunel-harta .oras.cu-titlu {
+  stroke: var(--hartie);
+  stroke-width: 1.5;
+  cursor: help;
+}
+
+.fisa .tunel-harta .oras-nume {
+  font: 700 10px var(--sans);
+  fill: var(--cerneala);
+  paint-order: stroke;
+  stroke: var(--hartie-2);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+.fisa .tunel-harta .eticheta,
+.fisa .tunel-sectiune .eticheta {
+  font: 400 9px var(--sans);
+  fill: var(--cerneala-slab);
+  paint-order: stroke;
+  stroke: var(--hartie-2);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+.fisa .tunel-variante {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 0.6rem;
+}
+
+.fisa .tunel-variante button {
+  padding: 0.3rem 0.6rem;
+  font: 500 0.8rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.fisa .tunel-variante button[aria-pressed="true"] {
+  color: var(--hartie);
+  background: var(--cerneala);
+  border-color: var(--cerneala);
+}
+
+.fisa .tunel-sectiune .roca {
+  fill: var(--hartie-2);
+}
+
+.fisa .tunel-sectiune .bolta {
+  fill: var(--hartie);
+  stroke: var(--cerneala);
+  stroke-width: 1.5;
+}
+
+.fisa .tunel-sectiune .banda {
+  stroke: var(--cerneala-slab);
+  stroke-width: 1;
+  stroke-dasharray: 4 3;
+}
+
+.fisa .tunel-sectiune .banda.spre-b {
+  fill: rgba(179, 18, 44, 0.12);
+}
+
+.fisa .tunel-sectiune .banda.spre-n {
+  fill: rgba(32, 69, 110, 0.12);
+}
+
+.fisa .tunel-sectiune .sageata-d {
+  fill: none;
+  stroke: var(--cerneala);
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.fisa .tunel-file {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0 0 0.8rem;
+  border-bottom: 1px solid var(--linie);
+}
+
+.fisa .tunel-file button {
+  margin-bottom: -1px;
+  padding: 0.4rem 0.8rem;
+  font: 500 0.82rem var(--sans);
+  color: var(--cerneala-slab);
+  background: none;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+}
+
+.fisa .tunel-file button[aria-selected="true"] {
+  color: var(--cerneala);
+  background: var(--hartie);
+  border-color: var(--linie);
+  border-radius: 2px 2px 0 0;
+}
+
+.fisa .tunel-plansa {
+  margin: 0 0 0.8rem;
+}
+
+.fisa .tunel-plansa > :last-child {
+  margin-bottom: 0;
+}
+
+.fisa .tunel-harta .drum-gata,
+.fisa .tunel-sectiune .drum-gata {
+  stroke: var(--cerneala);
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
+.fisa .tunel-harta .drum-lucru,
+.fisa .tunel-sectiune .drum-lucru {
+  stroke: var(--rosu);
+  stroke-width: 3;
+  stroke-dasharray: 5 4;
+  stroke-linecap: round;
+}
+
+.fisa .tunel-harta .drum-alt,
+.fisa .tunel-sectiune .drum-alt {
+  stroke: var(--cerneala-slab);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.fisa .tunel-sectiune .teren {
+  fill: var(--hartie);
+  stroke: var(--cerneala);
+  stroke-width: 1.2;
+}
+
+.fisa .tunel-sectiune .tunel-profil {
+  stroke: var(--rosu);
+  stroke-width: 3;
+}
+
+.fisa .tunel-sectiune .rocafata {
+  fill: var(--cerneala-slab);
+  fill-opacity: 0.35;
+}
+
+.fisa .tunel-sectiune .captuseala {
+  fill: var(--hartie);
+  stroke: var(--cerneala);
+  stroke-width: 1.2;
+}
+
+.fisa .tunel-sectiune .inele line {
+  stroke: var(--linie);
+  stroke-width: 1.5;
+}
+
+.fisa .tunel-sectiune .scut {
+  fill: var(--hartie-2);
+  stroke: var(--cerneala);
+  stroke-width: 1.5;
+}
+
+.fisa .tunel-sectiune .cap {
+  fill: var(--hartie);
+  stroke: var(--rosu);
+  stroke-width: 3;
+}
+
+.fisa .tunel-sectiune .cutite line {
+  stroke: var(--rosu);
+  stroke-width: 2;
+}
+
+.fisa .tunel-sectiune .banda-steril {
+  stroke: var(--cerneala-slab);
+  stroke-width: 3;
+  stroke-dasharray: 8 4;
+}
+
+.fisa .tunel-sectiune .marca-panou {
+  fill: #0b3d91;
+  stroke: #fff;
+  stroke-width: 3;
+}
+
+.fisa .tunel-sectiune .draco {
+  fill: #f2c200;
+  stroke: #f2c200;
+}
+
+.fisa .tunel-sectiune .draco .ochi {
+  fill: #1d4e9c;
+  stroke: none;
+}
+
+.fisa .tunel-sectiune .marca-nume {
+  font: 800 22px var(--sans);
+  fill: #fff;
+  letter-spacing: 0.06em;
+}
+
+.fisa .tunel-sectiune .marca-sub {
+  font: 500 12px var(--sans);
+  fill: #fff;
+}
+
+.fisa .tunel-sectiune .marca-mic {
+  font: 500 9px var(--sans);
+  fill: #fff;
+}
+
+.fisa .tunel-cheie {
+  display: inline-block;
+  width: 1.3em;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.fisa .tunel-cheie.spre-b {
+  background: rgba(179, 18, 44, 0.15);
+}
+
+.fisa .tunel-cheie.spre-n {
+  background: rgba(32, 69, 110, 0.15);
+}
+
+.fisa .tunel-date {
+  font-size: 0.85rem;
+}
+
+/* problema de fizică, la „0 grame” */
+.fisa .problema-fizica {
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.8rem 1.2rem;
+  font-family: var(--text-font);
+  font-size: 0.95em;
+  border: 1px solid var(--linie);
+}
+
+.fisa .problema-fizica h4 {
+  margin: 0 0 0.5rem;
+}
+
+.fisa .problema-fizica ol {
+  padding-left: 1.6rem;
+}
+
+/* tirajul nelimitat: reclamă, tiparniță sau austeritate */
+.fisa .tiraj > div {
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.8rem 1.1rem;
+  font-family: var(--sans);
+  font-size: 0.92em;
+  border: 1px solid var(--linie);
+}
+
+.fisa .tiraj .reclama {
+  color: #fff;
+  background: #d5001c;
+  border: 0;
+  font-size: 1.05em;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.fisa .tiraj .reclama .mic {
+  display: block;
+  margin-top: 0.4rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.fisa .tiraj .tiparnita {
+  font-family: ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.fisa .tiraj .sfarsit:not(:empty) {
+  display: block;
+  margin-top: 0.4rem;
+}
+
+.fisa .tiraj .austeritate {
+  border-left: 4px solid #1d4e9c;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.fisa .tiraj .inchide-tiraj {
+  display: block;
+  margin-top: 0.6rem;
+  padding: 0.25rem 0.7rem;
+  font: 500 0.85rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* „0 lei”: ecranul din La Abadía del Crimen */
+.fisa .pirata {
+  max-height: 14rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.6rem 0.8rem;
+  overflow: hidden;
+  font: 700 0.95rem/1.25 ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  color: #ffff55;
+  background: #0000aa;
+  border: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+  letter-spacing: 0.05em;
+}
+
+/* alegerea profilului, la „Rețineți!” */
+.fisa .profil {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
+  margin: 0 0 0.8rem;
+}
+
+.fisa .profil .mic {
+  margin: 0 0.2rem 0 0.4rem;
+}
+
+.fisa .profil button {
+  padding: 0.2rem 0.6rem;
+  font: 500 0.82rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.fisa .profil button[aria-pressed="true"] {
+  color: var(--hartie);
+  background: var(--cerneala);
+  border-color: var(--cerneala);
+}
+
+.fisa .barem {
+  padding-left: 1.4rem;
+}
+
+.fisa #retineti [data-parte][hidden] {
+  display: none;
+}
+
+.fisa #retineti p[data-parte] {
+  margin-bottom: 0.6em;
+}
+
+.fisa .sinelg {
+  font-size: 0.78rem;
+}
+
+.fisa .sinelg table {
+  width: 100%;
+}
+
+.fisa .sinelg th,
+.fisa .sinelg td {
+  padding: 0.25rem 0.4rem;
+  line-height: 1.35;
+}
+
+.fisa .sinelg td:nth-child(3) {
+  text-align: center;
+}
+
+/* eticheta baremului, până la sfârșitul universului */
+.barem-eticheta {
+  position: relative;
+}
+
+.barem-balon {
+  position: absolute;
+  left: 0;
+  bottom: 1.6em;
+  z-index: 5;
+  min-width: 16rem;
+  padding: 0.3rem 0.6rem;
+  font: 400 0.78rem/1.4 var(--sans);
+  color: var(--hartie);
+  background: var(--cerneala);
+  border-radius: 2px;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: opacity 0.3s linear;
+}
+
+/* cutia de scris către un model, la „domnitor” */
+.fisa .chat-imitatie {
+  margin: 0.6rem 0 1em;
+  font-family: var(--sans);
+}
+
+.fisa .chat-cutie {
+  max-width: 34rem;
+  padding: 0.6rem 0.7rem 0.4rem;
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.fisa .chat-camp {
+  display: block;
+  width: 100%;
+  padding: 0.3rem 0.2rem;
+  font: 400 0.95rem/1.5 var(--sans);
+  color: var(--cerneala);
+  background: none;
+  border: 0;
+  resize: none;
+  outline: none;
+}
+
+.fisa .chat-imitatie .chat-rand {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.fisa .chat-spatiu {
+  flex: 1;
+}
+
+.fisa .chat-imitatie .chat-buton {
+  display: inline-flex;
+  gap: 0.25rem;
+  align-items: center;
+  height: 2rem;
+  margin: 0;
+  padding: 0 0.45rem;
+  line-height: 1;
+  font: 500 0.82rem var(--sans);
+  color: var(--cerneala);
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.fisa .chat-imitatie .chat-buton:hover {
+  background: var(--hartie-2);
+}
+
+.fisa .chat-imitatie .chat-gandire[aria-pressed="true"] {
+  color: var(--albastru);
+  background: var(--hartie-2);
+  border-color: var(--linie);
+}
+
+.fisa .chat-imitatie .chat-buton[hidden] {
+  display: none;
+}
+
+.fisa .chat-imitatie .chat-model,
+.fisa .chat-imitatie .chat-efort {
+  padding: 0 0.55rem;
+  color: var(--cerneala-slab);
+}
+
+.fisa .chat-imitatie .chat-meniu-loc[hidden] {
+  display: none;
+}
+
+.fisa .chat-foc .ico {
+  filter: none;
+}
+
+html[data-tema="intunecat"] .fisa .chat-foc .ico {
+  filter: invert(0.88);
+}
+
+/* bannerul limitei, la trimitere */
+.fisa .chat-imitatie .chat-banner {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 34rem;
+  margin: 0 0 0.5rem;
+  padding: 0.5rem 0.8rem;
+  font: 400 0.85rem/1.4 var(--sans);
+  color: var(--cerneala);
+  background: var(--marcaj);
+  border: 1px solid var(--galben);
+  border-radius: 8px;
+}
+
+.fisa .chat-imitatie .chat-banner[hidden] {
+  display: none;
+}
+
+.fisa .chat-imitatie .chat-banner .ico {
+  flex: 0 0 auto;
+}
+
+.fisa .chat-imitatie .chat-banner button {
+  margin-left: auto;
+  padding: 0.2rem 0.6rem;
+  font: 500 0.8rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* fereastra limitei de utilizare */
+.fisa .chat-imitatie .chat-popup {
+  position: absolute;
+  right: 0;
+  bottom: 2.4rem;
+  z-index: 8;
+  width: 18rem;
+  padding: 0.8rem 0.9rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+}
+
+.fisa .chat-popup p {
+  margin: 0 0 0.6rem;
+}
+
+.fisa .chat-popup-titlu {
+  font-weight: 600;
+}
+
+.fisa .chat-bara {
+  height: 0.4rem;
+  margin: 0 0 0.6rem;
+  background: var(--hartie-2);
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.fisa .chat-bara span {
+  display: block;
+  height: 100%;
+  background: #d5001c;
+}
+
+.fisa .chat-popup-butoane {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: flex-end;
+}
+
+.fisa .chat-popup-butoane button {
+  padding: 0.3rem 0.7rem;
+  font: 500 0.82rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  border: 1px solid var(--linie);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.fisa .chat-popup-max,
+.fisa .chat-popup-da {
+  color: var(--hartie) !important;
+  background: var(--cerneala) !important;
+  border-color: var(--cerneala) !important;
+}
+
+.fisa .chat-imitatie .chat-trimite,
+.fisa .chat-imitatie .chat-trimite:hover {
+  background: var(--cerneala);
+  border-radius: 8px;
+}
+
+.fisa .chat-imitatie .chat-meniu-loc {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.fisa .chat-imitatie .chat-meniu {
+  position: absolute;
+  bottom: 2.2rem;
+  left: 0;
+  z-index: 6;
+  min-width: 13rem;
+  margin: 0;
+  padding: 0.3rem;
+  list-style: none;
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.fisa .chat-imitatie .chat-meniu li,
+.fisa .chat-imitatie .chat-meniu ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  list-style: none;
+}
+
+.fisa .chat-meniu .chat-grup {
+  position: relative;
+  padding: 0;
+}
+
+.fisa .chat-imitatie .chat-meniu .chat-pliaza {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--cerneala);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.fisa .chat-imitatie .chat-grup[data-actual="true"] > .chat-pliaza {
+  font-weight: 600;
+}
+
+.fisa .chat-imitatie .chat-sageata {
+  margin-left: auto;
+  font-weight: 600;
+  color: var(--cerneala-slab);
+}
+
+.fisa .chat-imitatie .chat-submeniu,
+.fisa .fisa-date .chat-imitatie .chat-submeniu {
+  position: absolute;
+  top: -0.3rem;
+  left: 100%;
+  z-index: 7;
+  width: max-content;
+  min-width: 11rem;
+  max-width: 24rem;
+  margin: 0;
+  padding: 0.3rem;
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* insignele modelelor: un rând mic, sub nume, ca descrierile din meniul lui Claude */
+.fisa .chat-imitatie .chat-submeniu button {
+  display: block;
+}
+
+.fisa .chat-imitatie .chat-insigna {
+  display: block;
+  margin-top: 0.1rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--cerneala-slab);
+  white-space: nowrap;
+}
+
+.fisa .chat-marturie {
+  position: absolute;
+  right: 0;
+  bottom: 2.4rem;
+  z-index: 6;
+  width: 18rem;
+  padding: 0.4rem 0.6rem;
+  font: 400 0.78rem/1.4 var(--sans);
+  color: var(--hartie);
+  background: var(--cerneala);
+  border-radius: 6px;
+}
+
+.fisa .chat-imitatie .chat-meniu button {
+  display: block;
+  width: 100%;
+  padding: 0.3rem 0.6rem;
+  font: 400 0.85rem var(--sans);
+  color: var(--cerneala);
+  text-align: left;
+  background: none;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.fisa .chat-meniu button:hover,
+.fisa .chat-meniu button[aria-current="true"] {
+  background: var(--hartie-2);
+}
+
+.fisa .chat-trimite .ico {
+  filter: invert(0.95);
+}
+
+html[data-tema="intunecat"] .fisa .chat-trimite .ico {
+  filter: none;
+}
+
+.fisa .chat-raspuns {
+  max-width: 34rem;
+  margin: 0.5rem 0 0;
+}
+
+.fisa .fisa-date li.fara-punct {
+  margin-left: -1.4rem;
+  list-style: none;
+}
+
+.fisa .fisa-date .caseta {
+  margin: 0.8em 0;
+}

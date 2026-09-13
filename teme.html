@@ -4,17 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Temele mele &middot; Istoria lumii de la căderea comunismului</title>
-    <link rel="stylesheet" href="assets/stil.css">
-    <link rel="stylesheet" href="assets/responsiv.css">
+    <link rel="icon" href="assets/icoane/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/stil.css">
+    <link rel="stylesheet" href="assets/css/responsiv.css">
+    <link rel="stylesheet" href="assets/css/tipar.css" media="print">
+    <script>(function(){try{var d=JSON.parse(localStorage.getItem("manual:setari")||sessionStorage.getItem("manual:setari")||"{}");var h=document.documentElement;if(d.tema)h.setAttribute("data-tema",d.tema);if(d.font)h.setAttribute("data-font",d.font);if(d.ui)h.style.setProperty("--scara-ui",d.ui);}catch(e){}})();</script>
   </head>
   <body class="pagina-teme">
     <a class="sari" href="#lista">Sari la listă</a>
     <header class="bara">
-      <a class="acasa icon" href="index.html" aria-label="Cuprinsul manualului" title="Cuprinsul manualului"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4 3.5h8.5a2.5 2.5 0 012.5 2.5v10.5H6.5A2.5 2.5 0 014 14z"/><path d="M4 14a2.5 2.5 0 012.5-2.5H15"/></svg></a>
+      <a class="acasa icon" href="index.html" aria-label="Cuprinsul manualului" title="Cuprinsul manualului"><img class="ico" src="assets/icoane/acasa.svg" alt=""></a>
       <div class="bara-titlu">
         <span class="bara-lectie">Evidența lucrului</span>
       </div>
-      <div class="bara-unelte"></div>
+      <div class="bara-unelte">
+        <button type="button" id="buton-cauta" class="icon" aria-label="Caută în manual" title="Caută în manual"><img class="ico" src="assets/icoane/cauta.svg" alt=""></button>
+        <button type="button" id="buton-setari" class="icon" aria-label="Setări de citire" title="Setări de citire"><img class="ico" src="assets/icoane/setari.svg" alt=""></button>
+      </div>
     </header>
     <main class="index">
       <section class="coperta">
@@ -49,9 +55,11 @@
         </table>
       </section>
     </main>
-    <script src="assets/stocare.js"></script>
-    <script src="assets/index-cautare.js"></script>
-    <script src="assets/vizualizator.js"></script>
-    <script src="assets/evidenta.js"></script>
+    <script src="assets/js/stocare.js"></script>
+    <script src="assets/js/setari.js"></script>
+    <script src="assets/js/index-cautare.js"></script>
+    <script src="assets/js/cautare.js"></script>
+    <script src="assets/js/lectie.js"></script>
+    <script src="assets/js/evidenta.js"></script>
   </body>
 </html>

@@ -23,6 +23,14 @@
       stare.textContent = S.permanent()
         ? "Datele sunt păstrate permanent în acest navigator."
         : "Datele sunt păstrate doar pentru sesiunea curentă de navigare.";
+      if (!S.permanent() && S.avertizare()) {
+        stare.textContent += " Atenție: la închiderea filei, răspunsurile și setările se pierd. " +
+          "Navigatorul va avertiza înainte de închidere.";
+      }
+    }
+    if (window.Manual) {
+      window.Manual.aplica();
+      window.Manual.aplicaImpartirea();
     }
     document.querySelectorAll("[data-stocare]").forEach(function (b) {
       b.setAttribute(

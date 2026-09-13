@@ -1,0 +1,188 @@
+/* Reguli pentru tipar. Se încarcă numai la tipărire (media="print").
+   Opțiunile alese în fereastra „Tipărire” ajung aici ca atribute pe <html>:
+   data-tipar-teme (linii | text | nu), data-tipar-note (da | nu),
+   data-tipar-litera (mica | normala | mare); tăierea tabelelor și a casetelor
+   vine din setările foilor: data-taie-tabele, data-taie-casete (da | nu).
+   Formatul foii și marginile sunt scrise de tipar.js într-o regulă @page. */
+
+@page {
+  size: A4;
+  margin: 18mm 16mm;
+}
+
+.bara,
+.cuprins-lateral,
+.panou,
+.paginare,
+.navigare,
+.permalink,
+.sari,
+.balon,
+.copiaza,
+#gluma-copiere,
+.inchide-sertar,
+.maner-cuprins {
+  display: none !important;
+}
+
+html,
+body {
+  color: #000;
+  background: #fff;
+}
+
+.corp {
+  display: block;
+}
+
+.text,
+.text[data-mod="pagina"],
+.text[data-mod="doua"] {
+  min-height: 0;
+  padding: 0;
+  overflow: visible;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  color: #000;
+  background: #fff;
+}
+
+html[data-tipar-litera="mica"] .text {
+  font-size: 9pt;
+}
+
+html[data-tipar-litera="mare"] .text {
+  font-size: 12.5pt;
+}
+
+.carte {
+  display: block;
+  zoom: 1;
+}
+
+.foaie {
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 0;
+  overflow: visible;
+  box-shadow: none;
+  page-break-after: auto;
+}
+
+.text .strat {
+  zoom: 1;
+  width: auto !important;
+  max-width: none;
+  height: auto !important;
+  column-width: auto !important;
+  column-rule: none;
+}
+
+.text h1 {
+  border-bottom: 2px solid #000;
+}
+
+.text h1,
+.text h2,
+.text h3,
+.text h4 {
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+html[data-taie-tabele="nu"] .text table,
+html[data-taie-casete="nu"] .caseta,
+.tema {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.text thead {
+  display: table-header-group;
+}
+
+.text tr {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.caseta {
+  border-left: 3px solid #000;
+}
+
+.text mark {
+  color: #000;
+  background: none;
+  text-decoration: underline;
+}
+
+/* notele de subsol */
+.note-tipar {
+  display: block;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 9pt;
+  border-top: 1px solid #000;
+  page-break-before: auto;
+}
+
+html[data-tipar-note="nu"] .note-tipar {
+  display: none;
+}
+
+.note-tipar hr {
+  display: none;
+}
+
+/* spațiile de temă */
+.tema-text {
+  display: none;
+}
+
+.tema-linii {
+  display: block;
+}
+
+.tema-linii .rand {
+  display: block;
+  height: 9mm;
+  border-bottom: 1px solid #999;
+}
+
+html[data-tipar-teme="text"] .tema-linii,
+html[data-tipar-teme="nu"] .tema-linii,
+html[data-tipar-teme="nu"] .tema {
+  display: none;
+}
+
+html[data-tipar-teme="text"] .tema-tiparit {
+  display: block;
+  min-height: 3em;
+  padding: 0.5rem 0.6rem;
+  font: 400 10pt/1.6 var(--sans);
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  border: 1px solid #999;
+}
+
+html[data-tipar-teme="text"] .tema-tiparit:empty::before {
+  content: "(fără răspuns scris)";
+  color: #777;
+}
+
+/* manualul întreg */
+.lectie-completa {
+  page-break-before: always;
+}
+
+.lectie-completa:first-child {
+  page-break-before: auto;
+}
+
+/* paginile de evidență */
+.coperta-butoane,
+.filtre,
+.semn {
+  display: none;
+}

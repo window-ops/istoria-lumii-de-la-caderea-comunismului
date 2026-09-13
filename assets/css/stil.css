@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Noto Serif";
-  src: url("../fonts/NotoSerif.woff2") format("woff2-variations");
+  src: url("../../fonts/NotoSerif.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Noto Serif";
-  src: url("../fonts/NotoSerif-Italic.woff2") format("woff2-variations");
+  src: url("../../fonts/NotoSerif-Italic.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("../fonts/NotoSans.woff2") format("woff2-variations");
+  src: url("../../fonts/NotoSans.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Noto Sans";
-  src: url("../fonts/NotoSans-Italic.woff2") format("woff2-variations");
+  src: url("../../fonts/NotoSans-Italic.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;
@@ -148,7 +148,7 @@ a {
 }
 
 .mic {
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   line-height: 1.5;
   color: var(--cerneala-slab);
 }
@@ -223,14 +223,30 @@ a {
   padding: 0;
 }
 
-.bara .icon svg {
+/* icoanele: fișiere SVG din assets/icoane, desenate în culoarea cernelii;
+   pe fundal întunecat și în stările colorate se folosesc filtre */
+.ico {
+  display: inline-block;
   width: 1.25rem;
   height: 1.25rem;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.6;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  vertical-align: middle;
+  pointer-events: none;
+}
+
+html[data-tema="intunecat"] .ico {
+  filter: invert(0.88);
+}
+
+html[data-tema="sepia"] .ico {
+  filter: sepia(0.6);
+}
+
+.bara .icon[aria-pressed="true"] .ico {
+  filter: invert(0.3) sepia(1) saturate(3) hue-rotate(125deg);
+}
+
+.semn-tema .ico {
+  filter: invert(0.4) sepia(1) saturate(3) hue-rotate(15deg);
 }
 
 body:not(.pagina-index) .bara-titlu {
@@ -396,10 +412,15 @@ body:not(.pagina-index) .bara-titlu {
   background: var(--linie);
 }
 
-html[data-rand-frumos="text"] .text h1,
-html[data-rand-frumos="text"] .text h2,
-html[data-rand-frumos="ambele"] .text h1,
-html[data-rand-frumos="ambele"] .text h2 {
+html[data-rand-frumos="text"] .text :is(h1, h2, h3, h4, p, li, td, th, dd, dt),
+html[data-rand-frumos="ambele"] .text :is(h1, h2, h3, h4, p, li, td, th, dd, dt),
+html[data-rand-frumos="text"] .index :is(h1, h2, p, li),
+html[data-rand-frumos="ambele"] .index :is(h1, h2, p, li) {
+  text-wrap: pretty;
+}
+
+html[data-rand-frumos="meniu"] :is(.cuprins-lateral a, .sectiuni a, .lectie > summary, .unitate > summary),
+html[data-rand-frumos="ambele"] :is(.cuprins-lateral a, .sectiuni a, .lectie > summary, .unitate > summary) {
   text-wrap: pretty;
 }
 
@@ -477,7 +498,7 @@ html[data-rand-frumos="ambele"] .text h2 {
 }
 
 .text h2 {
-  margin: 0.8rem 0 0.8rem;
+  margin: 1rem 0 1rem;
   font-family: var(--sans);
   font-size: 1.12rem;
   font-weight: 700;
@@ -485,7 +506,7 @@ html[data-rand-frumos="ambele"] .text h2 {
 }
 
 .text h3 {
-  margin: 1.9rem 0 0.5rem;
+  margin: 1rem 0 1rem;
   font-family: var(--sans);
   font-size: 0.97rem;
   font-weight: 600;
@@ -555,11 +576,127 @@ h4:hover .permalink,
 }
 
 /* ------------------------------------------------------------------ */
+/* blocuri de copiat, în ghiduri                                      */
+/* ------------------------------------------------------------------ */
+
+.bloc-copiabil {
+  position: relative;
+  margin: 0 0 1em;
+}
+
+.bloc-copiabil pre {
+  margin: 0;
+  padding-right: 3rem;
+}
+
+.text pre {
+  margin: 0 0 1.2em;
+  padding: 0.7rem 0.9rem;
+  overflow-x: auto;
+  font: 400 0.88rem/1.6 ui-monospace, Consolas, "DejaVu Sans Mono", monospace;
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  white-space: pre;
+}
+
+.text .copiaza {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  display: inline-flex;
+  padding: 0.25rem;
+  background: none;
+  border: 0;
+  border-radius: 2px;
+  opacity: 0.45;
+  cursor: pointer;
+}
+
+.text .copiaza:hover,
+.text .copiaza:focus-visible,
+.text .copiaza.copiat {
+  opacity: 1;
+}
+
+.text .copiaza.copiat {
+  background: var(--marcaj);
+}
+
+/* anexa pliabilă a regulilor */
+.text details.anexa {
+  margin: 0 0 1.2em;
+}
+
+.text details.anexa > summary {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  font: 500 0.88rem var(--sans);
+  color: var(--cerneala);
+  background: var(--hartie-2);
+  border: 1px solid var(--linie);
+  border-radius: 2px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.text details.anexa > summary::-webkit-details-marker {
+  display: none;
+}
+
+.text details.anexa[open] > summary {
+  margin-bottom: 1em;
+}
+
+.text details.anexa > p {
+  font-family: var(--sans);
+  font-size: 0.94em;
+}
+
+/* anexa ca document: antet centrat, articole cu titlul lor */
+.text .document {
+  margin: 0 0 1em;
+  padding: 1.4rem 1.6rem;
+  font-family: var(--sans);
+  font-size: 0.94em;
+  background: var(--hartie);
+  border: 1px solid var(--linie);
+  outline: 1px solid var(--linie);
+  outline-offset: 3px;
+}
+
+.text .document-antet {
+  margin: 0 0 1.2rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.text .document p {
+  margin: 0 0 0.8em;
+}
+
+.text .document p:last-child {
+  margin-bottom: 0;
+}
+
+.text .document p > strong:first-child {
+  display: block;
+  margin-bottom: 0.15em;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------------ */
 /* tabele                                                             */
 /* ------------------------------------------------------------------ */
 
 .tabel {
-  margin: 0 0 1.4em;
+  margin: 0 0 1.2em;
   overflow-x: auto;
 }
 
@@ -762,6 +899,40 @@ sup.ref a {
   display: block;
 }
 
+/* foaia și cartea în lucru: se măsoară, dar nu se văd */
+.text[data-mod="pagina"] .strat,
+.text[data-mod="doua"] .strat {
+  position: relative;
+}
+
+.carte {
+  position: relative;
+}
+
+.carte.zidire {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.foaie.zidire {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.foaie.zidire.activa {
+  position: static;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .foaie > *:first-child {
   margin-top: 0;
 }
@@ -808,6 +979,61 @@ sup.ref a {
 .paginare button[disabled] {
   cursor: default;
   opacity: 0.4;
+}
+
+.foaie .tema-text {
+  resize: none;
+}
+
+.foaie [data-sursa] {
+  scroll-margin-top: 0;
+}
+
+.tema-tiparit {
+  display: none;
+}
+
+.panou details {
+  margin: 0;
+  border-top: 1px solid var(--linie);
+}
+
+.panou details > summary + label {
+  margin-top: 0;
+}
+
+.panou details:last-of-type {
+  border-bottom: 1px solid var(--linie);
+}
+
+.panou summary {
+  padding: 0.7rem 0;
+  line-height: 1.2;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--cerneala);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.panou details > *:last-child {
+  margin-bottom: 0.9rem;
+}
+
+.panou .optiuni.actiune {
+  margin-top: 0;
+  padding-top: 0.6rem;
+}
+
+.panou p.mic {
+  margin: 0.6rem 0 0;
+}
+
+.panou .optiuni button.principal {
+  color: var(--hartie);
+  background: var(--cerneala);
+  border-color: var(--cerneala);
 }
 
 /* ------------------------------------------------------------------ */
@@ -876,6 +1102,30 @@ sup.ref a {
 
 .cuprins {
   margin-top: 2rem;
+}
+
+.subsol {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--linie);
+}
+
+.subsol h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.subsol p {
+  margin: 0 0 0.35rem;
+}
+
+.subsol p:last-child {
+  margin-bottom: 0;
+}
+
+.subsol a {
+  color: var(--albastru);
 }
 
 .cuprins > h2 {
@@ -967,14 +1217,9 @@ sup.ref a {
   display: none;
 }
 
-.semn-tema svg {
+.semn-tema .ico {
   width: 1.15rem;
   height: 1.15rem;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.6;
-  stroke-linecap: round;
-  stroke-linejoin: round;
 }
 
 .bara .icon[aria-pressed="true"] {
@@ -1195,127 +1440,5 @@ sup.ref a {
   * {
     transition: none !important;
     scroll-behavior: auto !important;
-  }
-}
-
-/* ------------------------------------------------------------------ */
-/* tipar                                                              */
-/* ------------------------------------------------------------------ */
-
-@media print {
-  @page {
-    size: A4;
-    margin: 18mm 16mm;
-  }
-
-  .bara,
-  .cuprins-lateral,
-  .panou,
-  .paginare,
-  .navigare,
-  .permalink,
-  .sari {
-    display: none !important;
-  }
-
-  html,
-  body {
-    color: #000;
-    background: #fff;
-  }
-
-  .corp {
-    display: block;
-  }
-
-  .text,
-  .text[data-mod="pagina"],
-  .text[data-mod="doua"] {
-    min-height: 0;
-    padding: 0;
-    overflow: visible;
-    font-size: 10.5pt;
-    line-height: 1.5;
-    background: #fff;
-  }
-
-  .carte {
-    display: block;
-    zoom: 1;
-  }
-
-  .foaie {
-    display: block;
-    width: auto;
-    height: auto;
-    padding: 0;
-    overflow: visible;
-    box-shadow: none;
-    page-break-after: auto;
-  }
-
-  .text .strat {
-    zoom: 1;
-    width: auto !important;
-    max-width: none;
-    height: auto !important;
-    column-width: auto !important;
-    column-rule: none;
-  }
-
-  .text h1 {
-    border-bottom: 2px solid #000;
-  }
-
-  .text h1,
-  .text h2,
-  .text h3,
-  .text h4 {
-    page-break-after: avoid;
-  }
-
-  .text table,
-  .caseta,
-  .tema {
-    page-break-inside: avoid;
-  }
-
-  .caseta {
-    border-left: 3px solid #000;
-  }
-
-  .note-tipar {
-    display: block;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    font-size: 9pt;
-    border-top: 1px solid #000;
-    page-break-before: auto;
-  }
-
-  .note-tipar hr {
-    display: none;
-  }
-
-  .tema-text {
-    display: none;
-  }
-
-  .tema-linii {
-    display: block;
-  }
-
-  .tema-linii .rand {
-    display: block;
-    height: 9mm;
-    border-bottom: 1px solid #999;
-  }
-
-  .lectie-completa {
-    page-break-before: always;
-  }
-
-  .lectie-completa:first-child {
-    page-break-before: auto;
   }
 }

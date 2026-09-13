@@ -9,7 +9,11 @@ window.Stocare = (function () {
   "use strict";
 
   var CHEIE = "manual:setari";
-  var SETARI = ["tema", "font", "mod", "lat", "corp", "rand", "ui", "cuprins"];
+  var CHEIE_AVERTIZARE = "manual:avertizare";
+  var SETARI = ["tema", "font", "mod", "lat", "corp", "rand", "ui", "cuprins", "rand-frumos",
+    "foaie", "margini", "taie-tabele", "taie-casete", "tema-intinsa",
+    "tipar-teme", "tipar-note", "tipar-litera", "cuprinsLat",
+    "sect:aspect", "sect:vizualizare", "sect:marimi", "sect:pagini"];
 
   var date = {};
   var permanent = false;
@@ -88,11 +92,45 @@ window.Stocare = (function () {
     scrie();
   }
 
+  /* Avertizarea la închiderea filei. Se pornește numai când cititorul renunță la
+     păstrarea permanentă, pentru că atunci datele rămân doar în memoria sesiunii. */
+  var navigareInterna = false;
+  var temporizatorNavigare;
+
+  function avertizare() {
+    var s = depozit("sesiune");
+    return !!(s && s.getItem(CHEIE_AVERTIZARE));
+  }
+
+  function pornesteAvertizarea() {
+    var s = depozit("sesiune");
+    if (s) s.setItem(CHEIE_AVERTIZARE, "1");
+  }
+
+  function opresteAvertizarea() {
+    var s = depozit("sesiune");
+    if (s) s.removeItem(CHEIE_AVERTIZARE);
+  }
+
+  window.addEventListener("beforeunload", function (e) {
+    if (permanent || navigareInterna || !avertizare()) return;
+    e.preventDefault();
+    e.returnValue = "Datele și setările se pierd la închiderea filei.";
+    return e.returnValue;
+  });
+
   /* legăturile interne duc setările mai departe */
   function legaturi() {
     document.addEventListener("click", function (e) {
       var a = e.target.closest("a[href]");
       if (!a || a.hasAttribute("download") || a.target === "_blank") return;
+      var hrefBrut = a.getAttribute("href") || "";
+      if (hrefBrut.charAt(0) !== "#" && !/^[a-z]+:/i.test(hrefBrut)) {
+        /* trecerea la altă pagină a manualului nu pierde memoria sesiunii */
+        navigareInterna = true;
+        clearTimeout(temporizatorNavigare);
+        temporizatorNavigare = setTimeout(function () { navigareInterna = false; }, 1500);
+      }
       var href = a.getAttribute("href");
       if (!href || href.charAt(0) === "#" || /^[a-z]+:/i.test(href)) return;
       if (href.indexOf(".html") === -1) return;
@@ -127,14 +165,18 @@ window.Stocare = (function () {
     },
     salveazaPermanent: function () {
       permanent = true;
+      opresteAvertizarea();
       scrie();
     },
     uitaPermanent: function () {
+      var eraPermanent = permanent;
       permanent = false;
       var l = depozit("local");
       if (l) l.removeItem(CHEIE);
+      if (eraPermanent) pornesteAvertizarea();
       scrie();
     },
+    avertizare: avertizare,
     legaturi: legaturi
   };
 })();

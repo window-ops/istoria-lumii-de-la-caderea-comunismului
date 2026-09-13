@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Istoria lumii de la căderea comunismului</title>
-    <link rel="stylesheet" href="assets/stil.css">
-    <link rel="stylesheet" href="assets/responsiv.css">
+    <link rel="icon" href="assets/icoane/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/stil.css">
+    <link rel="stylesheet" href="assets/css/responsiv.css">
+    <link rel="stylesheet" href="assets/css/tipar.css" media="print">
+    <script>(function(){try{var d=JSON.parse(localStorage.getItem("manual:setari")||sessionStorage.getItem("manual:setari")||"{}");var h=document.documentElement;if(d.tema)h.setAttribute("data-tema",d.tema);if(d.font)h.setAttribute("data-font",d.font);if(d.ui)h.style.setProperty("--scara-ui",d.ui);}catch(e){}})();</script>
   </head>
   <body class="pagina-index">
     <a class="sari" href="#cuprins">Sari la cuprins</a>
@@ -14,8 +17,8 @@
         <span class="bara-lectie">Istoria lumii de la căderea comunismului</span>
       </span>
       <div class="bara-unelte">
-        <button type="button" id="buton-cauta" class="icon" aria-label="Caută în manual" title="Caută în manual"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle cx="9" cy="9" r="5.2"/><path d="M12.8 12.8L17 17"/></svg></button>
-        <button type="button" id="buton-setari" class="icon" aria-label="Setări de citire" title="Setări de citire"><svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M3 6h14M3 14h14"/><circle cx="8" cy="6" r="2.2" fill="currentColor"/><circle cx="13" cy="14" r="2.2" fill="currentColor"/></svg></button>
+        <button type="button" id="buton-cauta" class="icon" aria-label="Caută în manual" title="Caută în manual"><img class="ico" src="assets/icoane/cauta.svg" alt=""></button>
+        <button type="button" id="buton-setari" class="icon" aria-label="Setări de citire" title="Setări de citire"><img class="ico" src="assets/icoane/setari.svg" alt=""></button>
       </div>
     </header>
     <main class="index">
@@ -820,9 +823,20 @@
           </ol>
         </details>
       </section>
+      <section class="subsol">
+        <h2>Pentru profesori și autori</h2>
+        <p class="mic"><a href="ghid/profesori.html">Ghid pentru profesori</a>: ce urmărește manualul, cum este construit, limitele lui, cum se folosește la clasă și notele pentru exercițiile fiecărei lecții.</p>
+        <p class="mic"><a href="ghid/autori.html">Ghid pentru autori</a>: Markdown și cum se scrie o lecție.</p>
+        <p class="mic"><a href="ghid/scrisori.html">Cum i se scrie autorului</a>: forma mesajului și regulile.</p>
+        <p class="mic"><a href="ghid/fisa.html">Fișa manualului</a>: avizul, ștampila și restul paginilor de început.</p>
+        <p class="mic"><a href="ghid/semnare.html">Cum se semnează avizul</a>: cheia, semnătura, verificarea și ce se schimbă în pagină.</p>
+        <p class="mic">Manualul este publicat sub licența <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ro">CC BY-SA 4.0</a>.</p>
+      </section>
     </main>
-    <script src="assets/stocare.js"></script>
-    <script src="assets/index-cautare.js"></script>
-    <script src="assets/vizualizator.js"></script>
+    <script src="assets/js/stocare.js"></script>
+    <script src="assets/js/setari.js"></script>
+    <script src="assets/js/index-cautare.js"></script>
+    <script src="assets/js/cautare.js"></script>
+    <script src="assets/js/lectie.js"></script>
   </body>
 </html>
