@@ -8,8 +8,8 @@
 window.Stocare = (function () {
   "use strict";
 
-  var CHEIE = "manual:setari";
-  var CHEIE_AVERTIZARE = "manual:avertizare";
+  var CHEIE = "istorie:setari";
+  var CHEIE_AVERTIZARE = "istorie:avertizare";
   var SETARI = ["tema", "font", "mod", "lat", "corp", "rand", "ui", "cuprins", "rand-frumos",
     "foaie", "margini", "taie-tabele", "taie-casete", "tema-intinsa",
     "tipar-teme", "tipar-note", "tipar-litera", "cuprinsLat",
@@ -26,7 +26,7 @@ window.Stocare = (function () {
     if (fel === "local" && peDisc) return null;
     try {
       var d = fel === "local" ? window.localStorage : window.sessionStorage;
-      var proba = "manual:proba";
+      var proba = "istorie:proba";
       d.setItem(proba, "1");
       d.removeItem(proba);
       return d;

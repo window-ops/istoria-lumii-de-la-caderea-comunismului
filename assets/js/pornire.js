@@ -10,7 +10,7 @@
 (function () {
   "use strict";
 
-  var CHEIE = "manual:setari";
+  var CHEIE = "istorie:setari";
   var doc = document.documentElement;
   var peDisc = location.protocol === "file:";
 

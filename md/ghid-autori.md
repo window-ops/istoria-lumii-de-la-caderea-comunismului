@@ -4,7 +4,7 @@
 
 Erorile și propunerile se trimit la admin@miculpionier.ro, într-o formă fixă, cu patru rânduri: unde, ce scrie, ce ar trebui, sursa. Forma, cu un exemplu complet și cu una goală de copiat, și regulile de adresare sunt în pagina „Cum i se scrie autorului”, alături de acest ghid.
 
-## 2. Markdown, atât cât trebuie
+## 2. Markdown
 
 Lecțiile sunt fișiere text cu extensia .md, scrise în Markdown: un mod de a marca titlurile, listele și sublinierile cu semne obișnuite de la tastatură, fără un program anume. Se pot edita în orice editor de text, iar orice program care înțelege Markdown le arată formatate. Ce urmează este tot ce folosește manualul; restul limbajului nu este necesar.
 
@@ -99,7 +99,7 @@ _______________________________________________________________
 
 **Tonul:** lecția descrie, nu laudă și nu condamnă. Persoanele, partidele, statele și companiile apar cu ce au făcut, cu data și cu documentul care o atestă. Nu se folosesc adjective de reverență („marele”, „ilustrul”, „eroicul”, „istoricul”) și nici cele de dispreț; dacă un fapt merită judecat, cititorul îl judecă singur după ce l-a citit. Un test simplu: adjectivul care poate fi tăiat fără ca propoziția să piardă o informație se taie.
 
-**Cititorul:** este o persoană care învață pe cont propriu. I se vorbește cu „scrieți”, „comparați”, „căutați”, nu i se dau îndemnuri, rezumate sau idei principale. Nu i se explică ce ar trebui să simtă. Manualele Editurii Didactice și Pedagogice, cu care au crescut generații de elevi, au obișnuit școala cu un ton care vorbește de sus și cu greșeli de fapt rămase necorectate ediție după ediție; lecția de aici nu preia nici tonul, nici practica.
+**Cititorul:** este o persoană care învață pe cont propriu. I se vorbește cu „scrieți”, „comparați”, „căutați”, nu i se dau îndemnuri, rezumate sau idei principale. Nu i se explică ce ar trebui să simtă. Manualele Editurii Didactice și Pedagogice, cu care au crescut generații de elevi, au obișnuit școala cu un ton care vorbește de sus și cu greșeli de fapt rămase necorectate ediție după ediție; lecțiile de aici nu preiau nici tonul, nici practica.
 
 **Sursele:** fiecare afirmație de fapt are în spate un document care poate fi găsit: o hotărâre, un raport, o statistică, o anchetă cu autor identificat, o declarație publică. Autorul l-a citit înainte de a scrie. Textul parafrazează, nu citează, și nu are note bibliografice, dar numește emitentul și documentul acolo unde afirmația nu este de notorietate: „raportul comisiei parlamentare din 1990”, „rezoluția 713 a Consiliului de Securitate”, „datele Institutului Național de Statistică pentru 2010”. Cititorul trebuie să poată ajunge la sursă pornind de la acest nume. Adresele web nu se scriu, pentru că se strică.
 

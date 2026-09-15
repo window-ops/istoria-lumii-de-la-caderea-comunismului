@@ -30,7 +30,7 @@ Sursa:
 
 ## 2. Regulile
 
-Autorul este elev. Cine îi scrie ține cont de următoarele reguli, toate încălcate deja de cineva:
+Autorul este elev. Cine îi scrie ține cont de următoarele reguli:
 
 1. Nu folosiți formule de adresare din adeverințe. „Stimate domnule autor” se citește ca o amendă. „Salut” este suficient.
 2. Nu vă adresați elevului cu „omule” sau „copile”. Are nume; este scris pe prima pagină.

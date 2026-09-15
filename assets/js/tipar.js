@@ -24,7 +24,7 @@
     },
     {
       cheie: "tipar-note",
-      nume: "Notele de subsol, la sfârșit",
+      nume: "Notele de subsol, la sfârșit, pe pagini și la tipar",
       implicit: "da",
       valori: [["da", "Da"], ["nu", "Nu"]]
     },

@@ -561,6 +561,30 @@ html[data-latime="plin"] .strat {
   border-top: 1px solid var(--linie);
 }
 
+.text h1 + h2,
+.text h1 + h3,
+.text h1 + h4,
+.caseta > h4:first-child,
+.caseta > h2:first-child,
+.caseta > h3:first-child {
+  margin-top: 0;
+}
+
+/* în pagina cu tot manualul, lecțiile care urmează primesc spațiu deasupra */
+.pagina-tot .lectie-completa + .lectie-completa h1 {
+  margin-top: 3rem;
+}
+
+/* trimiterea către note are rost numai la citirea pe pagini */
+.cuprins-lateral .doar-paginat {
+  display: none;
+}
+
+body:has(.text[data-mod="pagina"]) .cuprins-lateral .doar-paginat,
+body:has(.text[data-mod="doua"]) .cuprins-lateral .doar-paginat {
+  display: list-item;
+}
+
 .text h1,
 .text h2,
 .text h3,
@@ -754,7 +778,7 @@ h4:hover .permalink,
 }
 
 .caseta h4:first-child {
-  margin-top: 0.6rem;
+  margin-top: 0;
   font-size: 0.92rem;
   color: var(--cerneala);
 }
@@ -800,6 +824,18 @@ sup.ref a {
 }
 
 .note-tipar {
+  display: none;
+}
+
+/* la citirea pe pagini, notele de subsol se așază la sfârșitul lecției, ca la tipar;
+   opțiunea din setări le guvernează deopotrivă pe pagini și pe hârtie */
+html:not([data-tipar-note="nu"]) .text[data-mod="pagina"] .note-tipar,
+html:not([data-tipar-note="nu"]) .text[data-mod="doua"] .note-tipar {
+  display: block;
+}
+
+.text[data-mod="pagina"] .note-tipar hr,
+.text[data-mod="doua"] .note-tipar hr {
   display: none;
 }
 
@@ -1009,11 +1045,11 @@ details[data-sectiune="pagini"] > .grup-foi > label:first-child {
   margin-top: 0;
 }
 
-/* sub o secțiune „Mărimi” desfăcută, nota de la final urmează direct cursorul;
-   cât timp secțiunea foilor este la vedere, spațiul obișnuit rămâne */
-details[data-sectiune="marimi"][open] + details[data-sectiune="pagini"][hidden] + p.mic,
-details[data-sectiune="marimi"][open] + p.mic {
-  margin-top: 0;
+/* când secțiunea „Mărimi” încheie panoul, linia ei de jos ține locul despărțirii,
+   iar nota de la final își păstrează marginea de sus */
+details[data-sectiune="marimi"]:has(+ details[data-sectiune="pagini"][hidden] + p.mic),
+details[data-sectiune="marimi"]:has(+ p.mic) {
+  border-bottom: 1px solid var(--linie);
 }
 
 .paginare {
