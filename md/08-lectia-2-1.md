@@ -30,13 +30,13 @@ Conducerea serviciului american de informații externe a acceptat, în 1976, eva
 
 #### Directiva de planificare a apărării, 1992
 
-Un proiect de document intern al Departamentului Apărării, redactat sub conducerea lui Paul Wolfowitz și scurs presei în martie 1992, formula obiectivul menținerii poziției americane de unică mare putere și împiedicarea apariției unui rival, inclusiv prin acțiune preventivă și, la nevoie, fără aliați. Documentul a fost rescris în urma reacțiilor publice, iar formulările lui au revenit zece ani mai târziu în strategia de securitate națională din 2002.
+Un proiect de document intern al Departamentului Apărării, redactat sub conducerea lui Paul Wolfowitz și scurs presei în martie 1992, formula obiectivul menținerii poziției americane de unică mare putere și împiedicarea apariției unui rival, inclusiv prin acțiune preventivă[^1] și, la nevoie, fără aliați. Documentul a fost rescris în urma reacțiilor publice, iar formulările lui au revenit zece ani mai târziu în strategia de securitate națională din 2002.
 
 #### Proiectul pentru un nou secol american, 1997-2000
 
-Grupul de analiză politică înființat în 1997 a reunit persoane care au ocupat funcții importante după 2001, între care Dick Cheney, Donald Rumsfeld și Paul Wolfowitz. În ianuarie 1998, membrii lui au cerut public, printr-o scrisoare adresată președintelui Clinton, înlăturarea prin forță a regimului de la Bagdad. În același an, Congresul a adoptat o lege care declara schimbarea regimului irakian obiectiv al politicii americane.
+Grupul de analiză politică de orientare neoconservatoare[^2], înființat în 1997, a reunit persoane care au ocupat funcții importante după 2001, între care Dick Cheney, Donald Rumsfeld și Paul Wolfowitz. În ianuarie 1998, membrii lui au cerut public, printr-o scrisoare adresată președintelui Clinton, înlăturarea prin forță a regimului de la Bagdad. În același an, Congresul a adoptat o lege care declara schimbarea regimului irakian obiectiv al politicii americane.
 
-În septembrie 2000, grupul a publicat un raport privind restructurarea forțelor armate. Documentul susținea că transformarea propusă, adică trecerea la forțe mai mici, mobile și dependente de tehnologie, cere timp îndelungat în absența unui eveniment catastrofal care să o accelereze.
+În septembrie 2000, grupul a publicat un raport privind restructurarea forțelor armate. Documentul susținea că transformarea propusă, adică trecerea la forțe mai mici, mobile și dependente de tehnologie, cere timp îndelungat în absența unui eveniment de mare amploare care să o accelereze.
 
 #### Ce presupunea transformarea
 
@@ -44,15 +44,15 @@ Doctrina militară dezvoltată în anii '90 pornea de la ideea că tehnologia de
 
 > #### INTERPRETARE: plan pregătit sau complot
 >
-> #### Ce arată documentele
+> #### Ce este documentat
 >
 > Documentele citate mai sus sunt publice, publicate de autorii lor, și arată că un program de politică externă și militară exista formulat înainte de septembrie 2001, împreună cu observația că aplicarea lui cere un eveniment care să schimbe opinia publică.
 >
-> #### Ce nu arată
+> #### Citirea B
 >
 > Existența unui plan pregătit dinainte și aplicat după un eveniment nu constituie dovadă că evenimentul a fost provocat sau permis de autorii planului. Teoriile care susțin acest lucru sunt în conflict cu probele materiale privind desfășurarea atacurilor și cu concluziile anchetelor tehnice.
 >
-> #### Ce rămâne de analizat
+> #### Ce se poate verifica
 >
 > Un grup politic organizat, cu program formulat și cu oameni pregătiți pentru funcții, a putut aplica acest program în câteva luni, întrucât atacurile au produs condiția politică lipsă. Situația se poate compara cu alte cazuri din manual în care o criză a permis aplicarea rapidă a unui program pregătit dinainte, între care măsurile de austeritate din lecția 3.2.
 
@@ -70,7 +70,9 @@ Conferința de la Bonn, din decembrie 2001, a stabilit o administrație interima
 | Legea Patriot | 26 octombrie 2001 | Extinderea competențelor de supraveghere, acces la date fără mandat judiciar în anumite condiții |
 | Centrul de detenție de la Guantánamo | din 11 ianuarie 2002 | Deținuți plasați în afara teritoriului american, pentru a evita aplicarea garanțiilor constituționale |
 | Notele juridice privind interogatoriile | august 2002 | Redefinirea torturii, astfel încât metodele folosite să rămână în afara definiției |
-| Programul de predări extraordinare | din 2002 | Transportul deținuților către centre secrete din state terțe |
+| Programul de predări extraordinare[^3] | din 2002 | Transportul deținuților către centre secrete din state terțe |
+
+Măsurile din tabel au fost adoptate ca răspuns la o urgență și au rămas în vigoare ani la rând, situație numită în dreptul public stare de excepție[^4].
 
 Fotografiile din închisoarea Abu Ghraib, publicate în 2004, au arătat aplicarea acestor metode. În decembrie 2014, comisia pentru informații a Senatului american a publicat rezumatul unui raport de mii de pagini privind programul de detenție al agenției centrale de informații, cu concluzia că metodele folosite au fost mai dure decât cele descrise oficial și că nu au produs informațiile invocate ca justificare.
 
@@ -121,9 +123,9 @@ _______________________________________________________________
 
 ## Note
 
-[^1]: Neoconservatorismul desemnează curentul apărut în Statele Unite în anii '70, format în bună parte din foști adepți ai stângii, care susține folosirea puterii militare americane pentru răspândirea instituțiilor democratice și respinge politica de acomodare cu regimurile adverse.
+[^1]: Acțiunea preventivă desemnează folosirea forței împotriva unei amenințări considerate probabile în viitor, fără atac prealabil. Dreptul internațional recunoaște autoapărarea în cazul unui atac armat produs sau iminent, iar extinderea la amenințări îndepărtate rămâne contestată.
 
-[^2]: Acțiunea preventivă desemnează folosirea forței împotriva unei amenințări considerate probabile în viitor, fără atac prealabil. Dreptul internațional recunoaște autoapărarea în cazul unui atac armat produs sau iminent, iar extinderea la amenințări îndepărtate rămâne contestată.
+[^2]: Neoconservatorismul desemnează curentul apărut în Statele Unite în anii '70, format în bună parte din foști adepți ai stângii, care susține folosirea puterii militare americane pentru răspândirea instituțiilor democratice și respinge politica de acomodare cu regimurile adverse.
 
 [^3]: Predarea extraordinară desemnează transferul unei persoane către autoritățile altui stat în afara procedurii legale de extrădare, de regulă către state unde metodele de interogare nu respectă interdicția torturii.
 

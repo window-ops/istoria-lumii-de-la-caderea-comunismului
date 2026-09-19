@@ -46,7 +46,7 @@ Frontul s-a scindat în 1992. Aripa condusă de Ion Iliescu, Frontul Democrat al
 
 #### Cadrul legal
 
-Legea 15/1990 a transformat întreprinderile de stat în societăți comerciale și regii autonome. Legea 58/1991 a stabilit transferul gratuit către populație a 30% din capitalul social al societăților comerciale, prin certificate de proprietate, și vânzarea restului prin Fondul Proprietății de Stat. Cele cinci Fonduri ale Proprietății Private au devenit ulterior Societăți de Investiții Financiare.
+Legea 15/1990 a transformat întreprinderile de stat în societăți comerciale și regii autonome. Legea 58/1991 a stabilit transferul gratuit către populație a 30% din capitalul social al societăților comerciale, prin certificate de proprietate, și vânzarea restului prin Fondul Proprietății de Stat[^2]. Cele cinci Fonduri ale Proprietății Private au devenit ulterior Societăți de Investiții Financiare.
 
 #### Cuponiada
 
@@ -54,7 +54,7 @@ Legea 55/1995 a accelerat programul și a emis cupoane nominative de privatizare
 
 Rezultatul practic: în lipsa unei piețe de capital funcționale și a informației despre întreprinderi, o mare parte dintre certificate și cupoane au fost vândute la prețuri mici către intermediari. Acțiunile rămase s-au depreciat prin inflație. Proprietatea s-a concentrat, iar ideea că fiecare cetățean primește o parte din avuția națională a rămas fără efect economic pentru majoritatea beneficiarilor.
 
-O metodă paralelă, MEBO[^2], a transferat întreprinderi către salariații lor. Între 1993 și 1996 au fost vândute astfel 837 de societăți, adică aproximativ 29% din totalul privatizărilor din perioadă.
+O metodă paralelă, MEBO[^3], a transferat întreprinderi către salariații lor. Între 1993 și 1996 au fost vândute astfel 837 de societăți, adică aproximativ 29% din totalul privatizărilor din perioadă.
 
 #### Caritas, SAFI, FNI
 
@@ -64,7 +64,7 @@ O metodă paralelă, MEBO[^2], a transferat întreprinderi către salariații lo
 | SAFI / Fondul Mutual al Oamenilor de Afaceri | 1993-1996 | 40% pe lună | Incapacitate de plată, aproximativ 220.000 de investitori afectați |
 | Fondul Național de Investiții | 1995-2000 | randamente peste orice altă plasare | Prăbușire la 24 mai 2000, aproximativ 318.000 de investitori |
 
-Trei elemente comune explică amploarea acestor cazuri: absența unei legislații privind fondurile de investiții în prima parte a deceniului, acoperirea politică (schema din Cluj a funcționat cu sprijinul public al primarului de atunci, iar unii dintre administratorii SAFI erau politicieni în funcție), și implicarea unei instituții de stat în cazul FNI, prin garanția acordată de Casa de Economii și Consemnațiuni. Statul a fost obligat ulterior să acopere o parte din pagube.
+Trei elemente comune explică amploarea acestor cazuri: absența unei legislații privind fondurile de investiții în prima parte a deceniului, acoperirea politică (schema din Cluj[^4] a funcționat cu sprijinul public al primarului de atunci, iar unii dintre administratorii SAFI erau politicieni în funcție), și implicarea unei instituții de stat în cazul FNI, prin garanția acordată de Casa de Economii și Consemnațiuni. Statul a fost obligat ulterior să acopere o parte din pagube.
 
 #### Dezindustrializarea
 
@@ -107,7 +107,7 @@ La alegerile din noiembrie 2000, CDR 2000 a rămas sub pragul electoral și a ie
 >
 > Ambele tabere au tratat companiile de stat și instituțiile publice ca resursă de distribuit între aliați. Ambele au privatizat prin proceduri greu de verificat. Opoziția a ajuns la putere fără un aparat propriu de administrare și a preluat practicile existente. Din această perspectivă, alternanța a schimbat titularii funcțiilor, fără să modifice legătura dintre partid, administrație și proprietate.
 >
-> #### Ce are de stabilit elevul
+> #### Ce se poate verifica
 >
 > Cele două citiri se pot verifica pe date diferite: rezultate electorale și decizii de politică externă în primul caz, numiri în conducerea companiilor de stat și dosare de privatizare în al doilea. Un răspuns argumentat cere consultarea ambelor tipuri de surse.
 
@@ -155,8 +155,8 @@ _______________________________________________________________
 
 [^1]: Consiliul Național al Audiovizualului este autoritatea care acordă licențele de emisie și supraveghează respectarea legii de către posturile de radio și de televiziune. Membrii săi sunt numiți de Parlament, de Președinte și de Guvern, ceea ce face din componența lui o miză politică permanentă.
 
-[^2]: MEBO, prescurtare din engleză pentru cumpărarea unei societăți de către salariații și conducerea ei, desemna vânzarea unei întreprinderi de stat asociației formate din propriii angajați, de regulă în rate și cu preț redus.
+[^2]: Fondul Proprietății de Stat a fost instituția care administra și vindea participațiile statului la societățile comerciale, în perioada 1992-2001. A fost înlocuit de Autoritatea pentru Privatizare și Administrarea Participațiilor Statului.
 
-[^3]: Schema piramidală, numită și joc piramidal, plătește câștigurile promise primilor participanți din depunerile celor care intră ulterior. Ea funcționează atâta vreme cât numărul de intrări crește și se prăbușește în momentul în care depunerile noi scad sub retrageri.
+[^3]: MEBO, prescurtare din engleză pentru cumpărarea unei societăți de către salariații și conducerea ei, desemna vânzarea unei întreprinderi de stat asociației formate din propriii angajați, de regulă în rate și cu preț redus.
 
-[^4]: Fondul Proprietății de Stat a fost instituția care administra și vindea participațiile statului la societățile comerciale, în perioada 1992-2001. A fost înlocuit de Autoritatea pentru Privatizare și Administrarea Participațiilor Statului.
+[^4]: Schema piramidală, numită și joc piramidal, plătește câștigurile promise primilor participanți din depunerile celor care intră ulterior. Ea funcționează atâta vreme cât numărul de intrări crește și se prăbușește în momentul în care depunerile noi scad sub retrageri.

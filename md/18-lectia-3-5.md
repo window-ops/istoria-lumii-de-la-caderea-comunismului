@@ -4,7 +4,7 @@ Turcia este un caz bine-documentat de partid ajuns la putere prin alegeri libere
 
 ## 1. Republica kemalistă și Partidul Popular Republican
 
-Partidul Popular Republican, prescurtat CHP, a fost înființat în 1923 de Mustafa Kemal Atatürk și a guvernat ca partid unic până în 1946. Doctrina lui cuprindea laicitatea statului, naționalismul și modernizarea condusă de la centru.
+Partidul Popular Republican, prescurtat CHP, a fost înființat în 1923 de Mustafa Kemal Atatürk și a guvernat ca partid unic până în 1946. Doctrina lui cuprindea laicitatea[^1] statului, naționalismul și modernizarea condusă de la centru.
 
 Armata s-a considerat garanta acestei ordini și a intervenit în politică de patru ori: prin lovituri de stat în 1960, 1971 și 1980, și printr-un ultimatum adresat guvernului în 1997, care a dus la demisia prim-ministrului islamist Necmettin Erbakan și la interzicerea partidului său. Recep Tayyip Erdoğan, primar al Istanbulului între 1994 și 1998, provine din acel mediu politic și a executat o pedeapsă cu închisoarea pentru un discurs public.
 
@@ -12,7 +12,7 @@ Armata s-a considerat garanta acestei ordini și a intervenit în politică de p
 
 Criza financiară din februarie 2001 a produs prăbușirea monedei, inflație de peste 50% și pierderea încrederii în partidele existente. Partidul Justiției și Dezvoltării, prescurtat AKP, a fost înființat în august 2001.
 
-La alegerile din noiembrie 2002, AKP a obținut aproximativ 34% din voturi. Pragul electoral de 10%, introdus după lovitura de stat din 1980, a eliminat din parlament toate celelalte partide cu excepția CHP, iar AKP a primit aproape două treimi din locuri cu o treime din voturi. Regula gândită pentru a bloca partidele mici a produs prima majoritate confortabilă din ultimii cincisprezece ani.
+La alegerile din noiembrie 2002, AKP a obținut aproximativ 34% din voturi. Pragul electoral[^2] de 10%, introdus după lovitura de stat din 1980, a eliminat din parlament toate celelalte partide cu excepția CHP, iar AKP a primit aproape două treimi din locuri cu o treime din voturi. Regula gândită pentru a bloca partidele mici a produs prima majoritate confortabilă din ultimii cincisprezece ani.
 
 ## 3. Baza materială a sprijinului
 
@@ -64,7 +64,7 @@ Numărul sosirilor a scăzut puternic. Criticile au vizat returnarea către un s
 
 ## 8. Tentativa de lovitură de stat din 2016 și sistemul prezidențial
 
-La 15 iulie 2016, o parte din armată a încercat preluarea puterii. Tentativa a eșuat în aceeași noapte, cu aproximativ 250 de morți. A urmat starea de urgență, menținută până în 2018, în cadrul căreia guvernul a legiferat prin decret:
+La 15 iulie 2016, o parte din armată a încercat preluarea puterii. Tentativa a eșuat în aceeași noapte, cu aproximativ 250 de morți. A urmat starea de urgență[^3], menținută până în 2018, în cadrul căreia guvernul a legiferat prin decret:
 
 - aproximativ 150.000 de funcționari publici, profesori, judecători și militari au fost concediați prin liste anexate la decrete, fără procedură individuală;
 - zeci de mii de persoane au fost arestate;
@@ -83,7 +83,7 @@ Referendumul din aprilie 2017, aprobat cu 51,4% din voturi, a înlocuit sistemul
 > - **Presa:** proprietatea asupra televiziunilor și a ziarelor este concentrată la grupuri economice dependente de contracte publice.
 > - **Justiția:** numirile în magistratură depind de organisme controlate politic, iar procurorii deschid anchete împotriva adversarilor.
 > - **Resursele statului:** ajutoarele sociale, contractele publice și angajările sunt legate de rețeaua partidului.
-> - **Administrația locală:** primarii aleși pot fi înlocuiți cu administratori numiți de guvern, procedură aplicată sistematic în sud-estul kurd.
+> - **Administrația locală:** primarii aleși pot fi înlocuiți cu administratori numiți de[^4] guvern, procedură aplicată sistematic în sud-estul kurd.
 > - **Regulile electorale:** pragul, decuparea circumscripțiilor și controlul asupra organismului electoral modifică rezultatul la voturi egale.
 
 ## 9. Mobilizarea: mitinguri, televiziune, muzică
@@ -152,6 +152,6 @@ _______________________________________________________________
 
 [^2]: Pragul electoral este procentul minim de voturi pe care un partid trebuie să îl obțină la nivel național pentru a primi locuri în parlament. Voturile date partidelor sub prag se redistribuie celor care îl depășesc.
 
-[^3]: Administratorul numit de guvern în locul unui primar ales este o măsură prevăzută de legislația turcă pentru situațiile în care aleșii locali sunt cercetați pentru legături cu organizații considerate teroriste. Ea a fost aplicată în zeci de localități din sud-estul țării.
+[^3]: Starea de urgență permite guvernului să legifereze prin decret și să suspende anumite garanții procedurale. Decretele emise în Turcia între 2016 și 2018 au produs concedieri prin liste nominale anexate, fără cale de atac individuală imediată.
 
-[^4]: Starea de urgență permite guvernului să legifereze prin decret și să suspende anumite garanții procedurale. Decretele emise în Turcia între 2016 și 2018 au produs concedieri prin liste nominale anexate, fără cale de atac individuală imediată.
+[^4]: Administratorul numit de guvern în locul unui primar ales este o măsură prevăzută de legislația turcă pentru situațiile în care aleșii locali sunt cercetați pentru legături cu organizații considerate teroriste. Ea a fost aplicată în zeci de localități din sud-estul țării.

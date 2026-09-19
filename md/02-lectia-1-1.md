@@ -62,7 +62,7 @@ Puterea a fost preluată de Frontul Salvării Naționale[^5], format din persoan
 >
 > Existau, înainte de decembrie 1989, nemulțumiri în interiorul partidului și contacte între foști demnitari, iar scrisoarea celor șase din martie 1989 le atestă. Argumente: viteza cu care s-a constituit conducerea nouă, controlul rapid asupra televiziunii, faptul că cei mai mulți morți au căzut după preluarea puterii.
 >
-> #### Ce rămâne deschis
+> #### Ce se poate verifica
 >
 > Cine a tras după 22 decembrie. Dosarele au fost redeschise și clasate de mai multe ori, iar arhivele militare din acele zile sunt accesibile parțial. Elevul care lucrează pe acest subiect are de comparat rechizitorii, rapoarte parlamentare și memorii ale participanților, fiecare cu interes propriu în relatare.
 
@@ -74,19 +74,23 @@ Destrămarea propriu-zisă a statului aparține anului 1991 și este tratată î
 
 > #### INTERPRETARE: a fost desființarea URSS validată de populație
 >
+> #### Ce este documentat
+>
 > La 17 martie 1991 s-a organizat un referendum unional cu întrebarea privind păstrarea Uniunii ca federație reînnoită. Participarea a depășit 75% în republicile care au organizat votul, iar rezultatul a fost favorabil păstrării Uniunii cu aproximativ 76% dintre voturile exprimate. Șase republici au refuzat organizarea.
 >
 > La 8 decembrie 1991, conducătorii Rusiei, Ucrainei și Belarusului au semnat la Belovej acordul prin care constatau încetarea existenței URSS. Între cele două momente se află puciul din august 1991 și referendumul ucrainean din 1 decembrie 1991, în care independența a fost aprobată cu peste 90% din voturi.
 >
-> #### Prima citire
+> #### Citirea A
 >
 > Decizia din decembrie a contrazis singurul vot popular organizat pe această temă la nivelul întregii Uniuni, iar structura care a luat-o era formată din trei lideri republicani.
 >
-> #### A doua citire
+> #### Citirea B
 >
 > Referendumul din martie a fost formulat cu o întrebare care nu oferea alternativă clară, iar votul ucrainean din decembrie exprima o poziție mai recentă a unei republici esențiale pentru orice federație.
 >
-> Sondajele făcute în Rusia după 2000 arată constant că o majoritate consideră nedrepte privatizările anilor '90 și concentrarea proprietății industriale în câteva mâini. Măsurarea sprijinului pentru conducerea politică actuală ridică o problemă metodologică distinctă, discutată în lecția 4.6: în condiții de represiune a exprimării publice, refuzul de a răspunde și răspunsul de conveniență cresc, iar cifrele publicate de institute de stat și de institute independente trebuie citite cu această rezervă.
+> #### Ce se poate verifica
+>
+> Sondajele făcute în Rusia după 2000 arată constant că o majoritate consideră nedrepte privatizările anilor '90 și concentrarea proprietății industriale în câteva mâini. Cifrele despre conducerea politică actuală se citesc cu rezervele expuse în lecția 1.2.
 
 ## 7. Tabel comparativ: șase tranziții
 

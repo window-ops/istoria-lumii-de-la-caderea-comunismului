@@ -36,7 +36,7 @@ Rezoluția 713 a Consiliului de Securitate, din septembrie 1991, a instituit emb
 
 #### Srebrenica
 
-În iulie 1995, forțele sârbe bosniace comandate de Ratko Mladić au ocupat Srebrenica, aflată sub protecția unui batalion olandez. Bărbații și băieții separați de restul populației au fost executați în zilele următoare. Memorialul de la Potočari a identificat 8.372 de victime. Tribunalul Penal Internațional pentru fosta Iugoslavie[^2] a calificat faptele drept genocid în hotărârile privind pe Radislav Krstić, Radovan Karadžić și Ratko Mladić. Guvernul olandez a demisionat în 2002, după raportul institutului național de documentare privind conduita batalionului.
+În iulie 1995, forțele sârbe bosniace comandate de Ratko Mladić au ocupat Srebrenica, aflată sub protecția unui batalion olandez. Bărbații și băieții separați de restul populației au fost executați în zilele următoare, iar femeile, copiii și vârstnicii au fost transportați în afara zonei. Îndepărtarea forțată a unei populații dintr-un teritoriu poartă numele de epurare etnică[^2]. Memorialul de la Potočari a identificat 8.372 de victime. Tribunalul Penal Internațional pentru fosta Iugoslavie[^3] a calificat faptele drept genocid în hotărârile privind pe Radislav Krstić, Radovan Karadžić și Ratko Mladić. Guvernul olandez a demisionat în 2002, după raportul institutului național de documentare privind conduita batalionului.
 
 #### Asediul Sarajevului
 
@@ -57,7 +57,7 @@ Războaiele iugoslave au fost însoțite de o producție muzicală de masă.
 
 #### Ce s-a întâmplat
 
-- În Serbia, genul numit turbofolk[^3] a combinat melodia populară cu ritmuri electronice și a fost difuzat de televiziuni apropiate puterii. Căsătoria dintre cântăreața Ceca și comandantul de paramilitari Željko Ražnatović Arkan, în 1995, a fost transmisă ca eveniment public.
+- În Serbia, genul numit turbofolk[^4] a combinat melodia populară cu ritmuri electronice și a fost difuzat de televiziuni apropiate puterii. Căsătoria dintre cântăreața Ceca și comandantul de paramilitari Željko Ražnatović Arkan, în 1995, a fost transmisă ca eveniment public.
 - Cântăreți precum Baja Mali Knindža, sârb originar din Bosnia, au produs piese explicit naționaliste, în care conflictul apare ca apărare împotriva unei amenințări istorice.
 - În Croația, Marko Perković Thompson a devenit cunoscut cu piesa „Bojna Čavoglave” în 1992 și a trecut, în cursul războiului, de la statutul de artist marginal la difuzare susținută public.
 - În Bosnia, posturi de radio locale afiliate fiecărei tabere transmiteau non-stop cântece care preamăreau comandanții locali și descriau viitorul țării în imagini religioase. Relatările de presă din 1995 consemnează producția simultană a acestui tip de piese de către toate părțile.
@@ -86,19 +86,19 @@ Trei consecințe au depășit durata războiului:
 
 > #### INTERPRETARE: cifra de 500.000 de copii
 >
-> #### Cum a apărut
+> #### Ce este documentat
 >
-> În 1999, un studiu demografic realizat de UNICEF împreună cu guvernul irakian a arătat o dublare a mortalității infantile în centrul și sudul Irakului după 1990. Din aceste date a fost calculată cifra de aproximativ 500.000 de decese suplimentare la copiii sub cinci ani, atribuite sancțiunilor. Cifra a circulat masiv și a fost folosită în dezbaterea politică internațională.
+> În 1999, un studiu demografic realizat de UNICEF împreună cu guvernul irakian a arătat o dublare a mortalității infantile în centrul și sudul Irakului după 1990. Din aceste date a fost calculată cifra de aproximativ 500.000 de decese suplimentare la copiii sub cinci ani, atribuite sancțiunilor. Cifra a circulat larg și a fost folosită în dezbaterea politică internațională.
 >
-> #### Ce a arătat reanaliza
+> #### Citirea A: ce a arătat reanaliza
 >
 > În 2017, demografii Tim Dyson și Valeria Cetorelli au publicat în BMJ Global Health o reexaminare a datelor. Ei arată că, în zonele controlate de guvern, ancheta de teren a fost efectuată de personal furnizat de acel guvern, iar rezultatele contrazic celelalte anchete disponibile, inclusiv cele efectuate în nordul kurd, aflat în afara controlului Bagdadului și supus acelorași sancțiuni. Concluzia lor este că datele au fost manipulate.
 >
-> #### Ce rămâne în picioare
+> #### Citirea B: ce rămâne în picioare
 >
 > Autorii reanalizei precizează că sancțiunile au redus considerabil capacitatea Irakului de a importa alimente și medicamente. Organizații care contestă reanaliza susțin că suferința populației este documentată independent de cifra respectivă. Disputa privește amploarea și atribuirea, iar nu existența efectelor.
 >
-> #### Lecția de metodă
+> #### Ce se poate verifica
 >
 > O cifră poate fi produsă de o instituție internațională respectată, poate circula douăzeci de ani și poate proveni dintr-o anchetă controlată de partea interesată. Verificarea cere să se afle cine a strâns datele pe teren.
 
@@ -134,15 +134,19 @@ Rezoluția 1244 a plasat provincia sub administrație internațională. Independ
 
 > #### INTERPRETARE: ce decide o intervenție
 >
+> #### Ce este documentat
+>
+> Coaliția condusă de Statele Unite a intervenit în Kuweit la șase luni de la invazia din 1990. În Rwanda, în 1994, nu a avut loc nicio intervenție. Embargoul de arme al Consiliului de Securitate a rămas în vigoare asupra tuturor părților din Bosnia, inclusiv asupra guvernului bosniac, care nu avea armament greu.
+>
 > #### Citirea A: criteriul umanitar și limitele lui practice
 >
 > Intervențiile s-au produs acolo unde exista o coaliție dispusă să acționeze și o probabilitate rezonabilă de succes militar. Rwanda a rămas fără intervenție din cauza eșecului anterior din Somalia, care făcuse imposibil politic un nou angajament african. Din această perspectivă, ordinea criteriilor este dată de fezabilitate.
 >
 > #### Citirea B: criteriul interesului
 >
-> Intervenția rapidă a avut loc acolo unde se afla o resursă strategică și un aliat esențial, iar absența ei acolo unde nu existau. Comparația dintre viteza reacției în Kuweit și lipsa reacției în Rwanda este argumentul central. Embargoul menținut asupra guvernului bosniac, care nu avea armament greu, ilustrează același mecanism: neutralitatea formală a produs un rezultat favorabil părții deja înarmate.
+> Intervenția rapidă a avut loc acolo unde se afla o resursă strategică și un aliat esențial, iar absența ei acolo unde nu existau. Comparația dintre cele două reacții este argumentul central, iar embargoul arată același mecanism: neutralitatea formală a produs un rezultat favorabil părții deja înarmate.
 >
-> #### Cum se testează
+> #### Ce se poate verifica
 >
 > Ambele citiri fac predicții verificabile pe cazurile ulterioare din manual: Afganistan și Irak în unitatea a II-a, Libia și Siria în unitatea a III-a, Ucraina și Gaza în unitatea a IV-a. Elevul poate reveni la acest tabel după fiecare dintre lecțiile respective.
 
@@ -179,8 +183,8 @@ _______________________________________________________________
 
 [^1]: Armata Populară Iugoslavă a fost forța armată a statului federal. După 1991, o parte din efective și din armamentul ei au trecut sub controlul conducerii de la Belgrad și al forțelor sârbe din Croația și din Bosnia.
 
-[^2]: Tribunalul Penal Internațional pentru fosta Iugoslavie a funcționat la Haga între 1993 și 2017. A judecat 161 de persoane din toate taberele conflictului și a stabilit, prin hotărâri definitive, calificarea juridică a mai multor fapte, între care genocidul de la Srebrenica.
+[^2]: Epurarea etnică desemnează îndepărtarea forțată a unei populații dintr-un teritoriu, pe criterii de identitate, prin ucideri, deportări și distrugerea locuințelor și a lăcașurilor de cult. Termenul a intrat în uzul internațional curent în timpul războiului din Bosnia, iar genocidul cere, suplimentar, dovada intenției de distrugere a grupului ca atare, după definiția discutată în lecția 0.
 
-[^3]: Turbofolk desemnează un gen muzical apărut în Iugoslavia anilor '80 și devenit dominant în anii '90, care combină melodia de tip folcloric cu producția electronică. Termenul acoperă atât producția comercială fără conținut politic, cât și piesele naționaliste difuzate în timpul războiului.
+[^3]: Tribunalul Penal Internațional pentru fosta Iugoslavie a funcționat la Haga între 1993 și 2017. A judecat 161 de persoane din toate taberele conflictului și a stabilit, prin hotărâri definitive, calificarea juridică a mai multor fapte, între care genocidul de la Srebrenica.
 
-[^4]: Epurarea etnică desemnează îndepărtarea forțată a unei populații dintr-un teritoriu, prin ucideri, deportări, distrugerea locuințelor și a lăcașurilor de cult. Termenul a intrat în uzul internațional curent în timpul războiului din Bosnia.
+[^4]: Turbofolk desemnează un gen muzical apărut în Iugoslavia anilor '80 și devenit dominant în anii '90, care combină melodia de tip folcloric cu producția electronică. Termenul acoperă atât producția comercială fără conținut politic, cât și piesele naționaliste difuzate în timpul războiului.

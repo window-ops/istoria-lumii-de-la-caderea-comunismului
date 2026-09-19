@@ -4,7 +4,7 @@ Deceniul precedent a adus calculatorul în locuință. Acesta îl scoate din loc
 
 ## 1. Calculatorul portabil
 
-În martie 2003, Intel a lansat platforma Centrino, formată din trei componente proiectate să funcționeze împreună: un procesor cu consum redus, un set de circuite auxiliare și un adaptor de rețea fără fir integrat.
+În martie 2003, Intel a lansat platforma[^1] Centrino, formată din trei componente proiectate să funcționeze împreună: un procesor cu consum redus, un set de circuite auxiliare și un adaptor de rețea fără fir integrat.
 
 Portabilitatea calculatoarelor era limitată:
 
@@ -20,7 +20,7 @@ Portabilitatea calculatoarelor era limitată:
 
 ## 2. Conexiunea permanentă
 
-Legătura prin modem telefonic a fost înlocuită de conexiuni permanente prin cablu coaxial și prin linie telefonică digitală. Conexiunea permanentă a eliminat operațiunea de conectare la fiecare folosire.
+Legătura prin modem telefonic a fost înlocuită de conexiuni permanente de bandă largă[^2], prin cablu coaxial și prin linie telefonică digitală. Conexiunea permanentă a eliminat operațiunea de conectare la fiecare folosire.
 
 Rețelele locale fără fir, standardizate în 1999 și îmbunătățite în 2003, au permis conectivitatea la net în întregi locuințe.
 
@@ -34,13 +34,13 @@ Rețelele locale fără fir, standardizate în 1999 și îmbunătățite în 200
 
 Lansat în aprilie 2003, este primul sistem Microsoft care poartă numele Windows Server; versiunile anterioare se numeau Windows NT Server și Windows 2000 Server. Arhitectura este cea descrisă în lecția 1.6. Administrarea se face prin interfață grafică, iar serviciul de director păstrează într-un singur loc conturile de utilizator, calculatoarele și drepturile de acces dintr-o organizație.
 
-Costul licențierii are două componente: licența serverului și câte o licență de acces[^5] pentru fiecare utilizator sau echipament care se conectează la el. Suma crește proporțional cu numărul de angajați și se plătește din nou la trecerea la o versiune nouă. Pentru o firmă mică sau pentru o școală, acest model devenea greu de susținut.
+Costul licențierii are două componente: licența serverului și câte o licență de acces[^3] pentru fiecare utilizator sau echipament care se conectează la el. Suma crește proporțional cu numărul de angajați și se plătește din nou la trecerea la o versiune nouă. Pentru o firmă mică sau pentru o școală, acest model devenea greu de susținut.
 
 #### Linux pe servere
 
 Linux a devenit în acest deceniu sistemul dominant pe servere, din trei motive tehnice și unul economic:
 
-- funcționează fără interfață grafică[^6], ceea ce eliberează memorie și putere de procesare pentru serviciul propriu-zis;
+- funcționează fără interfață grafică[^4], ceea ce eliberează memorie și putere de procesare pentru serviciul propriu-zis;
 - se administrează de la distanță, prin comenzi text, pe conexiuni slabe;
 - permite modificarea și recompilarea componentelor pentru sarcina cerută;
 - licența nu costă nimic, iar plata se face pentru asistență tehnică, atunci când organizația o cere.
@@ -72,13 +72,13 @@ Rezultatul a fost un sistem folosibil zilnic pe o stație de lucru. Limitele car
 | 2006 | Twitter | mesaje scurte publice |
 | 2007 | iPhone | rețeaua în buzunar, cu magazin de aplicații din 2008 |
 
-În România, comunicarea directă s-a concentrat în această perioadă pe serviciile de mesagerie instantanee, folosite masiv de elevi și de studenți, iar rețelele sociale internaționale au ajuns dominante spre sfârșitul deceniului.
+În România, comunicarea directă s-a concentrat în această perioadă pe serviciile de mesagerie instantanee, folosite mult de elevi și de studenți, iar rețelele sociale internaționale au ajuns dominante spre sfârșitul deceniului.
 
 ## 5. Modelul economic: publicitatea
 
 Serviciile enumerate mai sus au fost oferite gratuit. Costurile au fost acoperite din publicitate, printr-un mecanism format din trei elemente:
 
-1. **Licitația:** spațiul publicitar asociat unei căutări sau unei pagini este vândut prin licitație automată, în fracțiuni de secundă.
+1. **Licitația[^5]:** spațiul publicitar asociat unei căutări sau unei pagini este vândut prin licitație automată, în fracțiuni de secundă.
 2. **Țintirea:** prețul plătit depinde de cât de bine corespunde utilizatorul profilului căutat de cel care plătește reclama.
 3. **Colectarea datelor:** precizia țintirii depinde de cantitatea de informație despre utilizator, ceea ce transformă datele de comportament în resursă economică.
 
@@ -91,7 +91,7 @@ Veniturile companiei Google, care a dezvoltat acest model, au crescut de la apro
 - platformele de licitații și de vânzare au legat vânzători și cumpărători din state diferite;
 - sistemele de plată online au rezolvat problema încrederii între părți care nu se cunosc;
 - companii asiatice de comerț online, înființate la sfârșitul anilor '90, au ajuns la dimensiuni comparabile cu cele americane;
-- a apărut o industrie dedicată poziționării paginilor în rezultatele căutării, ceea ce a schimbat modul în care este scris textul publicat online.
+- a apărut o industrie dedicată poziționării paginilor în rezultatele căutării, numită optimizare pentru motoarele de căutare[^6], ceea ce a schimbat modul în care este scris textul publicat online.
 
 Ordinea rezultatelor unei căutări a devenit astfel o problemă economică, iar accesul la informație a ajuns să depindă de un clasament calculat după criterii nepublice.
 
@@ -109,7 +109,7 @@ Ordinea rezultatelor unei căutări a devenit astfel o problemă economică, iar
 >
 > Rețeaua a trecut, în același interval, de la o minoritate cu formație tehnică la o parte importantă a populației, iar de la calculatorul fix la telefonul mobil. Aceste două schimbări explică o parte din diferență, independent de modul de finanțare. Comunicarea directă a continuat, mutată în aplicații de mesagerie folosite zilnic de miliarde de persoane.
 >
-> #### Ce se poate măsura
+> #### Ce se poate verifica
 >
 > Ponderea veniturilor din publicitate în cifra de afaceri a marilor platforme, publicată în rapoartele către investitori; numărul de forumuri independente active, comparat pe ani; proporția timpului petrecut în fluxuri automate față de conversații directe. Subiectul continuă în lecțiile 3.8 și 4.10.
 
@@ -163,10 +163,10 @@ _______________________________________________________________
 
 [^2]: Banda largă desemnează o conexiune permanentă cu viteză mult superioară celei obținute prin modem telefonic. Pragul care definește termenul a crescut odată cu tehnologia.
 
-[^3]: Licitația în timp real este procedura prin care spațiul publicitar de pe o pagină este vândut în intervalul dintre cererea paginii și afișarea ei, către ofertantul care plătește cel mai mult pentru afișarea către acel utilizator.
+[^3]: Licența de acces este dreptul, plătit separat de licența serverului, ca un utilizator sau un echipament să se conecteze la acel server. Numărul necesar se calculează după numărul de utilizatori sau de dispozitive, iar costul total crește odată cu organizația.
 
-[^4]: Optimizarea pentru motoarele de căutare desemnează ansamblul metodelor prin care o pagină este modificată pentru a apărea mai sus în rezultate. Ea influențează structura, lungimea și vocabularul textelor publicate online.
+[^4]: Funcționarea fără interfață grafică, numită și mod headless, înseamnă că sistemul rulează fără monitor și fără mediu grafic, iar administratorul lucrează prin comenzi text transmise de la distanță.
 
-[^5]: Licența de acces este dreptul, plătit separat de licența serverului, ca un utilizator sau un echipament să se conecteze la acel server. Numărul necesar se calculează după numărul de utilizatori sau de dispozitive, iar costul total crește odată cu organizația.
+[^5]: Licitația în timp real este procedura prin care spațiul publicitar de pe o pagină este vândut în intervalul dintre cererea paginii și afișarea ei, către ofertantul care plătește cel mai mult pentru afișarea către acel utilizator.
 
-[^6]: Funcționarea fără interfață grafică, numită și mod headless, înseamnă că sistemul rulează fără monitor și fără mediu grafic, iar administratorul lucrează prin comenzi text transmise de la distanță.
+[^6]: Optimizarea pentru motoarele de căutare desemnează ansamblul metodelor prin care o pagină este modificată pentru a apărea mai sus în rezultate. Ea influențează structura, lungimea și vocabularul textelor publicate online.

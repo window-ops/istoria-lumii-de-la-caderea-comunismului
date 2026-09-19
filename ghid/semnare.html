@@ -69,9 +69,14 @@ openssl pkey -in privata.pem -pubout -out publica.pem</pre>
             <p>Răspunsul așteptat este <code>Signature Verified Successfully</code>.</p>
             <h2 id="5-ce-se-pune-in-pagina">5. Ce se pune în pagină<a class="permalink" href="#5-ce-se-pune-in-pagina" aria-label="Legătură către această secțiune">#</a></h2>
             <p>Fișa arată trei lucruri care vin din aceste fișiere. Se scot cu comenzile de mai jos și se copiază în <code>ghid/fisa.html</code>, în blocul dintre <code>-----ÎNCEPUTUL AVIZULUI SEMNAT-----</code> și <code>-----SFÂRȘITUL AVIZULUI SEMNAT-----</code>:</p>
-            <ul><li>cheia publică, un singur rând, cel dintre <code>-----BEGIN PUBLIC KEY-----</code> și <code>-----END PUBLIC KEY-----</code> din <code>publica.pem</code>;</li><li>amprenta cheii:</li></ul>
+            <ul>
+              <li>cheia publică, un singur rând, cel dintre <code>-----BEGIN PUBLIC KEY-----</code> și <code>-----END PUBLIC KEY-----</code> din <code>publica.pem</code>;</li>
+              <li>amprenta cheii:</li>
+            </ul>
             <pre class="copiabil">openssl pkey -pubin -in publica.pem -outform DER | openssl dgst -sha256</pre>
-            <ul><li>semnătura, în base64, un singur rând:</li></ul>
+            <ul>
+              <li>semnătura, în base64, un singur rând:</li>
+            </ul>
             <pre class="copiabil">base64 -w0 aviz.sig</pre>
             <p>Amprenta se scrie și în <code>cheie/VERIFICARE.md</code>. Blocul lung de la sfârșitul avizului, „Ce apără cheia”, nu are legătură cu cheia și nu se schimbă.</p>
             <h2 id="6-arhiva">6. Arhiva<a class="permalink" href="#6-arhiva" aria-label="Legătură către această secțiune">#</a></h2>

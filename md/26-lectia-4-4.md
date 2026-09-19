@@ -20,8 +20,8 @@ Campania militară israeliană care a urmat a durat, cu întreruperi, doi ani. E
 
 | Instanța | Procedura | Stadiul |
 |---|---|---|
-| Curtea Internațională de Justiție | Africa de Sud împotriva Israelului, în temeiul convenției privind genocidul | Măsuri provizorii dispuse în ianuarie, martie și mai 2024, prin care statul pârât este obligat să prevină actele interzise de convenție și să permită intrarea ajutoarelor. Fondul cauzei nu a fost judecat |
-| Curtea Internațională de Justiție | Aviz consultativ cerut de Adunarea Generală | În iulie 2024, Curtea a constatat că prezența israeliană în teritoriile palestiniene ocupate este contrară dreptului internațional și trebuie să înceteze |
+| Curtea Internațională de Justiție | Africa de Sud împotriva Israelului, în temeiul convenției privind genocidul | Măsuri provizorii[^1] dispuse în ianuarie, martie și mai 2024, prin care statul pârât este obligat să prevină actele interzise de convenție și să permită intrarea ajutoarelor. Fondul cauzei nu a fost judecat |
+| Curtea Internațională de Justiție | Aviz consultativ[^2] cerut de Adunarea Generală | În iulie 2024, Curtea a constatat că prezența israeliană în teritoriile palestiniene ocupate este contrară dreptului internațional și trebuie să înceteze |
 | Curtea Penală Internațională | Mandate de arestare | Emise pe 21 noiembrie 2024 împotriva prim-ministrului Benjamin Netanyahu și a fostului ministru al apărării Yoav Gallant, pentru crime de război și crime împotriva umanității, între care înfometarea populației civile ca metodă de război, și împotriva unui comandant Hamas |
 | Comisia internațională independentă de anchetă a Organizației Națiunilor Unite | Raport asupra situației din Gaza | În septembrie 2025, comisia a concluzionat că în Gaza au fost săvârșite acte de genocid. Constatarea unei comisii de anchetă stabilește fapte și nu are efectele unei hotărâri judecătorești |
 
@@ -62,7 +62,7 @@ Situația arată limita mecanismului: curtea nu dispune de forță proprie de ex
 
 În februarie 2025, președintele american a publicat un material video generat cu inteligență artificială, în care fâșia Gaza apărea reconstruită ca stațiune turistică. În aceeași perioadă a circulat un plan de dezvoltare, elaborat de un grup de consultanți și prezentat administrației americane, care prevedea mutarea temporară a populației și reconstrucția zonei ca centru economic, ilustrat prin imagini generate tot automat.
 
-Chestiunea juridică este directă: transferul forțat al populației civile dintr-un teritoriu ocupat este interzis de a patra convenție de la Geneva, iar caracterul temporar sau voluntar declarat nu schimbă calificarea atunci când alternativa este imposibilitatea de a trăi acolo.
+Chestiunea juridică este directă: transferul forțat[^3] al populației civile dintr-un teritoriu ocupat este interzis de a patra convenție de la Geneva, iar caracterul temporar sau voluntar declarat nu schimbă calificarea atunci când alternativa este imposibilitatea de a trăi acolo.
 
 ## 5. Sistemele automate de alegere a țintelor
 
@@ -79,23 +79,27 @@ Elementele problematice, așa cum rezultă din relatări:
 - **Viteza:** verificarea umană a unei ținte propuse de sistem ar fi durat, în perioadele de intensitate maximă, câteva zeci de secunde, ceea ce transformă controlul uman într-o formalitate.
 - **Rata de eroare:** sistemele de acest fel produc rezultate false, iar consecința unei erori este moartea unor civili.
 - **Momentul atacului:** alegerea momentului în care ținta se află acasă mută atacul în locuință, alături de familie.
-- **Proporționalitatea:** dreptul umanitar cere o evaluare de la caz la caz a raportului dintre avantajul militar și pierderile civile așteptate. Această evaluare nu poate fi delegată unui program.
+- **Proporționalitatea:**[^4] dreptul umanitar cere o evaluare de la caz la caz a raportului dintre avantajul militar și pierderile civile așteptate. Această evaluare nu poate fi delegată unui program.
 
 Armata israeliană a respins descrierea, susținând că sistemele produc doar recomandări, iar decizia aparține unui ofițer.
 
 > #### INTERPRETARE: teren de testare pentru sisteme automate de armament
 >
-> #### Ce susține afirmația
+> #### Ce este documentat
 >
-> Sistemele descrise au fost folosite la scară largă, într-un conflict real, fără un cadru juridic internațional care să reglementeze folosirea lor. Companii de tehnologie au încheiat contracte de furnizare a infrastructurii de calcul pentru armată, iar unele dintre ele au fost contestate public de proprii angajați. Experiența acumulată este vandabilă către alte state, iar industria de securitate israeliană a folosit constant, în promovarea produselor sale, argumentul verificării în condiții de luptă.
+> Sistemele descrise au fost folosite la scară largă, într-un conflict real. Companii de tehnologie au încheiat contracte de furnizare a infrastructurii de calcul pentru armată. Nu există un tratat internațional privind sistemele de armament autonome: negocierile se poartă din 2014 în cadrul convenției privind anumite arme clasice, fără rezultat obligatoriu.
 >
-> #### Ce susține poziția contrară
+> #### Citirea A
+>
+> Folosirea s-a produs fără un cadru juridic internațional, iar unele dintre contracte au fost contestate public de proprii angajați ai companiilor. Experiența acumulată este vandabilă către alte state, iar industria de securitate israeliană a folosit constant, în promovarea produselor sale, argumentul verificării în condiții de luptă.
+>
+> #### Citirea B
 >
 > Automatizarea alegerii țintelor există în mai multe armate, iar publicitatea din jurul acestui caz vine din faptul că a fost documentată de presă, nu din faptul că ar fi unică. Responsabilitatea juridică rămâne, în ambele situații, la comandantul care aprobă atacul, iar dreptul umanitar se aplică independent de instrumentul folosit.
 >
-> #### Ce ar rezolva disputa
+> #### Ce se poate verifica
 >
-> Un tratat internațional privind sistemele de armament autonome. Negocierile pe această temă se poartă din 2014 în cadrul convenției privind anumite arme clasice, fără rezultat obligatoriu. Adunarea Generală a Organizației Națiunilor Unite a adoptat rezoluții pe această temă, care cer statelor rapoarte și consultări.
+> Rezoluțiile Adunării Generale a Organizației Națiunilor Unite pe această temă și rapoartele pe care le cer statelor; stadiul negocierilor din cadrul convenției privind anumite arme clasice; contractele publicate dintre armate și furnizorii de infrastructură de calcul.
 
 ## 6. Situația în septembrie 2026
 

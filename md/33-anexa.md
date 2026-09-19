@@ -102,7 +102,7 @@ Anexa cuprinde termenii definiți pe parcursul manualului, adunați într-un sin
 
 **Emisiile cumulate** reprezintă totalul cantităților eliberate de un stat de la începutul industrializării. Ele contează pentru că dioxidul de carbon rămâne în atmosferă secole, iar temperatura depinde de cantitatea acumulată, nu de emisia unui singur an. *(lecția 3.9)*
 
-**Epurarea etnică** desemnează îndepărtarea forțată a unei populații dintr-un teritoriu, prin ucideri, deportări, distrugerea locuințelor și a lăcașurilor de cult. Termenul a intrat în uzul internațional curent în timpul războiului din Bosnia. *(lecția 1.4, lecția 3.3)*
+**Epurarea etnică** desemnează îndepărtarea forțată a unei populații dintr-un teritoriu, pe criterii de identitate, prin ucideri, deportări și distrugerea locuințelor și a lăcașurilor de cult. Termenul a intrat în uzul internațional curent în timpul războiului din Bosnia, iar genocidul cere, suplimentar, dovada intenției de distrugere a grupului ca atare, după definiția discutată în lecția 0. *(lecția 1.4, lecția 3.3)*
 
 **Etichetarea datelor** este operațiunea prin care unor texte, imagini sau înregistrări li se atașează informația care arată ce conțin, pentru ca modelul să poată învăța din ele. Este muncă manuală, repetitivă și dificil de automatizat. *(lecția 4.8)*
 
@@ -294,3 +294,9 @@ Ambele piese sunt difuzate public de partidul care le-a comandat și sunt dispon
 1. Termenul necunoscut se caută mai întâi aici, apoi în lecția indicată, unde apare în context.
 2. Definițiile din glosar sunt cele din manual. Ele nu înlocuiesc definițiile juridice sau tehnice complete, iar pentru lucrări serioase se consultă sursa indicată în lecție.
 3. Termenii marcați cu mai multe lecții apar în contexte diferite, iar comparația dintre ele este ea însăși un exercițiu util.
+
+---
+
+## Note
+
+

@@ -29,8 +29,8 @@ Ușurința instalării explică cea mai mare parte a diferenței. Un cont se fac
 
 ## 3. Cum se face astăzi un site personal
 
-- **Varianta cu găzduire cumpărată:** un nume de domeniu și un abonament la un furnizor de găzduire. Majoritatea furnizorilor oferă instalatoare automate, prin care programele obișnuite, de la sisteme de publicare până la servere de fișiere de tip Nextcloud, se instalează în câteva minute, fără cunoștințe de administrare.
-- **Varianta cu server propriu:** un calculator cu server web, de regulă Apache, plus un server de poștă electronică dacă se dorește adresă proprie. Serverul de poștă este partea cea mai dificilă, din cauza filtrelor antispam care resping mesajele venite de la adrese noi.
+- **Varianta cu găzduire cumpărată:** un nume de domeniu și un abonament la un furnizor de găzduire. Majoritatea furnizorilor oferă instalatoare automate, prin care programele obișnuite, de la sisteme de publicare până la servere de fișiere de tip Nextcloud[^1], se instalează în câteva minute, fără cunoștințe de administrare.
+- **Varianta cu server propriu:** un calculator cu server web[^2], de regulă Apache, plus un server de poștă electronică dacă se dorește adresă proprie. Serverul de poștă este partea cea mai dificilă, din cauza filtrelor antispam care resping mesajele venite de la adrese noi.
 - **Varianta gratuită:** servicii de găzduire pentru pagini statice, între care Neocities, apărut în 2013 ca succesor declarat al serviciului închis în 2009.
 
 #### Un exemplu
@@ -51,23 +51,23 @@ Trecerea de la navigator la aplicație a avut o consecință structurală: conț
 
 ## 5. Traficul produs de programe automate
 
-O parte în creștere din cererile primite de servere provine de la programe, nu de la persoane: motoare de indexare, programe de copiere a conținutului, programe de fraudă publicitară, conturi automate pe platforme. Raportul anual privind traficul automat, publicat de compania de securitate informatică Imperva, indică pentru ultimii ani valori în jurul a jumătate din totalul cererilor.
+O parte în creștere din cererile primite de servere provine de la programe, nu de la persoane: motoare de indexare[^3], programe de copiere a conținutului, programe de fraudă publicitară, conturi automate pe platforme. Raportul anual privind traficul automat, publicat de compania de securitate informatică Imperva, indică pentru ultimii ani valori în jurul a jumătate din totalul cererilor.
 
 > #### INTERPRETARE: teoria internetului mort
->
-> #### Ce susține
->
-> Formulată pe forumuri în jurul anului 2021, teza afirmă că cea mai mare parte a conținutului și a interacțiunilor de pe internet este produsă de programe automate, iar activitatea umană a devenit minoritară. În versiunea ei tare, susține că această situație este întreținută deliberat.
 >
 > #### Ce este documentat
 >
 > Proporția traficului automat, măsurată de Imperva și de alte companii care administrează infrastructura de rețea, se apropie de jumătate și include activități legitime, precum indexarea. Conturile automate pe platforme există, iar platformele publică periodic cifre privind ștergerea lor. Generarea automată de text a devenit ieftină după 2022, iar volumul paginilor produse astfel a crescut.
 >
-> #### Ce nu este documentat
+> #### Citirea A
+>
+> Formulată pe forumuri în jurul anului 2021, teza afirmă că cea mai mare parte a conținutului și a interacțiunilor de pe internet este produsă de programe automate, iar activitatea umană a devenit minoritară. În versiunea ei tare, susține că această situație este întreținută deliberat.
+>
+> #### Citirea B
 >
 > Afirmația privind coordonarea deliberată nu are sprijin în probe. Traficul automat nu este echivalent cu conținutul automat, iar cifra de trafic nu măsoară proporția conversațiilor purtate între oameni.
 >
-> #### Cum se poate verifica
+> #### Ce se poate verifica
 >
 > Rapoartele anuale privind traficul automat; datele publicate de platforme privind conturile șterse; studiile care măsoară proporția de text generat automat în paginile nou apărute.
 
@@ -86,7 +86,7 @@ Dezvoltarea care a produs modelele de limbaj discutate în unitatea a IV-a înce
 
 #### Ce se putea folosi acasă înainte de 2022
 
-Înainte de apariția serviciilor conversaționale destinate publicului larg, existau modele publicate cu tot cu parametri, pe care oricine le putea descărca. Ele erau distribuite ca fișiere de dimensiuni mari, ulterior standardizate într-un format care împiedică executarea de cod la încărcare, și puteau fi rulate pe o placă grafică obișnuită de jucător, cu 12 gigaocteți de memorie. Rezultatul era modest: un răspuns scurt la fiecare aproximativ un minut, în funcție de programul folosit pentru rulare și de dimensiunea modelului. Calitatea textului era mult sub cea a serviciilor apărute după 2022.
+Înainte de apariția serviciilor conversaționale destinate publicului larg, existau modele publicate cu tot cu parametri[^4], pe care oricine le putea descărca. Ele erau distribuite ca fișiere de dimensiuni mari, ulterior standardizate într-un format care împiedică executarea de cod la încărcare, și puteau fi rulate pe o placă grafică obișnuită de jucător, cu 12 gigaocteți de memorie. Rezultatul era modest: un răspuns scurt la fiecare aproximativ un minut, în funcție de programul folosit pentru rulare și de dimensiunea modelului. Calitatea textului era mult sub cea a serviciilor apărute după 2022.
 
 ## 7. Ce a rămas din internetul necomercial
 
@@ -125,9 +125,9 @@ _______________________________________________________________
 
 ## Note
 
-[^1]: Serverul web este programul care primește cererile navigatoarelor și trimite paginile solicitate. Apache și nginx sunt cele mai răspândite. Un calculator obișnuit poate rula un astfel de program.
+[^1]: Nextcloud este un program liber pentru stocarea și partajarea fișierelor pe server propriu, cu funcții asemănătoare serviciilor comerciale de stocare la distanță.
 
-[^2]: Nextcloud este un program liber pentru stocarea și partajarea fișierelor pe server propriu, cu funcții asemănătoare serviciilor comerciale de stocare la distanță.
+[^2]: Serverul web este programul care primește cererile navigatoarelor și trimite paginile solicitate. Apache și nginx sunt cele mai răspândite. Un calculator obișnuit poate rula un astfel de program.
 
 [^3]: Indexarea este operațiunea prin care un motor de căutare parcurge paginile publice și le înregistrează, pentru a le putea afișa în rezultate. Conținutul aflat în spatele unei autentificări sau într-o aplicație închisă rămâne neindexat.
 

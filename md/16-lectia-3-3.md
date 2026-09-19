@@ -1,6 +1,6 @@
 # Lecția 3.3: Primăvara arabă și consecințele ei
 
-La sfârșitul lui 2010 și în 2011, proteste de masă au izbucnit simultan în peste zece state arabe. Rezultatele au fost complet diferite de la o țară la alta: un regim înlocuit prin alegeri, unul înlocuit printr-o lovitură militară ulterioară, două state intrate în război civil, unul în care protestele au fost înăbușite cu ajutor militar străin. Lecția urmărește aceste rezultate, explică de ce unele conflicte deschise atunci continuă și astăzi și arată că valul de revolte nu s-a încheiat în 2011.
+La sfârșitul lui 2010 și în 2011, proteste de masă au izbucnit simultan în peste zece state arabe. Rezultatele au fost complet diferite de la o țară la alta: un regim înlocuit prin alegeri, unul înlocuit printr-o lovitură militară ulterioară, două state intrate în război[^1] civil, unul în care protestele au fost înăbușite cu ajutor militar străin. Lecția urmărește aceste rezultate, explică de ce unele conflicte deschise atunci continuă și astăzi și arată că valul de revolte nu s-a încheiat în 2011.
 
 ## 1. Ce era comun
 
@@ -32,7 +32,7 @@ Regimul instalat atunci se află și astăzi la putere, cu sprijin financiar occ
 
 ## 4. Libia
 
-Revolta din februarie 2011 a fost urmată de amenințarea publică a conducerii libiene că va reprima insurgența din Benghazi fără cruțare. La 17 martie 2011, Consiliul de Securitate a adoptat rezoluția 1973, care autoriza toate măsurile necesare pentru protejarea civililor și instituia o zonă de interdicție aeriană. Rusia și China s-au abținut.
+Revolta din februarie 2011 a fost urmată de amenințarea publică a conducerii libiene că va reprima insurgența din Benghazi fără cruțare. La 17 martie 2011, Consiliul de Securitate a adoptat rezoluția 1973, care autoriza toate măsurile necesare pentru protejarea civililor și instituia o zonă de interdicție aeriană[^2]. Rusia și China s-au abținut.
 
 Campania aeriană condusă de NATO a durat șapte luni și a inclus atacuri asupra forțelor guvernamentale aflate în retragere. Gaddafi a fost ucis la 20 octombrie 2011.
 
@@ -80,7 +80,7 @@ Saleh a plecat de la putere în 2012, printr-un acord negociat. Mișcarea houthi
 > #### Mecanismele identificate
 >
 > - **Structura de interpuși:** fiecare parte primește arme și bani de la un stat exterior, iar înfrângerea ei ar însemna o pierdere pentru acel stat, care preferă să alimenteze conflictul.
-> - **Economia de război:** contrabanda, ajutorul umanitar deturnat, taxele percepute la puncte de control și traficul de resurse creează venituri pentru comandanți, care pierd aceste venituri odată cu pacea.
+> - **Economia de război[^3]:** contrabanda, ajutorul umanitar deturnat, taxele percepute la puncte de control și traficul de resurse creează venituri pentru comandanți, care pierd aceste venituri odată cu pacea.
 > - **Fragmentarea:** un acord semnat cu o parte nu obligă grupurile desprinse din ea.
 > - **Absența costului politic pentru statele care intervin:** operațiunile duse cu aviație, drone și forțe locale produc puține victime în rândul statelor intervenente, ceea ce reduce presiunea internă pentru încheierea lor.
 >
@@ -106,7 +106,7 @@ Guvernul civil-militar instalat în 2019 a fost înlăturat prin lovitură de st
 
 - Aproximativ douăsprezece până la paisprezece milioane de persoane au fost strămutate, cea mai mare criză de acest fel din lume.
 - Orașul El Fasher, din Darfur, a fost asediat din mai 2024 și a fost cucerit la 26 octombrie 2025. Foametea a fost confirmată acolo și în Kadugli.
-- O misiune a Națiunilor Unite a constatat, într-un raport din februarie 2026, că atacul asupra orașului prezintă trăsăturile genocidului. Un raport publicat de Amnesty International în iulie 2026 a concluzionat existența crimelor împotriva umanității și a epurării etnice pe criterii de identitate.
+- O misiune a Națiunilor Unite a constatat, într-un raport din februarie 2026, că atacul asupra orașului prezintă trăsăturile genocidului. Un raport publicat de Amnesty International în iulie 2026 a concluzionat existența crimelor împotriva umanității și a epurării etnice[^4] pe criterii de identitate.
 - Statele care furnizează armament părților în conflict continuă livrările.
 
 ## Activități și exerciții
@@ -140,10 +140,10 @@ _______________________________________________________________
 
 ## Note
 
-[^1]: Zona de interdicție aeriană este spațiul aerian în care aeronavelor unui stat li se interzice zborul, interdicție impusă prin prezența militară a altor state. Aplicarea ei presupune distrugerea sistemelor antiaeriene ale statului vizat.
+[^1]: Războiul prin interpuși desemnează conflictul în care state care nu luptă direct între ele susțin părți adverse cu arme, bani, instruire și informații.
 
-[^2]: Războiul prin interpuși desemnează conflictul în care state care nu luptă direct între ele susțin părți adverse cu arme, bani, instruire și informații.
+[^2]: Zona de interdicție aeriană este spațiul aerian în care aeronavelor unui stat li se interzice zborul, interdicție impusă prin prezența militară a altor state. Aplicarea ei presupune distrugerea sistemelor antiaeriene ale statului vizat.
 
 [^3]: Economia de război desemnează ansamblul activităților economice care apar și se dezvoltă din cauza conflictului: contrabandă, taxare la punctele de control, trafic de resurse, deturnarea ajutorului umanitar.
 
-[^4]: Epurarea etnică desemnează îndepărtarea forțată a unei populații dintr-un teritoriu pe criterii de identitate. Genocidul cere, suplimentar, dovada intenției de distrugere a grupului ca atare, conform definiției discutate în lecția 0.
+[^4]: Epurarea etnică desemnează îndepărtarea forțată a unei populații dintr-un teritoriu, pe criterii de identitate, prin ucideri, deportări și distrugerea locuințelor și a lăcașurilor de cult. Termenul a intrat în uzul internațional curent în timpul războiului din Bosnia, iar genocidul cere, suplimentar, dovada intenției de distrugere a grupului ca atare, după definiția discutată în lecția 0.

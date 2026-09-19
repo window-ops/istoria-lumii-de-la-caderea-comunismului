@@ -14,7 +14,7 @@ Lansat la 24 august 1995, cu o campanie publicitară de amploare, sistemul a int
 
 Lansat în vara anului 1996, acest sistem folosea interfața introdusă de Windows 95 peste o arhitectură complet diferită, construită de la început pentru rețele și pentru mai mulți utilizatori:
 
-- nucleul nu depindea de DOS, iar programele rulau în spații de memorie separate, astfel încât o eroare oprea un singur program;
+- nucleul[^2] nu depindea de DOS, iar programele rulau în spații de memorie separate, astfel încât o eroare oprea un singur program;
 - sistemul de fișiere NTFS permitea drepturi de acces pe fișier și pe utilizator;
 - conturile de utilizator și administrarea centralizată în rețea făceau sistemul potrivit pentru birouri, proiectare tehnică și servere.
 
@@ -22,7 +22,7 @@ Această linie tehnică a continuat cu Windows 2000 și a fuzionat cu linia dest
 
 #### Linux
 
-Nucleul de sistem de operare publicat de Linus Torvalds în 1991 și pus în 1992 sub licența publică generală[^2] a fost completat de programele proiectului GNU. Distribuțiile apărute între 1993 și 1995, între care Slackware, Debian și Red Hat, au făcut instalarea accesibilă unui public mai larg.
+Nucleul de sistem de operare publicat de Linus Torvalds în 1991 și pus în 1992 sub licența publică generală[^3] a fost completat de programele proiectului GNU. Distribuțiile apărute între 1993 și 1995, între care Slackware, Debian și Red Hat, au făcut instalarea accesibilă unui public mai larg.
 
 Pentru utilizarea pe calculatorul personal, mediul grafic a fost un element decisiv. Serverul grafic XFree86, împreună cu mediile KDE, apărut din 1996, și GNOME, apărut la sfârșitul deceniului, au produs un mod de lucru asemănător cu cel din Windows: ferestre, pictograme, meniu de aplicații, gestionar de fișiere. Diferențele au rămas la nivelul licenței, al modului de instalare a programelor și al suportului pentru echipamente.
 
@@ -71,7 +71,7 @@ Accesul cerea cunoștințe: configurarea unui modem, instalarea unui program cli
 >
 > În 1995, rețeaua era folosită de o minoritate cu formație tehnică, selectată de dificultatea accesului. Astăzi este folosită de aproape toată lumea. Ce s-a pierdut este omogenitatea acelei populații. Instrumentele pentru comunități restrânse continuă să existe, iar unele, între care Discord și rețelele bazate pe protocolul Matrix, reproduc structura canalelor din anii '90.
 >
-> #### Ce se poate măsura
+> #### Ce se poate verifica
 >
 > Numărul de utilizatori simultani pe rețelele IRC, publicat de site-uri de statistică din 1998 până astăzi; numărul de forumuri active; proporția timpului petrecut în fluxuri automate față de conversații directe, publicată de companii în rapoartele către investitori. Subiectul revine în lecțiile 3.7 și 4.10.
 
@@ -100,7 +100,7 @@ Două urmări au rămas:
 | Africa, fără Africa de Sud | sub 1% |
 | Media mondială | între 4% și 6% |
 
-Diferența dintre aceste valori a primit denumirea de decalaj digital. Ea explică de ce evenimentele deceniului au fost relatate online aproape exclusiv de utilizatori din America de Nord și din Europa, iar arhivele digitale ale perioadei reflectă această distribuție.
+Diferența dintre aceste valori a primit denumirea de decalaj digital[^4]. Ea explică de ce evenimentele deceniului au fost relatate online aproape exclusiv de utilizatori din America de Nord și din Europa, iar arhivele digitale ale perioadei reflectă această distribuție.
 
 ## Activități și exerciții
 
@@ -135,8 +135,8 @@ _______________________________________________________________
 
 [^1]: TCP/IP este familia de protocoale care stabilește cum sunt împărțite datele în pachete, cum sunt adresate și cum se verifică livrarea lor între calculatoare aflate în rețele diferite. Adoptarea ei generalizată a făcut posibilă legarea rețelelor separate într-o singură rețea globală.
 
-[^2]: Licența publică generală, cunoscută prin abrevierea GPL, permite oricui să folosească, să modifice și să redistribuie un program, cu condiția ca versiunile modificate să fie distribuite sub aceeași licență și cu codul sursă disponibil.
+[^2]: Nucleul, numit și kernel, este partea sistemului de operare care administrează memoria, procesorul și accesul la echipamente. Programele obișnuite comunică cu echipamentele prin intermediul lui.
 
-[^3]: Nucleul, numit și kernel, este partea sistemului de operare care administrează memoria, procesorul și accesul la echipamente. Programele obișnuite comunică cu echipamentele prin intermediul lui.
+[^3]: Licența publică generală, cunoscută prin abrevierea GPL, permite oricui să folosească, să modifice și să redistribuie un program, cu condiția ca versiunile modificate să fie distribuite sub aceeași licență și cu codul sursă disponibil.
 
 [^4]: Decalajul digital desemnează diferența de acces la echipamente, la conexiune și la competențele necesare folosirii lor, între regiuni, între medii urbane și rurale și între categorii de venit.

@@ -48,31 +48,38 @@
       <div class="zona">
         <main id="continut" class="text">
           <div class="strat fisa">
-                        <div class="fisa-antet">
+            <div class="fisa-antet">
               <div>
                 <h1>Fișa manualului</h1>
                 <dl class="fisa-rand">
-                  <dt>Titlul</dt><dd>Istoria lumii de la căderea comunismului</dd>
-                  <dt>Felul lucrării</dt><dd>manual liceal experimental, pentru studiu individual</dd>
-                  <dt>Autor</dt><dd>miculpionier, elev la data redactării</dd>
-                  <dt>Data redactării</dt><dd>10 septembrie 2026</dd>
-                  <dt>Avizat de</dt><dd>miculpionier, aviz nr. 5, fără termen</dd>
-                  <dt>Licența</dt><dd>CC BY-SA 4.0</dd>
-                  <dt>Proprietatea</dt><dd>a oricui îl copiază</dd>
+                  <dt>Titlul</dt>
+                  <dd>Istoria lumii de la căderea comunismului</dd>
+                  <dt>Felul lucrării</dt>
+                  <dd>manual liceal experimental, pentru studiu individual</dd>
+                  <dt>Autor</dt>
+                  <dd>miculpionier, elev la data redactării</dd>
+                  <dt>Data redactării</dt>
+                  <dd>10 septembrie 2026</dd>
+                  <dt>Avizat de</dt>
+                  <dd>miculpionier, aviz nr. 5, fără termen</dd>
+                  <dt>Licența</dt>
+                  <dd>CC BY-SA 4.0</dd>
+                  <dt>Proprietatea</dt>
+                  <dd>a oricui îl copiază</dd>
                 </dl>
               </div>
               <svg class="stampila" viewBox="0 0 200 200" aria-label="Ștampilă: avizat miculpionier, nr. 5, 2026. Apasă pentru culoarea oficială">
-                <defs>
-                  <path id="cerc-sus" d="M100,100 m-72,0 a72,72 0 1,1 144,0"/>
-                  <path id="cerc-jos" d="M100,100 m72,0 a72,72 0 1,1 -144,0"/>
-                </defs>
-                <circle cx="100" cy="100" r="92" stroke-width="3"/>
-                <circle cx="100" cy="100" r="86" stroke-width="1.5"/>
-                <circle cx="100" cy="100" r="56" stroke-width="1.5"/>
-                <text font-size="15"><textPath href="#cerc-sus" startOffset="50%" text-anchor="middle">AVIZAT · MICULPIONIER</textPath></text>
-                <text font-size="13"><textPath href="#cerc-jos" startOffset="50%" text-anchor="middle">ȘTAMPILĂ PUR DIGITALĂ</textPath></text>
-                <text x="100" y="92" font-size="22" text-anchor="middle">NR. 5</text>
-                <text x="100" y="116" font-size="16" text-anchor="middle">10.09.2026</text>
+              <defs>
+              <path id="cerc-sus" d="M100,100 m-72,0 a72,72 0 1,1 144,0"/>
+              <path id="cerc-jos" d="M100,100 m72,0 a72,72 0 1,1 -144,0"/>
+              </defs>
+              <circle cx="100" cy="100" r="92" stroke-width="3"/>
+              <circle cx="100" cy="100" r="86" stroke-width="1.5"/>
+              <circle cx="100" cy="100" r="56" stroke-width="1.5"/>
+              <text font-size="15"><textPath href="#cerc-sus" startOffset="50%" text-anchor="middle">AVIZAT · MICULPIONIER</textPath></text>
+              <text font-size="13"><textPath href="#cerc-jos" startOffset="50%" text-anchor="middle">ȘTAMPILĂ PUR DIGITALĂ</textPath></text>
+              <text x="100" y="92" font-size="22" text-anchor="middle">NR. 5</text>
+              <text x="100" y="116" font-size="16" text-anchor="middle">10.09.2026</text>
               </svg>
             </div>
             <div class="fisa-declaratie">
@@ -108,16 +115,20 @@ cum se semnează: <a href="semnare.html">pagina de semnare</a>
             <p>Pagina de față ține locul paginilor de la începutul manualelor școlare: avizul, ștampila, imnul, tabelul cu starea cărții la primire și la predare, datele tehnice. Cuprinde informații adevărate și informații inventate, în proporție nedeclarată, ca orice fișă. Cititorul care vrea să știe care sunt care are la îndemână lecția 0.</p>
             <h2 id="1-avizare">1. Avizare<a class="permalink" href="#1-avizare" aria-label="Legătură către această secțiune">#</a></h2>
             <p>Manualul este avizat de miculpionier. Cum miculpionier este chiar autorul, manualul este <button type="button" class="ascuns-in-text" id="buton-autoavizat" aria-expanded="false" aria-controls="mana" title="Aceeași mână">autoavizat</button>, procedură mai rapidă decât cea obișnuită și cu aceleași garanții.</p>
-            <div class="mana" id="mana" hidden></div>
+            <div class="mana" id="mana" hidden>
+            </div>
             <p>Avizul are <button type="button" class="ascuns-in-text" id="buton-semnatura" aria-expanded="false" aria-controls="semnatura" title="Față în față">semnătură</button> digitală adevărată, ed25519: cheia publică, textul semnat și semnătura sunt în depozit, în folderul „cheie”, cu instrucțiunile de verificare. Semnătura dovedește că avizul a fost semnat de cine are cheia, adică de autor, și nimic mai mult. Blocul lung din aviz, în base64, nu este o cheie; cine îl decodează află ce apără cheia. Ștampila este pur digitală: nu lasă urme pe hârtie și nu se poate pierde în sertar.</p>
-            <div class="semnatura" id="semnatura" hidden></div>
+            <div class="semnatura" id="semnatura" hidden>
+            </div>
             <p>Pe copertă nu scrie „avizat MEC 2006”, sau orice alt an, cum scrie pe manualele obișnuite. Nici nu ar fi adevărat: ministerul nu avizează, de regulă, cărți scrise de elevi, iar în 2006 autorul nu se născuse. Cărțile care poartă rândul acela pe copertă au avut, cel puțin, avantajul de a fi fost citite o dată de o comisie.</p>
             <p>Numărul avizului este 5. Este al cincilea manual de la miculpionier și al cincilea aviz; primele patru au numerele 1-4, dar nu au avut ștampila desenată; aceasta este prima care se vede. Avizul nu expiră; el se corectează, în forma descrisă în pagina „Cum i se scrie autorului”.</p>
             <h2 id="2-imnul">2. Imnul<a class="permalink" href="#2-imnul" aria-label="Legătură către această secțiune">#</a></h2>
             <p>Manualul nu are „Deșteaptă-te, române” pe prima pagină. Nu pentru că imnul ar lipsi din memoria cititorului, ci pentru că un manual de istorie recentă nu deschide cu un text din 1848 pe care nu-l discută.</p>
             <p>Rândul cu Traian ar fi cerut, în plus, o notă de subsol lungă. Pentru <button type="button" class="ascuns-in-text" id="buton-daci" aria-expanded="false" aria-controls="tunel" title="Proiect național">daci</button><button type="button" class="ascuns-in-text" id="buton-virgula" aria-expanded="false" aria-controls="virgula" title="Constructorul">,</button> Traian nu a fost un erou, ci un împărat care le-a cucerit țara, le-a luat aurul și le-a mutat capitala.</p>
-            <div class="tunel" id="tunel" hidden></div>
-            <div class="tunel virgula" id="virgula" hidden></div>
+            <div class="tunel" id="tunel" hidden>
+            </div>
+            <div class="tunel virgula" id="virgula" hidden>
+            </div>
             <p>Manualele nu spun asta pe prima pagină, pentru că prima pagină nu are note de subsol. Manualul de față are note de subsol și <button type="button" class="ascuns-in-text" id="buton-imn" aria-expanded="false" aria-controls="imn-ascuns" title="Sau are?">nu are imn</button>, ceea ce rezolvă problema din ambele părți.</p>
             <div class="imn-ascuns" id="imn-ascuns" hidden>
               <h4>Steaua sus răsare, iarăși vin comuniștii la putere</h4>
@@ -138,12 +149,36 @@ cum se semnează: <a href="semnare.html">pagina de semnare</a>
             <div class="tabel predare">
               <table>
                 <thead>
-                  <tr><th>Anul</th><th>Numele elevului</th><th>Clasa</th><th>Starea la primire</th><th>Starea la predare</th></tr>
+                  <tr>
+                    <th>Anul</th>
+                    <th>Numele elevului</th>
+                    <th>Clasa</th>
+                    <th>Starea la primire</th>
+                    <th>Starea la predare</th>
+                  </tr>
                 </thead>
                 <tbody>
-                  <tr><td>2026</td><td>oricine</td><td>oricare</td><td>nouă</td><td>tot nouă, este digital</td></tr>
-                  <tr><td>2027</td><td>oricine</td><td>oricare</td><td>nouă</td><td>tot nouă, dar cu cifrele vechi</td></tr>
-                  <tr><td>2028</td><td></td><td></td><td></td><td></td></tr>
+                  <tr>
+                    <td>2026</td>
+                    <td>oricine</td>
+                    <td>oricare</td>
+                    <td>nouă</td>
+                    <td>tot nouă, este digital</td>
+                  </tr>
+                  <tr>
+                    <td>2027</td>
+                    <td>oricine</td>
+                    <td>oricare</td>
+                    <td>nouă</td>
+                    <td>tot nouă, dar cu cifrele vechi</td>
+                  </tr>
+                  <tr>
+                    <td>2028</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -170,7 +205,8 @@ cum se semnează: <a href="semnare.html">pagina de semnare</a>
               <li>Exemplarul:
                 <ul>
                   <li>Tiraj: <button type="button" class="ascuns-in-text" id="buton-tiraj" aria-expanded="false" aria-controls="tiraj-rezultat" title="Test A/B">nelimitat</button>.
-                    <div class="tiraj" id="tiraj-rezultat" hidden></div>
+                    <div class="tiraj" id="tiraj-rezultat" hidden>
+                    </div>
                   </li>
                   <li><button type="button" class="ascuns-in-text" id="buton-hartie" aria-expanded="false" aria-controls="eroare-hartie" title="Starea imprimantei">Hârtie</button>: a cititorului.
                     <pre class="eroare-imprimanta" id="eroare-hartie" hidden>EROARE 0x6100004a: hârtia nu este recunoscută.
@@ -204,24 +240,33 @@ Se recomandă: descărcarea driverului complet (240 MB, 700 MB pe disc), reporni
                     <div class="kiwix" id="kiwix" hidden>
                       <div class="kiwix-bara"><span class="kiwix-titlu">Kiwix</span><span class="kiwix-fisier">wikipedia_ro_all_maxi_2026-05.zim · 12 GB</span></div>
                       <div class="kiwix-cautare"><span class="kiwix-lupa"><img class="ico" src="../assets/icoane/cauta.svg" alt=""></span><input type="search" class="kiwix-camp" value="cuponiada" aria-label="Caută în Wikipedia, fără internet" autocomplete="off" spellcheck="false"></div>
-                      <ul class="kiwix-rezultate"></ul>
-                      <div class="kiwix-stare mic" hidden></div>
+                      <ul class="kiwix-rezultate">
+                      </ul>
+                      <div class="kiwix-stare mic" hidden>
+                      </div>
                       <p class="mic">Toată Wikipedia în limba română, fără internet, cu diacritice sau fără, într-un fișier de pe calculator. Manualul, 4 megaocteți, încape în el de 3.000 de ori. Lecția 0 cere verificarea surselor; cu Kiwix se face și la munte, în versiunea de la data fișierului, care pentru anii '90 este de ajuns.</p>
                     </div>
                   </li>
                   <li>Cont: <button type="button" class="ascuns-in-text" id="buton-cont" aria-expanded="false" aria-controls="tempmail" title="Adresă temporară">nu există</button>.
                     <div class="tempmail" id="tempmail" hidden>
                       <div class="tempmail-bara"><span class="tempmail-adresa"></span><span class="tempmail-timp">10:00</span></div>
-                      <ul class="tempmail-inbox"></ul>
+                      <ul class="tempmail-inbox">
+                      </ul>
                       <p class="mic">Cine cere cont primește o adresă de zece minute. Cine cere adresă primește cont. Manualul nu cere niciuna.</p>
                     </div>
                   </li>
                   <li>Cookie: <button type="button" class="ascuns-in-text" id="buton-cookie" aria-expanded="false" aria-controls="depozit" title="Ce ține navigatorul">nu există</button>. Ce scrie elevul în spațiile de temă rămâne în navigatorul lui.
                     <div class="depozit" id="depozit" hidden>
                       <dl class="fisa-rand">
-                        <dt>Cookie</dt><dd class="dep-cookie"></dd>
-                        <dt>localStorage</dt><dd class="dep-local"></dd>
-                        <dt>sessionStorage</dt><dd class="dep-sesiune"></dd>
+                        <dt>Cookie</dt>
+                        <dd class="dep-cookie">
+                        </dd>
+                        <dt>localStorage</dt>
+                        <dd class="dep-local">
+                        </dd>
+                        <dt>sessionStorage</dt>
+                        <dd class="dep-sesiune">
+                        </dd>
                       </dl>
                       <p class="mic">Acestea sunt cheile pe care le ține navigatorul dumneavoastră chiar acum, citite pe loc. Nu pleacă nicăieri; se șterg din pagina „Datele mele” sau odată cu fila.</p>
                     </div>
@@ -274,21 +319,24 @@ Se recomandă: descărcarea driverului complet (240 MB, 700 MB pe disc), reporni
               <li>Coperta: nu există.</li>
               <li>Ilustrații: nu există.</li>
               <li>Hărți: <button type="button" class="ascuns-in-text" id="buton-harti" aria-expanded="false" aria-controls="harti" title="Se încearcă hărțile">nu există</button>; cititorul are una în <button type="button" class="ascuns-in-text" id="buton-telefon" aria-expanded="false" aria-controls="dialup" title="Conectare">telefon</button>, mai bună decât orice s-ar fi putut tipări.
-                <div class="harti" id="harti" hidden></div>
+                <div class="harti" id="harti" hidden>
+                </div>
                 <pre class="dialup" id="dialup" hidden></pre>
               </li>
             </ul>
             <h2 id="6-conformitatea">6. Conformitatea<a class="permalink" href="#6-conformitatea" aria-label="Legătură către această secțiune">#</a></h2>
             <ul class="fisa-date">
               <li>Conform cu programa <button type="button" class="ascuns-in-text" id="buton-proprie" aria-expanded="false" aria-controls="autosemnat" title="Semnat de sine">proprie</button>: 100%.
-                <div class="autosemnat" id="autosemnat" hidden></div>
+                <div class="autosemnat" id="autosemnat" hidden>
+                </div>
               </li>
               <li>Conform cu programa națională: 0%, cu mențiunea că nici nu și-a propus.</li>
               <li>Conform cu Constituția: da, în special cu articolul 30, care se poate citi.</li>
               <li>Nu conține:
                 <ul>
                   <li>imn, <button type="button" class="ascuns-in-text" id="buton-rugaciune" aria-expanded="false" aria-controls="saritura" title="Programul de sărituri">rugăciune</button>, reclamă, cod QR;
-                    <div class="saritura" id="saritura" hidden></div>
+                    <div class="saritura" id="saritura" hidden>
+                    </div>
                   </li>
                   <li>test grilă, chenar cu <button type="button" class="ascuns-in-text" id="buton-retineti" aria-expanded="false" aria-controls="retineti" title="Sau are?">„Rețineți!”</button>, chenar cu <button type="button" class="ascuns-in-text" id="buton-stiati" aria-expanded="false" aria-controls="stiati-ca" title="Sau are?">„Știați că?”</button>;</li>
                   <li class="fara-punct" id="retineti" hidden>
@@ -318,21 +366,45 @@ Se recomandă: descărcarea driverului complet (240 MB, 700 MB pe disc), reporni
                           <li data-parte="comun diferentiat">Orice explicație de 30 de rânduri. Se scade un punct pentru fiecare rând care lipsește, și se adaugă unul pentru fiecare rând în care elevul spune că nu își amintește nici întrebarea. (2 p)</li>
                         </ol>
                         <div class="sinelg-cutie" id="tabel-sinelg" hidden>
-                        <p class="mic">Tabel SINELG, singurul din manual. Se completează după barem, cu semnul potrivit.</p>
-                        <div class="tabel sinelg">
-                          <table>
-                            <thead>
-                              <tr><th>Cerința</th><th>√ Cum a fost la clasă</th><th>– Am uitat după bac</th></tr>
-                            </thead>
-                            <tbody>
-                              <tr data-parte="comun"><td>Unitățile, cei cinci pași, cele trei metode, cele 62 de citiri</td><td>predat în două ore, ascultat în trei</td><td>√</td></tr>
-                              <tr data-parte="diferentiat real"><td>Derivata</td><td>predată la tablă, cu tabelul de variație</td><td>√</td></tr>
-                              <tr data-parte="diferentiat uman"><td>Figura de stil</td><td>subliniată cu două culori</td><td>√</td></tr>
-                              <tr data-parte="diferentiat real"><td>Configurația electronică</td><td>scrisă de treizeci de ori</td><td>√</td></tr>
-                              <tr data-parte="comun diferentiat"><td>Cele 30 de rânduri</td><td>nu s-au cerut niciodată</td><td>√, preventiv</td></tr>
-                            </tbody>
-                          </table>
-                        </div>
+                          <p class="mic">Tabel SINELG, singurul din manual. Se completează după barem, cu semnul potrivit.</p>
+                          <div class="tabel sinelg">
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th>Cerința</th>
+                                  <th>√ Cum a fost la clasă</th>
+                                  <th>– Am uitat după bac</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr data-parte="comun">
+                                  <td>Unitățile, cei cinci pași, cele trei metode, cele 62 de citiri</td>
+                                  <td>predat în două ore, ascultat în trei</td>
+                                  <td>√</td>
+                                </tr>
+                                <tr data-parte="diferentiat real">
+                                  <td>Derivata</td>
+                                  <td>predată la tablă, cu tabelul de variație</td>
+                                  <td>√</td>
+                                </tr>
+                                <tr data-parte="diferentiat uman">
+                                  <td>Figura de stil</td>
+                                  <td>subliniată cu două culori</td>
+                                  <td>√</td>
+                                </tr>
+                                <tr data-parte="diferentiat real">
+                                  <td>Configurația electronică</td>
+                                  <td>scrisă de treizeci de ori</td>
+                                  <td>√</td>
+                                </tr>
+                                <tr data-parte="comun diferentiat">
+                                  <td>Cele 30 de rânduri</td>
+                                  <td>nu s-au cerut niciodată</td>
+                                  <td>√, preventiv</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
                         </div>
                       </div>
                     </aside>
@@ -344,21 +416,73 @@ Se recomandă: descărcarea driverului complet (240 MB, 700 MB pe disc), reporni
                       <div class="tabel">
                         <table>
                           <thead>
-                            <tr><th>Anul</th><th>Zboruri externe</th><th>Cost (lei)</th></tr>
+                            <tr>
+                              <th>Anul</th>
+                              <th>Zboruri externe</th>
+                              <th>Cost (lei)</th>
+                            </tr>
                           </thead>
                           <tbody>
-                            <tr><td>2015</td><td>25</td><td>6.606.090</td></tr>
-                            <tr><td>2016</td><td>20</td><td>5.189.818</td></tr>
-                            <tr><td>2017</td><td>16</td><td>5.600.407</td></tr>
-                            <tr><td>2018</td><td>17</td><td>4.923.229</td></tr>
-                            <tr><td>2019</td><td>21</td><td>9.335.729</td></tr>
-                            <tr><td>2020</td><td>9</td><td>3.167.074</td></tr>
-                            <tr><td>2021</td><td>16</td><td>7.039.007</td></tr>
-                            <tr><td>2022</td><td>20</td><td>13.719.191</td></tr>
-                            <tr><td>2023</td><td>26</td><td>36.459.563</td></tr>
-                            <tr><td>2024</td><td>22</td><td>20.899.997</td></tr>
-                            <tr><td>2025</td><td>1</td><td>685.125</td></tr>
-                            <tr><td>Total</td><td>193</td><td>113.625.230</td></tr>
+                            <tr>
+                              <td>2015</td>
+                              <td>25</td>
+                              <td>6.606.090</td>
+                            </tr>
+                            <tr>
+                              <td>2016</td>
+                              <td>20</td>
+                              <td>5.189.818</td>
+                            </tr>
+                            <tr>
+                              <td>2017</td>
+                              <td>16</td>
+                              <td>5.600.407</td>
+                            </tr>
+                            <tr>
+                              <td>2018</td>
+                              <td>17</td>
+                              <td>4.923.229</td>
+                            </tr>
+                            <tr>
+                              <td>2019</td>
+                              <td>21</td>
+                              <td>9.335.729</td>
+                            </tr>
+                            <tr>
+                              <td>2020</td>
+                              <td>9</td>
+                              <td>3.167.074</td>
+                            </tr>
+                            <tr>
+                              <td>2021</td>
+                              <td>16</td>
+                              <td>7.039.007</td>
+                            </tr>
+                            <tr>
+                              <td>2022</td>
+                              <td>20</td>
+                              <td>13.719.191</td>
+                            </tr>
+                            <tr>
+                              <td>2023</td>
+                              <td>26</td>
+                              <td>36.459.563</td>
+                            </tr>
+                            <tr>
+                              <td>2024</td>
+                              <td>22</td>
+                              <td>20.899.997</td>
+                            </tr>
+                            <tr>
+                              <td>2025</td>
+                              <td>1</td>
+                              <td>685.125</td>
+                            </tr>
+                            <tr>
+                              <td>Total</td>
+                              <td>193</td>
+                              <td>113.625.230</td>
+                            </tr>
                           </tbody>
                         </table>
                       </div>
@@ -374,52 +498,54 @@ Se recomandă: descărcarea driverului complet (240 MB, 700 MB pe disc), reporni
                         <textarea class="chat-camp" rows="1" placeholder="Cu ce te pot ajuta?" aria-label="Mesaj"></textarea>
                         <div class="chat-rand">
                           <span class="chat-meniu-loc">
-                            <button type="button" class="chat-buton chat-plus" aria-expanded="false" aria-controls="meniu-plus"><img class="ico" src="../assets/icoane/plus.svg" alt=""><span class="doar-citit">Adaugă fișiere sau altele</span></button>
-                            <ul class="chat-meniu" id="meniu-plus" hidden></ul>
+                          <button type="button" class="chat-buton chat-plus" aria-expanded="false" aria-controls="meniu-plus"><img class="ico" src="../assets/icoane/plus.svg" alt=""><span class="doar-citit">Adaugă fișiere sau altele</span></button>
+                          <ul class="chat-meniu" id="meniu-plus" hidden>
+                          </ul>
                           </span>
                           <span class="chat-meniu-loc">
-                            <button type="button" class="chat-buton chat-model" aria-expanded="false" aria-controls="meniu-model"><span class="chat-model-nume">Opus 5</span><img class="ico" src="../assets/icoane/sageata.svg" alt=""><span class="doar-citit">Alege modelul</span></button>
-                            <ul class="chat-meniu" id="meniu-model" hidden></ul>
+                          <button type="button" class="chat-buton chat-model" aria-expanded="false" aria-controls="meniu-model"><span class="chat-model-nume">Opus 5</span><img class="ico" src="../assets/icoane/sageata.svg" alt=""><span class="doar-citit">Alege modelul</span></button>
+                          <ul class="chat-meniu" id="meniu-model" hidden>
+                          </ul>
                           </span>
                           <button type="button" class="chat-buton chat-gandire" aria-pressed="false" hidden><img class="ico" src="../assets/icoane/gandire.svg" alt="">Gândire<span class="doar-citit">, comută raționamentul</span></button>
                           <span class="chat-meniu-loc chat-loc-efort">
-                            <button type="button" class="chat-buton chat-efort" aria-expanded="false" aria-controls="meniu-efort"><span class="chat-efort-nume">Efort: mediu</span><img class="ico" src="../assets/icoane/sageata.svg" alt=""><span class="doar-citit">Alege efortul</span></button>
-                            <ul class="chat-meniu" id="meniu-efort" hidden>
-                              <li><button type="button" data-efort="scăzut">Scăzut</button></li>
-                              <li><button type="button" data-efort="mediu" aria-current="true">Mediu</button></li>
-                              <li><button type="button" data-efort="ridicat">Ridicat</button></li>
-                              <li><button type="button" data-efort="maxim">Maxim</button></li>
-                            </ul>
+                          <button type="button" class="chat-buton chat-efort" aria-expanded="false" aria-controls="meniu-efort"><span class="chat-efort-nume">Efort: mediu</span><img class="ico" src="../assets/icoane/sageata.svg" alt=""><span class="doar-citit">Alege efortul</span></button>
+                          <ul class="chat-meniu" id="meniu-efort" hidden>
+                            <li><button type="button" data-efort="scăzut">Scăzut</button></li>
+                            <li><button type="button" data-efort="mediu" aria-current="true">Mediu</button></li>
+                            <li><button type="button" data-efort="ridicat">Ridicat</button></li>
+                            <li><button type="button" data-efort="maxim">Maxim</button></li>
+                          </ul>
                           </span>
                           <span class="chat-spatiu"></span>
                           <span class="chat-meniu-loc chat-loc-suparare" hidden>
-                            <button type="button" class="chat-buton chat-suparare" aria-expanded="false" aria-controls="popup-suparare"><img class="ico" src="../assets/icoane/stea.svg" alt=""><span class="doar-citit chat-suparare-nume">Notificare</span></button>
-                            <div class="chat-popup" id="popup-suparare" role="dialog" aria-label="Notificare" hidden>
-                              <p class="chat-popup-titlu"></p>
-                              <p class="chat-popup-text"></p>
-                              <div class="chat-popup-butoane">
-                                <button type="button" class="chat-popup-da"></button>
-                                <button type="button" class="chat-popup-inchide">Închide</button>
-                              </div>
+                          <button type="button" class="chat-buton chat-suparare" aria-expanded="false" aria-controls="popup-suparare"><img class="ico" src="../assets/icoane/stea.svg" alt=""><span class="doar-citit chat-suparare-nume">Notificare</span></button>
+                          <div class="chat-popup" id="popup-suparare" role="dialog" aria-label="Notificare" hidden>
+                            <p class="chat-popup-titlu"></p>
+                            <p class="chat-popup-text"></p>
+                            <div class="chat-popup-butoane">
+                              <button type="button" class="chat-popup-da"></button>
+                              <button type="button" class="chat-popup-inchide">Închide</button>
                             </div>
+                          </div>
                           </span>
                           <span class="chat-meniu-loc chat-doar-anthropic">
-                            <button type="button" class="chat-buton chat-foc" aria-expanded="false" aria-controls="popup-limita"><img class="ico" src="../assets/icoane/foc.svg" alt=""><span class="doar-citit">Utilizare</span></button>
-                            <div class="chat-popup" id="popup-limita" role="dialog" aria-label="Limita de utilizare" hidden>
-                              <p class="chat-popup-titlu">Ați atins limita de utilizare</p>
-                              <div class="chat-bara"><span style="width: 100%"></span></div>
-                              <p>Limita se reface la ora <span class="chat-ora">17:00</span>. Puteți aștepta, puteți trece la planul Max, de 5 ori mai mult, sau puteți citi manualul, care nu are limită.</p>
-                              <div class="chat-popup-butoane">
-                                <button type="button" class="chat-popup-max">Treci la Max</button>
-                                <button type="button" class="chat-popup-inchide">Aștept</button>
-                              </div>
+                          <button type="button" class="chat-buton chat-foc" aria-expanded="false" aria-controls="popup-limita"><img class="ico" src="../assets/icoane/foc.svg" alt=""><span class="doar-citit">Utilizare</span></button>
+                          <div class="chat-popup" id="popup-limita" role="dialog" aria-label="Limita de utilizare" hidden>
+                            <p class="chat-popup-titlu">Ați atins limita de utilizare</p>
+                            <div class="chat-bara"><span style="width: 100%"></span></div>
+                            <p>Limita se reface la ora <span class="chat-ora">17:00</span>. Puteți aștepta, puteți trece la planul Max, de 5 ori mai mult, sau puteți citi manualul, care nu are limită.</p>
+                            <div class="chat-popup-butoane">
+                              <button type="button" class="chat-popup-max">Treci la Max</button>
+                              <button type="button" class="chat-popup-inchide">Aștept</button>
                             </div>
+                          </div>
                           </span>
                           <button type="button" class="chat-buton"><img class="ico" src="../assets/icoane/microfon.svg" alt=""><span class="doar-citit">Dictează</span></button>
                           <button type="button" class="chat-buton"><img class="ico" src="../assets/icoane/voce.svg" alt=""><span class="doar-citit">Mod vocal</span></button>
                           <span class="chat-meniu-loc">
-                            <button type="button" class="chat-buton chat-trimite"><img class="ico" src="../assets/icoane/trimite.svg" alt=""><span class="doar-citit">Trimite</span></button>
-                            <span class="chat-marturie" hidden>Acest model, Opus 5, a fost folosit aproape în întregime pentru a ajuta la scrierea programului și a textului manualului.</span>
+                          <button type="button" class="chat-buton chat-trimite"><img class="ico" src="../assets/icoane/trimite.svg" alt=""><span class="doar-citit">Trimite</span></button>
+                          <span class="chat-marturie" hidden>Acest model, Opus 5, a fost folosit aproape în întregime pentru a ajuta la scrierea programului și a textului manualului.</span>
                           </span>
                         </div>
                       </div>
@@ -432,24 +558,72 @@ Se recomandă: descărcarea driverului complet (240 MB, 700 MB pe disc), reporni
                       <div class="tabel">
                         <table>
                           <thead>
-                            <tr><th>Cine</th><th>Cum i se spunea</th></tr>
+                            <tr>
+                              <th>Cine</th>
+                              <th>Cum i se spunea</th>
+                            </tr>
                           </thead>
                           <tbody>
-                            <tr><td>Augusto Pinochet, Chile</td><td>Jefe Supremo de la Nación, prin decret, din 1974; Capitán General, grad reînviat pentru el, purtat înainte doar de O'Higgins; Su Excelencia</td></tr>
-                            <tr><td>Nicolae Ceaușescu, România</td><td>Cel mai iubit fiu al poporului; Geniul din Carpați; Conducătorul iubit; Erou între eroii neamului; Dunărea gândirii</td></tr>
-                            <tr><td>Iosif Stalin, URSS</td><td>Părintele popoarelor; Corifeul științei; Cel mai bun prieten al copiilor; Marele Cârmaci</td></tr>
-                            <tr><td>Mao Zedong, China</td><td>Marele Cârmaci; Soarele Roșu din inimile noastre; Marele Învățător, Marele Conducător, Marele Comandant Suprem</td></tr>
-                            <tr><td>Kim Ir-sen și Kim Jong-il, Coreea de Nord</td><td>Marele Conducător și Iubitul Conducător; Soarele Națiunii; Generalul Strălucit; Președinte Etern, titlu acordat după moarte</td></tr>
-                            <tr><td>Francisco Franco, Spania</td><td>Caudillo de España por la gracia de Dios, scris pe monede</td></tr>
-                            <tr><td>Benito Mussolini, Italia</td><td>Il Duce; „Mussolini ha sempre ragione”, pe ziduri</td></tr>
-                            <tr><td>Rafael Trujillo, Republica Dominicană</td><td>El Jefe; Benefactor de la Patria; capitala redenumită Ciudad Trujillo</td></tr>
-                            <tr><td>Mobutu Sese Seko, Zair</td><td>Numele complet, adoptat prin lege: Mobutu Sese Seko Kuku Ngbendu wa Za Banga, „războinicul atotputernic care, prin rezistența și voința sa de neclintit, merge din victorie în victorie lăsând foc în urma lui”</td></tr>
-                            <tr><td>Idi Amin, Uganda</td><td>Excelența Sa, Președinte pe viață, feldmareșal Al Hadji doctor Idi Amin Dada, VC, DSO, MC, Stăpân al tuturor fiarelor pământului și al peștilor mărilor și Cuceritor al Imperiului Britanic în Africa în general și în Uganda în particular</td></tr>
-                            <tr><td>Jean-Bédel Bokassa, Republica Centrafricană</td><td>Împăratul Bokassa I, încoronat în 1977, cu o cincime din bugetul țării</td></tr>
-                            <tr><td>Saparmurat Niyazov, Turkmenistan</td><td>Türkmenbaşy, „Conducătorul tuturor turkmenilor”; luna ianuarie redenumită după el, luna aprilie după mama lui</td></tr>
-                            <tr><td>Muammar Gaddafi, Libia</td><td>Fratele Conducător și Ghid al Revoluției; Regele Regilor Africii, titlu primit în 2008 de la un grup de șefi tradiționali</td></tr>
-                            <tr><td>Hafez al-Assad, Siria</td><td>Conducătorul Etern; „Assad-ul nostru pentru totdeauna”</td></tr>
-                            <tr><td>Enver Hoxha, Albania</td><td>Tovarășul Enver; Marele Învățător; Comandantul Suprem</td></tr>
+                            <tr>
+                              <td>Augusto Pinochet, Chile</td>
+                              <td>Jefe Supremo de la Nación, prin decret, din 1974; Capitán General, grad reînviat pentru el, purtat înainte doar de O'Higgins; Su Excelencia</td>
+                            </tr>
+                            <tr>
+                              <td>Nicolae Ceaușescu, România</td>
+                              <td>Cel mai iubit fiu al poporului; Geniul din Carpați; Conducătorul iubit; Erou între eroii neamului; Dunărea gândirii</td>
+                            </tr>
+                            <tr>
+                              <td>Iosif Stalin, URSS</td>
+                              <td>Părintele popoarelor; Corifeul științei; Cel mai bun prieten al copiilor; Marele Cârmaci</td>
+                            </tr>
+                            <tr>
+                              <td>Mao Zedong, China</td>
+                              <td>Marele Cârmaci; Soarele Roșu din inimile noastre; Marele Învățător, Marele Conducător, Marele Comandant Suprem</td>
+                            </tr>
+                            <tr>
+                              <td>Kim Ir-sen și Kim Jong-il, Coreea de Nord</td>
+                              <td>Marele Conducător și Iubitul Conducător; Soarele Națiunii; Generalul Strălucit; Președinte Etern, titlu acordat după moarte</td>
+                            </tr>
+                            <tr>
+                              <td>Francisco Franco, Spania</td>
+                              <td>Caudillo de España por la gracia de Dios, scris pe monede</td>
+                            </tr>
+                            <tr>
+                              <td>Benito Mussolini, Italia</td>
+                              <td>Il Duce; „Mussolini ha sempre ragione”, pe ziduri</td>
+                            </tr>
+                            <tr>
+                              <td>Rafael Trujillo, Republica Dominicană</td>
+                              <td>El Jefe; Benefactor de la Patria; capitala redenumită Ciudad Trujillo</td>
+                            </tr>
+                            <tr>
+                              <td>Mobutu Sese Seko, Zair</td>
+                              <td>Numele complet, adoptat prin lege: Mobutu Sese Seko Kuku Ngbendu wa Za Banga, „războinicul atotputernic care, prin rezistența și voința sa de neclintit, merge din victorie în victorie lăsând foc în urma lui”</td>
+                            </tr>
+                            <tr>
+                              <td>Idi Amin, Uganda</td>
+                              <td>Excelența Sa, Președinte pe viață, feldmareșal Al Hadji doctor Idi Amin Dada, VC, DSO, MC, Stăpân al tuturor fiarelor pământului și al peștilor mărilor și Cuceritor al Imperiului Britanic în Africa în general și în Uganda în particular</td>
+                            </tr>
+                            <tr>
+                              <td>Jean-Bédel Bokassa, Republica Centrafricană</td>
+                              <td>Împăratul Bokassa I, încoronat în 1977, cu o cincime din bugetul țării</td>
+                            </tr>
+                            <tr>
+                              <td>Saparmurat Niyazov, Turkmenistan</td>
+                              <td>Türkmenbaşy, „Conducătorul tuturor turkmenilor”; luna ianuarie redenumită după el, luna aprilie după mama lui</td>
+                            </tr>
+                            <tr>
+                              <td>Muammar Gaddafi, Libia</td>
+                              <td>Fratele Conducător și Ghid al Revoluției; Regele Regilor Africii, titlu primit în 2008 de la un grup de șefi tradiționali</td>
+                            </tr>
+                            <tr>
+                              <td>Hafez al-Assad, Siria</td>
+                              <td>Conducătorul Etern; „Assad-ul nostru pentru totdeauna”</td>
+                            </tr>
+                            <tr>
+                              <td>Enver Hoxha, Albania</td>
+                              <td>Tovarășul Enver; Marele Învățător; Comandantul Suprem</td>
+                            </tr>
                           </tbody>
                         </table>
                       </div>
@@ -460,20 +634,53 @@ Se recomandă: descărcarea driverului complet (240 MB, 700 MB pe disc), reporni
               <li>Conține: date, întrebări, două citiri pentru fiecare dispută, cine a decis și cine a plătit.</li>
             </ul>
             <p>De ce nu poate primi <button type="button" class="ascuns-in-text" id="buton-aviz" aria-expanded="false" aria-controls="test-aviz" title="Procedura">aviz de la minister</button>, și de ce în Finlanda ar putea:</p>
-            <div class="test-aviz" id="test-aviz" hidden></div>
+            <div class="test-aviz" id="test-aviz" hidden>
+            </div>
             <div class="tabel">
               <table>
                 <thead>
-                  <tr><th>Condiția</th><th>În România</th><th>În Finlanda</th></tr>
+                  <tr>
+                    <th>Condiția</th>
+                    <th>În România</th>
+                    <th>În Finlanda</th>
+                  </tr>
                 </thead>
                 <tbody>
-                  <tr><td>Cine aprobă manualul</td><td>Ministerul, printr-o comisie, după o procedură cu calendar</td><td>Nimeni; aprobarea de stat a manualelor a fost desființată în 1992</td></tr>
-                  <tr><td>Cine alege manualul folosit la clasă</td><td>Școala, dintre cele aprobate</td><td>Profesorul, dintre toate câte există</td></tr>
-                  <tr><td>Autorul poate fi elev</td><td>Procedura nu prevede cazul</td><td>Procedura nu există, deci nu îl exclude</td></tr>
-                  <tr><td>Manualul trebuie să urmeze programa</td><td>Da, punct cu punct</td><td>Există un curriculum-cadru; materialele îl acoperă cum vor</td></tr>
-                  <tr><td>Imnul pe prima pagină</td><td>Cerut prin lege</td><td>Nu există o asemenea cerință</td></tr>
-                  <tr><td>Prețul</td><td>Stabilit prin achiziție publică</td><td>Stabilit de cine îl vinde; acesta se dă gratis</td></tr>
-                  <tr><td>Concluzia</td><td>Nu poate primi aviz</td><td>Nu are nevoie de aviz, deci tehnic îl are</td></tr>
+                  <tr>
+                    <td>Cine aprobă manualul</td>
+                    <td>Ministerul, printr-o comisie, după o procedură cu calendar</td>
+                    <td>Nimeni; aprobarea de stat a manualelor a fost desființată în 1992</td>
+                  </tr>
+                  <tr>
+                    <td>Cine alege manualul folosit la clasă</td>
+                    <td>Școala, dintre cele aprobate</td>
+                    <td>Profesorul, dintre toate câte există</td>
+                  </tr>
+                  <tr>
+                    <td>Autorul poate fi elev</td>
+                    <td>Procedura nu prevede cazul</td>
+                    <td>Procedura nu există, deci nu îl exclude</td>
+                  </tr>
+                  <tr>
+                    <td>Manualul trebuie să urmeze programa</td>
+                    <td>Da, punct cu punct</td>
+                    <td>Există un curriculum-cadru; materialele îl acoperă cum vor</td>
+                  </tr>
+                  <tr>
+                    <td>Imnul pe prima pagină</td>
+                    <td>Cerut prin lege</td>
+                    <td>Nu există o asemenea cerință</td>
+                  </tr>
+                  <tr>
+                    <td>Prețul</td>
+                    <td>Stabilit prin achiziție publică</td>
+                    <td>Stabilit de cine îl vinde; acesta se dă gratis</td>
+                  </tr>
+                  <tr>
+                    <td>Concluzia</td>
+                    <td>Nu poate primi aviz</td>
+                    <td>Nu are nevoie de aviz, deci tehnic îl are</td>
+                  </tr>
                 </tbody>
               </table>
             </div>

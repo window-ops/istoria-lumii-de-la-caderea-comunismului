@@ -8,19 +8,19 @@ Unitatea a treia acoperă intervalul 2008-2020, deceniul în care promisiunea c�
 |---|---|---|
 | 1999 | Abrogarea legii care separa, din 1933, băncile de depozite de cele de investiții | Aceeași instituție putea păstra economiile populației și specula pe piețele financiare |
 | 2000 | Legea privind modernizarea piețelor la termen | Instrumentele derivate negociate în afara burselor au fost scoase de sub supravegherea autorităților |
-| 2004 | Modificarea regulii privind capitalul propriu al marilor bănci de investiții | Raportul dintre datorii și capital a putut urca până la 30 sau 40 la unu |
+| 2004 | Modificarea regulii privind capitalul propriu al marilor bănci de investiții | Raportul dintre datorii și capital, numit efect de levier[^1], a putut urca până la 30 sau 40 la unu |
 
 #### Momentul din 1998
 
-Președinta comisiei americane care supraveghea piețele la termen, Brooksley Born, a cerut în 1998 introducerea unor reguli pentru instrumentele derivate negociate în afara burselor, invocând lipsa oricărei evidențe publice a acestor contracte. Propunerea a fost respinsă public de președintele băncii centrale, de secretarul trezoreriei și de președintele comisiei bursiere, iar legea din 2000 a interzis explicit reglementarea acestor instrumente. Alegerea a fost făcută cunoscând obiecția.
+Președinta comisiei americane care supraveghea piețele la termen, Brooksley Born, a cerut în 1998 introducerea unor reguli pentru instrumentele derivate[^2] negociate în afara burselor, invocând lipsa oricărei evidențe publice a acestor contracte. Propunerea a fost respinsă public de președintele băncii centrale, de secretarul trezoreriei și de președintele comisiei bursiere, iar legea din 2000 a interzis explicit reglementarea acestor instrumente. Alegerea a fost făcută cunoscând obiecția.
 
 Valoarea nominală a contractelor derivate aflate în circulație la nivel mondial a depășit, în 2007, 600.000 de miliarde de dolari, de aproximativ zece ori produsul intern brut mondial.
 
 ## 2. Mecanismul
 
 1. **Creditul:** băncile și societățile de credit ipotecar au acordat împrumuturi pentru locuințe unor solicitanți fără venituri stabile și fără verificarea documentelor, cu dobânzi mici în primii ani și mult mai mari după.
-2. **Împachetarea:** mii de astfel de credite au fost adunate în titluri financiare vândute investitorilor, iar titlurile au fost la rândul lor recombinate în produse cu mai multe niveluri de risc.
-3. **Evaluarea:** agențiile de rating au acordat celor mai sigure tranșe din aceste produse calificativul maxim, același acordat titlurilor de stat ale țărilor dezvoltate. Agențiile erau plătite de emitentul titlului pe care îl evaluau.
+2. **Împachetarea:** mii de astfel de credite au fost adunate în titluri financiare vândute investitorilor, operațiune numită securitizare[^3], iar titlurile au fost la rândul lor recombinate în produse cu mai multe niveluri de risc.
+3. **Evaluarea:** agențiile de rating[^4] au acordat celor mai sigure tranșe din aceste produse calificativul maxim, același acordat titlurilor de stat ale țărilor dezvoltate. Agențiile erau plătite de emitentul titlului pe care îl evaluau.
 4. **Asigurarea:** contractele de protecție împotriva neplății au fost vândute în cantități care depășeau valoarea titlurilor asigurate, de instituții care nu constituiau rezerve pentru ele.
 
 Comisia de anchetă privind criza financiară, înființată de Congresul american și prezidată de Phil Angelides, a publicat concluziile în ianuarie 2011, cu constatarea că prăbușirea a fost evitabilă și a rezultat din decizii umane, iar nu dintr-un accident natural.
@@ -48,7 +48,7 @@ Sprijinul principal a venit însă pe altă cale. Banca centrală americană a a
 >
 > #### Ce descrie formula
 >
-> Într-un sistem în care profiturile revin proprietarilor privați, iar pierderile sunt acoperite din bani publici atunci când depășesc o anumită dimensiune, calculul riscului se modifică. Cel care decide asumarea unui risc păstrează câștigul dacă operațiunea reușește și transferă pierderea dacă eșuează. Situația poartă numele de hazard moral[^1].
+> Într-un sistem în care profiturile revin proprietarilor privați, iar pierderile sunt acoperite din bani publici atunci când depășesc o anumită dimensiune, calculul riscului se modifică. Cel care decide asumarea unui risc păstrează câștigul dacă operațiunea reușește și transferă pierderea dacă eșuează. Situația poartă numele de hazard moral[^5].
 >
 > #### Ce s-a întâmplat efectiv
 >
@@ -76,15 +76,19 @@ Executarea silită a locuinței produce efecte care depășesc pierderea materia
 
 > #### INTERPRETARE: era salvarea băncilor inevitabilă
 >
+> #### Ce este documentat
+>
+> Sistemul de plăți, salariile, creditul comercial și depozitele populației depind de aceleași instituții. Sumele acordate băncilor americane au fost în cea mai mare parte returnate.
+>
 > #### Citirea A: prevenirea unei prăbușiri generale
 >
-> Sistemul de plăți, salariile, creditul comercial și depozitele populației depind de aceleași instituții. Falimentul simultan al mai multor bănci mari ar fi oprit plățile în economia reală, cu pierderi mai mari decât costul salvării. Faptul că sumele acordate băncilor americane au fost în cea mai mare parte returnate susține această poziție.
+> Falimentul simultan al mai multor bănci mari ar fi oprit plățile în economia reală, cu pierderi mai mari decât costul salvării, iar returnarea sumelor susține această poziție.
 >
 > #### Citirea B: existau alte forme de intervenție
 >
 > Salvarea putea fi condiționată de preluarea temporară a proprietății de către stat, de eliminarea acționarilor existenți și de înlocuirea conducerilor, procedură aplicată în Suedia la începutul anilor '90. Sprijinul putea fi direcționat către debitorii ipotecari, ceea ce ar fi oprit executările silite și ar fi menținut valoarea titlurilor. Islanda a lăsat băncile să cadă, a protejat depozitele interne și a revenit la creștere în câțiva ani.
 >
-> #### Ce se poate compara
+> #### Ce se poate verifica
 >
 > Evoluția produsului intern brut, a șomajului și a datoriei publice în Statele Unite, Islanda, Irlanda și Suedia, în cei zece ani de după criza fiecăreia.
 
@@ -96,7 +100,7 @@ Executarea silită a locuinței produce efecte care depășesc pierderea materia
 
 ## 7. România
 
-România nu deținea titluri ipotecare americane în cantități semnificative. Criza a ajuns pe două căi: oprirea bruscă a intrărilor de capital străin, care finanțaseră creșterea din anii precedenți, și scăderea cererii externe pentru exporturi.
+România nu deținea titluri ipotecare americane în cantități mari. Criza a ajuns pe două căi: oprirea bruscă a intrărilor de capital străin, care finanțaseră creșterea din anii precedenți, și scăderea cererii externe pentru exporturi.
 
 În martie 2009, statul a încheiat un acord de finanțare cu Fondul Monetar Internațional, Comisia Europeană și Banca Mondială, în valoare de aproximativ 20 de miliarde de euro. În paralel, băncile străine prezente în regiune s-au angajat, printr-o înțelegere semnată la Viena, să își mențină expunerea pe piețele locale. Măsurile bugetare adoptate în 2010, în cadrul acestui acord, formează subiectul lecției următoare.
 
@@ -131,12 +135,12 @@ _______________________________________________________________
 
 ## Note
 
-[^1]: Hazardul moral desemnează situația în care o parte protejată de consecințele unui risc își modifică comportamentul și își asumă riscuri mai mari decât ar face-o dacă ar suporta ea însăși pierderea.
+[^1]: Efectul de levier exprimă raportul dintre valoarea activelor deținute și capitalul propriu al instituției. Un raport de 30 la unu înseamnă că o scădere de aproximativ 3% a valorii activelor șterge întregul capital.
 
 [^2]: Instrumentul derivat este un contract a cărui valoare depinde de evoluția altui activ: o acțiune, o materie primă, o rată a dobânzii sau o datorie. El permite acoperirea unui risc și, în egală măsură, speculația asupra evoluției acelui activ.
 
 [^3]: Securitizarea este operațiunea prin care creanțe existente, de regulă credite, sunt transformate în titluri care pot fi vândute investitorilor. Banca inițială recuperează astfel banii imediat și transferă riscul de neplată către cumpărătorul titlului.
 
-[^4]: Efectul de levier exprimă raportul dintre valoarea activelor deținute și capitalul propriu al instituției. Un raport de 30 la unu înseamnă că o scădere de aproximativ 3% a valorii activelor șterge întregul capital.
+[^4]: Ratingul de credit este calificativul acordat de o agenție specializată privind capacitatea unui debitor sau a unui titlu de a fi rambursat. În modelul de plată folosit înainte de 2008, agenția era plătită de instituția care emitea titlul evaluat.
 
-[^5]: Ratingul de credit este calificativul acordat de o agenție specializată privind capacitatea unui debitor sau a unui titlu de a fi rambursat. În modelul de plată folosit înainte de 2008, agenția era plătită de instituția care emitea titlul evaluat.
+[^5]: Hazardul moral desemnează situația în care o parte protejată de consecințele unui risc își modifică comportamentul și își asumă riscuri mai mari decât ar face-o dacă ar suporta ea însăși pierderea.

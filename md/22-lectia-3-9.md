@@ -21,7 +21,7 @@ Concentrația actuală rezultă din emisii acumulate începând cu revoluția in
 
 | Măsura | Situația aproximativă |
 |---|---|
-| Emisii cumulate din arderea combustibililor, 1850-prezent | Statele Unite în jur de un sfert din total, statele Uniunii Europene în jur de o șesime, China în jur de o șeptime |
+| Emisii cumulate[^1] din arderea combustibililor, 1850-prezent | Statele Unite în jur de un sfert din total, statele Uniunii Europene în jur de o șesime, China în jur de o șeptime |
 | Emisii anuale, prezent | China aproximativ 30% din total, Statele Unite aproximativ 13%, Uniunea Europeană aproximativ 6% |
 | Emisii pe locuitor, prezent | Statele Unite peste 13 tone, China în jur de 8 tone, Uniunea Europeană în jur de 6 tone, India în jur de 2 tone |
 
@@ -32,7 +32,7 @@ Din aceste trei rânduri rezultă trei clasamente diferite. Alegerea măsurii de
 | Tratatul | Anul | Conținut | Ce a lipsit |
 |---|---|---|---|
 | Protocolul de la Kyoto | adoptat 1997, în vigoare 2005 | Ținte obligatorii de reducere pentru statele dezvoltate, calculate față de 1990 | Statele Unite nu au ratificat. Canada s-a retras în 2011. Statele în curs de dezvoltare nu aveau ținte |
-| Acordul de la Paris | 2015 | Ținta de a limita încălzirea sub 2 grade și de a urmări limita de 1,5 grade, prin contribuții stabilite de fiecare stat | Contribuțiile sunt voluntare ca nivel, iar nerespectarea lor nu atrage sancțiuni |
+| Acordul de la Paris | 2015 | Ținta de a limita încălzirea sub 2 grade și de a urmări limita de 1,5 grade, prin contribuții stabilite[^2] de fiecare stat | Contribuțiile sunt voluntare ca nivel, iar nerespectarea lor nu atrage sancțiuni |
 
 Statele Unite s-au retras din acordul de la Paris în 2020, au revenit în 2021 și au anunțat din nou retragerea în 2025.
 
@@ -42,7 +42,7 @@ Anul 2024 a fost primul an calendaristic cu o temperatură medie globală situat
 
 Mecanismul de bază: o autoritate stabilește un plafon total de emisii, împarte sau vinde certificate care dau dreptul de a emite o tonă, iar cei care emit mai puțin pot vinde certificatele rămase.
 
-- Sistemul european de comercializare a certificatelor funcționează din 2005 și acoperă industria grea, energia și, treptat, transportul. În primii ani, certificatele au fost distribuite gratuit, iar prețul a fost prea mic pentru a schimba deciziile de investiție. După reformele din ultimul deceniu, prețul a crescut semnificativ.
+- Sistemul european de comercializare a certificatelor funcționează din 2005 și acoperă industria grea, energia și, treptat, transportul. În primii ani, certificatele au fost distribuite gratuit, iar prețul a fost prea mic pentru a schimba deciziile de investiție. După reformele din ultimul deceniu, prețul a crescut.
 - Mecanismul de dezvoltare curată din protocolul de la Kyoto permitea unui stat dezvoltat să finanțeze reduceri în alt stat și să le înscrie în propriul bilanț. Problema principală a fost demonstrarea faptului că reducerea nu s-ar fi produs oricum.
 - Unitățile excedentare rezultate din prăbușirea industriei est-europene după 1990 au produs o cantitate mare de certificate fără reducere reală de emisii.
 
@@ -52,13 +52,17 @@ Statele care acumulaseră astfel de unități au încercat să le folosească pe
 
 > #### INTERPRETARE: sunt piețele de emisii o soluție
 >
+> #### Ce este documentat
+>
+> Prețul certificatului transformă emisia în cost contabil. Emisiile industriei acoperite de sistemul european au scăzut față de 1990, certificatele au fost la început distribuite gratuit, iar sistemele existente acoperă o parte din emisiile mondiale.
+>
 > #### Citirea A: instrumentul funcționează
 >
-> Prețul certificatului transformă emisia în cost contabil, iar deciziile de investiție se schimbă în consecință. Emisiile industriei acoperite de sistemul european au scăzut semnificativ față de 1990. Mecanismul de ajustare la frontieră, aplicat importurilor, împiedică mutarea producției poluante în afara zonei.
+> Deciziile de investiție se schimbă în consecință. Mecanismul de ajustare[^3] la frontieră, aplicat importurilor, împiedică mutarea producției poluante în afara zonei.
 >
 > #### Citirea B: instrumentul este insuficient
 >
-> Sistemele existente acoperă o parte din emisiile mondiale. Distribuirea gratuită a certificatelor a produs profituri pentru companiile vizate. Compensările prin proiecte externe au fost, în mai multe investigații jurnalistice și academice, imposibil de verificat, iar o parte importantă dintre creditele forestiere vândute pe piața voluntară nu corespundeau unor reduceri reale. Mecanismul nu acționează asupra cererii și a consumului.
+> Distribuirea gratuită a produs profituri pentru companiile vizate. Compensările[^4] prin proiecte externe au fost, în mai multe investigații jurnalistice și academice, imposibil de verificat, iar o parte importantă dintre creditele forestiere vândute pe piața voluntară nu corespundeau unor reduceri reale. Mecanismul nu acționează asupra cererii și a consumului.
 >
 > #### Ce se poate verifica
 >
@@ -134,6 +138,6 @@ _______________________________________________________________
 
 [^2]: Contribuția stabilită la nivel național este ținta de reducere pe care fiecare stat o anunță singur în cadrul acordului de la Paris, împreună cu măsurile prin care urmează să o atingă. Nivelul ei nu este impus de tratat.
 
-[^3]: Compensarea emisiilor înseamnă finanțarea unui proiect care reduce sau absoarbe emisii în altă parte, pentru a echilibra emisiile proprii. Condiția de valabilitate este ca reducerea să nu se fi produs în lipsa finanțării.
+[^3]: Mecanismul de ajustare la frontieră aplică importurilor din afara Uniunii un cost echivalent celui plătit de producătorii interni pentru certificatele de emisii, pentru a împiedica mutarea producției în state fără astfel de reguli.
 
-[^4]: Mecanismul de ajustare la frontieră aplică importurilor din afara Uniunii un cost echivalent celui plătit de producătorii interni pentru certificatele de emisii, pentru a împiedica mutarea producției în state fără astfel de reguli.
+[^4]: Compensarea emisiilor înseamnă finanțarea unui proiect care reduce sau absoarbe emisii în altă parte, pentru a echilibra emisiile proprii. Condiția de valabilitate este ca reducerea să nu se fi produs în lipsa finanțării.

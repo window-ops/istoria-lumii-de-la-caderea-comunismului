@@ -21,7 +21,7 @@ La 23 iunie 2016, 51,9% dintre participanți au votat pentru ieșirea Regatului 
 
 ## 3. Alegerile americane din 2016
 
-Donald Trump a câștigat alegerile prezidențiale obținând majoritatea în colegiul electoral, cu aproximativ trei milioane de voturi mai puține decât contracandidata sa la nivel național. Statele care au decis rezultatul se numără printre cele mai afectate de mutarea producției industriale descrisă în lecția 2.4.
+Donald Trump a câștigat alegerile prezidențiale obținând majoritatea în colegiul electoral[^1], cu aproximativ trei milioane de voturi mai puține decât contracandidata sa la nivel național. Statele care au decis rezultatul se numără printre cele mai afectate de mutarea producției industriale descrisă în lecția 2.4.
 
 Politicile aplicate au inclus taxe vamale asupra importurilor chinezești din 2018, restrângerea imigrației și retragerea din acordul climatic de la Paris. Înfrângerea din 2020, contestarea rezultatului și evenimentele din 6 ianuarie 2021 sunt tratate în unitatea a IV-a.
 
@@ -81,15 +81,15 @@ Regulamentul a fost adoptat la 13 noiembrie 2019 de Parlamentul European cu 403 
 
 #### Controlul ulterior
 
-- Organizații de presă și de apărare a drepturilor omului au documentat, începând din 2020, cazuri de respingere a bărcilor cu migranți în apele Greciei, procedeu interzis de dreptul internațional, cu participarea sau cu cunoștința agenției.
+- Organizații de presă și de apărare a drepturilor omului au documentat, începând din 2020, cazuri de respingere[^2] a bărcilor cu migranți în apele Greciei, procedeu interzis de dreptul internațional, cu participarea sau cu cunoștința agenției.
 - Ancheta oficiului european antifraudă, finalizată în 2022, a dus la demisia directorului agenției în aprilie acel an.
-- În mai 2022, Parlamentul European a refuzat descărcarea de gestiune pentru bugetul agenției pe anul 2020, cu 492 de voturi pentru refuz.
+- În mai 2022, Parlamentul European a refuzat descărcarea de gestiune[^3] pentru bugetul agenției pe anul 2020, cu 492 de voturi pentru refuz.
 
 Extinderea competențelor a continuat.
 
 ## 7. Externalizarea frontierei
 
-Metoda aplicată în acordul cu Turcia din 2016 a fost repetată:
+Metoda, numită externalizarea controlului migrației[^4], aplicată în acordul cu Turcia din 2016, a fost repetată:
 
 - finanțarea și instruirea pazei de coastă libiene, care interceptează bărcile și readuce persoanele în centrele de detenție descrise în lecția 3.3;
 - memorandumul încheiat cu Tunisia în 2023, cu sprijin financiar pentru controlul plecărilor;
@@ -129,8 +129,8 @@ _______________________________________________________________
 
 [^1]: Colegiul electoral este organismul care alege președintele Statelor Unite. Fiecare stat trimite un număr de electori proporțional cu reprezentarea sa în Congres, iar în aproape toate statele câștigătorul votului local primește toți electorii. De aceea rezultatul național poate diferi de numărul total de voturi.
 
-[^2]: Descărcarea de gestiune este actul prin care Parlamentul European aprobă modul în care o instituție sau o agenție și-a folosit bugetul. Refuzul descărcării nu oprește activitatea, iar efectul lui este politic.
+[^2]: Respingerea la frontieră, cunoscută și prin termenul englez pushback, desemnează întoarcerea forțată a unei persoane peste frontieră fără examinarea cererii ei de protecție. Procedura încalcă principiul nereturnării, prevăzut de convenția privind refugiații.
 
-[^3]: Respingerea la frontieră, cunoscută și prin termenul englez pushback, desemnează întoarcerea forțată a unei persoane peste frontieră fără examinarea cererii ei de protecție. Procedura încalcă principiul nereturnării, prevăzut de convenția privind refugiații.
+[^3]: Descărcarea de gestiune este actul prin care Parlamentul European aprobă modul în care o instituție sau o agenție și-a folosit bugetul. Refuzul descărcării nu oprește activitatea, iar efectul lui este politic.
 
 [^4]: Externalizarea controlului migrației desemnează transferul sarcinilor de oprire a plecărilor și de reținere a persoanelor către state din afara Uniunii, prin acorduri financiare și de instruire.

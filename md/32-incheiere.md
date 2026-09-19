@@ -44,3 +44,9 @@ Autorul acestei cărți nu este istoric de profesie. Manualul a fost redactat po
 Perioadele care mi s-au părut cele mai greu de tratat corect sunt cele în care documentele lipsesc: decembrie 1989, primii ani de după 1990 și ultimele optsprezece luni, unde distanța necesară nu există încă. Acolo unde nu am putut stabili un fapt, am scris acest lucru în text.
 
 Vă mulțumesc pentru timpul acordat și vă invit să verificați ce ați citit aici.
+
+---
+
+## Note
+
+

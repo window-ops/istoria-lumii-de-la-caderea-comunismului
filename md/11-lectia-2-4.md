@@ -4,7 +4,7 @@
 
 ## 1. Reforma și zonele economice speciale
 
-Deschiderea economică a început în 1978. Primele patru zone economice speciale au fost înființate în 1980, între care Shenzhen, un oraș construit lângă granița cu Hong Kong. Regimul acestor zone prevedea scutiri fiscale, reguli proprii de angajare și acces direct la porturi.
+Deschiderea economică a început în 1978. Primele patru zone economice speciale[^1] au fost înființate în 1980, între care Shenzhen, un oraș construit lângă granița cu Hong Kong. Regimul acestor zone prevedea scutiri fiscale, reguli proprii de angajare și acces direct la porturi.
 
 Trei decizii au pregătit poziția din anii 2000:
 
@@ -38,7 +38,7 @@ Consecințe pentru statele exportatoare:
 
 - venituri bugetare în creștere rapidă, care au finanțat programele sociale ale guvernelor din America Latină, tratate în lecția 2.5;
 - reducerea dependenței de creditorii occidentali și de condiționalitățile lor;
-- creșterea ponderii materiilor prime în exporturi, proces numit reprimarizare, care a slăbit industria locală în Brazilia, Argentina și Chile.
+- creșterea ponderii materiilor prime în exporturi, proces numit reprimarizare[^2], care a slăbit industria locală în Brazilia, Argentina și Chile.
 
 ## 5. Africa: împrumuturi, infrastructură, contracte
 
@@ -47,7 +47,7 @@ Forumul de cooperare China-Africa a fost înființat în anul 2000. Modelul de f
 Ce este documentat despre aceste contracte:
 
 - Un studiu publicat în 2021 de laboratorul AidData al colegiului William and Mary, împreună cu Center for Global Development, Institutul pentru Economie Mondială din Kiel și Peterson Institute for International Economics, a analizat o sută de contracte de împrumut încheiate de creditori de stat chinezi cu guverne din douăzeci și patru de state. Versiunea extinsă, publicată în 2025, acoperă 371 de contracte din șaizeci de state.
-- Contractele conțin clauze de confidențialitate care interzic debitorului să dezvăluie condițiile, iar uneori chiar existența împrumutului. Din 2014, astfel de clauze apar în toate contractele din setul analizat.
+- Contractele conțin clauze de confidențialitate[^3] care interzic debitorului să dezvăluie condițiile, iar uneori chiar existența împrumutului. Din 2014, astfel de clauze apar în toate contractele din setul analizat.
 - Creditorii își asigură o poziție prioritară față de ceilalți creditori, prin conturi de venituri controlate de bancă și prin clauze care interzic includerea datoriei în renegocierile colective ale grupului de creditori occidentali.
 - Clauzele de reziliere și de accelerare a plății pot fi folosite ca instrument de influență asupra politicii debitorului.
 
@@ -57,17 +57,21 @@ Excedentul comercial a fost transformat în rezerve valutare, iar o parte import
 
 > #### INTERPRETARE: este relația Chinei cu Sudul global o nouă formă de imperialism
 >
+> #### Ce este documentat
+>
+> Structura schimbului este materii prime exportate către centrul industrial și produse finite importate de la el. Împrumuturile sunt garantate cu venituri viitoare din resurse. Nu există administrație colonială și nu există condiționalități privind organizarea internă a statului partener.
+>
 > #### Citirea A: o formă nouă a aceleiași relații
 >
-> Structura schimbului repetă tiparul clasic: materii prime exportate către centrul industrial, produse finite importate de la el. Împrumuturile sunt garantate cu venituri viitoare din resurse, iar infrastructura construită leagă frecvent zonele de extracție de porturi. Clauzele de confidențialitate și cele care exclud renegocierea colectivă reduc marja de manevră a statului debitor. Importurile ieftine de produse industriale au împiedicat dezvoltarea unei industrii locale în statele partenere.
+> Structura repetă tiparul clasic al relației dintre centru și periferie, iar infrastructura construită leagă frecvent zonele de extracție de porturi. Clauzele de confidențialitate și cele care exclud renegocierea colectivă reduc marja de manevră a statului debitor. Importurile ieftine de produse industriale au împiedicat dezvoltarea unei industrii locale în statele partenere.
 >
 > #### Citirea B: o relație diferită de imperialismul clasic
 >
-> Nu există administrație colonială, nu există condiționalități privind organizarea internă a statului partener și există o singură bază militară în afara țării. Creditele au fost acordate pentru proiecte pe care creditorii occidentali le refuzaseră. Cercetătoarea Deborah Brautigam, care a studiat sistematic datoria africană față de China, arată că renegocierile s-au încheiat de regulă prin reeșalonare sau prin ștergere parțială, iar preluarea de active a rămas excepțională. Cazul portului Hambantota din Sri Lanka, invocat cel mai des, este contestat pe fapte.
+> Există o singură bază militară în afara țării. Creditele au fost acordate pentru proiecte pe care creditorii occidentali le refuzaseră. Cercetătoarea Deborah Brautigam, care a studiat sistematic datoria africană față de China, arată că renegocierile s-au încheiat de regulă prin reeșalonare sau prin ștergere parțială, iar preluarea de active a rămas excepțională. Cazul portului Hambantota din Sri Lanka, invocat cel mai des, este contestat pe fapte.
 >
 > #### Ce se poate verifica
 >
-> Textele contractelor publicate în arhiva menționată la punctul 5; ponderea angajaților locali în proiectele executate de companii chineze; evoluția raportului de schimb dintre materiile prime exportate și produsele industriale importate; deznodământul renegocierilor de datorie din ultimii zece ani.
+> Textele contractelor publicate în arhiva menționată la punctul 5; ponderea angajaților locali în proiectele executate de companii chineze; evoluția raportului de schimb[^4] dintre materiile prime exportate și produsele industriale importate; deznodământul renegocierilor de datorie din ultimii zece ani.
 
 ## 7. Bilanțul deceniului
 
@@ -114,6 +118,6 @@ _______________________________________________________________
 
 [^2]: Reprimarizarea desemnează creșterea ponderii materiilor prime în exporturile unei economii, cu scăderea corespunzătoare a ponderii produselor industriale. Efectul este dependența de prețurile mondiale ale materiilor prime, care variază mult.
 
-[^3]: Raportul de schimb, numit și termeni de schimb, exprimă cantitatea de produse importate care poate fi obținută pentru o unitate de produs exportat. Scăderea lui înseamnă că aceeași cantitate de export cumpără mai puține importuri.
+[^3]: Clauza de confidențialitate dintr-un contract de împrumut public interzice debitorului să facă publice condițiile acordului. Ea intră în conflict cu regulile privind transparența datoriei publice aplicate de creditorii multilaterali.
 
-[^4]: Clauza de confidențialitate dintr-un contract de împrumut public interzice debitorului să facă publice condițiile acordului. Ea intră în conflict cu regulile privind transparența datoriei publice aplicate de creditorii multilaterali.
+[^4]: Raportul de schimb, numit și termeni de schimb, exprimă cantitatea de produse importate care poate fi obținută pentru o unitate de produs exportat. Scăderea lui înseamnă că aceeași cantitate de export cumpără mai puține importuri.

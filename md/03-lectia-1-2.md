@@ -32,17 +32,17 @@ La 2 ianuarie 1992, guvernul condus de Egor Gaidar a eliminat controlul asupra m
 
 #### Privatizarea prin vouchere
 
-Din 1992, fiecare cetățean a primit un bon de privatizare cu valoare nominală de 10.000 de ruble, care putea fi schimbat pe acțiuni. În condiții de hiperinflație și de sărăcie, majoritatea bonurilor au fost vândute rapid, la prețuri mici, către directorii întreprinderilor și către grupuri financiare în formare. Rezultatul a fost concentrarea proprietății, iar nu răspândirea ei.
+Din 1992, fiecare cetățean a primit un bon de privatizare cu valoare nominală de 10.000 de ruble, care putea fi schimbat pe acțiuni. În condiții de hiperinflație[^3] și de sărăcie, majoritatea bonurilor au fost vândute rapid, la prețuri mici, către directorii întreprinderilor și către grupuri financiare în formare. Rezultatul a fost concentrarea proprietății, iar nu răspândirea ei.
 
 #### Împrumuturi contra acțiuni, 1995
 
 Guvernul, aflat în criză bugetară și în fața alegerilor prezidențiale din 1996, a acceptat o schemă propusă de bancherul Vladimir Potanin și susținută de Anatoli Ciubais: băncile private acordau statului împrumuturi garantate cu pachete de acțiuni la marile întreprinderi de stat. Statul nu a rambursat, iar acțiunile au trecut la creditori, care organizaseră chiar ei licitațiile.
 
-Prin acest mecanism au fost transferate pachete la Norilsk Nickel, Yukos, Sibneft, Lukoil, Surgutneftegaz și la alte companii. Estimările privind mărimea reducerii față de valoarea de piață variază: un studiu al economistului Daniel Treisman calculează prețuri de aproximativ 13% din valoare pentru pachetul de la Norilsk Nickel, 16% pentru Sibneft, 45% pentru Yukos și 89% pentru Lukoil. Beneficiarii au susținut public realegerea lui Elțîn în 1996, campanie câștigată după ce sondajele de la începutul anului îl plasaseră mult în urma candidatului comunist.
+Prin acest mecanism au fost transferate pachete la Norilsk Nickel, Yukos, Sibneft, Lukoil, Surgutneftegaz și la alte companii. Estimările privind mărimea reducerii față de valoarea de piață variază: un studiu al economistului Daniel Treisman calculează prețuri de aproximativ 13% din valoare pentru pachetul de la Norilsk Nickel, 16% pentru Sibneft, 45% pentru Yukos și 89% pentru Lukoil. Beneficiarii, numiți de atunci oligarhi[^4], au susținut public realegerea lui Elțîn în 1996, campanie câștigată după ce sondajele de la începutul anului îl plasaseră mult în urma candidatului comunist.
 
 #### Criza din 1998
 
-La 17 august 1998, statul rus a declarat incapacitatea de plată pentru datoria internă și a devalorizat rubla. Sistemul bancar a intrat în colaps, iar o parte dintre depunători și-au pierdut din nou economiile.
+La 17 august 1998, statul rus a declarat incapacitatea de plată[^5] pentru datoria internă și a devalorizat rubla. Sistemul bancar a intrat în colaps, iar o parte dintre depunători și-au pierdut din nou economiile.
 
 ## 4. Costul social
 
@@ -77,7 +77,7 @@ România a avut două recesiuni în acest interval, 1990-1992 și 1997-1999, iar
 
 > #### INTERPRETARE: a fost prăbușirea din anii '90 o consecință a metodei
 >
-> #### Ce nu se dispută
+> #### Ce este documentat
 >
 > Amplitudinea contracției, creșterea mortalității și concentrarea proprietății în Rusia sunt măsurate și acceptate de ambele tabere. Disputa privește cauza.
 >
@@ -93,7 +93,7 @@ România a avut două recesiuni în acest interval, 1990-1992 și 1997-1999, iar
 >
 > Studiul lui Daniel Treisman despre schema împrumuturilor contra acțiuni arată că valoarea transferată a fost mai mică decât în relatările curente și că întreprinderile trecute la privați au avut, în deceniul următor, o productivitate mai mare decât cele rămase la stat. Această constatare privește performanța companiilor, fără a se pronunța asupra legalității și a legitimității transferului.
 >
-> #### Ce are de făcut elevul
+> #### Ce se poate verifica
 >
 > Cele două citiri folosesc criterii diferite de succes: rata de creștere pe termen lung într-un caz, costul suportat de populație în deceniul respectiv în celălalt. Compararea lor cere stabilirea prealabilă a criteriului.
 

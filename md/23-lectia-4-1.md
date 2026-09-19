@@ -13,25 +13,25 @@ Unitatea a patra acoperă intervalul 2020-2026. Ea începe cu pandemia, evenimen
 | decembrie 2020 | Încep campaniile de vaccinare |
 | 5 mai 2023 | Urgența de sănătate publică este declarată încheiată |
 
-Numărul deceselor raportate oficial la nivel mondial depășește 7 milioane. Estimarea Organizației Mondiale a Sănătății privind mortalitatea în exces pentru anii 2020 și 2021 este de aproximativ 14,9 milioane de persoane. Diferența dintre cele două cifre provine din decesele neînregistrate ca fiind cauzate de boală și din decesele produse de suprasolicitarea sistemelor sanitare.
+Numărul deceselor raportate oficial la nivel mondial depășește 7 milioane. Estimarea Organizației Mondiale a Sănătății privind mortalitatea în exces[^1] pentru anii 2020 și 2021 este de aproximativ 14,9 milioane de persoane. Diferența dintre cele două cifre provine din decesele neînregistrate ca fiind cauzate de boală și din decesele produse de suprasolicitarea sistemelor sanitare.
 
 România a raportat aproximativ 68.000 de decese și a avut una dintre cele mai ridicate rate de mortalitate în exces din Uniunea Europeană, împreună cu una dintre cele mai scăzute rate de vaccinare.
 
 > #### INTERPRETARE: originea virusului
 >
-> #### Ce este exclus
+> #### Ce este documentat
 >
 > Afirmațiile privind un virus proiectat ca armă biologică, legătura cu rețelele de telefonie mobilă sau prezența unor dispozitive în vaccinuri au fost verificate și infirmate. Ele nu fac obiectul disputei științifice.
 >
-> #### Ipoteza transmiterii de la animal
+> #### Citirea A: transmiterea de la animal
 >
 > Analizele genetice publicate în 2022 în revista Science de echipe conduse de Michael Worobey și de Jonathan Pekar plasează primele cazuri în jurul pieței de animale vii din Wuhan și indică două transmiteri separate către om. Mecanismul corespunde apariției altor coronavirusuri cunoscute.
 >
-> #### Ipoteza incidentului de laborator
+> #### Citirea B: incidentul de laborator
 >
 > Wuhan găzduiește un institut de virusologie care studia coronavirusuri de liliac. Susținătorii acestei ipoteze invocă apropierea geografică, practicile de biosecuritate și lipsa de acces la datele timpurii. Agențiile americane de informații au ajuns la concluzii diferite între ele, formulate cu grade scăzute de încredere.
 >
-> #### Starea disputei
+> #### Ce se poate verifica
 >
 > Grupul consultativ al Organizației Mondiale a Sănătății a constatat în 2022 că datele necesare pentru închiderea chestiunii nu au fost puse la dispoziție de autoritățile chineze, între care probele din piață și registrele de laborator din perioada anterioară lui decembrie 2019. Chestiunea rămâne deschisă din lipsă de acces la probe.
 
@@ -39,7 +39,7 @@ România a raportat aproximativ 68.000 de decese și a avut una dintre cele mai 
 
 Oprirea activității a arătat trăsături ale organizării economice construite în deceniile precedente:
 
-- **Producția fără stocuri:** metoda livrării exact la timp, adoptată pentru reducerea costurilor de depozitare, a lăsat spitalele fără rezerve de măști, halate și medicamente. Statele europene au ajuns să concureze între ele pentru aceleași loturi.
+- **Producția fără stocuri:** metoda livrării exact la timp[^2], adoptată pentru reducerea costurilor de depozitare, a lăsat spitalele fără rezerve de măști, halate și medicamente. Statele europene au ajuns să concureze între ele pentru aceleași loturi.
 - **Lanțuri lungi de aprovizionare:** producția unei singure componente într-un singur loc a oprit fabrici de pe alt continent. Criza semiconductorilor, tratată în lecția 4.2, a pornit de aici.
 - **Capacitate sanitară redusă:** numărul de paturi de terapie intensivă fusese redus în majoritatea statelor europene, ca măsură de eficiență.
 - **Muncă fără protecție:** persoanele cu contracte pe termen scurt, cu venituri din activități independente sau fără forme legale nu aveau concediu medical plătit, deci nu își puteau permite izolarea.
@@ -52,7 +52,7 @@ Produsul intern brut mondial a scăzut cu aproximativ 3% în 2020. Organizația 
 |---|---|
 | Restricțiile de circulație | Au redus transmiterea, cu cost economic și social mare. Eficacitatea depinde de momentul aplicării: cu cât mai devreme, cu atât mai scurte |
 | Purtarea măștii în spații închise | Efect demonstrat pentru măștile cu filtrare ridicată, în special în spații aglomerate |
-| Ventilația | Recunoscută târziu. Transmiterea prin aerosoli a fost acceptată oficial abia în 2021, ceea ce a întârziat măsurile privind aerisirea sălilor de clasă și a birourilor |
+| Ventilația | Recunoscută târziu. Transmiterea prin aerosoli[^3] a fost acceptată oficial abia în 2021, ceea ce a întârziat măsurile privind aerisirea sălilor de clasă și a birourilor |
 | Testarea și urmărirea contacților | Eficace la număr mic de cazuri, imposibil de aplicat la transmitere comunitară extinsă |
 | Închiderea frontierelor | Efect limitat în timp, cu excepția statelor insulare care au aplicat-o din prima săptămână |
 | Carantina în hoteluri | Măsura cu cel mai slab rezultat documentat |
@@ -78,7 +78,7 @@ Elementele documentate ale acestei diferențe:
 
 - Statele bogate au încheiat contracte bilaterale pentru cantități care depășeau de câteva ori populația proprie, înainte ca vaccinurile să fie aprobate.
 - Mecanismul internațional de achiziție comună, destinat statelor sărace, a primit livrările cu întârziere, întrucât producătorii au onorat mai întâi contractele bilaterale.
-- Propunerea de suspendare temporară a drepturilor de proprietate intelectuală asupra vaccinurilor, depusă la Organizația Mondială a Comerțului în octombrie 2020 de India și Africa de Sud, a fost blocată timp de douăzeci de luni. Decizia adoptată în iunie 2022 a fost limitată la vaccinuri și la brevete și a fost considerată de organizațiile care o ceruseră lipsită de efect practic.
+- Propunerea de suspendare[^4] temporară a drepturilor de proprietate intelectuală asupra vaccinurilor, depusă la Organizația Mondială a Comerțului în octombrie 2020 de India și Africa de Sud, a fost blocată timp de douăzeci de luni. Decizia adoptată în iunie 2022 a fost limitată la vaccinuri și la brevete și a fost considerată de organizațiile care o ceruseră lipsită de efect practic.
 - Cercetarea care a stat la baza vaccinurilor a fost finanțată în bună parte din bani publici.
 
 ## 5. Școala
@@ -105,7 +105,7 @@ Comisia pentru conexiune socială a Organizației Mondiale a Sănătății, cond
 #### Trei observații de metodă
 
 1. **Fenomenul nu este produs de pandemie:** seriile disponibile arată creștere din anii dinaintea ei. Restricțiile au accelerat un proces existent.
-2. **Nu este explicat de o categorie anume:** persoanele autiste și cele cu tulburare de deficit de atenție raportează niveluri de singurătate mult mai ridicate decât media. Ponderea lor în populație este însă mică, astfel încât excluderea lor din calcul lasă valorile generale ridicate. Explicația trebuie căutată în organizarea vieții cotidiene: locuit singur, muncă la distanță, dispariția spațiilor publice gratuite, mutarea relațiilor în aplicații.
+2. **Nu este explicat de o categorie anume:** persoanele autiste și cele cu tulburare de deficit de atenție raportează niveluri de singurătate[^5] mult mai ridicate decât media. Ponderea lor în populație este însă mică, astfel încât excluderea lor din calcul lasă valorile generale ridicate. Explicația trebuie căutată în organizarea vieții cotidiene: locuit singur, muncă la distanță, dispariția spațiilor publice gratuite, mutarea relațiilor în aplicații.
 3. **Măsurarea depinde de disponibilitatea de a declara:** singurătatea se măsoară prin întrebări adresate direct persoanei. În societățile în care recunoașterea ei este percepută ca semn de eșec personal, valorile raportate sunt mai mici decât cele reale.
 
 A treia observație privește direct cazul românesc. Datele comparative europene plasează România sub media europeană la singurătatea declarată. Această valoare poate însemna două lucruri diferite: fie relații sociale mai dense, susținute de familia extinsă și de comunitatea locală, fie o disponibilitate mai scăzută de a recunoaște starea, în special în rândul tinerilor. Cele două explicații se pot separa prin cercetare: se compară răspunsurile la întrebarea directă cu răspunsurile la întrebări indirecte, care nu folosesc cuvântul respectiv, iar diferența dintre ele măsoară reținerea de a declara. O astfel de cercetare pentru România nu a fost publicată până la redactarea acestui manual, ceea ce face din întrebare un subiect deschis și nu o afirmație verificată.
@@ -150,9 +150,9 @@ _______________________________________________________________
 
 [^1]: Mortalitatea în exces se calculează ca diferență între numărul total de decese dintr-o perioadă și numărul așteptat pe baza anilor anteriori. Măsura nu depinde de modul în care fiecare stat stabilește cauza decesului.
 
-[^2]: Aerosolii sunt particule foarte mici, care rămân suspendate în aer minute sau ore și se deplasează odată cu curenții de aer. Recunoașterea acestui mod de transmitere schimbă măsurile recomandate, de la dezinfectarea suprafețelor la ventilație.
+[^2]: Livrarea exact la timp este metoda de organizare a producției prin care materialele sosesc chiar înainte de a fi folosite, fără a fi depozitate. Ea reduce costurile și elimină rezerva folosită în situații neprevăzute.
 
-[^3]: Livrarea exact la timp este metoda de organizare a producției prin care materialele sosesc chiar înainte de a fi folosite, fără a fi depozitate. Ea reduce costurile și elimină rezerva folosită în situații neprevăzute.
+[^3]: Aerosolii sunt particule foarte mici, care rămân suspendate în aer minute sau ore și se deplasează odată cu curenții de aer. Recunoașterea acestui mod de transmitere schimbă măsurile recomandate, de la dezinfectarea suprafețelor la ventilație.
 
 [^4]: Suspendarea drepturilor de proprietate intelectuală, prevăzută de acordul comercial care le reglementează, permite statelor membre să autorizeze producerea unui produs brevetat fără acordul titularului, în situații excepționale.
 

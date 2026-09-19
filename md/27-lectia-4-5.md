@@ -39,10 +39,10 @@ Alegerea nu decurge din vreo însușire a monedei în sine.
 
 | Anul | Etapa |
 |---|---|
-| 1944 | La conferința de la Bretton Woods, delegația britanică, condusă de economistul John Maynard Keynes, propune o unitate de cont internațională, numită bancor, care nu ar fi aparținut niciunui stat. Propunerea este respinsă în favoarea planului american, care leagă monedele de dolar, iar dolarul de aur |
+| 1944 | La conferința de la Bretton Woods, delegația britanică, condusă de economistul John Maynard Keynes, propune o unitate de cont internațională, numită bancor, care nu ar fi aparținut niciunui stat. Propunerea este respinsă în favoarea planului american, care leagă monedele de[^1] dolar, iar dolarul de aur |
 | 1971 | Statele Unite renunță unilateral la convertibilitatea în aur. Sistemul cursurilor fixe se destramă, iar dolarul rămâne moneda de referință fără acoperirea inițială |
 | anii '70 | Comerțul cu petrol se desfășoară în dolari, ceea ce obligă orice stat importator să dețină această monedă |
-| din anii '80 | Efectul de rețea se autoîntreține: se folosește dolarul pentru că îl folosesc toți ceilalți, iar piețele financiare americane sunt cele mai adânci și mai lichide |
+| din anii '80 | Efectul de rețea[^2] se autoîntreține: se folosește dolarul pentru că îl folosesc toți ceilalți, iar piețele financiare americane sunt cele mai adânci și mai lichide |
 
 Poziția actuală rezultă, prin urmare, dintr-un raport de forțe din 1944, dintr-o decizie unilaterală din 1971 și din inerție. O alternativă tehnică a existat pe masă de la început.
 
@@ -66,7 +66,7 @@ Poziția actuală rezultă, prin urmare, dintr-un raport de forțe din 1944, din
 
 ## 4. De ce s-a accelerat discuția după 2022
 
-Înghețarea rezervelor băncii centrale ruse, în valoare de aproximativ 300 de miliarde de dolari, în februarie 2022, a arătat că rezervele valutare pot fi blocate prin decizie politică. Statele care păstrau rezerve în monede occidentale au tras concluzia că activul lor de siguranță depinde de relația cu emitentul. Sancțiunile secundare, care pedepsesc și bănci din state terțe, au întărit acest efect.
+Înghețarea rezervelor băncii centrale ruse, în valoare de aproximativ 300 de miliarde de dolari, în februarie 2022, a arătat că rezervele valutare pot fi blocate prin decizie politică. Statele care păstrau rezerve în monede occidentale au tras concluzia că activul lor de siguranță depinde de relația cu emitentul. Sancțiunile secundare[^3], care pedepsesc și bănci din state terțe, au întărit acest efect.
 
 ## 5. Cât s-a schimbat efectiv
 
@@ -76,7 +76,7 @@ Poziția actuală rezultă, prin urmare, dintr-un raport de forțe din 1944, din
 | Ponderea dolarului în tranzacțiile valutare | în jur de 88%, potrivit anchetei Băncii Reglementelor Internaționale |
 | Comerțul din interiorul grupului BRICS | aproximativ 500 de miliarde de dolari în 2025, cu ponderi mari ale monedelor naționale pe unele rute |
 
-Rusia a acumulat rupii din vânzările de petrol către India, iar aceste sume nu pot fi cheltuite decât cumpărând mărfuri indiene, ceea ce a dus la oscilații mari ale decontărilor în 2026. Proiectul unei monede comune a grupului nu figurează în documentele oficiale; purtătorul de cuvânt al președinției ruse a declarat public că Rusia nu urmărește eliminarea dolarului, ci disponibilitatea unor metode de plată acceptabile. Ceea ce se negociază efectiv este interconectarea sistemelor naționale de plăți și decontarea în monede naționale.
+Rusia a acumulat rupii din vânzările de petrol către India, iar aceste sume nu pot fi cheltuite decât cumpărând mărfuri indiene, ceea ce a dus la oscilații mari ale decontărilor în 2026. Proiectul unei monede comune a grupului nu figurează în documentele oficiale; purtătorul de cuvânt al președinției ruse a declarat public că Rusia nu urmărește eliminarea dolarului, ci disponibilitatea unor metode de plată acceptabile. Ceea ce se negociază efectiv este interconectarea sistemelor naționale de plăți și decontarea în monede naționale[^4].
 
 ## 6. Sahelul
 
@@ -94,13 +94,17 @@ Motivele invocate public de noile conduceri sunt eșecul operațiunilor militare
 
 > #### INTERPRETARE: ordine nouă sau renegociere în interiorul celei existente
 >
+> #### Ce este documentat
+>
+> Ponderea dolarului în rezerve scade constant de douăzeci și cinci de ani, iar dolarul rămâne folosit în aproape nouă din zece tranzacții valutare. Grupul BRICS nu are monedă comună și nu are politică externă comună.
+>
 > #### Citirea A: se formează o ordine alternativă
 >
-> Există instituții financiare proprii, sisteme de plată în construcție, decontare crescândă în monede naționale și o poziție comună privind reforma instituțiilor internaționale. Ponderea dolarului în rezerve scade constant de douăzeci și cinci de ani. Statele care ies din alianțele vechi găsesc parteneri alternativi.
+> Există instituții financiare proprii, sisteme de plată în construcție, decontare crescândă în monede naționale și o poziție comună privind reforma instituțiilor internaționale. Statele care ies din alianțele vechi găsesc parteneri alternativi.
 >
 > #### Citirea B: aceleași raporturi, cu alți parteneri
 >
-> Structura schimbului rămâne cea descrisă în lecția 2.4: materii prime la export, produse industriale la import, împrumuturi cu garanții. Un stat din Sahel care înlocuiește o companie franceză cu una rusă sau chineză în exploatarea uraniului își schimbă partenerul, nu poziția. Grupul BRICS nu are monedă comună, nu are politică externă comună și cuprinde state aflate în conflict între ele. Dolarul rămâne folosit în aproape nouă din zece tranzacții valutare.
+> Structura schimbului rămâne cea descrisă în lecția 2.4: materii prime la export, produse industriale la import, împrumuturi cu garanții. Un stat din Sahel care înlocuiește o companie franceză cu una rusă sau chineză în exploatarea uraniului își schimbă partenerul, nu poziția. Grupul cuprinde state aflate în conflict între ele.
 >
 > #### Ce se poate verifica
 >
@@ -139,8 +143,8 @@ _______________________________________________________________
 
 [^1]: Moneda de rezervă este moneda în care băncile centrale păstrează o parte din rezervele statului și în care se exprimă contractele internaționale. Statutul se dobândește prin folosire, nu prin decizie formală.
 
-[^2]: Sancțiunile secundare sunt măsurile prin care un stat pedepsește persoane sau firme din state terțe pentru operațiuni cu partenerul sancționat. Ele funcționează prin amenințarea excluderii din sistemul de decontare al monedei internaționale.
+[^2]: Efectul de rețea desemnează situația în care valoarea folosirii unui bun crește odată cu numărul celor care îl folosesc deja. El explică de ce o monedă internațională este greu de înlocuit, chiar atunci când există alternative tehnice.
 
-[^3]: Decontarea în monede naționale înseamnă că exportatorul este plătit în moneda proprie sau în moneda cumpărătorului, fără conversie într-o a treia monedă. Metoda funcționează atunci când fluxurile comerciale dintre cele două state sunt echilibrate.
+[^3]: Sancțiunile secundare sunt măsurile prin care un stat pedepsește persoane sau firme din state terțe pentru operațiuni cu partenerul sancționat. Ele funcționează prin amenințarea excluderii din sistemul de decontare al monedei internaționale.
 
-[^4]: Efectul de rețea desemnează situația în care valoarea folosirii unui bun crește odată cu numărul celor care îl folosesc deja. El explică de ce o monedă internațională este greu de înlocuit, chiar atunci când există alternative tehnice.
+[^4]: Decontarea în monede naționale înseamnă că exportatorul este plătit în moneda proprie sau în moneda cumpărătorului, fără conversie într-o a treia monedă. Metoda funcționează atunci când fluxurile comerciale dintre cele două state sunt echilibrate.

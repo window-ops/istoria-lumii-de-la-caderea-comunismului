@@ -55,7 +55,7 @@ Această regulă produce texte utilizabile și are limite:
 
 Un articol poate respecta integral procedura și poate rămâne în urma dovezilor. Procedura este o metodă de redactare, iar corectitudinea unei afirmații se stabilește prin confruntarea cu sursele primare.
 
-> **INTERPRETARE: Holodomorul, 1932-1933**
+> #### INTERPRETARE: Holodomorul, 1932-1933
 >
 > #### Ce este documentat
 >
@@ -73,7 +73,7 @@ Un articol poate respecta integral procedura și poate rămâne în urma dovezil
 >
 > Convenția din 1948 definește genocidul prin intenția de a distruge, total sau parțial, un grup național, etnic, rasial sau religios ca atare[^4]. Dovada intenției este partea cea mai greu de stabilit într-un dosar de acest tip. Recunoașterile parlamentare, între care rezoluția Parlamentului European din decembrie 2022, sunt acte politice și nu produc o constatare judiciară.
 >
-> #### Ce trebuie reținut în lecția de metodă
+> #### Ce se poate verifica
 >
 > Un articol enciclopedic scris corect după regula neutralității va reflecta ponderea acestor poziții în publicații, iar ponderea se schimbă odată cu contextul politic. Numărul statelor care au adoptat o rezoluție măsoară o poziție diplomatică. Chestiunea intenției rămâne deschisă în cercetare, iar elevul care vrea să își formeze o părere merge la argumentele de arhivă ale ambelor citiri.
 

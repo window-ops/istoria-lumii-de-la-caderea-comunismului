@@ -52,7 +52,7 @@ Leul se depreciază[^1] lent și în trepte, iar banca centrală intervine pentr
 | începutul lui 2026 | 5,09-5,10 |
 | septembrie 2026 | în jur de 5,24 |
 
-Cauza structurală este ceea ce economiștii numesc deficitele gemene: deficitul bugetar și deficitul de cont curent, ambele printre cele mai mari din Uniunea Europeană. Deficitul bugetar a fost de aproximativ 9,3% din produsul intern brut în 2024 și de aproximativ 6% în 2026. Un stat care cheltuiește mai mult decât încasează și cumpără din afară mai mult decât vinde are nevoie permanentă de capital străin, iar prețul acestui capital se reflectă în curs și în dobânzi.
+Cauza structurală este ceea ce economiștii numesc deficitele gemene[^2]: deficitul bugetar și deficitul de cont curent, ambele printre cele mai mari din Uniunea Europeană. Deficitul bugetar a fost de aproximativ 9,3% din produsul intern brut în 2024 și de aproximativ 6% în 2026. Un stat care cheltuiește mai mult decât încasează și cumpără din afară mai mult decât vinde are nevoie permanentă de capital străin, iar prețul acestui capital se reflectă în curs și în dobânzi.
 
 ## 5. Energia
 
@@ -77,17 +77,21 @@ Consecințele sunt de trei feluri:
 
 - **Pentru cei care o fac:** instalațiile improvizate produc incendii și electrocutări.
 - **Pentru vecini:** dezechilibrele de tensiune deteriorează aparatura și întrerup alimentarea.
-- **Pentru toți ceilalți consumatori:** autoritatea de reglementare încadrează energia sustrasă la pierderi comerciale, iar acestea intră în tariful plătit de toată lumea.
+- **Pentru toți ceilalți consumatori:** autoritatea de reglementare încadrează energia sustrasă la pierderi comerciale[^3], iar acestea intră în tariful plătit de toată lumea.
 
 > #### INTERPRETARE: cauză sau simptom
 >
+> #### Ce este documentat
+>
+> Fapta este definită ca infracțiune, iar numărul de cazuri raportate a crescut. Racordarea legală cere acte de proprietate asupra locuinței, acte care lipsesc în așezările construite fără autorizație.
+>
 > #### Citirea A: problemă de aplicare a legii
 >
-> Fapta este definită ca infracțiune, iar creșterea numărului de cazuri arată că sancțiunea nu descurajează. Soluția constă în contoare inteligente, mutarea grupurilor de măsurare în afara locuinței, verificări mai dese și urmărire penală efectivă.
+> Creșterea numărului de cazuri arată că sancțiunea nu descurajează. Soluția constă în contoare inteligente, mutarea grupurilor de măsurare în afara locuinței, verificări mai dese și urmărire penală efectivă.
 >
 > #### Citirea B: problemă de acces
 >
-> Racordarea legală cere acte de proprietate asupra locuinței. În așezările construite fără autorizație, aceste acte nu există, iar operatorul nu poate încheia contract nici dacă locatarul ar vrea să plătească. La aceasta se adaugă sărăcia energetică: o parte dintre gospodării nu pot plăti factura la prețul de după ridicarea plafonării. Din această perspectivă, sancțiunea penală lovește într-un efect, iar cauza rămâne în situația juridică a locuinței și în venit.
+> Operatorul nu poate încheia contract nici dacă locatarul ar vrea să plătească. La aceasta se adaugă sărăcia energetică[^4]: o parte dintre gospodării nu pot plăti factura la prețul de după ridicarea plafonării. Din această perspectivă, sancțiunea penală lovește într-un efect, iar cauza rămâne în situația juridică a locuinței și în venit.
 >
 > #### Ce se poate verifica
 >
@@ -137,6 +141,6 @@ _______________________________________________________________
 
 [^2]: Deficitele gemene desemnează situația în care un stat are simultan deficit bugetar și deficit de cont curent. Prima măsură arată diferența dintre cheltuielile și veniturile statului, a doua diferența dintre ce vinde și ce cumpără o economie în raport cu restul lumii.
 
-[^3]: Sărăcia energetică desemnează situația gospodăriei care nu își poate permite serviciile energetice necesare pentru un trai decent: încălzire, apă caldă, iluminat, funcționarea aparatelor. Se măsoară prin ponderea cheltuielilor cu energia în venit și prin declarațiile privind imposibilitatea încălzirii locuinței.
+[^3]: Pierderile comerciale sunt diferența dintre energia intrată în rețea și energia facturată, cauzată de consum nemăsurat sau neplătit. Ele se deosebesc de pierderile tehnice, produse de rezistența cablurilor și de transformatoare.
 
-[^4]: Pierderile comerciale sunt diferența dintre energia intrată în rețea și energia facturată, cauzată de consum nemăsurat sau neplătit. Ele se deosebesc de pierderile tehnice, produse de rezistența cablurilor și de transformatoare.
+[^4]: Sărăcia energetică desemnează situația gospodăriei care nu își poate permite serviciile energetice necesare pentru un trai decent: încălzire, apă caldă, iluminat, funcționarea aparatelor. Se măsoară prin ponderea cheltuielilor cu energia în venit și prin declarațiile privind imposibilitatea încălzirii locuinței.

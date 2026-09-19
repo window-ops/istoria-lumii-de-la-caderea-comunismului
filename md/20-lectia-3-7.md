@@ -10,7 +10,7 @@ Direcția Națională Anticorupție a fost înființată în 2002 și consolidat
 
 #### Cazul Dan Voiculescu
 
-Cazul cel mai citat al deceniului privește privatizarea Institutului de Cercetări Alimentare. Dan Voiculescu, om de afaceri, senator și fondator al unui trust de presă care includea un post de televiziune de știri, a fost condamnat definitiv în august 2014 la zece ani de închisoare pentru spălare de bani și complicitate la abuz în serviciu, iar prejudiciul reținut de instanță a fost de ordinul zecilor de milioane de euro. Instanța a dispus confiscarea unor bunuri aparținând grupului său de firme.
+Cazul cel mai citat al deceniului privește privatizarea Institutului de Cercetări Alimentare. Dan Voiculescu, om de afaceri, senator și fondator al unui trust de presă care includea un post de televiziune de știri, a fost condamnat definitiv în august 2014 la zece ani de închisoare pentru spălare de bani și complicitate la abuz în serviciu[^1], iar prejudiciul reținut de instanță a fost de ordinul zecilor de milioane de euro. Instanța a dispus confiscarea unor bunuri aparținând grupului său de firme.
 
 Cazul reunește elementele descrise separat în lecțiile anterioare: o privatizare din anii '90 cu preț subevaluat, un trust de presă folosit în apărarea proprietarului și o poziție politică obținută prin partid.
 
@@ -45,7 +45,7 @@ Din 2017, o serie de modificări au restrâns capacitatea de urmărire penală:
 | 2018 | Înființarea unei secții speciale pentru investigarea infracțiunilor din justiție, desființată în 2022 |
 | 2018 și 2022 | Două decizii ale Curții Constituționale privind întreruperea termenului de prescripție, urmate de o decizie a instanței supreme. Efectul cumulat a fost încetarea a mii de procese penale |
 
-Un raport al Departamentului de Stat american menționează aproximativ 10.000 de dosare de corupție închise prin prescripție în anii care au urmat.
+Un raport al Departamentului de Stat american menționează aproximativ 10.000 de dosare de corupție închise prin prescripție[^2] în anii care au urmat.
 
 ## 5. Disputa deschisă în decembrie 2025
 
@@ -54,7 +54,7 @@ La 9 decembrie 2025, publicația Recorder a difuzat un documentar intitulat „J
 #### Ce susține materialul
 
 - Procesele unor inculpați cu influență politică sau financiară au fost prelungite până la împlinirea termenului de prescripție.
-- Metoda principală ar fi schimbarea repetată a completului de judecată, uneori înaintea pronunțării, ceea ce obligă la reluarea judecății.
+- Metoda principală ar fi schimbarea repetată a completului de judecată[^3], uneori înaintea pronunțării, ceea ce obligă la reluarea judecății.
 - Cazurile prezentate includ dosarul fostului primar de sector Marian Vanghelie, judecat zece ani, cu completul schimbat de cinci ori și încheiat prin constatarea prescripției, precum și alte dosare încheiate cu achitări.
 - Magistrați intervievați descriu presiuni administrative și acțiuni disciplinare împotriva judecătorilor care nu se conformează.
 
@@ -69,7 +69,7 @@ La 9 decembrie 2025, publicația Recorder a difuzat un documentar intitulat „J
 
 > #### INTERPRETARE: justiție capturată sau justiție lentă
 >
-> #### Ce este stabilit
+> #### Ce este documentat
 >
 > Mii de dosare de corupție s-au încheiat prin prescripție. Completurile de judecată au fost modificate de sute de ori într-o singură curte de apel în trei ani. Deciziile privind prescripția au fost pronunțate de Curtea Constituțională și de instanța supremă, iar efectele lor sunt necontestate.
 >
@@ -83,7 +83,7 @@ La 9 decembrie 2025, publicația Recorder a difuzat un documentar intitulat „J
 >
 > #### Ce se poate verifica
 >
-> Datele din sistemul informatic al instanțelor privind repartizarea dosarelor și modificările de complet; data la care fiecare dosar a intrat pe rol și data împlinirii termenului; textul deciziilor privind prescripția; raportul Inspecției Judiciare și răspunsurile publicate de redacție. Verificarea are o limită proprie: în cazul unor dosare de mare notorietate, documente care fuseseră publice au fost ulterior retrase sau anonimizate. Se lucrează, prin urmare, pe ce a rămas accesibil și pe copiile salvate înainte de retragere.
+> Datele din sistemul informatic al instanțelor privind repartizarea[^4] dosarelor și modificările de complet; data la care fiecare dosar a intrat pe rol și data împlinirii termenului; textul deciziilor privind prescripția; raportul Inspecției Judiciare și răspunsurile publicate de redacție. Verificarea are o limită proprie: în cazul unor dosare de mare notorietate, documente care fuseseră publice au fost ulterior retrase sau anonimizate. Se lucrează, prin urmare, pe ce a rămas accesibil și pe copiile salvate înainte de retragere.
 
 ## 6. Ce a rămas din deceniu
 
@@ -123,10 +123,10 @@ _______________________________________________________________
 
 ## Note
 
-[^1]: Prescripția răspunderii penale este împlinirea termenului după care o faptă nu mai poate fi pedepsită. Termenul se calculează de la data săvârșirii faptei și poate fi întrerupt prin acte de procedură, în condițiile stabilite de lege și de deciziile instanțelor superioare.
+[^1]: Abuzul în serviciu este infracțiunea săvârșită de un funcționar public care, prin încălcarea atribuțiilor, produce o pagubă sau vatămă drepturile unei persoane. Introducerea unui prag valoric sub care fapta nu mai constituie infracțiune a fost obiectul ordonanței din 2017.
 
-[^2]: Completul de judecată este formația de judecători care soluționează o cauză. Schimbarea componenței lui după începerea cercetării judecătorești poate obliga la reluarea administrării probelor.
+[^2]: Prescripția răspunderii penale este împlinirea termenului după care o faptă nu mai poate fi pedepsită. Termenul se calculează de la data săvârșirii faptei și poate fi întrerupt prin acte de procedură, în condițiile stabilite de lege și de deciziile instanțelor superioare.
 
-[^3]: Repartizarea aleatorie este procedura prin care dosarul este atribuit unui complet prin sistem informatic, fără intervenție umană, pentru a împiedica alegerea judecătorului. Ea a fost introdusă în România în 2005.
+[^3]: Completul de judecată este formația de judecători care soluționează o cauză. Schimbarea componenței lui după începerea cercetării judecătorești poate obliga la reluarea administrării probelor.
 
-[^4]: Abuzul în serviciu este infracțiunea săvârșită de un funcționar public care, prin încălcarea atribuțiilor, produce o pagubă sau vatămă drepturile unei persoane. Introducerea unui prag valoric sub care fapta nu mai constituie infracțiune a fost obiectul ordonanței din 2017.
+[^4]: Repartizarea aleatorie este procedura prin care dosarul este atribuit unui complet prin sistem informatic, fără intervenție umană, pentru a împiedica alegerea judecătorului. Ea a fost introdusă în România în 2005.

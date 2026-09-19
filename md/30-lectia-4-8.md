@@ -26,7 +26,7 @@ Elementul comun este tratarea costurilor de mediu și sociale ca probleme ale al
 
 ## 3. Alinierea și pluralitatea valorilor
 
-Alinierea desemnează reglarea comportamentului unui model astfel încât răspunsurile lui să corespundă unor reguli stabilite de dezvoltator. Metoda principală constă în antrenarea suplimentară pe baza preferințelor exprimate de evaluatori umani.
+Alinierea[^1] desemnează reglarea comportamentului unui model astfel încât răspunsurile lui să corespundă unor reguli stabilite de dezvoltator. Metoda principală constă în antrenarea suplimentară pe baza preferințelor exprimate de evaluatori umani.
 
 Problema care apare este faptul că regulile sunt scrise de un număr mic de companii, iar valorile pe care le codifică nu sunt universale.
 
@@ -41,23 +41,27 @@ Ambele poziții sunt coerente, iar alegerea dintre ele este politică. Companiil
 
 > #### INTERPRETARE: poate un singur model să servească valori diferite
 >
+> #### Ce este documentat
+>
+> Modelele folosite la scară mondială sunt antrenate pe date preponderent în limba engleză și reglate de evaluatori dintr-un singur spațiu cultural. Regulamentul european privind inteligența artificială clasifică aplicațiile după risc.
+>
 > #### Citirea A: nu, iar concentrarea agravează problema
 >
-> Un model unic, antrenat pe date preponderent în limba engleză și reglat de evaluatori dintr-un singur spațiu cultural, aplică un set de reguli la scară mondială. Utilizatorul dintr-o altă societate nu are cui să conteste decizia, întrucât regula nu provine de la o autoritate publică. Alternativa propusă de această poziție cuprinde modele cu parametri publicați, care pot fi reglate local, și reglementare publică a comportamentului acestor sisteme.
+> Un model unic aplică astfel același set de reguli la scară mondială. Utilizatorul dintr-o altă societate nu are cui să conteste decizia, întrucât regula nu provine de la o autoritate publică. Alternativa propusă de această poziție cuprinde modele cu parametri publicați, care pot fi reglate local, și reglementare publică a comportamentului acestor sisteme.
 >
 > #### Citirea B: da, prin separarea nivelurilor
 >
-> Un nucleu comun poate cuprinde interdicții asupra cărora există acord larg, între care sprijinul pentru fabricarea de arme sau conținutul care exploatează copii, iar restul poate fi lăsat la latitudinea utilizatorului sau a statului în care funcționează serviciul. Regulamentul european privind inteligența artificială merge în această direcție, prin clasificarea aplicațiilor după risc.
+> Un nucleu comun poate cuprinde interdicții asupra cărora există acord larg, între care sprijinul pentru fabricarea de arme sau conținutul care exploatează copii, iar restul poate fi lăsat la latitudinea utilizatorului sau a statului în care funcționează serviciul. Regulamentul european merge în această direcție.
 >
 > #### Ce se poate verifica
 >
-> Documentele de politică publicate de companii; textul regulamentului european; rezultatele evaluărilor independente ale comportamentului modelelor; diferențele de răspuns ale aceluiași model la aceeași întrebare formulată în limbi diferite.
+> Documentele de politică publicate de companii; textul regulamentului european; rezultatele[^2] evaluărilor independente ale comportamentului modelelor; diferențele de răspuns ale aceluiași model la aceeași întrebare formulată în limbi diferite.
 
 ## 4. Cine antrenează modelele
 
 Pregătirea datelor și evaluarea răspunsurilor sunt operațiuni manuale, executate de un număr mare de persoane fără pregătire de specialitate.
 
-- Companii din Kenya, Filipine, India și Venezuela furnizează servicii de etichetare a datelor și de moderare a conținutului pentru marile firme de tehnologie. Un material publicat în ianuarie 2023 de revista Time a arătat că lucrătorii kenyeni angajați printr-un intermediar pentru filtrarea conținutului violent și sexual destinat antrenamentului erau plătiți cu mai puțin de doi dolari pe oră. Aceștia au deschis ulterior procese privind condițiile de muncă și efectele asupra sănătății mintale.
+- Companii din Kenya, Filipine, India și Venezuela furnizează servicii de etichetare[^3] a datelor și de moderare a conținutului pentru marile firme de tehnologie. Un material publicat în ianuarie 2023 de revista Time a arătat că lucrătorii kenyeni angajați printr-un intermediar pentru filtrarea conținutului violent și sexual destinat antrenamentului erau plătiți cu mai puțin de doi dolari pe oră. Aceștia au deschis ulterior procese privind condițiile de muncă și efectele asupra sănătății mintale.
 - În 2019, presa internațională a relatat că o companie finlandeză de analiză a datelor, Vainu, folosea deținute dintr-o închisoare de femei din Finlanda pentru etichetarea textelor în limba finlandeză, activitate plătită la nivelul muncii din penitenciar. Compania a susținut că oferă calificare, iar criticii au invocat imposibilitatea unei negocieri libere a condițiilor de muncă într-un asemenea cadru.
 
 Structura este cea descrisă în lecțiile 2.4 și 3.8: valoarea adăugată mare rămâne la companiile care dețin modelul, iar munca repetitivă este cumpărată acolo unde costă cel mai puțin.
@@ -85,11 +89,15 @@ România are în prezent aproximativ 59 de centre de date, majoritatea mici. Pro
 | Consum anual estimat | aproximativ 700 GWh, echivalentul a peste 200.000 de locuințe sau al unui oraș de mărimea Brașovului |
 | Amplasare | în apropierea râului Arieș, aflat sub restricții de consum |
 
-Organizația de mediu Agent Green a contestat proiectul și a cerut publicarea studiilor hidrogeologice și a analizei privind riscul de inundații, un plan de recuperare a căldurii reziduale și amplasarea acestui tip de investiție pe terenuri deja folosite industrial. Ministerul Mediului a precizat că în România nu există legislație specifică pentru centrele de date private, acestea fiind supuse procedurilor obișnuite de autorizare.
+Organizația de mediu Agent Green a contestat proiectul și a cerut publicarea studiilor hidrogeologice și a analizei privind riscul de inundații, un plan de recuperare a căldurii reziduale[^4] și amplasarea acestui tip de investiție pe terenuri deja folosite industrial. Ministerul Mediului a precizat că în România nu există legislație specifică pentru centrele de date private, acestea fiind supuse procedurilor obișnuite de autorizare.
 
 În paralel, compania Nvidia a anunțat că analizează o investiție de ordinul a patru miliarde de dolari în România.
 
 > #### INTERPRETARE: aduce un centru de date dezvoltare locală
+>
+> #### Ce este documentat
+>
+> Un centru de date de această dimensiune ocupă permanent zeci de hectare și consumă energie și apă la nivelul unui oraș. Numărul de locuri de muncă permanente este mic, iar legislația nu impune condiții specifice privind apa, căldura reziduală și refacerea terenului.
 >
 > #### Citirea A: da, în anumite condiții
 >
@@ -97,7 +105,7 @@ Organizația de mediu Agent Green a contestat proiectul și a cerut publicarea s
 >
 > #### Citirea B: nu, în forma actuală
 >
-> Un centru de date de această dimensiune ocupă permanent zeci de hectare, consumă energie și apă la nivelul unui oraș și creează un număr mic de locuri de muncă permanente, în majoritate pentru personal calificat adus din altă parte. Spre deosebire de o fabrică, nu produce bunuri care să intre în economia locală. În lipsa unei legislații specifice, condițiile privind apa, căldura reziduală și refacerea terenului nu sunt obligatorii.
+> Locurile de muncă permanente sunt în majoritate pentru personal calificat adus din altă parte, iar facilitatea nu produce bunuri care să intre în economia locală.
 >
 > #### Ce se poate verifica
 >

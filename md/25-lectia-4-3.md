@@ -44,14 +44,14 @@ Datele comunicate de Ministerul Apărării Naționale la 26 iulie 2026:
 | Pătrunderi ale unor drone rusești în spațiul aerian național, de la începutul războiului | 33 de cazuri |
 | Situații în care au fost identificate drone sau fragmente de drone pe teritoriul României | aproximativ 50 |
 | Atacuri pe teritoriul ucrainean în apropierea frontierei, numai în 2026 | peste 40 |
-| Ridicări de aeronave în serviciul de poliție aeriană, în 2026 | 34 |
+| Ridicări de aeronave în serviciul de poliție aeriană[^1], în 2026 | 34 |
 | Pătrunderi neautorizate în spațiul național, în 2026 | 18 |
 
 #### Iulie 2026
 
 - În nopțile de 20 spre 21 iulie, nava comercială Gas Lisbon, sub pavilion liberian, a fost lovită de trei drone în Marea Neagră, la aproximativ 37 de kilometri sud-est de Sfântu Gheorghe.
 - În zilele de 24, 25 și 26 iulie, avioane F-16 ale Forțelor Aeriene Române au doborât trei drone, ultima la cinci minute după intrarea în spațiul aerian, deasupra apelor teritoriale din zona Sulina-Chilia. Sunt primele doborâri executate de aviația română.
-- La 27 iulie, un membru al misiunii diplomatice ruse a fost declarat persona non grata, iar ambasadorul român la Moscova a fost rechemat pentru consultări.
+- La 27 iulie, un membru al misiunii diplomatice ruse a fost declarat persona non grata[^2], iar ambasadorul român la Moscova a fost rechemat pentru consultări.
 
 Consiliul Nord-Atlantic se reunise deja la 10 iunie 2026, la cererea României, pentru discutarea situației de securitate din zona Mării Negre.
 
@@ -61,17 +61,21 @@ Cadrul juridic care permite doborârea a fost adoptat după incidentele din anii
 
 > #### INTERPRETARE: a pierdut România războiul informațional
 >
-> #### Ce susține afirmația
+> #### Ce este documentat
 >
-> Anularea alegerilor prezidențiale din decembrie 2024, tratată în lecția 4.7, a avut la bază rapoarte privind o campanie coordonată pe rețelele sociale. Comisia Europeană a deschis, în aceeași lună, o procedură împotriva platformei implicate, în temeiul regulamentului privind serviciile digitale. Partidele care preiau formulări din comunicarea rusă au crescut electoral în același interval. Presa rusă de stat a modificat, în iulie 2026, o declarație publică a președintelui român privind drona doborâtă, eliminând partea care atribuia originea aparatului.
+> Alegerile prezidențiale din decembrie 2024 au fost anulate, pe baza unor rapoarte privind o campanie coordonată pe rețelele sociale, iar Comisia Europeană a deschis în aceeași lună o procedură împotriva platformei implicate, în temeiul regulamentului privind serviciile digitale.
 >
-> #### Ce susține poziția contrară
+> #### Citirea A
+>
+> Anularea, tratată în lecția 4.7, arată efectul campaniei asupra unui proces electoral. Partidele care preiau formulări din comunicarea rusă au crescut electoral în același interval. Presa rusă de stat a modificat, în iulie 2026, o declarație publică a președintelui român privind drona[^3] doborâtă, eliminând partea care atribuia originea aparatului.
+>
+> #### Citirea B
 >
 > Sprijinul pentru apartenența la Uniunea Europeană și la NATO rămâne, în sondajele publicate, printre cele mai ridicate din Uniune. Deciziile de politică externă ale statului nu s-au modificat: România a găzduit trupe aliate, a permis tranzitul cerealelor ucrainene și a doborât drone. O campanie care nu schimbă politica publică nu a atins obiectivul principal.
 >
-> #### Ce se poate măsura
+> #### Ce se poate verifica
 >
-> Seriile de sondaje privind încrederea în instituții și percepția asupra Rusiei; rezultatele electorale ale partidelor care preiau aceste formulări; rapoartele publicate de Comisia Europeană în procedurile privind platformele; numărul de conturi șterse pentru comportament coordonat, publicat chiar de platforme.
+> Seriile de sondaje privind încrederea în instituții și percepția asupra Rusiei; rezultatele electorale ale partidelor care preiau aceste formulări; rapoartele publicate de Comisia Europeană în procedurile privind platformele; numărul de conturi șterse pentru comportament coordonat[^4], publicat chiar de platforme.
 
 #### De ce este dificil de contracarat
 

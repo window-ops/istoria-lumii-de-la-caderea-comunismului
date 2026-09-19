@@ -13,7 +13,7 @@ Războiul din Ucraina a început în 2014. Invazia din februarie 2022, tratată 
 
 | Data | Eveniment |
 |---|---|
-| 21 noiembrie 2013 | Guvernul suspendă pregătirile pentru semnarea acordului de asociere cu Uniunea Europeană, după oferta rusă de credit și presiuni comerciale |
+| 21 noiembrie 2013 | Guvernul suspendă pregătirile pentru semnarea acordului de asociere[^1] cu Uniunea Europeană, după oferta rusă de credit și presiuni comerciale |
 | 30 noiembrie 2013 | Dispersarea violentă a studenților din piața centrală, urmată de proteste de sute de mii de persoane |
 | 16 ianuarie 2014 | Parlamentul adoptă legi care restrâng dreptul de protest |
 | 18-20 februarie 2014 | Focuri de armă în centrul Kievului, aproximativ o sută de protestatari și treisprezece polițiști uciși |
@@ -44,9 +44,9 @@ Războiul din Ucraina a început în 2014. Invazia din februarie 2022, tratată 
 
 La 27 februarie 2014, militari fără însemne au ocupat clădirea parlamentului regional din Simferopol. Președintele rus a recunoscut ulterior public că erau militari ruși. Un nou guvern regional a organizat, la 16 martie, un referendum privind alipirea la Rusia, în prezența trupelor.
 
-Rezultatul oficial a fost de 96,7% pentru alipire, cu o prezență anunțată de 83%. Un raport publicat pe site-ul consiliului consultativ pentru drepturile omului de pe lângă președinția rusă, retras ulterior, indica o prezență între 30% și 50%. Alipirea a fost formalizată la 18 martie 2014.
+Rezultatul oficial a fost de 96,7% pentru alipire, cu o prezență anunțată de 83%. Un raport publicat pe site-ul consiliului consultativ pentru drepturile omului de pe lângă președinția rusă, retras ulterior, indica o prezență între 30% și 50%. Alipirea, numită în dreptul internațional anexare[^2], a fost formalizată la 18 martie 2014.
 
-La 27 martie 2014, Adunarea Generală a Organizației Națiunilor Unite a adoptat o rezoluție privind integritatea teritorială a Ucrainei, cu 100 de voturi pentru, 11 împotrivă și 58 de abțineri. Numărul mare de abțineri este relevant: multe state din Asia, Africa și America Latină au refuzat să ia poziție, invocând precedentele descrise în lecțiile 1.4 și 2.2.
+La 27 martie 2014, Adunarea Generală a Organizației Națiunilor Unite a adoptat o rezoluție privind integritatea teritorială a Ucrainei, cu 100 de voturi pentru, 11 împotrivă și 58 de abțineri[^3]. Numărul mare de abțineri este relevant: multe state din Asia, Africa și America Latină au refuzat să ia poziție, invocând precedentele descrise în lecțiile 1.4 și 2.2.
 
 ## 4. Donbas
 
@@ -80,7 +80,7 @@ Niciunul dintre acorduri nu a fost aplicat. Disputa privind ordinea prevederilor
 
 România are frontieră cu Ucraina și cu Republica Moldova și acces la Marea Neagră. Trei elemente privesc direct poziția ei:
 
-- Delimitarea platoului continental și a zonelor economice exclusive în Marea Neagră a fost stabilită prin hotărârea Curții Internaționale de Justiție din februarie 2009, într-un proces intentat de România împotriva Ucrainei. Cele două state au aplicat hotărârea.
+- Delimitarea platoului continental și a zonelor economice exclusive[^4] în Marea Neagră a fost stabilită prin hotărârea Curții Internaționale de Justiție din februarie 2009, într-un proces intentat de România împotriva Ucrainei. Cele două state au aplicat hotărârea.
 - Sistemul american de apărare antirachetă de la Deveselu a devenit operațional în 2016. Rusia îl invocă constant în argumentația privind securitatea proprie, iar Statele Unite susțin că este destinat amenințărilor din afara regiunii.
 - Republica Moldova, stat vecin cu populație majoritar vorbitoare de limbă română, are pe teritoriul său o regiune separatistă cu prezență militară rusă din 1992.
 

@@ -54,13 +54,17 @@ La unsprezece luni după intrarea în vigoare a acordului, Mexicul a devalorizat
 
 > #### INTERPRETARE: cine a câștigat din acordul din 1994
 >
+> #### Ce este documentat
+>
+> Acordul a intrat în vigoare la 1 ianuarie 1994. Comerțul dintre cele trei state s-a triplat în două decenii, iar salariile mexicane nu s-au apropiat de cele americane în trei decenii.
+>
 > #### Citirea A: un aranjament în favoarea nordului
 >
-> Statele Unite au obținut o piață pentru cerealele lor subvenționate, au mutat la sud producția agricolă care cere multă muncă și au păstrat la nord producția protejată prin buget. Mexicul a pierdut autosuficiența alimentară, iar populația rurală a fost împinsă către orașe și către emigrare. Salariile mexicane nu s-au apropiat de cele americane în trei decenii.
+> Statele Unite au obținut o piață pentru cerealele lor subvenționate, au mutat la sud producția agricolă care cere multă muncă și au păstrat la nord producția protejată prin buget. Mexicul a pierdut autosuficiența alimentară, iar populația rurală a fost împinsă către orașe și către emigrare.
 >
 > #### Citirea B: efectele sunt mixte și cauzele sunt multiple
 >
-> Comerțul dintre cele trei state s-a triplat, iar industria mexicană de automobile și de electronice a crescut. Comisia americană pentru comerț internațional citează studii potrivit cărora subvențiile americane au avut un efect limitat asupra prețului plătit producătorului mexican, iar declinul acestuia începuse înainte de 1994, odată cu desființarea agenției de stat care cumpăra recolta. Criza monetară din 1994 și schimbările interne de politică agricolă explică o parte din efecte.
+> Industria mexicană de automobile și de electronice a crescut. Comisia americană pentru comerț internațional citează studii potrivit cărora subvențiile americane au avut un efect limitat asupra prețului plătit producătorului mexican, iar declinul acestuia începuse înainte de 1994, odată cu desființarea agenției de stat care cumpăra recolta. Criza monetară din 1994 și schimbările interne de politică agricolă explică o parte din efecte.
 >
 > #### Ce se poate verifica
 >
@@ -109,7 +113,7 @@ Structura economică a rămas însă în mare parte neschimbată:
 
 - Constituția din 1996 a protejat proprietatea existentă, ceea ce a limitat reforma funciară. Terenul agricol a rămas, în cea mai mare parte, în proprietatea populației albe.
 - Programul economic adoptat în 1996 a înlocuit planul inițial de reconstrucție și dezvoltare cu obiective de disciplină bugetară, liberalizare comercială și privatizare.
-- Inegalitatea măsurată prin coeficientul Gini a rămas printre cele mai ridicate din lume, cu suprapunere puternică între venit și apartenență rasială.
+- Inegalitatea măsurată prin coeficientul Gini[^4] a rămas printre cele mai ridicate din lume, cu suprapunere puternică între venit și apartenență rasială.
 
 Egalitatea juridică deplină a fost obținută în 1994. Distribuția pământului, a acțiunilor și a locurilor de muncă calificate s-a modificat lent.
 

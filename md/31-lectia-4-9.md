@@ -10,7 +10,7 @@ Lecția precedentă a descris industria care produce aceste sisteme. Lecția de 
 | OpenAI | familia GPT-5.6 | nu |
 | Moonshot AI, Beijing | Kimi K3 | da, publicați pe 27 iulie 2026 |
 
-Kimi K3 a fost anunțat pe 16 iulie 2026 și are 2,8 bilioane de parametri, dintre care aproximativ 104 miliarde sunt folosiți efectiv pentru fiecare unitate de text prelucrată. Este primul model cu parametri publicați din această clasă de dimensiune.
+Kimi K3 a fost anunțat pe 16 iulie 2026 și are 2,8 bilioane de parametri, dintre care aproximativ 104 miliarde sunt folosiți efectiv pentru fiecare unitate de text prelucrată. Este primul model cu parametri publicați[^1] din această clasă de dimensiune.
 
 Clasamentul independent Artificial Analysis, în versiunea folosită în august 2026, plasa Claude Opus 5 pe primul loc cu 63 de puncte, Claude Fable 5 cu 62, GPT-5.6 Sol cu 61 și Kimi K3 cu 60. Modelul chinezesc conducea totuși detașat la o probă specializată, generarea de interfețe web, și costa cu aproximativ 40% mai puțin pe unitate de text.
 
@@ -22,7 +22,7 @@ Fișierele modelului Kimi K3 însumează aproximativ 1,56 terabaiți, iar produc
 
 | Problema | Conținut |
 |---|---|
-| Transparența deciziei | Utilizatorul nu poate stabili de ce modelul a răspuns într-un fel sau altul, nici de ce a refuzat. Cercetarea privind interpretabilitatea este publicată de producători, iar rezultatele ei nu ajung în interfața folosită de public |
+| Transparența deciziei | Utilizatorul nu poate stabili de ce modelul a răspuns într-un fel sau altul, nici de ce a refuzat. Cercetarea privind interpretabilitatea[^2] este publicată de producători, iar rezultatele ei nu ajung în interfața folosită de public |
 | Limitele de utilizare | Numărul de mesaje disponibile într-un interval variază în funcție de cerere, iar regulile de calcul nu sunt comunicate complet |
 | Prețul | Modelele de vârf costă de câteva ori mai mult decât alternativele, ceea ce ridică o problemă de acces pentru instituții publice, școli și cercetători din state cu venituri mici |
 | Direcționarea între modele | O întrebare adresată unui model poate primi răspuns de la altul, atunci când se declanșează un mecanism de siguranță. Utilizatorul află acest lucru din documentație, nu din interfață |
@@ -31,7 +31,7 @@ Criticile privind stilul răspunsurilor privesc în special modelul Claude Opus 
 
 #### Un episod de reglementare prin control al exporturilor
 
-Modelele Fable 5 și Mythos 5 au fost lansate pe 9 iunie 2026. Pe 12 iunie, accesul la ele a fost suspendat pentru conformarea cu norme ale Departamentului Comerțului al Statelor Unite privind controlul exporturilor. Restricțiile au fost ridicate pe 30 iunie, iar accesul a fost restabilit pe 1 iulie 2026. Măsura a fost contestată public de specialiști în securitate informatică, care au susținut că lipsa accesului la cele mai capabile instrumente de analiză dezavantajează apărarea.
+Modelele Fable 5 și Mythos 5 au fost lansate pe 9 iunie 2026. Pe 12 iunie, accesul la ele a fost suspendat pentru conformarea cu norme ale Departamentului Comerțului al Statelor Unite privind controlul exporturilor[^3]. Restricțiile au fost ridicate pe 30 iunie, iar accesul a fost restabilit pe 1 iulie 2026. Măsura a fost contestată public de specialiști în securitate informatică, care au susținut că lipsa accesului la cele mai capabile instrumente de analiză dezavantajează apărarea.
 
 ## 3. Cazul nucleului Linux
 
@@ -51,15 +51,19 @@ Regula adoptată de proiect permite contribuțiile asistate de asemenea programe
 
 > #### INTERPRETARE: ce arată cazul nucleului
 >
+> #### Ce este documentat
+>
+> Vulnerabilități[^4] existente de ani de zile au fost găsite. Costul examinării unui cod de milioane de linii a scăzut aproape la zero, iar costul verificării și al reparării a rămas același.
+>
 > #### Citirea A: câștig de securitate
 >
-> Vulnerabilități existente de ani de zile au fost găsite. Capacitatea de a examina un cod de milioane de linii a crescut, iar costul acestei examinări a scăzut aproape la zero. Numărul mare de raportări este o problemă de organizare, nu de tehnologie.
+> Numărul mare de raportări este o problemă de organizare, nu de tehnologie.
 >
 > #### Citirea B: transfer de efort
 >
-> Costul găsirii unei erori a scăzut, iar costul verificării și al reparării a rămas același, suportat de aceiași oameni. Cine trimite o raportare produsă automat, fără să propună și corectura, mută munca asupra întreținătorilor. Rezultatul este blocarea unui proces care funcționa.
+> Efortul de verificare rămâne la aceiași oameni. Cine trimite o raportare produsă automat, fără să propună și corectura, mută munca asupra întreținătorilor. Rezultatul este blocarea unui proces care funcționa.
 >
-> #### Ce se poate măsura
+> #### Ce se poate verifica
 >
 > Numărul de vulnerabilități raportate și proporția duplicatelor; timpul mediu până la remediere, înainte și după 2025; numărul de întreținători activi; proporția contribuțiilor asistate care sunt acceptate.
 
@@ -116,6 +120,6 @@ _______________________________________________________________
 
 [^2]: Interpretabilitatea este domeniul de cercetare care urmărește stabilirea motivelor pentru care un model produce un anumit răspuns, prin analiza stărilor interne ale rețelei. Rezultatele ei sunt parțiale, iar modelele rămân în bună parte neexplicate.
 
-[^3]: Vulnerabilitatea informatică este eroarea dintr-un program care permite unui atacator să obțină acces sau să provoace o funcționare greșită. Vulnerabilitățile publicate primesc un identificator unic într-un registru internațional.
+[^3]: Controlul exporturilor este instrumentul prin care un stat interzice sau condiționează livrarea către alte state a unor tehnologii considerate strategice. El se aplică și serviciilor furnizate prin internet, nu doar bunurilor fizice.
 
-[^4]: Controlul exporturilor este instrumentul prin care un stat interzice sau condiționează livrarea către alte state a unor tehnologii considerate strategice. El se aplică și serviciilor furnizate prin internet, nu doar bunurilor fizice.
+[^4]: Vulnerabilitatea informatică este eroarea dintr-un program care permite unui atacator să obțină acces sau să provoace o funcționare greșită. Vulnerabilitățile publicate primesc un identificator unic într-un registru internațional.

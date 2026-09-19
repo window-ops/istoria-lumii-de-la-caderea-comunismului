@@ -1,6 +1,6 @@
 # Lecția 4.7: România, 2024-2026
 
-În mai puțin de doi ani, România a anulat un tur de scrutin prezidențial, a repetat alegerile, a aplicat cel mai amplu pachet de austeritate de după 2010, și-a pierdut guvernul printr-o moțiune de cenzură și a intrat într-o criză politică prelungită. Lecția urmărește aceste episoade și legătura dintre ele.
+În mai puțin de doi ani, România a anulat un tur de scrutin prezidențial, a repetat alegerile, a aplicat cel mai amplu pachet de austeritate de după 2010, și-a pierdut guvernul printr-o moțiune de cenzură[^1] și a intrat într-o criză politică prelungită. Lecția urmărește aceste episoade și legătura dintre ele.
 
 ## 1. Anularea alegerilor din decembrie 2024
 
@@ -23,7 +23,7 @@ Rezultatul a arătat două lucruri simultan: o majoritate care a respins candida
 
 ## 3. Guvernarea Bolojan: măsurile
 
-Guvernul format în iunie 2025, condus de Ilie Bolojan, a adoptat o serie de pachete fiscale, folosind repetat procedura asumării răspunderii în fața Parlamentului: în iulie 2025 pentru primul pachet, în septembrie 2025 pentru cinci proiecte în aceeași ședință, în decembrie 2025 pentru reforma pensiilor magistraților.
+Guvernul format în iunie 2025, condus de Ilie Bolojan, a adoptat o serie de pachete fiscale, folosind repetat procedura asumării răspunderii în[^2] fața Parlamentului: în iulie 2025 pentru primul pachet, în septembrie 2025 pentru cinci proiecte în aceeași ședință, în decembrie 2025 pentru reforma pensiilor magistraților.
 
 | Măsura | Conținut |
 |---|---|
@@ -44,13 +44,17 @@ Guvernul format în iunie 2025, condus de Ilie Bolojan, a adoptat o serie de pac
 
 > #### INTERPRETARE: consolidare fiscală sau austeritate
 >
+> #### Ce este documentat
+>
+> Deficitul din 2024 era cel mai mare din Uniunea Europeană, iar dobânzile cerute statului român crescuseră. Corecția s-a făcut în principal prin impozite indirecte[^3] și prin reducerea cheltuielilor publice, iar deficitul s-a redus.
+>
 > #### Citirea A: corecție necesară
 >
-> Deficitul din 2024 era cel mai mare din Uniunea Europeană, iar dobânzile cerute statului român crescuseră. Fără corecție, urma pierderea calificativului de investiție și blocarea finanțării. Reducerea deficitului a fost obținută, iar reforma pensiilor speciale era cerută de o mare parte a populației și amânată de zece ani.
+> Fără corecție, urma pierderea calificativului de investiție și blocarea finanțării. Reforma pensiilor speciale era cerută de o mare parte a populației și amânată de zece ani.
 >
 > #### Citirea B: costul așezat pe aceleași categorii
 >
-> Corecția s-a făcut în principal prin impozite indirecte, care se plătesc de toți la fel, indiferent de venit, și prin reducerea cheltuielilor publice. Impozitarea proprietății mari, a veniturilor din capital și combaterea evaziunii au rămas în urmă. Consumul intern s-a redus, iar recesiunea reduce chiar veniturile bugetare urmărite, mecanism descris în lecția 3.2. Folosirea repetată a asumării răspunderii a scos dezbaterea din Parlament.
+> Impozitele indirecte se plătesc de toți la fel, indiferent de venit. Impozitarea proprietății mari, a veniturilor din capital și combaterea evaziunii au rămas în urmă. Consumul intern s-a redus, iar recesiunea reduce chiar veniturile bugetare urmărite, mecanism descris în lecția 3.2. Folosirea repetată a asumării răspunderii a scos dezbaterea din Parlament.
 >
 > #### Ce se poate verifica
 >
@@ -76,7 +80,7 @@ Elementul comun este că fiecare instituție a folosit instrumentele pe care le 
 
 ## 6. Cazul Pahonțu
 
-La sfârșitul lui august 2026, publicațiile Recorder și Snoop au publicat investigații privind trecutul lui Lucian Pahonțu, directorul Serviciului de Protecție și Pază din 2005. Materialele susțin, pe baza unor documente și mărturii, că acesta s-ar fi aflat în trupa trimisă la baricada din Piața Universității în decembrie 1989.
+La sfârșitul lui august 2026, publicațiile Recorder și Snoop au publicat investigații privind trecutul lui Lucian Pahonțu, directorul Serviciului de Protecție[^4] și Pază din 2005. Materialele susțin, pe baza unor documente și mărturii, că acesta s-ar fi aflat în trupa trimisă la baricada din Piața Universității în decembrie 1989.
 
 | Reacția | Conținut |
 |---|---|
@@ -137,9 +141,9 @@ _______________________________________________________________
 
 ## Note
 
-[^1]: Asumarea răspunderii în fața Parlamentului este procedura prin care Guvernul declară că un proiect este adoptat fără dezbatere și fără vot, dacă nu se depune și nu se aprobă o moțiune de cenzură în trei zile. Ea scurtează procedura și elimină amendamentele parlamentare.
+[^1]: Moțiunea de cenzură este actul prin care Parlamentul retrage încrederea acordată Guvernului. Adoptarea ei cere votul majorității deputaților și senatorilor, iar efectul este demiterea Guvernului, care rămâne în funcție pentru administrarea treburilor curente.
 
-[^2]: Moțiunea de cenzură este actul prin care Parlamentul retrage încrederea acordată Guvernului. Adoptarea ei cere votul majorității deputaților și senatorilor, iar efectul este demiterea Guvernului, care rămâne în funcție pentru administrarea treburilor curente.
+[^2]: Asumarea răspunderii în fața Parlamentului este procedura prin care Guvernul declară că un proiect este adoptat fără dezbatere și fără vot, dacă nu se depune și nu se aprobă o moțiune de cenzură în trei zile. Ea scurtează procedura și elimină amendamentele parlamentare.
 
 [^3]: Impozitul indirect este cuprins în prețul bunului, iar cota este aceeași pentru toți cumpărătorii. Fiindcă gospodăriile cu venituri mici cheltuiesc o parte mai mare din venit pe consum, ponderea acestui impozit în venitul lor este mai ridicată.
 

@@ -51,3 +51,9 @@ Manualul nu cuprinde note bibliografice și nici adrese web. Un manual școlar a
 Autorul acestei cărți este pasionat de sociologie și de istorie contemporană, fără să fie istoric de profesie. Ultimele lecții descriu procese neîncheiate, ale căror urmări se vor vedea după publicare. Unele cifre se vor schimba, iar cititorul care deschide manualul mai târziu are de verificat, pentru fiecare afirmație recentă, ce s-a modificat între timp.
 
 Lectura acestui manual cere creion și acces la internet. Exercițiile sunt construite pornind de la ideea că elevul verifică ce citește, inclusiv aici.
+
+---
+
+## Note
+
+

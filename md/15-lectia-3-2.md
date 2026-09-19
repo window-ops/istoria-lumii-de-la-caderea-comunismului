@@ -25,9 +25,9 @@ Un stat cu monedă proprie care își pierde competitivitatea are la dispoziție
 | Economie care exportă mai mult decât importă, cu costuri de producție controlate | Moneda comună este mai slabă decât ar fi fost moneda națională, iar exporturile devin mai ieftine pe piețele din afara zonei |
 | Economie care importă mai mult decât exportă, cu costuri în creștere | Moneda comună este mai puternică decât ar fi fost moneda națională, iar exporturile devin mai scumpe, iar importurile mai accesibile |
 
-Între 2000 și 2008, cheltuiala cu salariile necesară pentru fiecare unitate de produs a stagnat în Germania și a crescut cu aproximativ 30% în statele din sudul zonei. Diferența s-a acumulat în comerț: statele din nord au vândut către cele din sud mai mult decât au cumpărat de la ele, iar diferența a fost finanțată prin credite acordate de băncile din nord.
+Între 2000 și 2008, cheltuiala cu salariile[^1] necesară pentru fiecare unitate de produs a stagnat în Germania și a crescut cu aproximativ 30% în statele din sudul zonei. Diferența s-a acumulat în comerț: statele din nord au vândut către cele din sud mai mult decât au cumpărat de la ele, iar diferența a fost finanțată prin credite acordate de băncile din nord.
 
-Când calea devalorizării lipsește, ajustarea se face prin scăderea salariilor și a prețurilor interne, procedeu numit devalorizare internă. Costul ei este suportat direct de populație.
+Când calea devalorizării lipsește, ajustarea se face prin scăderea salariilor și a prețurilor interne, procedeu numit devalorizare internă[^2]. Costul ei este suportat direct de populație.
 
 ## 3. Cine guvernează moneda unică
 
@@ -104,17 +104,21 @@ Salariile publice au fost readuse la nivelul anterior în etape, până în 2013
 
 > #### INTERPRETARE: era austeritatea necesară
 >
+> #### Ce este documentat
+>
+> Deficitele grecești erau nesustenabile, iar piețele refuzaseră să mai finanțeze statul. Grecia a ajuns la excedent bugetar primar[^3] și a redobândit accesul la finanțare de pe piață, iar datoria raportată la produsul intern brut a crescut.
+>
 > #### Citirea A: nu exista altă cale în interiorul uniunii monetare
 >
-> Deficitele erau nesustenabile, iar piețele refuzaseră să mai finanțeze statul grec. Fără devalorizare, singura ajustare posibilă trece prin costuri interne. Grecia a ajuns la excedent bugetar primar și a redobândit accesul la finanțare de pe piață. Statele care au aplicat programele mai devreme și mai strict, între care Irlanda și cele baltice, au revenit mai repede la creștere.
+> Fără devalorizare, singura ajustare posibilă trece prin costuri interne. Statele care au aplicat programele mai devreme și mai strict, între care Irlanda și cele baltice, au revenit mai repede la creștere.
 >
 > #### Citirea B: efectul măsurilor a fost subestimat
 >
-> Într-un studiu publicat în ianuarie 2013, Olivier Blanchard și Daniel Leigh, economiști ai Fondului Monetar Internațional, au constatat că efectul reducerii cheltuielilor publice asupra producției fusese subestimat sistematic în prognozele care au stat la baza programelor. Datoria raportată la produsul intern brut a crescut, întrucât numitorul s-a redus mai repede decât numărătorul. Restructurarea datoriei a fost făcută în 2012, după ce creditorii privați ieșiseră în bună parte din expunere. Fondurile au ajuns la creditori, în proporțiile din secțiunea 5.
+> Într-un studiu publicat în ianuarie 2013, Olivier Blanchard și Daniel Leigh, economiști ai Fondului Monetar Internațional, au constatat că efectul reducerii cheltuielilor publice asupra producției, numit multiplicator fiscal[^4], fusese subestimat sistematic în prognozele care au stat la baza programelor. Creșterea datoriei raportate la produsul intern brut vine din reducerea numitorului mai repede decât a numărătorului. Restructurarea datoriei a fost făcută în 2012, după ce creditorii privați ieșiseră în bună parte din expunere. Fondurile au ajuns la creditori, în proporțiile din secțiunea 5.
 >
-> #### Ce se poate compara
+> #### Ce se poate verifica
 >
-> Evoluția produsului intern brut, a datoriei publice, a lipsurilor materiale severe și a emigrării, în Grecia, Irlanda, Portugalia și România, între 2008 și prezent.
+> Evoluția produsului intern brut, a datoriei publice, a lipsurilor materiale severe[^5] și a emigrării, în Grecia, Irlanda, Portugalia și România, între 2008 și prezent.
 
 ## 9. Cine îndeplinește astăzi criteriile de aderare
 
@@ -162,12 +166,12 @@ _______________________________________________________________
 
 ## Note
 
-[^1]: Devalorizarea internă desemnează reducerea costurilor de producție ale unei economii prin scăderea salariilor și a prețurilor interne, aplicată atunci când cursul de schimb nu poate fi modificat.
+[^1]: Cheltuiala cu salariile pentru fiecare unitate de produs se calculează împărțind costul total al muncii la cantitatea produsă. Creșterea ei mai rapidă decât la partenerii comerciali scumpește produsul și reduce competitivitatea.
 
-[^2]: Cheltuiala cu salariile pentru fiecare unitate de produs se calculează împărțind costul total al muncii la cantitatea produsă. Creșterea ei mai rapidă decât la partenerii comerciali scumpește produsul și reduce competitivitatea.
+[^2]: Devalorizarea internă desemnează reducerea costurilor de producție ale unei economii prin scăderea salariilor și a prețurilor interne, aplicată atunci când cursul de schimb nu poate fi modificat.
 
 [^3]: Excedentul bugetar primar este diferența pozitivă dintre veniturile și cheltuielile statului, calculată fără dobânzile plătite la datoria publică.
 
-[^4]: Lipsurile materiale severe sunt măsurate printr-o listă de situații: imposibilitatea de a plăti facturile la timp, de a încălzi locuința, de a consuma carne sau echivalent la câteva zile, de a face față unei cheltuieli neprevăzute. Indicatorul este publicat de oficiul european de statistică.
+[^4]: Multiplicatorul fiscal exprimă cu cât se modifică producția unei economii atunci când cheltuiala publică se modifică cu o unitate. Dacă valoarea lui depășește unu, o reducere a cheltuielilor produce o scădere mai mare a producției decât suma economisită.
 
-[^5]: Multiplicatorul fiscal exprimă cu cât se modifică producția unei economii atunci când cheltuiala publică se modifică cu o unitate. Dacă valoarea lui depășește unu, o reducere a cheltuielilor produce o scădere mai mare a producției decât suma economisită.
+[^5]: Lipsurile materiale severe sunt măsurate printr-o listă de situații: imposibilitatea de a plăti facturile la timp, de a încălzi locuința, de a consuma carne sau echivalent la câteva zile, de a face față unei cheltuieli neprevăzute. Indicatorul este publicat de oficiul european de statistică.

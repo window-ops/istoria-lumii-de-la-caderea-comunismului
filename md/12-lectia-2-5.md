@@ -26,8 +26,8 @@ Regimul de curs fix, care lega moneda de dolar din 1991, s-a prăbușit la sfâr
 
 ## 3. Politici și rezultate
 
-- **Transferuri condiționate:** Programul brazilian Bolsa Família, început în 2003, plătea o sumă lunară familiilor sărace, condiționat de prezența copiilor la școală și de vaccinări. A ajuns la aproximativ douăsprezece milioane de familii în 2008 și la aproape paisprezece milioane în 2012. Programe asemănătoare au fost adoptate în aproape toate statele regiunii.
-- **Renegocierea rentei din resurse:** În mai 2006, Bolivia a modificat contractele din sectorul gazelor naturale, crescând partea care revine statului pentru cele mai mari zăcăminte. Veniturile bugetare din hidrocarburi s-au multiplicat în anii următori.
+- **Transferuri condiționate[^1]:** Programul brazilian Bolsa Família, început în 2003, plătea o sumă lunară familiilor sărace, condiționat de prezența copiilor la școală și de vaccinări. A ajuns la aproximativ douăsprezece milioane de familii în 2008 și la aproape paisprezece milioane în 2012. Programe asemănătoare au fost adoptate în aproape toate statele regiunii.
+- **Renegocierea rentei din resurse[^2]:** În mai 2006, Bolivia a modificat contractele din sectorul gazelor naturale, crescând partea care revine statului pentru cele mai mari zăcăminte. Veniturile bugetare din hidrocarburi s-au multiplicat în anii următori.
 - **Programe sociale finanțate din petrol:** În Venezuela, rețeaua de programe numite misiuni a extins accesul la învățământ, la asistență medicală de bază și la alimente subvenționate.
 - **Rezultate măsurate:** Sărăcia în America Latină, calculată de comisia economică a Națiunilor Unite pentru regiune, a scăzut de la aproximativ 44% din populație în 2002 la 28,8% în 2012. În Brazilia, coeficientul Gini a scăzut de la 0,59 în 2001 la 0,54 în 2013, într-una dintre puținele perioade în care inegalitatea a scăzut simultan cu creșterea economică.
 
@@ -43,7 +43,7 @@ Regimul de curs fix, care lega moneda de dolar din 1991, s-a prăbușit la sfâr
 >
 > #### Combinația de extremă dreaptă
 >
-> Partidele europene de extremă dreaptă din prezent folosesc aceeași schemă a poporului împotriva elitei, atașată însă unei ideologii diferite, numită nativism: statul aparține grupului etnic majoritar, iar cei percepuți drept străini reprezintă o amenințare pentru el. Această componentă lipsește din cazurile latino-americane discutate aici.
+> Partidele europene de extremă dreaptă din prezent folosesc aceeași schemă a poporului împotriva elitei, atașată însă unei ideologii diferite, numită nativism[^3]: statul aparține grupului etnic majoritar, iar cei percepuți drept străini reprezintă o amenințare pentru el. Această componentă lipsește din cazurile latino-americane discutate aici.
 >
 > #### Ce nu era populism
 >
@@ -73,7 +73,7 @@ Diversificarea economiilor, obiectiv anunțat în perioada veniturilor mari, a f
 | 2000-2001 | preluarea controlului asupra principalelor televiziuni cu acoperire națională | reducerea criticii televizate |
 | 2003 | arestarea celui mai bogat om de afaceri din țară și destrămarea companiei sale petroliere | avertisment adresat celorlalți proprietari de mari active |
 | 2004 | trecerea de la alegerea guvernatorilor la numirea lor | centralizarea administrativă |
-| 2006-2007 | formularea conceptului de democrație suverană | respingerea criteriilor externe de evaluare a regimului |
+| 2006-2007 | formularea conceptului de democrație suverană[^4] | respingerea criteriilor externe de evaluare a regimului |
 
 Baza economică a acestei consolidări a fost prețul petrolului, în creștere continuă între 2003 și 2008. Veniturile au permis plata anticipată a datoriei externe și creșterea salariilor și a pensiilor, după deceniul descris în lecția 1.2.
 

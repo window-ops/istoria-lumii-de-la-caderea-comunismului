@@ -1,6 +1,6 @@
 # Lecția 2.2: Irak, 2003
 
-Invazia Irakului este cazul cel mai documentat de folosire a forței împotriva unui stat suveran în perioada acoperită de manual. Lecția începe cu regulile dreptului internațional aplicabile, continuă cu dosarul armelor de distrugere în masă, cu ocupația și cu bilanțul, și se încheie cu concluziile anchetei britanice publicate în 2016.
+Invazia Irakului este cazul cel mai documentat de folosire a forței împotriva unui stat suveran[^1] în perioada acoperită de manual. Lecția începe cu regulile dreptului internațional aplicabile, continuă cu dosarul armelor de distrugere în masă, cu ocupația și cu bilanțul, și se încheie cu concluziile anchetei britanice publicate în 2016.
 
 ## 1. Ce prevede dreptul internațional
 
@@ -12,7 +12,7 @@ Carta Organizației Națiunilor Unite, semnată în 1945, conține două reguli 
 Excepțiile sunt două și sunt limitate:
 
 - autoapărarea în cazul unui atac armat, prevăzută de articolul 51, până la intervenția Consiliului de Securitate;
-- autorizarea expresă a folosirii forței de către Consiliul de Securitate, în temeiul capitolului VII.
+- autorizarea expresă a folosirii forței de către Consiliul de Securitate, în temeiul capitolului VII[^2].
 
 Posesia unei categorii de armament nu figurează printre motivele care permit folosirea forței. Un stat care consideră că altul încalcă un tratat de neproliferare dispune de proceduri: sesizarea agenției internaționale competente, sesizarea Consiliului de Securitate, sancțiuni decise de acesta.
 
@@ -34,7 +34,7 @@ Statele care au invadat Irakul în 2003, invocând armele de distrugere în mas�
 
 #### Armele chimice irakiene din anii '80
 
-Irakul a folosit arme chimice în războiul împotriva Iranului, între 1980 și 1988, și împotriva populației kurde de la Halabja, în martie 1988, unde au murit câteva mii de civili. În acea perioadă, statele occidentale au continuat exporturile de produse cu dublă utilizare către Irak, iar reacția diplomatică a fost limitată. Programul de arme chimice a fost dezmembrat după 1991, sub supravegherea comisiei speciale a Națiunilor Unite.
+Irakul a folosit arme chimice în războiul împotriva Iranului, între 1980 și 1988, și împotriva populației kurde de la Halabja, în martie 1988, unde au murit câteva mii de civili. În acea perioadă, statele occidentale au continuat exporturile de produse cu dublă utilizare[^3] către Irak, iar reacția diplomatică a fost limitată. Programul de arme chimice a fost dezmembrat după 1991, sub supravegherea comisiei speciale a Națiunilor Unite.
 
 ## 3. Dosarul din 2002-2003
 
@@ -73,7 +73,7 @@ Insurgența a început în vara anului 2003. Organizația care a devenit ulterio
 | Sursă | Metodă | Rezultat |
 |---|---|---|
 | Iraq Body Count | numărarea deceselor civile confirmate prin cel puțin două relatări documentate | între 190.000 și 210.000 de civili uciși prin violență, 2003-2023 |
-| Studiul publicat în revista Lancet, 2006 | anchetă pe gospodării, cu estimarea excesului de mortalitate | aproximativ 650.000 de decese suplimentare până în 2006 |
+| Studiul publicat în revista Lancet, 2006 | anchetă pe gospodării, cu estimarea excesului de mortalitate[^4] | aproximativ 650.000 de decese suplimentare până în 2006 |
 | Proiectul Costs of War | însumarea deceselor directe, militare și civile | între 280.000 și 315.000 de decese directe |
 
 Diferențele provin din metodă. Numărarea cazurilor confirmate produce valori minime, întrucât ratează decesele nerelatate. Ancheta pe gospodării estimează totalul, cu marje de eroare mari și cu sensibilitate la alegerea zonelor investigate. Cifrele privind decesele indirecte, produse de prăbușirea sistemului sanitar și a aprovizionării cu apă, sunt cele mai contestate.
@@ -93,13 +93,17 @@ Comisia nu a constatat că guvernul britanic ar fi modificat evaluările servici
 
 > #### INTERPRETARE: de ce Irak
 >
+> #### Ce este documentat
+>
+> Invazia a început la 20 martie 2003, fără o rezoluție a Consiliului de Securitate care să o autorizeze. Armele de distrugere în masă invocate ca motiv nu au fost găsite. Irakul deține unele dintre cele mai mari rezerve de petrol din lume, iar economia sa fusese închisă companiilor occidentale timp de treizeci de ani.
+>
 > #### Citirea A: doctrina formulată dinainte
 >
 > Documentele prezentate în lecția 2.1 arată că înlăturarea regimului de la Bagdad figura ca obiectiv public al unui grup politic din 1998, iar schimbarea de regim devenise obiectiv legal american în același an. Atacurile din 2001 au furnizat condiția politică pentru aplicarea acestui program.
 >
 > #### Citirea B: petrolul și poziția regională
 >
-> Irakul deține unele dintre cele mai mari rezerve de petrol din lume, iar economia sa fusese închisă companiilor occidentale timp de treizeci de ani. Controlul asupra regiunii Golfului asigură influență asupra prețului mondial al energiei.
+> Controlul asupra regiunii Golfului asigură influență asupra prețului mondial al energiei, iar deschiderea unei economii de această mărime schimbă piața.
 >
 > #### Ce arată rezultatul
 >

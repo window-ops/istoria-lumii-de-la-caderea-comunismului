@@ -36,7 +36,7 @@ Motivul invocat de statele care au cerut aderarea a fost garanția de securitate
 
 Condițiile de aderare au fost stabilite la Copenhaga, în 1993: instituții stabile care garantează democrația și statul de drept, economie de piață funcțională, capacitatea de a prelua obligațiile care decurg din calitatea de membru.
 
-Negocierile s-au purtat pe capitole, fiecare acoperind un domeniu de legislație. Zece state au aderat în 2004, iar România și Bulgaria în 2007, după închiderea negocierilor în decembrie 2004 și semnarea tratatului în aprilie 2005. Pentru cele două state a fost instituit un mecanism de cooperare și verificare în domeniul justiției, care a funcționat din 2007 până în 2023.
+Negocierile s-au purtat pe capitole, fiecare acoperind un domeniu al legislației europene, numită în ansamblu acquis comunitar[^1]. Zece state au aderat în 2004, iar România și Bulgaria în 2007, după închiderea negocierilor în decembrie 2004 și semnarea tratatului în aprilie 2005. Pentru cele două state a fost instituit un mecanism de cooperare și verificare în domeniul justiției, care a funcționat din 2007 până în 2023.
 
 ## 3. Ce a cerut aderarea
 
@@ -51,10 +51,10 @@ Negocierile s-au purtat pe capitole, fiecare acoperind un domeniu de legislație
 |---|---|---|
 | PIB pe locuitor, la puterea de cumpărare, față de media UE | 44% în 2007 | aproximativ 78-80% în 2024 |
 | Libera circulație a lucrătorilor | restricții tranzitorii în majoritatea statelor | fără restricții din 2014 |
-| Fonduri europene | fără acces | beneficiar net în fiecare an, cu sold pozitiv de câteva miliarde de euro anual |
+| Fonduri europene | fără acces | beneficiar net[^2] în fiecare an, cu sold pozitiv de câteva miliarde de euro anual |
 | Stocul investițiilor străine directe | sub 40 de miliarde de euro | aproximativ 125 de miliarde de euro în 2024 |
 
-Convergența măsurată prin acest indicator plasează România, în 2024, aproape de nivelul Poloniei și al Cehiei, cu cel mai rapid ritm de recuperare din ultimul deceniu la nivelul Uniunii.
+Convergența[^3] măsurată prin acest indicator plasează România, în 2024, aproape de nivelul Poloniei și al Cehiei, cu cel mai rapid ritm de recuperare din ultimul deceniu la nivelul Uniunii.
 
 ## 5. Cine câștigă și cât
 
@@ -64,19 +64,23 @@ Beneficiile nu sunt distribuite egal între statele membre și nici între categ
 - Veniturile repatriate de aceste companii către firmele-mamă, formate în principal din dividende, au fost de aproximativ 12 miliarde de euro în fiecare dintre anii 2023 și 2024. Aportul de capital nou, fără profitul reinvestit, a fost în aceiași ani de 1,5-2 miliarde de euro.
 - Soldul net al relației bugetare cu Uniunea, adică diferența dintre fondurile primite și contribuția plătită, se situează sub valoarea veniturilor repatriate.
 
-Structura de producție predominantă, cunoscută sub numele de lohn[^1], plasează în România fazele cu valoare adăugată mică, iar proiectarea, marca și distribuția rămân în statele de origine ale companiilor.
+Structura de producție predominantă, cunoscută sub numele de lohn[^4], plasează în România fazele cu valoare adăugată mică, iar proiectarea, marca și distribuția rămân în statele de origine ale companiilor.
 
 > #### INTERPRETARE: aderarea a fost un câștig sau un schimb inegal
 >
+> #### Ce este documentat
+>
+> România a aderat la Uniunea Europeană la 1 ianuarie 2007. Puterea de cumpărare s-a apropiat de media europeană cu peste treizeci de puncte procentuale în șaptesprezece ani, iar fluxul anual de venituri repatriate depășește sprijinul bugetar primit.
+>
 > #### Citirea A: un câștig măsurabil
 >
-> Puterea de cumpărare s-a apropiat de media europeană cu peste treizeci de puncte procentuale în șaptesprezece ani. Fondurile pentru infrastructură, agricultură și dezvoltare regională nu aveau echivalent înainte de aderare. Libera circulație a permis milioane de decizii individuale de îmbunătățire a venitului. Normele europene au produs efecte în siguranța alimentară, în protecția consumatorului și în mediu.
+> Fondurile pentru infrastructură, agricultură și dezvoltare regională nu aveau echivalent înainte de aderare. Libera circulație a permis milioane de decizii individuale de îmbunătățire a venitului. Normele europene au produs efecte în siguranța alimentară, în protecția consumatorului și în mediu.
 >
 > #### Citirea B: un schimb inegal
 >
-> Piața internă a fost deschisă unor companii cu capital, tehnologie și marcă superioare, iar producătorii locali au dispărut din mai multe sectoare. Fluxul anual de venituri repatriate depășește sprijinul bugetar primit. Emigrarea a transferat către economiile occidentale forță de muncă pregătită pe cheltuiala statului român. Poziția în lanțurile de producție rămâne cea de furnizor de manoperă.
+> Piața internă a fost deschisă unor companii cu capital, tehnologie și marcă superioare, iar producătorii locali au dispărut din mai multe sectoare. Emigrarea a transferat către economiile occidentale forță de muncă pregătită pe cheltuiala statului român. Poziția în lanțurile de producție rămâne cea de furnizor de manoperă.
 >
-> #### Ce se poate măsura
+> #### Ce se poate verifica
 >
 > Seriile publicate de banca centrală privind veniturile din investiții străine directe; raportările Comisiei Europene privind soldul bugetar al fiecărui stat membru; ponderea valorii adăugate în export, publicată de organizațiile de statistică economică. Efectele monedei unice asupra statelor exportatoare și asupra celor importatoare sunt tratate separat, în lecția 3.2.
 
@@ -136,10 +140,10 @@ _______________________________________________________________
 
 ## Note
 
-[^1]: Lohn desemnează producția executată pentru un client extern care furnizează materialele, proiectul și marca, iar producătorul local pune la dispoziție forța de muncă și spațiul. Valoarea adăugată reținută local este mică, iar contractul poate fi mutat în altă țară fără costuri mari.
+[^1]: Acquis-ul comunitar desemnează totalitatea legislației, a hotărârilor judecătorești și a obligațiilor asumate în Uniunea Europeană, pe care fiecare stat candidat trebuie să le preia în dreptul intern înainte de aderare.
 
-[^2]: Acquis-ul comunitar desemnează totalitatea legislației, a hotărârilor judecătorești și a obligațiilor asumate în Uniunea Europeană, pe care fiecare stat candidat trebuie să le preia în dreptul intern înainte de aderare.
+[^2]: Beneficiar net este statul care primește din bugetul comun mai mult decât contribuie. Calculul nu cuprinde efectele indirecte, între care accesul companiilor din statele contributoare la piața statului beneficiar.
 
 [^3]: Convergența economică desemnează apropierea nivelului de dezvoltare al unui stat de media grupului din care face parte, măsurată de regulă prin produsul intern brut pe locuitor exprimat la puterea de cumpărare.
 
-[^4]: Beneficiar net este statul care primește din bugetul comun mai mult decât contribuie. Calculul nu cuprinde efectele indirecte, între care accesul companiilor din statele contributoare la piața statului beneficiar.
+[^4]: Lohn desemnează producția executată pentru un client extern care furnizează materialele, proiectul și marca, iar producătorul local pune la dispoziție forța de muncă și spațiul. Valoarea adăugată reținută local este mică, iar contractul poate fi mutat în altă țară fără costuri mari.
